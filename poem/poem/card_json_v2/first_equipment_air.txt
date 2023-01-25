@@ -1,0 +1,46 @@
+{
+"cards":[
+{
+    "card_name": "Air Dagger",
+    "description": "Deal 10 damage to a champion.",
+    "color": "yellow",
+    "type": "air",
+    "artwork": "AirDagger.png"
+},
+{
+    "card_name": "A Really Strong Leafblower",
+    "description": "Discard 1 card then deal 10 damage to each of your opponent's Champions.",
+    "color": "yellow",
+    "type": "air",
+    "artwork": "AReallyStrongLeafBlower.png"
+},
+{
+    "card_name": "Cupid's Blessing",
+    "description": "Discard 1 card then heal 20 damage from a champion.",
+    "color": "yellow",
+    "type": "air",
+    "artwork": "CupidsBlessing.png"
+},
+{
+    "card_name": "The Graceful Host",
+    "description": "Both players draw 2 cards.",
+    "color": "yellow",
+    "type": "air",
+    "artwork": "TheGracefulHost.png"
+},
+{
+    "card_name": "Stalling Tactics",
+    "description": "Send this card from field to hand. Send 1 Equipment on your opponent's field to the hand.",
+    "color": "yellow",
+    "type": "air",
+    "artwork": "StallingTactics.png"
+},
+{
+    "card_name": "Zeus' Thunderbolt",
+    "description": "Discard 3 cards then deal 50 damage to a Champion.",
+    "color": "yellow",
+    "type": "air",
+    "artwork": "ZeusThunderbolt.png"
+}
+]
+}

@@ -1,0 +1,46 @@
+{
+"cards":[
+{
+    "card_name": "Water Dagger",
+    "description": "When 1 or more cards are discarded, heal 10 damage from a Champion.",
+    "color": "teal",
+    "type": "water",
+    "artwork": "WaterDagger.png"
+},
+{
+    "card_name": "Water Dagger",
+    "description": "When your opponent draws a card, place 1 counter on this card for each card drawn. You can send this equipped card to the grave, then deal 10 damage to a Champion for each counter that was on this card.",
+    "color": "teal",
+    "type": "water",
+    "artwork": "WaterDagger.png"
+},
+{
+    "card_name": "Water Dagger",
+    "description": "When this card is equipped, place 3 counters on it. When your opponent draws a card, remove counters from this card equal to the number of cards drawn. When a Champion equipped with this card would take damage, they take no damage. If this card has no counters on it, send it to the grave.",
+    "color": "teal",
+    "type": "water",
+    "artwork": "WaterDagger.png"
+},
+{
+    "card_name": "Water Dagger",
+    "description": "Heal 30 damage from a Champion and destroy this card.",
+    "color": "teal",
+    "type": "water",
+    "artwork": "WaterDagger.png"
+},
+{
+    "card_name": "Water Dagger",
+    "description": "When this card is equipped, place 3 counters on it. If this card has no counters on it, destroy it. Once per turn, when the equipped Champion is healed, you may remove 1 counter from this card and heal 10 damage from the equipped Champion.",
+    "color": "teal",
+    "type": "water",
+    "artwork": "WaterDagger.png"
+},
+{
+    "card_name": "Water Dagger",
+    "description": "When this card is equipped, place 3 counters on it. If this card has no counters on it, destroy it. Once per turn, when the equipped Champion is healed, you may remove 1 counter from this card and deal 10 damage to a Champion.",
+    "color": "teal",
+    "type": "water",
+    "artwork": "WaterDagger.png"
+},
+]
+}

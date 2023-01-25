@@ -1,0 +1,25 @@
+{
+"cards":[
+{
+    "card_name": "Air Dagger",
+    "description": "When this card is sent to the grave, deal 10 damage to a Champion.",
+    "color": "yellow",
+    "type": "air",
+    "artwork": "AirDagger.png"
+},
+{
+    "card_name": "Air Dagger",
+    "description": "Draw 3 cards and destroy this card.",
+    "color": "yellow",
+    "type": "air",
+    "artwork": "AirDagger.png"
+},
+{
+    "card_name": "Hermes' Caduceus",
+    "description": "Discard 1 Spell or Air Equipment then heal 20 damage from a Champion.",
+    "color": "yellow",
+    "type": "air",
+    "artwork": "AirDagger.png"
+}
+]
+}

@@ -1,0 +1,39 @@
+{
+"cards":[
+{
+    "card_name": "Water Dagger",
+    "description": "Deal 10 damage to a champion.",
+    "color": "teal",
+    "type": "water",
+    "artwork": "WaterDagger.png"
+},
+{
+    "card_name": "Life Transfer",
+    "description": "Heal 40 damage from a Champion then deal 40 damage to this Champion.",
+    "color": "teal",
+    "type": "water",
+    "artwork": "LifeTransfer.png"
+},
+{
+    "card_name": "The Sacred Spring",
+    "description": "Heal 10 damage from a champion.",
+    "color": "teal",
+    "type": "water",
+    "artwork": "TheSacredSpring.png"
+},
+{
+    "card_name": "Tidal Wave",
+    "description": "Deal 40 damage to an opponent's champion then destroy all cards attached to this Champion.",
+    "color": "teal",
+    "type": "water",
+    "artwork": "TidalWave.png"
+},
+{
+    "card_name": "Ice Shield",
+    "description": "When this Champion would take damage, it takes no damage then destroy this card.",
+    "color": "teal",
+    "type": "water",
+    "artwork": "IceShield.png"
+}
+]
+}

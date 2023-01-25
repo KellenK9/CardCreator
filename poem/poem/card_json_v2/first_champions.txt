@@ -1,0 +1,124 @@
+{
+"cards":[
+{
+    "card_name": "Fire Golem",
+    "health": "100",
+    "description": "",
+    "slot1": "fire",
+    "slot2": "fire",
+    "slot3": "none",
+    "color": "red",
+    "artwork": "FireGolem.png"
+},
+{
+    "card_name": "Water Golem",
+    "health": "100",
+    "description": "",
+    "slot1": "water",
+    "slot2": "water",
+    "slot3": "none",
+    "color": "teal",
+    "artwork": "WaterGolem.png"
+},
+{
+    "card_name": "Earth Golem",
+    "health": "100",
+    "description": "",
+    "slot1": "earth",
+    "slot2": "earth",
+    "slot3": "none",
+    "color": "beige",
+    "artwork": "EarthGolem.png"
+},
+{
+    "card_name": "Air Golem",
+    "health": "100",
+    "description": "",
+    "slot1": "air",
+    "slot2": "air",
+    "slot3": "none",
+    "color": "yellow",
+    "artwork": "AirGolem.png"
+},
+{
+    "card_name": "The Mechanic",
+    "health": "70",
+    "description": "",
+    "slot1": "earth",
+    "slot2": "earth",
+    "slot3": "earth",
+    "color": "beige",
+    "artwork": "TheMechanic.png"
+},
+{
+    "card_name": "Fat Gus",
+    "health": "200",
+    "description": "Deal 10 damage to this Champion at the start of each of your turns.",
+    "slot1": "earth",
+    "slot2": "earth",
+    "slot3": "none",
+    "color": "beige",
+    "artwork": "FatGus.png"
+},
+{
+    "card_name": "Burning Sprite",
+    "health": "130",
+    "description": "Deal 10 damage to this Champion at the start of each of your turns.",
+    "slot1": "fire",
+    "slot2": "fire",
+    "slot3": "fire",
+    "color": "red",
+    "artwork": "FireSprite.png"
+},
+{
+    "card_name": "Zeus",
+    "health": "140",
+    "description": "",
+    "slot1": "air",
+    "slot2": "none",
+    "slot3": "none",
+    "color": "yellow",
+    "artwork": "Zeus.png"
+},
+{
+    "card_name": "Poseidon",
+    "health": "140",
+    "description": "",
+    "slot1": "water",
+    "slot2": "none",
+    "slot3": "none",
+    "color": "teal",
+    "artwork": "Poseidon.png"
+},
+{
+    "card_name": "Pirate Lord Jandreps",
+    "health": "110",
+    "description": "Deal 20 damage to this Champion, then draw 2 cards.",
+    "slot1": "water",
+    "slot2": "none",
+    "slot3": "none",
+    "color": "teal",
+    "artwork": "Janddreps.png"
+},
+{
+    "card_name": "Thunderbird",
+    "health": "70",
+    "description": "When this Champion is defeated, draw 2 cards.",
+    "slot1": "air",
+    "slot2": "air",
+    "slot3": "none",
+    "color": "yellow",
+    "artwork": "Thunderbird.png"
+},
+{
+    "card_name": "Volcanic Slug",
+    "health": "80",
+    "description": "Destroy any number of Equipment(s) attached to this Champion, then deal 20 damage to a Champion for each card destroyed by this effect.",
+    "slot1": "fire",
+    "slot2": "fire",
+    "slot3": "none",
+    "color": "red",
+    "artwork": "VolcanicSlug.png"
+}
+]
+}
