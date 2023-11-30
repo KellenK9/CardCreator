@@ -1,0 +1,60 @@
+{
+"cards":[
+{
+    "card_name": "Fireball",
+    "description": "Deal 20 damage to a champion.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "FireBall.png"
+},
+{
+    "card_name": "Flamethrower",
+    "description": "Deal 10 damage to each enemy champion.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "Flamethrower.png"
+},
+{
+    "card_name": "Pot of Greed",
+    "description": "Draw 2 cards.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "PotOfGreed.png"
+},
+{
+    "card_name": "Spring Water",
+    "description": "Heal 20 damage from a champion.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "SpringWater.png"
+},
+{
+    "card_name": "The Cupid Shuffle",
+    "description": "Discard your entire hand then draw the same number of cards you discarded.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "TheCupidShuffle.png"
+},
+{
+    "card_name": "Recurring Visions",
+    "description": "Add 1 spell from your grave to your hand.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "RecurringVisions.png"
+},
+{
+    "card_name": "Decoy",
+    "description": "When this card is discarded, draw 1 card.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "Decoy.png"
+},
+{
+    "card_name": "Meteor Shower",
+    "description": "Destroy 1 Equipment attached to your Champion, then destroy 1 Equipment on the field.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "MeteorShower.png"
+}
+]
+}

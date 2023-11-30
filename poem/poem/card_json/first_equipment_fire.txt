@@ -1,0 +1,25 @@
+{
+"cards":[
+{
+    "card_name": "Fire Dagger",
+    "description": "Deal 10 damage to a champion.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "FireDagger.png"
+},
+{
+    "card_name": "Gambit",
+    "description": "Flip a coin. If heads, deal 30 damage to a Champion. If tails, deal 20 damage to this Champion.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "Gambit.png"
+},
+{
+    "card_name": "Greedy Rage",
+    "description": "When an Equipment card attached to this Champion is sent to the grave, deal 20 damage to a Champion.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "GreedyRage.png"
+}
+]
+}

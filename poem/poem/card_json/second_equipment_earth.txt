@@ -1,0 +1,25 @@
+{
+"cards":[
+{
+    "card_name": "Dynamite",
+    "description": "Deal 30 damage to a Champion and destroy this card. This card can be equipped to a fire equipment slot.",
+    "color": "beige",
+    "type": "earth",
+    "artwork": "EarthDagger.png"
+},
+{
+    "card_name": "Foolish Burial",
+    "description": "Send 1 Earth Equipment from deck to grave then destroy this card.",
+    "color": "beige",
+    "type": "earth",
+    "artwork": "EarthDagger.png"
+},
+{
+    "card_name": "Golem's Telescope",
+    "description": "Add 1 ‘Golem’ spell from grave to hand then destroy this card. This card may be equipped to any element slot on a ‘Golem’ Champion.",
+    "color": "beige",
+    "type": "earth",
+    "artwork": "EarthDagger.png"
+}
+]
+}

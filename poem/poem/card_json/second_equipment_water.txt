@@ -1,0 +1,25 @@
+{
+"cards":[
+{
+    "card_name": "Holy Water Balloon",
+    "description": "Heal 30 damage from a Champion then destroy this card.",
+    "color": "teal",
+    "type": "water",
+    "artwork": "WaterDagger.png"
+},
+{
+    "card_name": "Left Half",
+    "description": "Deal 10 damage to each enemy Champion then add ‘Right Half’ from your grave to your hand and destroy this card.",
+    "color": "teal",
+    "type": "water",
+    "artwork": "WaterDagger.png"
+},
+{
+    "card_name": "Right Half",
+    "description": "Heal 10 damage from each of your Champions then add ‘Right Half’ from your grave to your hand and destroy this card.",
+    "color": "teal",
+    "type": "water",
+    "artwork": "WaterDagger.png"
+}
+]
+}

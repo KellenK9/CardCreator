@@ -1,0 +1,18 @@
+{
+"cards":[
+{
+    "card_name": "Fireball Launcher",
+    "description": "Add 1 'Fireball' from deck or grave to hand.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "FireDagger.png"
+},
+{
+    "card_name": "Vengeful Rage",
+    "description": "Deal 10 damage to each enemy Champion, then destroy this card if you control multiple Champions.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "FireDagger.png"
+}
+]
+}

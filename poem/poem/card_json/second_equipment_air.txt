@@ -1,0 +1,32 @@
+{
+"cards":[
+{
+    "card_name": "Rapid Winds",
+    "description": "Draw 3 cards and destroy this card.",
+    "color": "yellow",
+    "type": "air",
+    "artwork": "AirDagger.png"
+},
+{
+    "card_name": "Quarter Pillar of the Sky",
+    "description": "While you control 4 Quarter Pillar of the Sky’s, you win the game.",
+    "color": "yellow",
+    "type": "air",
+    "artwork": "AirDagger.png"
+},
+{
+    "card_name": "Angel Recall",
+    "description": "Shuffle 5 Air Equipment from your grave into your deck then draw a card.",
+    "color": "yellow",
+    "type": "air",
+    "artwork": "AirDagger.png"
+},
+{
+    "card_name": "Wings of the Next Angel",
+    "description": "If you have 3 copies of ‘Wings of the Next Angel’ in your grave, deal 10 damage to each enemy Champion.",
+    "color": "yellow",
+    "type": "air",
+    "artwork": "AirDagger.png"
+}
+]
+}
