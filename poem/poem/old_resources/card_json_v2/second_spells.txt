@@ -1,0 +1,74 @@
+{
+"cards":[
+{
+    "card_name": "Useless Potion",
+    "description": "Add up to 3 copies of 'Useless Potion' from your deck to your hand.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "FireBall.png"
+},
+{
+    "card_name": "(Quick) Fireball",
+    "description": "When damage would be dealt to your Champion(s), choose a Champion, that Champion takes no damage this turn.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "FireBall.png"
+},
+{
+    "card_name": "Fireball",
+    "description": "Deal 10 damage to a Champion for each counter on the field.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "FireBall.png"
+},
+{
+    "card_name": "Boomerang Mirage",
+    "description": "Deal 10 damage to a Champion, then return this card to the hand.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "FireBall.png"
+},
+{
+    "card_name": "Dagger Upgrade",
+    "description": "Discard 1 "Dagger" Equipment then add 1 Equipment from your deck to your hand of the same element as the card discarded.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "FireBall.png"
+},
+{
+    "card_name": "Love Potion of Calming Mind",
+    "description": "Discard 1 Water Equipment then heal 30 damage from a Champion.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "FireBall.png"
+},
+{
+    "card_name": "Love Potion of Fiery Heart",
+    "description": "Discard 1 Fire Equipment then deal 30 damage to a Champion.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "FireBall.png"
+},
+{
+    "card_name": "Love Potion of Vibrant Soul",
+    "description": "Discard 1 Air Equipment then draw 2 cards.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "FireBall.png"
+},
+{
+    "card_name": "Love Potion of Steadfast Bone",
+    "description": "Discard 1 Earth Equipment then add 1 Earth Equipment from your deck to your hand.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "FireBall.png"
+},
+{
+    "card_name": "(Quick) Payback",
+    "description": "When your Champion takes damage, deal 10 damage to a Champion.",
+    "color": "white",
+    "type": "spell",
+    "artwork": "FireBall.png"
+}
+]
+}

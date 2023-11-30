@@ -1,0 +1,60 @@
+{
+"cards":[
+{
+    "card_name": "Fire Dagger",
+    "description": "Deal 10 damage to a champion.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "FireDagger.png"
+},
+{
+    "card_name": "Broken Flamethrower",
+    "description": "Deal 10 damage to all champions.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "BrokenFlamethrower.png"
+},
+{
+    "card_name": "Reckless Pistol",
+    "description": "Flip a coin. If heads, deal 20 damage to a Champion.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "RecklessPistol.png"
+},
+{
+    "card_name": "Russian Roulette",
+    "description": "Flip 3 coins. For each heads, deal 20 damage to a Champion. For each tails deal 10 damage to all of your Champions.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "RussianRoulette.png"
+},
+{
+    "card_name": "Full Metal Jacket",
+    "description": "Target a Champion; discard any number of cards then deal 10 damage for each card discarded and place a counter on this card. If this card has 3 or more counters, destroy it.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "FullMetalJacket.png"
+},
+{
+    "card_name": "Burning Shield",
+    "description": "When this Champion would take damage, place 1 counter on this card and reduce the damage taken by 10. If this card has 3 or more counters, destroy this card.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "BurningShield.png"
+},
+{
+    "card_name": "Gambit",
+    "description": "Flip a coin. If heads, deal 30 damage to a Champion. If tails, deal 20 damage to this Champion.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "Gambit.png"
+},
+{
+    "card_name": "Greedy Rage",
+    "description": "When an Equipment card attached to this Champion is sent to the grave, deal 20 damage to a Champion.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "GreedyRage.png"
+}
+]
+}

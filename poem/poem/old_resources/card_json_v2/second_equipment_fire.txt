@@ -1,0 +1,53 @@
+{
+"cards":[
+{
+    "card_name": "Fire Dagger",
+    "description": "When a coin is flipped, deal 10 damage to a Champion.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "FireDagger.png"
+},
+{
+    "card_name": "Fireball Launcher",
+    "description": "Add 1 'Fireball' from deck or grave to hand.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "FireDagger.png"
+},
+{
+    "card_name": "Fire Dagger",
+    "description": "When this card is equipped, deal 10 damage to a Champion. When this card is sent to the grave, deal 10 damage to a Champion.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "FireDagger.png"
+},
+{
+    "card_name": "Fire Dagger",
+    "description": "Deal 10 damage to each enemy Champion and destroy this card.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "FireDagger.png"
+},
+{
+    "card_name": "Fire Dagger",
+    "description": "When this card is sent to the grave, deal 20 damage to a Champion.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "FireDagger.png"
+},
+{
+    "card_name": "Flint Filled Fireball",
+    "description": "While this card is equipped, the effect of 'Fireball' becomes 'Deal 30 damage to a Champion.'",
+    "color": "red",
+    "type": "fire",
+    "artwork": "FireDagger.png"
+},
+{
+    "card_name": "Hydra's Blood Arrow",
+    "description": "Discard 1 card then choose a Champion and deal 10 damage to that Champion 2 times.",
+    "color": "red",
+    "type": "fire",
+    "artwork": "FireDagger.png"
+}
+]
+}

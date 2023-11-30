@@ -1,0 +1,31 @@
+{
+"cards": [
+{
+    "card_name": "Fireball",
+    "description": "This card can only be attached to a fire type champion. Deal 10 damage to each of your opponents champions, then discard this card.",
+    "attack": "0",
+    "color": "red",
+    "type": "Magic",
+    "symbol_color": "white",
+    "artwork": "fireball.png"
+},
+{
+    "card_name": "Crimson Blade",
+    "description": "While attached to a fire type champion, deal 20 damage to 2 of your opponent's champions. Else, deal 20 damage to 1 of your opponent's champions.",
+    "attack": "2",
+    "color": "red",
+    "type": "Sword",
+    "symbol_color": "black",
+    "artwork": "fire_sword.png"
+},
+{
+    "card_name": "Smoldering Crown",
+    "description": "The attached champion gains 100 max health and takes 10 damage per turn.",
+    "attack": "0",
+    "color": "red",
+    "type": "Helmet",
+    "symbol_color": "black",
+    "artwork": "fire_crown.png"
+}
+]
+}
