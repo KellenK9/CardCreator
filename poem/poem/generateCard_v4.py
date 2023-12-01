@@ -19,11 +19,11 @@ colors = {
     "beige": (120, 100, 80)
 }
 
-fonts = ["fonts/Pacifico.ttf",
-         "fonts/Lobster_1.3.otf",
-         "fonts/LeagueGothic-Regular.otf",
-         "fonts/ChunkFive-Regular.otf",
-         "fonts/PlayfairDisplay-Black.otf"
+fonts = ["poem/poem/fonts/Pacifico.ttf",
+         "poem/poem/fonts/Lobster_1.3.otf",
+         "poem/poem/fonts/LeagueGothic-Regular.otf",
+         "poem/poem/fonts/ChunkFive-Regular.otf",
+         "poem/poem/fonts/PlayfairDisplay-Black.otf"
          ]
 
 #In the final version this will be read in via json
@@ -73,20 +73,20 @@ def generate_card(dict):
     font_color_description = tuple(color_for_font_description)
 
     #Import artwork and crop
-    artwork = Image.open("cropped_images/" + dict["artwork"])
+    artwork = Image.open("poem/poem/cropped_images/" + dict["artwork"])
     artwork = artwork.crop(box=(0, 0, image_width, image_height))
     artwork = artwork.convert('RGBA')
 
     #Import frame
-    frame = Image.open("card_frames/champion-frame.png")
+    frame = Image.open("poem/poem/card_frames/champion-frame.png")
 
     #Add slots
     if(dict["slot3"] != "none" and dict["slot3"] != None):
-        third_slot = Image.open("card_frames/" + dict["slot3"] + "-right.png")
+        third_slot = Image.open("poem/poem/card_frames/" + dict["slot3"] + "-right.png")
     if(dict["slot2"] != "none" and dict["slot2"] != None):
-        second_slot = Image.open("card_frames/" + dict["slot2"] + "-middle.png")
+        second_slot = Image.open("poem/poem/card_frames/" + dict["slot2"] + "-middle.png")
     if (dict["slot1"] != "none" and dict["slot1"] != None):
-        first_slot = Image.open("card_frames/" + dict["slot1"] + "-left.png")
+        first_slot = Image.open("poem/poem/card_frames/" + dict["slot1"] + "-left.png")
 
     #Center and size Text
     char_width = 15 #This value may have to be adjusted for different fonts
