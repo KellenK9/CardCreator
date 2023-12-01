@@ -193,29 +193,29 @@ def generate_equipment_card(dict):
     font_color_nums = tuple(color_for_font_nums)
 
     # Import artwork and crop
-    artwork = Image.open("cropped_images/" + dict["artwork"])
+    artwork = Image.open("poem/poem/cropped_images/" + dict["artwork"])
     artwork = artwork.crop(box=(0, 0, image_width, image_height))
     artwork = artwork.convert('RGBA')
 
     # Import and color frame
     if(dict["type"] == "water"):
-        frame = Image.open("card_frames/water-frame.png")
-        icon = Image.open("card_frames/water-icon.png")
+        frame = Image.open("poem/poem/card_frames/water-frame.png")
+        icon = Image.open("poem/poem/card_frames/water-icon.png")
     if (dict["type"] == "fire"):
-        frame = Image.open("card_frames/fire-frame.png")
-        icon = Image.open("card_frames/fire-icon.png")
+        frame = Image.open("poem/poem/card_frames/fire-frame.png")
+        icon = Image.open("poem/poem/card_frames/fire-icon.png")
     if (dict["type"] == "earth"):
-        frame = Image.open("card_frames/earth-frame.png")
-        icon = Image.open("card_frames/earth-icon.png")
+        frame = Image.open("poem/poem/card_frames/earth-frame.png")
+        icon = Image.open("poem/poem/card_frames/earth-icon.png")
     if (dict["type"] == "air"):
-        frame = Image.open("card_frames/air-frame.png")
-        icon = Image.open("card_frames/air-icon.png")
+        frame = Image.open("poem/poem/card_frames/air-frame.png")
+        icon = Image.open("poem/poem/card_frames/air-icon.png")
     if (dict["type"] == "spell"):
-        frame = Image.open("card_frames/spell-frame.png")
+        frame = Image.open("poem/poem/card_frames/spell-frame.png")
         icon = None
     if (dict["type"] == "speed spell"):
-        frame = Image.open("card_frames/spell-frame.png")
-        icon = Image.open("card_frames/speed-icon.png")
+        frame = Image.open("poem/poem/card_frames/spell-frame.png")
+        icon = Image.open("poem/poem/card_frames/speed-icon.png")
 
     # Add enters to descriptions
     if (len(dict["description"]) > description_line_length):
