@@ -8,7 +8,7 @@
     "slot2": "none",
     "slot3": "none",
     "color": "yellow",
-    "artwork": "Zeus.png"
+    "artwork": "zeus.png"
 },
 {
     "card_name": "Poseidon",

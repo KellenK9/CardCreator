@@ -19,7 +19,7 @@
     "description": "Draw 2 cards.",
     "color": "white",
     "type": "spell",
-    "artwork": "PotOfGreed.png"
+    "artwork": "pot_of_greed.jpg"
 },
 {
     "card_name": "Spring Water",

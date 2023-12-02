@@ -8,7 +8,7 @@
     "slot2": "fire",
     "slot3": "none",
     "color": "red",
-    "artwork": "FireGolem.png"
+    "artwork": "fire_golem.png"
 },
 {
     "card_name": "Water Golem",
@@ -58,7 +58,7 @@
     "slot2": "air",
     "slot3": "none",
     "color": "yellow",
-    "artwork": "Thunderbird.png"
+    "artwork": "thunderbird.png"
 },
 {
     "card_name": "Volcanic Slug",
@@ -68,7 +68,7 @@
     "slot2": "fire",
     "slot3": "none",
     "color": "red",
-    "artwork": "VolcanicSlug.png"
+    "artwork": "magma_slug.png"
 }
 ]
 }
