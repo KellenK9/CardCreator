@@ -5,7 +5,7 @@
     "description": "Deal 10 damage to a champion.",
     "color": "teal",
     "type": "water",
-    "artwork": "WaterDagger.png"
+    "artwork": "temp/water_dagger.png"
 },
 {
     "card_name": "The Sacred Spring",

@@ -296,9 +296,9 @@ for card in loaded_json["cards"]:
 # generate_equipment_card(temp_dict_equipment).show()
 
 # 19 total spells
-# 14 total champions
+# 14 total champions   X
 # 7 air equipment
 # 6 earth equipment
 # 5 fire equipment
-# 6 water equipment
+# 6 water equipment    X
 # 57 total cards

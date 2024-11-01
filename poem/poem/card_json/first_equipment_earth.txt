@@ -5,7 +5,7 @@
     "description": "Deal 10 damage to a champion.",
     "color": "beige",
     "type": "earth",
-    "artwork": "EarthDagger.png"
+    "artwork": "temp/earth_dagger.png"
 },
 {
     "card_name": "Dagger of the Ashen",

@@ -5,7 +5,7 @@
     "description": "Heal 30 damage from a Champion then destroy this card.",
     "color": "teal",
     "type": "water",
-    "artwork": "WaterDagger.png"
+    "artwork": "temp/holy_water_balloon.png"
 },
 {
     "card_name": "Raging Sea of the East",

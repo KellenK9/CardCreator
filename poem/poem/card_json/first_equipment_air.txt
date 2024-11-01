@@ -5,7 +5,7 @@
     "description": "Deal 10 damage to a champion.",
     "color": "yellow",
     "type": "air",
-    "artwork": "AirDagger.png"
+    "artwork": "temp/air_dagger.png"
 },
 {
     "card_name": "The Graceful Host",
