@@ -50,8 +50,8 @@
     "artwork": "FireBall.png"
 },
 {
-    "card_name": "(Quick) Payback",
-    "description": "When your Champion takes damage, deal 10 damage to a Champion.",
+    "card_name": "Payback",
+    "description": "[Quick] When your Champion takes damage, deal 10 damage to a Champion.",
     "color": "white",
     "type": "spell",
     "artwork": "FireBall.png"
