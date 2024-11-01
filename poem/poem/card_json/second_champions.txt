@@ -18,7 +18,7 @@
     "slot2": "none",
     "slot3": "none",
     "color": "teal",
-    "artwork": "Poseidon.png"
+    "artwork": "temp/poseidon.png"
 },
 {
     "card_name": "Hades",
@@ -28,7 +28,7 @@
     "slot2": "none",
     "slot3": "none",
     "color": "red",
-    "artwork": "Poseidon.png"
+    "artwork": "temp/hades.png"
 },
 {
     "card_name": "Gaia",
@@ -38,7 +38,7 @@
     "slot2": "none",
     "slot3": "none",
     "color": "beige",
-    "artwork": "Poseidon.png"
+    "artwork": "temp/gaia.png"
 },
 {
     "card_name": "Technician Magician",
@@ -48,7 +48,7 @@
     "slot2": "fire",
     "slot3": "none",
     "color": "red",
-    "artwork": "Poseidon.png"
+    "artwork": "temp/technician_magician.png"
 },
 {
     "card_name": "Water Beetle",
@@ -58,7 +58,7 @@
     "slot2": "none",
     "slot3": "none",
     "color": "blue",
-    "artwork": "Poseidon.png"
+    "artwork": "temp/water_beetle.png"
 },
 {
     "card_name": "Rocky, The Walking Mountain",
@@ -68,7 +68,7 @@
     "slot2": "earth",
     "slot3": "none",
     "color": "beige",
-    "artwork": "Poseidon.png"
+    "artwork": "temp/walking_mountain.png"
 }
 ]
 }

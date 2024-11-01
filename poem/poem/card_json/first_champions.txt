@@ -18,7 +18,7 @@
     "slot2": "water",
     "slot3": "none",
     "color": "teal",
-    "artwork": "WaterGolem.png"
+    "artwork": "temp/water_golem.png"
 },
 {
     "card_name": "Earth Golem",
@@ -28,7 +28,7 @@
     "slot2": "earth",
     "slot3": "none",
     "color": "beige",
-    "artwork": "EarthGolem.png"
+    "artwork": "temp/earth_golem.png"
 },
 {
     "card_name": "Air Golem",
@@ -38,7 +38,7 @@
     "slot2": "air",
     "slot3": "none",
     "color": "yellow",
-    "artwork": "AirGolem.png"
+    "artwork": "temp/air_golem.png"
 },
 {
     "card_name": "Pirate Lord Jandreps",
@@ -48,7 +48,7 @@
     "slot2": "none",
     "slot3": "none",
     "color": "teal",
-    "artwork": "Janddreps.png"
+    "artwork": "temp/jandreps.png"
 },
 {
     "card_name": "Thunderbird",

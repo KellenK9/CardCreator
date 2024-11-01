@@ -276,6 +276,13 @@ for card in loaded_json["cards"]:
     generate_card(card).save(
         "poem/poem/finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
     )
+with open("poem/poem/card_json/second_champions.txt") as json_file:
+    loaded_json = json.load(json_file)
+for card in loaded_json["cards"]:
+    generate_card(card).show()
+    generate_card(card).save(
+        "poem/poem/finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+    )
 
 with open("poem/poem/card_json/first_equipment_fire.txt") as json_file:
     loaded_json = json.load(json_file)
