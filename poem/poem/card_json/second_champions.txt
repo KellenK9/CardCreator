@@ -4,8 +4,8 @@
     "card_name": "Zeus",
     "health": "150",
     "description": "",
-    "slot1": "air",
-    "slot2": "none",
+    "slot1": "none",
+    "slot2": "air",
     "slot3": "none",
     "color": "yellow",
     "artwork": "zeus.png"
@@ -14,8 +14,8 @@
     "card_name": "Poseidon",
     "health": "150",
     "description": "",
-    "slot1": "water",
-    "slot2": "none",
+    "slot1": "none",
+    "slot2": "water",
     "slot3": "none",
     "color": "teal",
     "artwork": "Poseidon.png"
@@ -24,8 +24,8 @@
     "card_name": "Hades",
     "health": "150",
     "description": "",
-    "slot1": "fire",
-    "slot2": "none",
+    "slot1": "none",
+    "slot2": "fire",
     "slot3": "none",
     "color": "red",
     "artwork": "Poseidon.png"
@@ -34,8 +34,8 @@
     "card_name": "Gaia",
     "health": "150",
     "description": "",
-    "slot1": "earth",
-    "slot2": "none",
+    "slot1": "none",
+    "slot2": "earth",
     "slot3": "none",
     "color": "beige",
     "artwork": "Poseidon.png"
@@ -45,8 +45,8 @@
     "health": "90",
     "description": "The first time this Champion takes damage, deal 10 damage to each enemy Champion.",
     "slot1": "fire",
-    "slot2": "fire",
-    "slot3": "none",
+    "slot2": "none",
+    "slot3": "fire",
     "color": "red",
     "artwork": "Poseidon.png"
 },
@@ -54,8 +54,8 @@
     "card_name": "Water Beetle",
     "health": "50",
     "description": "Any damage dealt to your 'Water Beetle' is reduced by 10.",
-    "slot1": "water",
-    "slot2": "none",
+    "slot1": "none",
+    "slot2": "water",
     "slot3": "none",
     "color": "blue",
     "artwork": "Poseidon.png"
@@ -65,8 +65,8 @@
     "health": "200",
     "description": "Any damage dealt to this Champion is doubled.",
     "slot1": "earth",
-    "slot2": "earth",
-    "slot3": "none",
+    "slot2": "none",
+    "slot3": "earth",
     "color": "beige",
     "artwork": "Poseidon.png"
 }

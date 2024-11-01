@@ -5,8 +5,8 @@
     "health": "100",
     "description": "",
     "slot1": "fire",
-    "slot2": "fire",
-    "slot3": "none",
+    "slot2": "none",
+    "slot3": "fire",
     "color": "red",
     "artwork": "fire_golem.png"
 },
@@ -15,8 +15,8 @@
     "health": "100",
     "description": "",
     "slot1": "water",
-    "slot2": "water",
-    "slot3": "none",
+    "slot2": "none",
+    "slot3": "water",
     "color": "teal",
     "artwork": "WaterGolem.png"
 },
@@ -25,8 +25,8 @@
     "health": "100",
     "description": "",
     "slot1": "earth",
-    "slot2": "earth",
-    "slot3": "none",
+    "slot2": "none",
+    "slot3": "earth",
     "color": "beige",
     "artwork": "EarthGolem.png"
 },
@@ -35,8 +35,8 @@
     "health": "100",
     "description": "",
     "slot1": "air",
-    "slot2": "air",
-    "slot3": "none",
+    "slot2": "none",
+    "slot3": "air",
     "color": "yellow",
     "artwork": "AirGolem.png"
 },
@@ -44,8 +44,8 @@
     "card_name": "Pirate Lord Jandreps",
     "health": "110",
     "description": "Deal 20 damage to this Champion, then draw 2 cards.",
-    "slot1": "water",
-    "slot2": "none",
+    "slot1": "none",
+    "slot2": "water",
     "slot3": "none",
     "color": "teal",
     "artwork": "Janddreps.png"
@@ -55,8 +55,8 @@
     "health": "70",
     "description": "When this Champion is defeated, draw 2 cards.",
     "slot1": "air",
-    "slot2": "air",
-    "slot3": "none",
+    "slot2": "none",
+    "slot3": "air",
     "color": "yellow",
     "artwork": "thunderbird.png"
 },
@@ -65,8 +65,8 @@
     "health": "80",
     "description": "Destroy any number of Equipment(s) attached to this Champion, then deal 20 damage to a Champion for each card destroyed by this effect.",
     "slot1": "fire",
-    "slot2": "fire",
-    "slot3": "none",
+    "slot2": "none",
+    "slot3": "fire",
     "color": "red",
     "artwork": "magma_slug.png"
 }
