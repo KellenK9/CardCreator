@@ -8,18 +8,18 @@
     "artwork": "WaterDagger.png"
 },
 {
-    "card_name": "Left Half",
-    "description": "Deal 10 damage to each enemy Champion then add ‘Right Half’ from your grave to your hand and destroy this card.",
+    "card_name": "Raging Sea of the East",
+    "description": "Deal 10 damage to each enemy Champion then add ‘Raging Sea of the West’ from your grave to your hand and destroy this card.",
     "color": "teal",
     "type": "water",
-    "artwork": "WaterDagger.png"
+    "artwork": "raging_sea_of_the_east.png"
 },
 {
-    "card_name": "Right Half",
-    "description": "Heal 10 damage from each of your Champions then add ‘Right Half’ from your grave to your hand and destroy this card.",
+    "card_name": "Raging Sea of the West",
+    "description": "Heal 10 damage from each of your Champions then add ‘Raging Sea of the East’ from your grave to your hand and destroy this card.",
     "color": "teal",
     "type": "water",
-    "artwork": "WaterDagger.png"
+    "artwork": "raging_sea_of_the_west.png"
 }
 ]
 }

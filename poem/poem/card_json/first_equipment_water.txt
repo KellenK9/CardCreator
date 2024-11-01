@@ -12,14 +12,14 @@
     "description": "Heal 10 damage from this champion.",
     "color": "teal",
     "type": "water",
-    "artwork": "TheSacredSpring.png"
+    "artwork": "fountain.png"
 },
 {
     "card_name": "Tidal Wave",
     "description": "Deal 40 damage to an opponent's champion then destroy all cards attached to this Champion.",
     "color": "teal",
     "type": "water",
-    "artwork": "TidalWave.png"
+    "artwork": "tidal_wave.png"
 }
 ]
 }

@@ -12,7 +12,7 @@
     "description": "Deal 10 damage to each enemy Champion, then destroy this card if you control multiple Champions.",
     "color": "red",
     "type": "fire",
-    "artwork": "FireDagger.png"
+    "artwork": "infernal_behemoth.png"
 }
 ]
 }

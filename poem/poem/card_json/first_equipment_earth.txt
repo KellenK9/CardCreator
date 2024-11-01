@@ -19,7 +19,7 @@
     "description": "While this card is equipped to a Champion, that Champion gains 30 max health.",
     "color": "beige",
     "type": "earth",
-    "artwork": "ExtraPadding.png"
+    "artwork": "molten_armor.png"
 }
 ]
 }

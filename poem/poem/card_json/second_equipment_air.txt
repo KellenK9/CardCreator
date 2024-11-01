@@ -5,14 +5,14 @@
     "description": "Draw 3 cards and destroy this card.",
     "color": "yellow",
     "type": "air",
-    "artwork": "AirDagger.png"
+    "artwork": "tornado.png"
 },
 {
     "card_name": "Quarter Pillar of the Sky",
     "description": "While you control 4 Quarter Pillar of the Sky’s, you win the game.",
     "color": "yellow",
     "type": "air",
-    "artwork": "AirDagger.png"
+    "artwork": "tower_of_torn_disciples.png"
 },
 {
     "card_name": "Angel Recall",

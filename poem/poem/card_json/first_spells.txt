@@ -29,11 +29,11 @@
     "artwork": "SpringWater.png"
 },
 {
-    "card_name": "The Cupid Shuffle",
+    "card_name": "Knowledge Exchange",
     "description": "Discard your entire hand then draw the same number of cards you discarded.",
     "color": "white",
     "type": "spell",
-    "artwork": "TheCupidShuffle.png"
+    "artwork": "library.png"
 },
 {
     "card_name": "Recurring Visions",
