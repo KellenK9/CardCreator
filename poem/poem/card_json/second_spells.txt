@@ -26,28 +26,28 @@
     "description": "Discard 1 Water Equipment then heal 30 damage from a Champion.",
     "color": "white",
     "type": "spell",
-    "artwork": "FireBall.png"
+    "artwork": "temp/potion_of_calming_mind.png"
 },
 {
     "card_name": "Love Potion of Fiery Heart",
     "description": "Discard 1 Fire Equipment then deal 30 damage to a Champion.",
     "color": "white",
     "type": "spell",
-    "artwork": "FireBall.png"
+    "artwork": "temp/potion_of_fiery_heart.png"
 },
 {
     "card_name": "Love Potion of Vibrant Soul",
     "description": "Discard 1 Air Equipment then draw 2 cards.",
     "color": "white",
     "type": "spell",
-    "artwork": "FireBall.png"
+    "artwork": "temp/potion_of_vibrant_soul.png"
 },
 {
     "card_name": "Love Potion of Steadfast Bone",
     "description": "Discard 1 Earth Equipment then add 1 Earth Equipment from your deck to your hand.",
     "color": "white",
     "type": "spell",
-    "artwork": "FireBall.png"
+    "artwork": "temp/potion_of_steadfast_bone.png"
 },
 {
     "card_name": "Payback",
