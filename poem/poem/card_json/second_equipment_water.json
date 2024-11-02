@@ -9,14 +9,14 @@
 },
 {
     "card_name": "Raging Sea of the East",
-    "description": "Deal 10 damage to each enemy Champion then add ‘Raging Sea of the West’ from your grave to your hand and destroy this card.",
+    "description": "Deal 10 damage to each enemy Champion then destroy this card and add ‘Raging Sea of the West’ from your grave to your hand.",
     "color": "teal",
     "type": "water",
     "artwork": "raging_sea_of_the_east.png"
 },
 {
     "card_name": "Raging Sea of the West",
-    "description": "Heal 10 damage from each of your Champions then add ‘Raging Sea of the East’ from your grave to your hand and destroy this card.",
+    "description": "Heal 10 damage from each of your Champions then destroy this card and add ‘Raging Sea of the East’ from your grave to your hand.",
     "color": "teal",
     "type": "water",
     "artwork": "raging_sea_of_the_west.png"
