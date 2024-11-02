@@ -16,7 +16,7 @@
 },
 {
     "card_name": "Dagger Upgrade",
-    "description": "Discard 1 "Dagger" Equipment then add 1 Equipment from your deck to your hand of the same element as the card discarded.",
+    "description": "Discard 1 'Dagger' Equipment then add 1 Equipment from your deck to your hand of the same element as the card discarded.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/dagger_upgrade.png"
