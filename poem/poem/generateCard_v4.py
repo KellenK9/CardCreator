@@ -126,7 +126,7 @@ def generate_card(dict):
     description_obj = ImageDraw.Draw(description_txt)
     name_width = name_obj.textlength(dict["card_name"], font=fnt1)
     health_width = health_obj.textlength(dict["health"], font=fnt2)
-    description_width = description_obj.textlength(new_desc, font=fnt3)
+    # description_width = description_obj.textlength(new_desc, font=fnt3)
     name_x = (card_width - name_width) / 2
     health_x = (card_width - health_width) / 2
     name_obj.text((name_x, name_y), dict["card_name"], font=fnt1, fill=font_color_name)
@@ -156,7 +156,7 @@ def generate_equipment_card(dict):
     # Coordiantes and font sizes for text locations on card
     # These variables must be adjusted for each font, alongside the code adjusting these variables
     # For the font: PlayfairDisplay-Black
-    name_x = 950
+    card_width = 2048
     name_y = 2600
     description_x = 55
     description_y = 2080
@@ -171,13 +171,10 @@ def generate_equipment_card(dict):
     current_font = fonts[4]
 
     # Center and size Text
-    char_width = 15  # This value may have to be adjusted for different fonts
     name_length = len(dict["card_name"])
-    name_x -= name_length * char_width
     if name_length > longest_name_for_normal_size:
         name_font_size -= ceil(1.5 * (name_length - longest_name_for_normal_size + 4))
         name_y += 2 * (name_length - longest_name_for_normal_size)
-        name_x += 30 * (name_length - longest_name_for_normal_size + 1)
 
     # Append font color tuple
     color_for_font_name.append(255)
@@ -230,10 +227,6 @@ def generate_equipment_card(dict):
     else:
         new_desc = dict["description"]
 
-    # Move long names to the left
-    if len(dict["card_name"]) > 14:
-        name_x -= (len(dict["card_name"]) - 14) * 15
-
     # Add text
     name_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
     description_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
@@ -241,6 +234,8 @@ def generate_equipment_card(dict):
     fnt2 = ImageFont.truetype(current_font, description_font_size)
     name_obj = ImageDraw.Draw(name_txt)
     description_obj = ImageDraw.Draw(description_txt)
+    name_width = name_obj.textlength(dict["card_name"], font=fnt1)
+    name_x = (card_width - name_width) / 2
     name_obj.text((name_x, name_y), dict["card_name"], font=fnt1, fill=font_color_name)
     description_obj.text(
         (description_x, description_y), new_desc, font=fnt2, fill=font_color_description
