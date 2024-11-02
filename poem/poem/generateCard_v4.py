@@ -3,6 +3,7 @@ from PIL import ImageFont
 from PIL import ImageDraw
 import json
 import numpy as np
+import textwrap
 from math import ceil
 
 image_width = 2048
@@ -64,8 +65,8 @@ def generate_card(dict):
     description_font_size = 60
     color_for_font_name = list(colors[dict["color"]])
     color_for_font_description = list(colors["white"])
-    description_line_length = 52  # This is the number of characters that can fit on one line, and is dependant upon the font and font size
     longest_name_for_normal_size = 18
+    max_description_width = card_width - (description_x * 2)
 
     current_font = fonts[4]
 
@@ -99,23 +100,6 @@ def generate_card(dict):
         name_font_size -= ceil(1.5 * (name_length - longest_name_for_normal_size + 4))
         name_y += 2 * (name_length - longest_name_for_normal_size)
 
-    # Add enters to descriptions
-    if len(dict["description"]) > description_line_length:
-        desc_string = dict["description"]
-        new_desc = ""
-        while len(desc_string) > description_line_length:
-            last_space_locale = 0
-            for char_num in range(description_line_length):
-                if desc_string[char_num].isspace():
-                    last_space_locale = char_num
-            new_desc += str(desc_string[:last_space_locale])
-            new_desc += "\n"
-            desc_string = desc_string[last_space_locale + 1 :]
-            # find the last space in the first x characters and change it to a line break
-        new_desc += str(desc_string)
-    else:
-        new_desc = dict["description"]
-
     # Add Text
     name_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
     health_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
@@ -126,9 +110,24 @@ def generate_card(dict):
     name_obj = ImageDraw.Draw(name_txt)
     health_obj = ImageDraw.Draw(health_txt)
     description_obj = ImageDraw.Draw(description_txt)
+
+    lines = []
+    current_line = ""
+    for word in dict["description"].split("\n"):
+        test_line = f"{current_line} {word}".strip()
+        line_width = description_obj.textlength(test_line, fnt3)
+        if line_width <= max_description_width:
+            current_line = test_line
+        else:
+            lines.append(current_line)
+            current_line = word
+    if current_line:
+        lines.append(current_line)
+    wrapped_text = "\n".join(lines)
+
     name_width = name_obj.textlength(dict["card_name"], font=fnt1)
     health_width = health_obj.textlength(dict["health"], font=fnt2)
-    # description_width = description_obj.textlength(new_desc, font=fnt3)
+    # description_width = description_obj.textlength(wrapped_text, font=fnt3)
     name_x = (card_width - name_width) / 2
     health_x = (card_width - health_width) / 2
     name_obj.text((name_x, name_y), dict["card_name"], font=fnt1, fill=font_color_name)
@@ -136,7 +135,10 @@ def generate_card(dict):
         (health_x, health_y), dict["health"], font=fnt2, fill=font_color_name
     )
     description_obj.text(
-        (description_x, description_y), new_desc, font=fnt3, fill=font_color_description
+        (description_x, description_y),
+        wrapped_text,
+        font=fnt3,
+        fill=font_color_description,
     )
 
     # Combine images
@@ -167,8 +169,8 @@ def generate_equipment_card(dict):
     color_for_font_name = list(colors[dict["color"]])
     color_for_font_description = list(colors["white"])
     color_for_font_nums = list(colors[dict["color"]])
-    description_line_length = 52  # This is the number of characters that can fit on one line, and is dependant upon the font and font size
     longest_name_for_normal_size = 18
+    max_description_width = card_width - (description_x * 2)
 
     current_font = fonts[4]
 
@@ -211,24 +213,6 @@ def generate_equipment_card(dict):
         frame = Image.open("poem/poem/card_frames/spell-frame.png")
         icon = Image.open("poem/poem/card_frames/speed-icon.png")
 
-    # Add enters to descriptions
-    if len(dict["description"]) > description_line_length:
-        last_line_len = len(dict["description"])
-        desc_string = dict["description"]
-        new_desc = ""
-        while len(desc_string) > description_line_length:
-            last_space_locale = 0
-            for char_num in range(description_line_length):
-                if desc_string[char_num].isspace():
-                    last_space_locale = char_num
-            new_desc += str(desc_string[:last_space_locale])
-            new_desc += "\n"
-            desc_string = desc_string[last_space_locale + 1 :]
-            # find the last space in the first x characters and change it to a line break
-        new_desc += str(desc_string)
-    else:
-        new_desc = dict["description"]
-
     # Add text
     name_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
     description_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
@@ -236,11 +220,29 @@ def generate_equipment_card(dict):
     fnt2 = ImageFont.truetype(current_font, description_font_size)
     name_obj = ImageDraw.Draw(name_txt)
     description_obj = ImageDraw.Draw(description_txt)
+
+    lines = []
+    current_line = ""
+    for word in dict["description"].split("\n"):
+        test_line = f"{current_line} {word}".strip()
+        line_width = description_obj.textlength(test_line, fnt2)
+        if line_width <= max_description_width:
+            current_line = test_line
+        else:
+            lines.append(current_line)
+            current_line = word
+    if current_line:
+        lines.append(current_line)
+    wrapped_text = "\n".join(lines)
+
     name_width = name_obj.textlength(dict["card_name"], font=fnt1)
     name_x = (card_width - name_width) / 2
     name_obj.text((name_x, name_y), dict["card_name"], font=fnt1, fill=font_color_name)
     description_obj.text(
-        (description_x, description_y), new_desc, font=fnt2, fill=font_color_description
+        (description_x, description_y),
+        wrapped_text,
+        font=fnt2,
+        fill=font_color_description,
     )
 
     # Combine images
