@@ -16,7 +16,7 @@
 },
 {
     "card_name": "Golem's Telescope",
-    "description": "Add 1 ‘Golem’ spell from grave to hand then destroy this card. This card may be equipped to any element slot on a ‘Golem’ Champion.",
+    "description": "Add 1 ‘Golem’ spell from grave to hand then destroy this card. This card may also be equipped to any element slot on a ‘Golem’ Champion.",
     "color": "light_beige",
     "type": "earth",
     "artwork": "temp/telescope.png"
