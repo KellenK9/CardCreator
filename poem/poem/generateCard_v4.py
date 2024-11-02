@@ -14,7 +14,7 @@ colors = {
     "pink": (255, 70, 70),
     "blue": (0, 0, 255),
     "green": (0, 255, 0),
-    "yellow": (255, 244, 89),
+    "yellow": (255, 240, 80),
     "white": (255, 255, 255),
     "black": (0, 0, 0),
     "teal": (60, 150, 220),
@@ -177,7 +177,10 @@ def generate_equipment_card(dict):
     name_font_size = 160
     description_font_size = 80
     color_for_font_name = list(colors[dict["color"]])
-    color_for_font_description = list(colors["white"])
+    if dict["type"] == "air":
+        color_for_font_description = list(colors["black"])
+    else:
+        color_for_font_description = list(colors["white"])
     color_for_font_nums = list(colors[dict["color"]])
     longest_name_for_normal_size = 18
     max_description_width = card_width - (description_x * 2)
