@@ -113,17 +113,17 @@ def generate_card(dict):
 
     lines = []
     current_line = ""
-    for word in dict["description"].split("\n"):
+    for word in dict["description"].split(" "):
         test_line = f"{current_line} {word}".strip()
         line_width = description_obj.textlength(test_line, fnt3)
         if line_width <= max_description_width:
             current_line = test_line
         else:
-            lines.append(current_line)
+            lines.append(f"{current_line}\n")
             current_line = word
     if current_line:
         lines.append(current_line)
-    wrapped_text = "\n".join(lines)
+    wrapped_text = "".join(lines)
 
     name_width = name_obj.textlength(dict["card_name"], font=fnt1)
     health_width = health_obj.textlength(dict["health"], font=fnt2)
@@ -224,17 +224,17 @@ def generate_equipment_card(dict):
 
     lines = []
     current_line = ""
-    for word in dict["description"].split("\n"):
+    for word in dict["description"].split(" "):
         test_line = f"{current_line} {word}".strip()
         line_width = description_obj.textlength(test_line, fnt2)
         if line_width <= max_description_width:
             current_line = test_line
         else:
-            lines.append(current_line)
+            lines.append(f"{current_line}\n")
             current_line = word
     if current_line:
         lines.append(current_line)
-    wrapped_text = "\n".join(lines)
+    wrapped_text = "".join(lines)
 
     name_width = name_obj.textlength(dict["card_name"], font=fnt1)
     name_x = (card_width - name_width) / 2
