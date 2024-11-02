@@ -9,7 +9,7 @@ image_width = 2048
 image_height = 2867
 
 colors = {
-    "red": (255, 0, 0),
+    "red": (255, 40, 40),
     "blue": (0, 0, 255),
     "green": (0, 255, 0),
     "yellow": (255, 244, 89),
