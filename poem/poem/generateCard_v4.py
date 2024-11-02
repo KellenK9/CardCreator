@@ -297,7 +297,7 @@ for card in loaded_json["cards"]:
 
 # 19 total spells
 # 14 total champions   X
-# 7 air equipment
+# 7 air equipment      X
 # 6 earth equipment    X
 # 5 fire equipment     X
 # 6 water equipment    X
