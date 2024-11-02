@@ -124,14 +124,11 @@ def generate_card(dict):
     name_obj = ImageDraw.Draw(name_txt)
     health_obj = ImageDraw.Draw(health_txt)
     description_obj = ImageDraw.Draw(description_txt)
-    name_width, name_height = name_obj.textlength(dict["card_name"], font=fnt1)
-    health_width, health_height = health_obj.textlength(dict["health"], font=fnt2)
-    description_width, description_height = description_obj.textlength(
-        new_desc, font=fnt3
-    )
+    name_width = name_obj.textlength(dict["card_name"], font=fnt1)
+    health_width = health_obj.textlength(dict["health"], font=fnt2)
+    description_width = description_obj.textlength(new_desc, font=fnt3)
     name_x = (card_width - name_width) / 2
     health_x = (card_width - health_width) / 2
-
     name_obj.text((name_x, name_y), dict["card_name"], font=fnt1, fill=font_color_name)
     health_obj.text(
         (health_x, health_y), dict["health"], font=fnt2, fill=font_color_name
