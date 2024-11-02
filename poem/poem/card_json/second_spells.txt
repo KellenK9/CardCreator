@@ -54,7 +54,7 @@
     "description": "[Quick] When your Champion takes damage, deal 10 damage to a Champion.",
     "color": "white",
     "type": "spell",
-    "artwork": "FireBall.png"
+    "artwork": temp/payback.png"
 },
 {
     "card_name": "Shoddy Craftsmanship",
