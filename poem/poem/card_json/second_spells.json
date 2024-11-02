@@ -51,7 +51,7 @@
 },
 {
     "card_name": "Payback",
-    "description": "[Quick] When your Champion takes damage, deal 10 damage to a Champion.",
+    "description": "(Quick) When your Champion takes damage, deal 10 damage to a Champion.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/payback.png"
