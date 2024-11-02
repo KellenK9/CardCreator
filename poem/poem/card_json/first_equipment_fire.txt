@@ -12,14 +12,14 @@
     "description": "Flip a coin. If heads, deal 30 damage to a Champion. If tails, deal 20 damage to this Champion.",
     "color": "red",
     "type": "fire",
-    "artwork": "Gambit.png"
+    "artwork": "temp/gambit.png"
 },
 {
     "card_name": "Greedy Rage",
     "description": "When an Equipment card attached to this Champion is sent to the grave, deal 20 damage to a Champion.",
     "color": "red",
     "type": "fire",
-    "artwork": "GreedyRage.png"
+    "artwork": "temp/greedy_rage.png"
 }
 ]
 }

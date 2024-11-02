@@ -5,7 +5,7 @@
     "description": "Deal 20 damage to a champion.",
     "color": "white",
     "type": "spell",
-    "artwork": "FireBall.png"
+    "artwork": "temp/fireball.png"
 },
 {
     "card_name": "Flamethrower",
