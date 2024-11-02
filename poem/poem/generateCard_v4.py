@@ -62,7 +62,7 @@ def generate_card(dict):
     description_y = 2080
     health_font_size = 200
     name_font_size = 120
-    description_font_size = 100
+    description_font_size = 80
     color_for_font_name = list(colors[dict["color"]])
     color_for_font_description = list(colors["white"])
     longest_name_for_normal_size = 18
@@ -166,7 +166,7 @@ def generate_equipment_card(dict):
     description_x = 55
     description_y = 2080
     name_font_size = 120
-    description_font_size = 100
+    description_font_size = 80
     color_for_font_name = list(colors[dict["color"]])
     color_for_font_description = list(colors["white"])
     color_for_font_nums = list(colors[dict["color"]])
