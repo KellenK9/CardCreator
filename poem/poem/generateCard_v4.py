@@ -252,14 +252,14 @@ def generate_equipment_card(dict):
 
 
 # Champions
-with open("poem/poem/card_json/first_champions.txt") as json_file:
+with open("poem/poem/card_json/first_champions.json") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_card(card).show()
     generate_card(card).save(
         "poem/poem/finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
     )
-with open("poem/poem/card_json/second_champions.txt") as json_file:
+with open("poem/poem/card_json/second_champions.json") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_card(card).show()
@@ -268,14 +268,14 @@ for card in loaded_json["cards"]:
     )
 
 # Fire
-with open("poem/poem/card_json/first_equipment_fire.txt") as json_file:
+with open("poem/poem/card_json/first_equipment_fire.json") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
         "poem/poem/finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
     )
-with open("poem/poem/card_json/second_equipment_fire.txt") as json_file:
+with open("poem/poem/card_json/second_equipment_fire.json") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
@@ -284,14 +284,14 @@ for card in loaded_json["cards"]:
     )
 
 # Water
-with open("poem/poem/card_json/first_equipment_water.txt") as json_file:
+with open("poem/poem/card_json/first_equipment_water.json") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
         "poem/poem/finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
     )
-with open("poem/poem/card_json/second_equipment_water.txt") as json_file:
+with open("poem/poem/card_json/second_equipment_water.json") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
@@ -300,14 +300,14 @@ for card in loaded_json["cards"]:
     )
 
 # Earth
-with open("poem/poem/card_json/first_equipment_earth.txt") as json_file:
+with open("poem/poem/card_json/first_equipment_earth.json") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
         "poem/poem/finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
     )
-with open("poem/poem/card_json/second_equipment_earth.txt") as json_file:
+with open("poem/poem/card_json/second_equipment_earth.json") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
@@ -316,14 +316,14 @@ for card in loaded_json["cards"]:
     )
 
 # Air
-with open("poem/poem/card_json/first_equipment_air.txt") as json_file:
+with open("poem/poem/card_json/first_equipment_air.json") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
         "poem/poem/finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
     )
-with open("poem/poem/card_json/second_equipment_air.txt") as json_file:
+with open("poem/poem/card_json/second_equipment_air.json") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
@@ -332,14 +332,14 @@ for card in loaded_json["cards"]:
     )
 
 # Spells
-with open("poem/poem/card_json/first_spells.txt") as json_file:
+with open("poem/poem/card_json/first_spells.json") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
         "poem/poem/finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
     )
-with open("poem/poem/card_json/second_spells.txt") as json_file:
+with open("poem/poem/card_json/second_spells.json") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
