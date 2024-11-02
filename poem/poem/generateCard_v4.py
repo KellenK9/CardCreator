@@ -61,7 +61,7 @@ def generate_card(dict):
     description_x = 55
     description_y = 2080
     health_font_size = 200
-    name_font_size = 120
+    name_font_size = 160
     description_font_size = 80
     color_for_font_name = list(colors[dict["color"]])
     color_for_font_description = list(colors["white"])
@@ -111,6 +111,18 @@ def generate_card(dict):
     health_obj = ImageDraw.Draw(health_txt)
     description_obj = ImageDraw.Draw(description_txt)
 
+    name_width = name_obj.textlength(dict["card_name"], font=fnt1)
+    health_width = health_obj.textlength(dict["health"], font=fnt2)
+    # description_width = description_obj.textlength(wrapped_text, font=fnt3)
+
+    # Make Names smaller if necessary
+    i = 0
+    while name_width >= max_description_width:
+        i = i - 1
+        fnt1 = ImageFont.truetype(current_font, name_font_size - i)
+        name_width = name_obj.textlength(dict["card_name"], font=fnt1)
+
+    # Wrap Description Text
     lines = []
     current_line = ""
     for word in dict["description"].split(" "):
@@ -125,9 +137,6 @@ def generate_card(dict):
         lines.append(current_line)
     wrapped_text = "".join(lines)
 
-    name_width = name_obj.textlength(dict["card_name"], font=fnt1)
-    health_width = health_obj.textlength(dict["health"], font=fnt2)
-    # description_width = description_obj.textlength(wrapped_text, font=fnt3)
     name_x = (card_width - name_width) / 2
     health_x = (card_width - health_width) / 2
     name_obj.text((name_x, name_y), dict["card_name"], font=fnt1, fill=font_color_name)
@@ -165,7 +174,7 @@ def generate_equipment_card(dict):
     name_y = 2600
     description_x = 55
     description_y = 2080
-    name_font_size = 120
+    name_font_size = 160
     description_font_size = 80
     color_for_font_name = list(colors[dict["color"]])
     color_for_font_description = list(colors["white"])
@@ -222,6 +231,16 @@ def generate_equipment_card(dict):
     name_obj = ImageDraw.Draw(name_txt)
     description_obj = ImageDraw.Draw(description_txt)
 
+    name_width = name_obj.textlength(dict["card_name"], font=fnt1)
+
+    # Make Names smaller if necessary
+    i = 0
+    while name_width >= max_description_width:
+        i = i - 1
+        fnt1 = ImageFont.truetype(current_font, name_font_size - i)
+        name_width = name_obj.textlength(dict["card_name"], font=fnt1)
+
+    # Wrap Description Text
     lines = []
     current_line = ""
     for word in dict["description"].split(" "):
@@ -236,7 +255,6 @@ def generate_equipment_card(dict):
         lines.append(current_line)
     wrapped_text = "".join(lines)
 
-    name_width = name_obj.textlength(dict["card_name"], font=fnt1)
     name_x = (card_width - name_width) / 2
     name_obj.text((name_x, name_y), dict["card_name"], font=fnt1, fill=font_color_name)
     description_obj.multiline_text(
