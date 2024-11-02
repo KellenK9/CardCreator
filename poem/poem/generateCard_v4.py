@@ -57,7 +57,7 @@ def generate_card(dict):
     # For the font: PlayfairDisplay-Black
     card_width = 2048
     health_y = 1800
-    name_y = 2600
+    name_y = 2550
     description_x = 55
     description_y = 2080
     health_font_size = 200
@@ -119,6 +119,7 @@ def generate_card(dict):
     i = 0
     while name_width >= max_description_width:
         i = i - 1
+        name_y += 1
         fnt1 = ImageFont.truetype(current_font, name_font_size - i)
         name_width = name_obj.textlength(dict["card_name"], font=fnt1)
 
@@ -171,7 +172,7 @@ def generate_equipment_card(dict):
     # These variables must be adjusted for each font, alongside the code adjusting these variables
     # For the font: PlayfairDisplay-Black
     card_width = 2048
-    name_y = 2600
+    name_y = 2550
     description_x = 55
     description_y = 2080
     name_font_size = 160
@@ -240,6 +241,7 @@ def generate_equipment_card(dict):
     i = 0
     while name_width >= max_description_width:
         i = i - 1
+        name_y += 1
         fnt1 = ImageFont.truetype(current_font, name_font_size - i)
         name_width = name_obj.textlength(dict["card_name"], font=fnt1)
 
