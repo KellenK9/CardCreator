@@ -5,7 +5,7 @@
     "description": "Add up to 3 copies of 'Useless Potion' from your deck to your hand.",
     "color": "white",
     "type": "spell",
-    "artwork": "FireBall.png"
+    "artwork": "temp/useless_potion.png"
 },
 {
     "card_name": "Boomerang Mirage",
@@ -19,7 +19,7 @@
     "description": "Discard 1 "Dagger" Equipment then add 1 Equipment from your deck to your hand of the same element as the card discarded.",
     "color": "white",
     "type": "spell",
-    "artwork": "FireBall.png"
+    "artwork": "temp/dagger_upgrade.png"
 },
 {
     "card_name": "Love Potion of Calming Mind",
