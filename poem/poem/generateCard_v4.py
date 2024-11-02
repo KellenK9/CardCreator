@@ -134,11 +134,12 @@ def generate_card(dict):
     health_obj.text(
         (health_x, health_y), dict["health"], font=fnt2, fill=font_color_name
     )
-    description_obj.text(
+    description_obj.multiline_text(
         (description_x, description_y),
         wrapped_text,
         font=fnt3,
         fill=font_color_description,
+        align="left",
     )
 
     # Combine images
@@ -238,11 +239,12 @@ def generate_equipment_card(dict):
     name_width = name_obj.textlength(dict["card_name"], font=fnt1)
     name_x = (card_width - name_width) / 2
     name_obj.text((name_x, name_y), dict["card_name"], font=fnt1, fill=font_color_name)
-    description_obj.text(
+    description_obj.multiline_text(
         (description_x, description_y),
         wrapped_text,
         font=fnt2,
         fill=font_color_description,
+        align="left",
     )
 
     # Combine images
