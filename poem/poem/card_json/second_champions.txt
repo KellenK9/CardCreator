@@ -57,7 +57,7 @@
     "slot1": "none",
     "slot2": "water",
     "slot3": "none",
-    "color": "blue",
+    "color": "teal",
     "artwork": "temp/water_beetle.png"
 },
 {
