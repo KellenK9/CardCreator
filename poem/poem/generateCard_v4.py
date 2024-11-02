@@ -9,7 +9,8 @@ image_width = 2048
 image_height = 2867
 
 colors = {
-    "red": (255, 40, 40),
+    "red": (255, 0, 0),
+    "pink": (255, 40, 40),
     "blue": (0, 0, 255),
     "green": (0, 255, 0),
     "yellow": (255, 244, 89),
@@ -17,6 +18,7 @@ colors = {
     "black": (0, 0, 0),
     "teal": (60, 150, 220),
     "beige": (120, 100, 80),
+    "light_beige": (160, 140, 120),
 }
 
 fonts = [
