@@ -8,11 +8,11 @@
     "artwork": "temp/useless_potion.png"
 },
 {
-    "card_name": "Boomerang Mirage",
+    "card_name": "Pressure",
     "description": "Deal 10 damage to a Champion, then return this card to the hand.",
     "color": "white",
     "type": "spell",
-    "artwork": "FireBall.png"
+    "artwork": "temp/pressure.png"
 },
 {
     "card_name": "Dagger Upgrade",
