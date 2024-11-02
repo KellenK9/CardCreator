@@ -8,11 +8,11 @@
     "artwork": "temp/earth_dagger.png"
 },
 {
-    "card_name": "Dagger of the Ashen",
+    "card_name": "Emerald Dagger",
     "description": "Add 1 Earth Equipment from your grave to your hand.",
     "color": "beige",
     "type": "earth",
-    "artwork": "DaggerOfTheAshen.png"
+    "artwork": "temp/emerald_dagger.png"
 },
 {
     "card_name": "Extra Padding",
