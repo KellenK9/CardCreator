@@ -52,9 +52,8 @@ def generate_card(dict):
     # Coordiantes and font sizes for text locations on card
     # These variables must be adjusted for each font, alongside the code adjusting these variables
     # For the font: PlayfairDisplay-Black
-    health_x = 900
+    card_width = 2048
     health_y = 1800
-    name_x = 950
     name_y = 2600
     description_x = 55
     description_y = 2080
@@ -93,30 +92,13 @@ def generate_card(dict):
         first_slot = Image.open("poem/poem/card_frames/" + dict["slot1"] + "-left.png")
 
     # Center and size Text
-    char_width = 15  # This value may have to be adjusted for different fonts
     name_length = len(dict["card_name"])
-    name_x -= name_length * char_width
     if name_length > longest_name_for_normal_size:
         name_font_size -= ceil(1.5 * (name_length - longest_name_for_normal_size + 4))
         name_y += 2 * (name_length - longest_name_for_normal_size)
-        name_x += 30 * (name_length - longest_name_for_normal_size + 1)
-
-    # Center Health
-    health_length = len(dict["health"])
-    if health_length == 3:
-        health_x -= 50
-    if "1" in dict["health"]:
-        health_x += 10
-    if "11" in dict["health"]:
-        health_x += 5
-    if "100" in dict["health"]:
-        health_x -= 5
-    if "8" in dict["health"]:
-        health_y += 4
 
     # Add enters to descriptions
     if len(dict["description"]) > description_line_length:
-        last_line_len = len(dict["description"])
         desc_string = dict["description"]
         new_desc = ""
         while len(desc_string) > description_line_length:
@@ -142,6 +124,14 @@ def generate_card(dict):
     name_obj = ImageDraw.Draw(name_txt)
     health_obj = ImageDraw.Draw(health_txt)
     description_obj = ImageDraw.Draw(description_txt)
+    name_width, name_height = name_obj.textlength(dict["card_name"], font=fnt1)
+    health_width, health_height = health_obj.textlength(dict["health"], font=fnt2)
+    description_width, description_height = description_obj.textlength(
+        new_desc, font=fnt3
+    )
+    name_x = (card_width - name_width) / 2
+    health_x = (card_width - health_width) / 2
+
     name_obj.text((name_x, name_y), dict["card_name"], font=fnt1, fill=font_color_name)
     health_obj.text(
         (health_x, health_y), dict["health"], font=fnt2, fill=font_color_name
