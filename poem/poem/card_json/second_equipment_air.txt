@@ -19,14 +19,14 @@
     "description": "Shuffle 5 Air Equipment from your grave into your deck then draw a card.",
     "color": "yellow",
     "type": "air",
-    "artwork": "AirDagger.png"
+    "artwork": "temp/angel_recall.png"
 },
 {
     "card_name": "Wings of the Next Angel",
     "description": "If you have 3 copies of ‘Wings of the Next Angel’ in your grave, deal 10 damage to each enemy Champion.",
     "color": "yellow",
     "type": "air",
-    "artwork": "AirDagger.png"
+    "artwork": "temp/wings_of_the_next_angel.png"
 }
 ]
 }

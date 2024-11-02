@@ -12,14 +12,14 @@
     "description": "Both players draw 2 cards.",
     "color": "yellow",
     "type": "air",
-    "artwork": "TheGracefulHost.png"
+    "artwork": "temp/graceful_host.png"
 },
 {
     "card_name": "Zeus' Thunderbolt",
     "description": "Discard 3 cards then deal 40 damage to a Champion.",
     "color": "yellow",
     "type": "air",
-    "artwork": "ZeusThunderbolt.png"
+    "artwork": "temp/zeus_thunderbolt.png"
 }
 ]
 }
