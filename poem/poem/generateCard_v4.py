@@ -118,7 +118,7 @@ def generate_card(dict):
     # Make Names smaller if necessary
     i = 0
     while name_width >= max_description_width:
-        i = i - 1
+        i += 1
         name_y += 1
         fnt1 = ImageFont.truetype(current_font, name_font_size - i)
         name_width = name_obj.textlength(dict["card_name"], font=fnt1)
