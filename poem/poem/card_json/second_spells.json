@@ -44,7 +44,7 @@
 },
 {
     "card_name": "Love Potion of Steadfast Bone",
-    "description": "Discard 1 Earth Equipment then add 1 Earth Equipment from your deck to your hand.",
+    "description": "Discard 1 Earth Equipment then add 1 Earth Equipment from your deck to your hand then discard 1 Earth Equipment.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/potion_of_steadfast_bone.png"
