@@ -43,7 +43,7 @@
 {
     "card_name": "Technician Magician",
     "health": "90",
-    "description": "The first time this Champion takes damage, deal 10 damage to each enemy Champion.",
+    "description": "The first time this Champion takes damage: deal 10 damage to each enemy Champion.",
     "slot1": "fire",
     "slot2": "none",
     "slot3": "fire",

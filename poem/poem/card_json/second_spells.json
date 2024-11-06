@@ -9,7 +9,7 @@
 },
 {
     "card_name": "Pressure",
-    "description": "Deal 10 damage to a Champion, then return this card to the hand.",
+    "description": "Deal 10 damage to a Champion then return this card to the hand.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/pressure.png"
@@ -51,14 +51,14 @@
 },
 {
     "card_name": "Payback",
-    "description": "(Quick) When your Champion takes damage, deal 10 damage to a Champion.",
+    "description": "(Quick) When your Champion takes damage: deal 10 damage to a Champion.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/payback.png"
 },
 {
     "card_name": "Shoddy Craftsmanship",
-    "description": "If your opponent equipped 1 Equipment last turn, destroy that Equipment.",
+    "description": "If your opponent equipped 1 Equipment last turn: destroy that Equipment.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/shoddy_craftsmanship.png"

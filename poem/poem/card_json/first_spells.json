@@ -44,14 +44,14 @@
 },
 {
     "card_name": "Decoy",
-    "description": "When this card is discarded, draw 1 card.",
+    "description": "When this card is discarded: draw 1 card.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/decoy.png"
 },
 {
     "card_name": "Celestial Shower",
-    "description": "Destroy 1 Equipment attached to your Champion, then destroy 1 Equipment on the field.",
+    "description": "Destroy 1 Equipment attached to your Champion then destroy 1 Equipment on the field.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/celestial_shower.png"
