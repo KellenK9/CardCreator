@@ -406,3 +406,9 @@ for card in loaded_json["cards"]:
 # 5 fire equipment
 # 6 water equipment
 # 57 total cards
+
+# Deck Size:
+# Air 62
+# Water 60
+# Earth 58
+# Fire 62
