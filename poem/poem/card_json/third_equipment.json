@@ -1,0 +1,11 @@
+{
+    "cards":[
+        {
+            "card_name": "Catalyst Orb",
+            "description": "Destroy this card and draw a card and deal 10 damage to each of your opponents Champions.",
+            "color": "light_beige",
+            "type": "earth",
+            "artwork": "temp/catalyst_orb.png"
+        }
+    ]
+}
