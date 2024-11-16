@@ -6,6 +6,13 @@
             "color": "light_beige",
             "type": "earth",
             "artwork": "temp/catalyst_orb.png"
+        },
+        {
+            "card_name": "Siren's Echo Mk. IV",
+            "description": "Deal 20 damage to a Champion and return this card to your hand.",
+            "color": "teal",
+            "type": "water",
+            "artwork": "temp/sirens_echo_mkIV.png"
         }
     ]
 }
