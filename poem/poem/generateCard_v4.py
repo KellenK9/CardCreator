@@ -432,6 +432,6 @@ for card in loaded_json["cards"]:
 
 # Deck Size:
 # Air 62
-# Water 64
+# Water 62
 # Earth 62
 # Fire 62
