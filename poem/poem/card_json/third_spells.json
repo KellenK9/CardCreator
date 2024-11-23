@@ -1,0 +1,18 @@
+{
+    "cards":[
+    {
+        "card_name": "Wild Shot",
+        "description": "Discard 1 random card from your opponent’s hand.",
+        "color": "white",
+        "type": "spell",
+        "artwork": "temp/turtle_cannon.png"
+    },
+    {
+        "card_name": "Dimension Recall",
+        "description": "Discard 1 card then shuffle 1 Equipment on the field into the deck.",
+        "color": "white",
+        "type": "spell",
+        "artwork": "temp/dimension_recall.png"
+    }
+]
+}
