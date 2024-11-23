@@ -9,7 +9,7 @@
 },
 {
     "card_name": "Emerald Dagger",
-    "description": "Add 1 Earth Equipment other than 'Earth Dagger' from your grave to your hand.",
+    "description": "Add 1 Earth Equipment other than 'Emerald Dagger' from your grave to your hand.",
     "color": "light_beige",
     "type": "earth",
     "artwork": "temp/emerald_dagger.png"
