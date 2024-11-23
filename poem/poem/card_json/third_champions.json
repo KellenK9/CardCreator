@@ -9,6 +9,16 @@
         "slot3": "air",
         "color": "yellow",
         "artwork": "sovereign_of_the_southern_spires.png"
+    },
+    {
+        "card_name": "Earth Hero",
+        "health": "130",
+        "description": "Heal 10 damage from each of your Earth Champions then deal 20 damage to 'Earth Hero'.",
+        "slot1": "none",
+        "slot2": "earth",
+        "slot3": "none",
+        "color": "beige",
+        "artwork": "temp/earth_golem.png"
     }
 ]
 }
