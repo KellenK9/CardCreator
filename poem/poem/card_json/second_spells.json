@@ -9,7 +9,7 @@
 },
 {
     "card_name": "Pressure",
-    "description": "Deal 10 damage to a Champion then return this card to the hand.",
+    "description": "Deal 10 damage to a Champion then return this card to the hand then if you have 3 or more cards in hand: discard 1 card.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/pressure.png"
