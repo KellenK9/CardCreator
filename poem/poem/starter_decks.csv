@@ -1,5 +1,5 @@
 Card Name,Type,# in Fire Deck,# in Water Deck,# in Air Deck,# in Earth Deck
-Deck Totals,,62,62,62,62
+Deck Totals,,63,63,63,63
 Pot of Greed,Spell,4,4,4,4
 Knowledge Exchange,Spell,2,2,4,2
 Recurring Visions,Spell,3,3,3,3
@@ -17,6 +17,7 @@ Love Potion of Fiery Heart,Spell,4,0,0,0
 Love Potion of Calming Mind,Spell,0,4,0,0
 Love Potion of Vibrant Soul,Spell,0,0,4,0
 Love Potion of Steadfast Bone,Spell,0,0,0,4
+Wild Shot,Spell,1,1,1,1
 Fire Dagger,Fire,4,0,0,0
 Water Dagger,Water,0,4,0,0
 Air Dagger,Air,0,0,4,0

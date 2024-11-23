@@ -418,6 +418,13 @@ for card in loaded_json["cards"]:
     generate_card(card).save(
         "poem/poem/finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
     )
+with open("poem/poem/card_json/third_spells.json", "r", encoding="utf-8") as json_file:
+    loaded_json = json.load(json_file)
+for card in loaded_json["cards"]:
+    generate_equipment_card(card).show()
+    generate_equipment_card(card).save(
+        "poem/poem/finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+    )
 
 # generate_card(temp_dict).show()
 # generate_equipment_card(temp_dict_equipment).show()
