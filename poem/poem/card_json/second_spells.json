@@ -37,14 +37,14 @@
 },
 {
     "card_name": "Love Potion of Vibrant Soul",
-    "description": "Discard 1 Air Equipment then draw 2 cards.",
+    "description": "Discard 1 Air Equipment then draw 3 cards and discard 1 card.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/potion_of_vibrant_soul.png"
 },
 {
     "card_name": "Love Potion of Steadfast Bone",
-    "description": "Discard 1 Earth Equipment then add 1 Earth Equipment from your deck to your hand then discard 1 Earth Equipment.",
+    "description": "Discard 1 Earth Equipment then add 1 Earth Equipment from your deck to your hand and discard 1 card.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/potion_of_steadfast_bone.png"
