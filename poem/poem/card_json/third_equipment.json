@@ -2,7 +2,7 @@
     "cards":[
         {
             "card_name": "Catalyst Orb",
-            "description": "Destroy this card and draw a card and deal 10 damage to each of your opponents Champions.",
+            "description": "Destroy this card then deal 10 damage to each enemy Champion. If this card is sent to the Grave: Draw 1 card.",
             "color": "light_beige",
             "type": "earth",
             "artwork": "temp/catalyst_orb.png"
@@ -13,6 +13,41 @@
             "color": "teal",
             "type": "water",
             "artwork": "temp/sirens_echo_mkIV.png"
+        },
+        {
+            "card_name": "Fire Bomb",
+            "description": "Deal 20 damage to a Champion then destroy this card. If this card is destroyed add 1 copy of 'Fire Bomb' from your deck to your hand.",
+            "color": "pink",
+            "type": "fire",
+            "artwork": "temp/.png"
+        },
+        {
+            "card_name": "Strawman",
+            "description": "If this card is discarded or destroyed: deal 10 damage to a Champion.",
+            "color": "pink",
+            "type": "fire",
+            "artwork": "temp/.png"
+        },
+        {
+            "card_name": "Tides of Reckoning",
+            "description": "If this card is discarded: Heal 10 damage from a Champion. If this card is destroyed: Deal 20 damage to a Champion.",
+            "color": "teal",
+            "type": "water",
+            "artwork": "temp/.png"
+        },
+        {
+            "card_name": "Explosive Piñata",
+            "description": "If this card is Discarded or Destroyed: you can Destroy 1 Air Equipment you control then draw 2 cards.",
+            "color": "black",
+            "type": "air",
+            "artwork": "temp/.png"
+        },
+        {
+            "card_name": "Memory of the Tides",
+            "description": "Destroy this card then add 1 'Tidal Wave' from Grave to Hand. If this card is destroyed: Deal 20 damage to a Champion.",
+            "color": "teal",
+            "type": "water",
+            "artwork": "temp/.png"
         }
     ]
 }
