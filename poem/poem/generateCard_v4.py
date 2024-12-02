@@ -129,14 +129,17 @@ def generate_card(dict):
     for word in dict["description"].split(" "):
         test_line = f"{current_line} {word}".strip()
         line_width = description_obj.textlength(test_line, fnt3)
-        if (
-            line_width <= max_description_width
-            and current_line[len(current_line) - 1] != "."
-        ):
-            current_line = test_line
+        if len(current_line) > 0:
+            if (
+                line_width <= max_description_width
+                and current_line[len(current_line) - 1] != "."
+            ):
+                current_line = test_line
+            else:
+                lines.append(f"{current_line}\n")
+                current_line = word
         else:
-            lines.append(f"{current_line}\n")
-            current_line = word
+            current_line = test_line
     if current_line:
         lines.append(current_line)
     wrapped_text = "".join(lines)
@@ -254,14 +257,17 @@ def generate_equipment_card(dict):
     for word in dict["description"].split(" "):
         test_line = f"{current_line} {word}".strip()
         line_width = description_obj.textlength(test_line, fnt2)
-        if (
-            line_width <= max_description_width
-            and current_line[len(current_line) - 1] != "."
-        ):
-            current_line = test_line
+        if len(current_line) > 0:
+            if (
+                line_width <= max_description_width
+                and current_line[len(current_line) - 1] != "."
+            ):
+                current_line = test_line
+            else:
+                lines.append(f"{current_line}\n")
+                current_line = word
         else:
-            lines.append(f"{current_line}\n")
-            current_line = word
+            current_line = test_line
     if current_line:
         lines.append(current_line)
     wrapped_text = "".join(lines)
