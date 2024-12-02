@@ -1,5 +1,5 @@
 Card Name,Type,# in Fire Deck,# in Water Deck,# in Air Deck,# in Earth Deck
-Deck Totals,,63,63,63,63
+Deck Totals,,59,59,63,59
 Pot of Greed,Spell,4,4,4,4
 Knowledge Exchange,Spell,2,2,4,2
 Recurring Visions,Spell,3,3,3,3
@@ -12,7 +12,6 @@ Shoddy Craftsmanship,Spell,2,4,0,4
 Spring Water,Spell,4,4,4,4
 Spreading Flame,Spell,4,0,0,4
 Fireball,Spell,4,4,0,4
-Payback,Quick Spell,4,4,0,4
 Love Potion of Fiery Heart,Spell,4,0,0,0
 Love Potion of Calming Mind,Spell,0,4,0,0
 Love Potion of Vibrant Soul,Spell,0,0,4,0
