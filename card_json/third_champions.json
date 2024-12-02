@@ -31,14 +31,14 @@
         "artwork": "temp/capybarrage.png"
     },
     {
-        "card_name": "Grave Digger Doug",
+        "card_name": "Orpheus of the Reforged Blade",
         "health": "130",
         "description": "Shuffle one Earth Equipment from your grave into your deck.",
         "slot1": "none",
         "slot2": "earth",
         "slot3": "none",
         "color": "beige",
-        "artwork": "temp/.png"
+        "artwork": "temp/warrior.png"
     }
 ]
 }
