@@ -26,14 +26,14 @@
             "description": "If this card is discarded or destroyed: deal 10 damage to a Champion.",
             "color": "pink",
             "type": "fire",
-            "artwork": "temp/.png"
+            "artwork": "temp/strawman.png"
         },
         {
             "card_name": "Tides of Reckoning",
             "description": "If this card is discarded: Heal 10 damage from a Champion. If this card is destroyed: Deal 20 damage to a Champion.",
             "color": "teal",
             "type": "water",
-            "artwork": "temp/.png"
+            "artwork": "temp/tides_of_reckoning.png"
         },
         {
             "card_name": "Explosive Piñata",
@@ -47,7 +47,7 @@
             "description": "Destroy this card then add 1 'Tidal Wave' from Grave to Hand. If this card is destroyed: Deal 20 damage to a Champion.",
             "color": "teal",
             "type": "water",
-            "artwork": "temp/.png"
+            "artwork": "temp/memory_of_the_tides.png" 
         }
     ]
 }
