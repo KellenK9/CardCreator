@@ -129,7 +129,10 @@ def generate_card(dict):
     for word in dict["description"].split(" "):
         test_line = f"{current_line} {word}".strip()
         line_width = description_obj.textlength(test_line, fnt3)
-        if line_width <= max_description_width:
+        if (
+            line_width <= max_description_width
+            or current_line[len(current_line) - 1] == "."
+        ):
             current_line = test_line
         else:
             lines.append(f"{current_line}\n")
@@ -251,7 +254,10 @@ def generate_equipment_card(dict):
     for word in dict["description"].split(" "):
         test_line = f"{current_line} {word}".strip()
         line_width = description_obj.textlength(test_line, fnt2)
-        if line_width <= max_description_width:
+        if (
+            line_width <= max_description_width
+            or current_line[len(current_line) - 1] == "."
+        ):
             current_line = test_line
         else:
             lines.append(f"{current_line}\n")
@@ -279,8 +285,6 @@ def generate_equipment_card(dict):
 
     return new_image
 
-
-"""
 
 # Champions
 with open(
@@ -398,7 +402,7 @@ for card in loaded_json["cards"]:
         "poem/poem/finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
     )
 
-"""
+
 # Third Wave
 with open(
     "poem/poem/card_json/third_equipment.json", "r", encoding="utf-8"
