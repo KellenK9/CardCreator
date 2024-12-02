@@ -59,16 +59,6 @@
     "slot3": "none",
     "color": "teal",
     "artwork": "temp/water_beetle.png"
-},
-{
-    "card_name": "Rocky, The Walking Mountain",
-    "health": "180",
-    "description": "Any damage dealt to this Champion is doubled.",
-    "slot1": "earth",
-    "slot2": "earth",
-    "slot3": "earth",
-    "color": "beige",
-    "artwork": "temp/walking_mountain.png"
 }
 ]
 }
