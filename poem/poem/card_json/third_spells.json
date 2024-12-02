@@ -13,6 +13,34 @@
         "color": "white",
         "type": "spell",
         "artwork": "temp/dimension_recall.png"
+    },
+    {
+        "card_name": "Elemental Blast",
+        "description": "Discard any number of Equipment cards of the same element then deal damage to a Champion equal to the number of Equipment discarded X 10.",
+        "color": "white",
+        "type": "spell",
+        "artwork": "temp/.png"
+    },
+    {
+        "card_name": "Pot of Envy",
+        "description": "Draw 3 cards then discard 2 cards.",
+        "color": "white",
+        "type": "spell",
+        "artwork": "temp/.png"
+    },
+    {
+        "card_name": "Lightning Strike",
+        "description": "Deal 10 damage to a Champion or if that Champion was healed during your opponents last turn: deal 30 damage instead.",
+        "color": "white",
+        "type": "spell",
+        "artwork": "temp/.png"
+    },
+    {
+        "card_name": "Resuscitation",
+        "description": "If an Equipment equipped to one of your Champions was destroyed during your opponents last turn: add that Equipment from your Grave to your Hand.",
+        "color": "white",
+        "type": "spell",
+        "artwork": "temp/.png"
     }
 ]
 }
