@@ -15,11 +15,11 @@
             "artwork": "temp/sirens_echo_mkIV.png"
         },
         {
-            "card_name": "Fire Bomb",
+            "card_name": "Crimson Cataclysm",
             "description": "Deal 20 damage to a Champion then destroy this card. If this card is destroyed add 1 copy of 'Fire Bomb' from your deck to your hand.",
             "color": "pink",
             "type": "fire",
-            "artwork": "temp/.png"
+            "artwork": "temp/chained_detonation.png"
         },
         {
             "card_name": "Strawman",
@@ -40,7 +40,7 @@
             "description": "If this card is Discarded or Destroyed: you can Destroy 1 Air Equipment you control then draw 2 cards.",
             "color": "black",
             "type": "air",
-            "artwork": "temp/.png"
+            "artwork": "explosive_pinata.png"
         },
         {
             "card_name": "Memory of the Tides",
