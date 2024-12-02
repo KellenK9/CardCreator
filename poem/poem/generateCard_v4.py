@@ -131,7 +131,7 @@ def generate_card(dict):
         line_width = description_obj.textlength(test_line, fnt3)
         if (
             line_width <= max_description_width
-            or current_line[len(current_line) - 1] == "."
+            and current_line[len(current_line) - 1] != "."
         ):
             current_line = test_line
         else:
@@ -256,7 +256,7 @@ def generate_equipment_card(dict):
         line_width = description_obj.textlength(test_line, fnt2)
         if (
             line_width <= max_description_width
-            or current_line[len(current_line) - 1] == "."
+            and current_line[len(current_line) - 1] != "."
         ):
             current_line = test_line
         else:
