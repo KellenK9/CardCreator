@@ -144,6 +144,8 @@ def generate_card(dict):
         lines.append(current_line)
     wrapped_text = "".join(lines)
 
+    # TODO: Add logic that doesn't add newlines or shrinks description text if the text is too long to fit in the box.
+
     name_x = (card_width - name_width) / 2
     health_x = (card_width - health_width) / 2
     name_obj.text((name_x, name_y), dict["card_name"], font=fnt1, fill=font_color_name)
