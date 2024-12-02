@@ -21,14 +21,14 @@
         "artwork": "temp/tavern_hopper.png"
     },
     {
-        "card_name": "Blimpy",
+        "card_name": "Cappybarrage",
         "health": "180",
         "description": "Any damage dealt to this Champion is doubled.",
         "slot1": "air",
         "slot2": "air",
         "slot3": "air",
         "color": "beige",
-        "artwork": "temp/.png"
+        "artwork": "temp/capybarrage.png"
     },
     {
         "card_name": "Grave Digger Doug",
