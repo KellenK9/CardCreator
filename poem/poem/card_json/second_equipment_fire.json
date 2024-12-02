@@ -9,7 +9,7 @@
 },
 {
     "card_name": "Vengeful Rage",
-    "description": "Deal 10 damage to each enemy Champion, then destroy this card if you control multiple Champions.",
+    "description": "Deal 10 damage to each enemy Champion then destroy this card if you control multiple Champions.",
     "color": "pink",
     "type": "fire",
     "artwork": "infernal_behemoth.png"
