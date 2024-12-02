@@ -1,0 +1,21 @@
+Setting up the game:
+1. Start the game with 3 distinct Champions facedown on the field and a facedown main deck of 60-100 cards.
+2. Decide which player is going first then each player flips their Champions and draws 7 cards.
+*If using a chess clock, it starts when player 1 draws their hand.
+
+Each turn a player can do 1 of the following actions:
+1. Draw a card
+2. Activate a Spell card from hand.
+3. Equip 1 Equipment from your hand to a Champion.
+4. Activate an 'Activated Effect' of an Equipped Equipment you control.
+5. Activate an 'Activated Effect' of a Champion you control.
+
+There are 3 types of cards: Champions, Equipment, and Spells.
+- Champions have health, effects, and equipment slots. When all of a player's Champions are defeated: they lose the duel.
+- Equipment comes in different element types and can only be equipped to a Champion's slot of the corresponding type. Only 1 Equipment can be equipped in each slot. Equipment cannot be moved from Champion to Champion.
+- Spells can be activated from your hand. After a spell's effect resolves it is sent to the Grave via game rule.
+
+Cards can have 3 types of effects: Activated, Trigger, and Passive.
+- Activated Effects can be activated by the turn player and count as their turn.
+- Trigger Effects can be activated by either player when a specific condition is met listed on the card; they don't count as a turn.
+- Passive effects are not activated and are always live; they don't count as a turn.
