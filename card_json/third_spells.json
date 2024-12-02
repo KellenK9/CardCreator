@@ -36,11 +36,11 @@
         "artwork": "temp/.png"
     },
     {
-        "card_name": "Resuscitation",
+        "card_name": "Defiance of Death",
         "description": "If an Equipment equipped to one of your Champions was destroyed during your opponents last turn: add that Equipment from your Grave to your Hand.",
         "color": "white",
         "type": "spell",
-        "artwork": "temp/.png"
+        "artwork": "temp/payback.png"
     }
 ]
 }
