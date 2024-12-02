@@ -22,11 +22,11 @@
         "artwork": "temp/.png"
     },
     {
-        "card_name": "Pot of Envy",
+        "card_name": "Verdant Codex",
         "description": "Draw 3 cards then discard 2 cards.",
         "color": "white",
         "type": "spell",
-        "artwork": "temp/.png"
+        "artwork": "temp/sprouting_book.png"
     },
     {
         "card_name": "Lightning Strike",
