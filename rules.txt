@@ -19,3 +19,7 @@ Cards can have 3 types of effects: Activated, Trigger, and Passive.
 - Activated Effects can be activated by the turn player and count as their turn.
 - Trigger Effects can be activated by either player when a specific condition is met listed on the card; they don't count as a turn.
 - Passive effects are not activated and are always live; they don't count as a turn.
+
+Keywords:
+Discard - a form of sending from hand to deck, often as cost
+Destroy - a form of sending Equipment from field to grave
