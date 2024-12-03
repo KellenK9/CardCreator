@@ -1,0 +1,25 @@
+v1.0 Playtested Extensively through Thanksgiving 2024.
+
+
+v1.0.1
+Removed Cards:
+    Payback
+    Rocky, The Walking Mountain
+New Cards:
+    Capybarrage
+    Orpheus of The Reforged Blade
+    Dimension Recall
+    Defiance of Death
+    Elemantal Blast
+    Tainted Elixir
+    Verdant Codex
+    Crimson Cataclysm
+    Strawman
+    Memory of The Tides
+    Tides of Reckoning
+    Explosive Piñata
+Nerfs:
+    Greedy Rage
+Buffs:
+    Love Potion of Steadfast Bone
+    Love Potion of Vibrant Soul
