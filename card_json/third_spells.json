@@ -19,7 +19,7 @@
         "description": "Discard any number of Equipment cards of the same element then deal damage to a Champion equal to the number of Equipment discarded X 10.",
         "color": "white",
         "type": "spell",
-        "artwork": "temp/.png"
+        "artwork": "temp/cannon2.png"
     },
     {
         "card_name": "Verdant Codex",
@@ -29,11 +29,11 @@
         "artwork": "temp/sprouting_book.png"
     },
     {
-        "card_name": "Lightning Strike",
+        "card_name": "Tainted Elixir",
         "description": "Deal 10 damage to a Champion or if that Champion was healed during your opponents last turn: deal 30 damage instead.",
         "color": "white",
         "type": "spell",
-        "artwork": "temp/.png"
+        "artwork": "temp/tainted_elixir.png"
     },
     {
         "card_name": "Defiance of Death",
