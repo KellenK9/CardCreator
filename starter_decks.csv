@@ -1,5 +1,5 @@
 Card Name,Type,# in Fire Deck,# in Water Deck,# in Air Deck,# in Earth Deck
-Deck Totals,,59,59,63,59
+Deck Totals,,82,78,77,73
 Pot of Greed,Spell,4,4,4,4
 Knowledge Exchange,Spell,2,2,4,2
 Recurring Visions,Spell,3,3,3,3
@@ -42,3 +42,13 @@ Emerald Dagger,Earth,0,0,0,4
 Grenade,Earth,4,0,0,4
 Foolish Burial,Earth,0,0,0,2
 Catalyst Orb,Earth,0,0,0,4
+Dimension Recall,Spell,4,4,4,4
+Defiance of Death,Spell,1,1,1,1
+Elemental Blast,Spell,1,1,1,1
+Tainted Elixir,Spell,4,1,0,4
+Verdant Codex,Spell,4,4,4,4
+Crimson Cataclysm,Fire,4,0,0,0
+Strawman,Fire,4,0,0,0
+Memory of The Tides,Water,0,4,0,0
+Tides of Reckoning,Water,0,4,1,0
+Explosive Piñata,Air,0,0,4,0

@@ -298,14 +298,14 @@ with open("card_json/first_champions.json", "r", encoding="utf-8") as json_file:
 for card in loaded_json["cards"]:
     generate_card(card).show()
     generate_card(card).save(
-        "finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+        "finished_cards_v3/Champions/" + card["card_name"] + "_card.png", "PNG"
     )
 with open("card_json/second_champions.json", "r", encoding="utf-8") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_card(card).show()
     generate_card(card).save(
-        "finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+        "finished_cards_v3/Champions/" + card["card_name"] + "_card.png", "PNG"
     )
 
 # Fire
@@ -314,14 +314,14 @@ with open("card_json/first_equipment_fire.json", "r", encoding="utf-8") as json_
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
-        "finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+        f"finished_cards_v3/{card["type"]}/{card["card_name"]}_card.png", "PNG"
     )
 with open("card_json/second_equipment_fire.json", "r", encoding="utf-8") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
-        "finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+        f"finished_cards_v3/{card["type"]}/{card["card_name"]}_card.png", "PNG"
     )
 
 # Water
@@ -330,14 +330,14 @@ with open("card_json/first_equipment_water.json", "r", encoding="utf-8") as json
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
-        "finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+        f"finished_cards_v3/{card["type"]}/{card["card_name"]}_card.png", "PNG"
     )
 with open("card_json/second_equipment_water.json", "r", encoding="utf-8") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
-        "finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+        f"finished_cards_v3/{card["type"]}/{card["card_name"]}_card.png", "PNG"
     )
 
 # Earth
@@ -346,14 +346,14 @@ with open("card_json/first_equipment_earth.json", "r", encoding="utf-8") as json
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
-        "finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+        f"finished_cards_v3/{card["type"]}/{card["card_name"]}_card.png", "PNG"
     )
 with open("card_json/second_equipment_earth.json", "r", encoding="utf-8") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
-        "finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+        f"finished_cards_v3/{card["type"]}/{card["card_name"]}_card.png", "PNG"
     )
 
 # Air
@@ -362,14 +362,14 @@ with open("card_json/first_equipment_air.json", "r", encoding="utf-8") as json_f
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
-        "finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+        f"finished_cards_v3/{card["type"]}/{card["card_name"]}_card.png", "PNG"
     )
 with open("card_json/second_equipment_air.json", "r", encoding="utf-8") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
-        "finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+        f"finished_cards_v3/{card["type"]}/{card["card_name"]}_card.png", "PNG"
     )
 
 # Spells
@@ -378,14 +378,14 @@ with open("card_json/first_spells.json", "r", encoding="utf-8") as json_file:
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
-        "finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+        "finished_cards_v3/Spells/" + card["card_name"] + "_card.png", "PNG"
     )
 with open("card_json/second_spells.json", "r", encoding="utf-8") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
-        "finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+        "finished_cards_v3/Spells/" + card["card_name"] + "_card.png", "PNG"
     )
 
 
@@ -395,21 +395,21 @@ with open("card_json/third_equipment.json", "r", encoding="utf-8") as json_file:
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
-        "finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+        f"finished_cards_v3/{card["type"]}/{card["card_name"]}_card.png", "PNG"
     )
 with open("card_json/third_champions.json", "r", encoding="utf-8") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_card(card).show()
     generate_card(card).save(
-        "finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+        "finished_cards_v3/Champions/" + card["card_name"] + "_card.png", "PNG"
     )
 with open("card_json/third_spells.json", "r", encoding="utf-8") as json_file:
     loaded_json = json.load(json_file)
 for card in loaded_json["cards"]:
     generate_equipment_card(card).show()
     generate_equipment_card(card).save(
-        "finished_cards_v3/" + card["card_name"] + "_card.png", "PNG"
+        "finished_cards_v3/Spells/" + card["card_name"] + "_card.png", "PNG"
     )
 
 # generate_card(temp_dict).show()
