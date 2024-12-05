@@ -2,7 +2,7 @@
 "cards":[
 {
     "card_name": "Grenade",
-    "description": "Deal 30 damage to a Champion and destroy this card. This card can be equipped to a fire equipment slot.",
+    "description": "Deal 30 damage to a Champion and destroy this card. This card may be equipped to a fire equipment slot.",
     "color": "light_beige",
     "type": "earth",
     "artwork": "temp/grenade.png"

@@ -31,4 +31,6 @@ New Cards:
     South Shore
     Catalytic Converter
     Grenade Launcher
+Buffs:
+    Extra Padding
 Moved Golem's Telescope from cards to unused
