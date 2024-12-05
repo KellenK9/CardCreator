@@ -29,8 +29,8 @@ Notes:
 
 v1.1.1
 New Cards:
-    North Shore
-    South Shore
+    Withering Thorns
+    Vital Bloom
     Catalytic Converter
     Grenad'o'pult
 Buffs:
