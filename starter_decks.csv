@@ -5,7 +5,7 @@ Recurring Visions,Spell,3,3,3,3
 Decoy,Spell,0,0,4,0
 Useless Potion,Spell,0,0,4,0
 Pressure,Spell,1,1,1,1
-Dagger Upgrade,Spell,4,4,4,4
+Dagger Upgrade,Spell,2,2,2,2
 Celestial Shower,Spell,4,4,4,4
 Shoddy Craftsmanship,Spell,2,4,0,4
 Spring Water,Spell,4,4,4,4
@@ -36,7 +36,7 @@ Tidal Wave,Water,0,4,0,0
 Raging Sea of the West,Water,0,4,0,0
 Raging Sea of the East,Water,0,4,0,0
 Siren's Echo Mk. IV,Water,0,2,0,0
-Extra Padding,Earth,0,0,0,2
+Extra Padding,Earth,0,0,0,1
 Emerald Dagger,Earth,0,0,0,4
 Grenade,Earth,4,0,0,4
 Foolish Burial,Earth,0,0,0,2
@@ -51,4 +51,4 @@ Strawman,Fire,4,0,0,0
 Memory of The Tides,Water,0,4,0,0
 Tides of Reckoning,Water,0,4,1,0
 Explosive Piñata,Air,0,0,4,0
-Deck Totals,,81,78,78,73
+Deck Totals,,79,76,76,70
