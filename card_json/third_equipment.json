@@ -48,6 +48,34 @@
             "color": "teal",
             "type": "water",
             "artwork": "temp/memory_of_the_tides.png" 
+        },
+        {
+            "card_name": "South Shore",
+            "description": "Return 1 'North Shore' from your field to your hand then deal 10 damage to this Champion and 30 damage to a Champion.",
+            "color": "light_beige",
+            "type": "earth",
+            "artwork": "temp/.png"
+        },
+        {
+            "card_name": "North Shore",
+            "description": "Return 1 'South Shore' from your field to your hand then heal 20 damage from this Champion.",
+            "color": "light_beige",
+            "type": "earth",
+            "artwork": "temp/.png"
+        },
+        {
+            "card_name": "Catalytic Converter",
+            "description": "Destroy 1 'Catalyst Orb' you control then heal 20 damage from the Champion that was equipped with that 'Catalyst Orb'.",
+            "color": "light_beige",
+            "type": "earth",
+            "artwork": "temp/.png"
+        },
+        {
+            "card_name": "Grenade Launcher",
+            "description": "Destroy all 'Grenade's you control and deal 30 damage to a Champion for each 'Grenade' destroyed.",
+            "color": "light_beige",
+            "type": "earth",
+            "artwork": "temp/.png"
         }
     ]
 }

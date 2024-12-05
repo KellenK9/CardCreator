@@ -1,7 +1,8 @@
 v1.0 Playtested Extensively through Thanksgiving 2024.
+Note that Golem's Telescope has a card but is not yet in the game.
 
 
-v1.0.1
+v1.1.0
 Removed Cards:
     Payback
     Rocky, The Walking Mountain
@@ -24,3 +25,10 @@ Buffs:
     Love Potion of Steadfast Bone
     Love Potion of Vibrant Soul
     Catalyst Orb
+
+v1.1.1
+New Cards:
+    North Shore
+    South Shore
+    Catalytic Converter
+    Grenade Launcher
