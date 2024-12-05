@@ -23,3 +23,12 @@ Cards can have 3 types of effects: Activated, Trigger, and Passive.
 Keywords:
 Discard - a form of sending cards from hand to deck, often as cost
 Destroy - a form of sending Equipment from field to grave
+
+
+
+Specific Card Rulings:
+
+Extra Padding:
+  Increases a Champion's max health by 50 and raises their current health by the same amount when equipped.
+    Example: A champion that has 60/100 health gets equipped with Extra Padding and now has 110/150 health.
+  Champions may be defeated if their health drops to 0 after Extra Padding becomes unequipped.
