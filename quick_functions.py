@@ -8,9 +8,12 @@ class QuickFunctions:
             reader = csv.reader(file)
             rows = list(reader)
 
+            sum_arr = [0, 0, 0, 0]
+
             # Skip the header if it exists
-            for row in rows[1:]:
-                column_sum += float(row[2])  # Convert the 3rd column value to float
+            for row in rows:
+                if row[0] != "Card Name" and row[0] != "Deck Totals":
+                    sum_arr[0] += float(row[2])
 
         # Append the sum as a new row and overwrite the file
         with open(csv_path, mode="w", newline="") as file:
