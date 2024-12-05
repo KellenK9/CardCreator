@@ -31,3 +31,4 @@ New Cards:
     South Shore
     Catalytic Converter
     Grenade Launcher
+Moved Golem's Telescope from cards to unused
