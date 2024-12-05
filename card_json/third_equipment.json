@@ -68,14 +68,14 @@
             "description": "Destroy 1 'Catalyst Orb' you control then heal 20 damage from the Champion that was equipped with that 'Catalyst Orb'.",
             "color": "light_beige",
             "type": "earth",
-            "artwork": "temp/.png"
+            "artwork": "temp/catalytic_converter.png"
         },
         {
-            "card_name": "Grenade Launcher",
+            "card_name": "Grenad'o'pult",
             "description": "Destroy all 'Grenade's you control and deal 30 damage to a Champion for each 'Grenade' destroyed.",
             "color": "light_beige",
             "type": "earth",
-            "artwork": "temp/.png"
+            "artwork": "temp/fantasy_catapult.png"
         }
     ]
 }

@@ -32,7 +32,7 @@ New Cards:
     North Shore
     South Shore
     Catalytic Converter
-    Grenade Launcher
+    Grenad'o'pult
 Buffs:
     Extra Padding
 Notes:
