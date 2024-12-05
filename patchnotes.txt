@@ -24,6 +24,8 @@ Buffs:
     Love Potion of Steadfast Bone
     Love Potion of Vibrant Soul
     Catalyst Orb
+Notes:
+    Changes implemented from notes over Thanksgiving break
 
 v1.1.1
 New Cards:
@@ -33,4 +35,6 @@ New Cards:
     Grenade Launcher
 Buffs:
     Extra Padding
-Moved Golem's Telescope from cards to unused
+Notes:
+    The Earth Update!
+    Moved Golem's Telescope from cards to unused
