@@ -2,8 +2,6 @@ from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
 import json
-import numpy as np
-import textwrap
 from math import ceil
 
 image_width = 2048
@@ -29,26 +27,6 @@ fonts = [
     "fonts/ChunkFive-Regular.otf",
     "fonts/PlayfairDisplay-Black.otf",
 ]
-
-# In the final version this will be read in via json
-temp_dict = {
-    "card_name": "Teddy",
-    "health": "80",
-    "description": "",
-    "slot1": "water",
-    "slot2": "water",
-    "slot3": "none",
-    "color": "teal",
-    "artwork": "fountain.png",
-}
-
-temp_dict_equipment = {
-    "card_name": "Fountain of Youth",
-    "description": "Heal 20 damage",
-    "color": "white",
-    "type": "water",
-    "artwork": "fountain.png",
-}
 
 
 def generate_card(dict):
@@ -411,20 +389,3 @@ for card in loaded_json["cards"]:
     generate_equipment_card(card).save(
         "finished_cards/Spells/" + card["card_name"] + "_card.png", "PNG"
     )
-
-# generate_card(temp_dict).show()
-# generate_equipment_card(temp_dict_equipment).show()
-
-# 19 total spells
-# 15 total champions
-# 7 air equipment
-# 7 earth equipment
-# 5 fire equipment
-# 7 water equipment
-# 57 total cards
-
-# Deck Size:
-# Air 62
-# Water 62
-# Earth 62
-# Fire 62
