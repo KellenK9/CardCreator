@@ -6,7 +6,7 @@ from math import ceil
 
 
 class CardCreator:
-    def __init__(self):
+    def declare_vars(self):
         self.image_width = 2048
         self.image_height = 2867
         self.name_y = 2550
@@ -40,7 +40,32 @@ class CardCreator:
 
         self.current_font = self.fonts[4]
 
+    def wrap_description_text(self, dict, fnt_description, description_obj):
+        lines = []
+        current_line = ""
+        for word in dict["description"].split(" "):
+            test_line = f"{current_line} {word}".strip()
+            line_width = description_obj.textlength(test_line, fnt_description)
+            if len(current_line) > 0:
+                if (
+                    line_width <= self.max_description_width
+                    and current_line[len(current_line) - 1] != "."
+                ):
+                    current_line = test_line
+                else:
+                    lines.append(f"{current_line}\n")
+                    current_line = word
+            else:
+                current_line = test_line
+        if current_line:
+            lines.append(current_line)
+        wrapped_text = "".join(lines)
+        return wrapped_text
+
     def generate_champion_card(self, dict):
+        # Set global vars
+        CardCreator.declare_vars(self)
+
         # Set Champion specific Vars
         health_y = 1800
         health_font_size = 200
@@ -81,60 +106,48 @@ class CardCreator:
         name_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
         health_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
         description_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
-        fnt1 = ImageFont.truetype(self.current_font, self.name_font_size)
-        fnt2 = ImageFont.truetype(self.current_font, health_font_size)
-        fnt3 = ImageFont.truetype(self.current_font, self.description_font_size)
+        fnt_name = ImageFont.truetype(self.current_font, self.name_font_size)
+        fnt_health = ImageFont.truetype(self.current_font, health_font_size)
+        fnt_description = ImageFont.truetype(
+            self.current_font, self.description_font_size
+        )
         name_obj = ImageDraw.Draw(name_txt)
         health_obj = ImageDraw.Draw(health_txt)
         description_obj = ImageDraw.Draw(description_txt)
 
-        name_width = name_obj.textlength(dict["card_name"], font=fnt1)
-        health_width = health_obj.textlength(dict["health"], font=fnt2)
-        # description_width = description_obj.textlength(wrapped_text, font=fnt3)
+        name_width = name_obj.textlength(dict["card_name"], font=fnt_name)
+        health_width = health_obj.textlength(dict["health"], font=fnt_health)
 
         # Make Names smaller if necessary
         i = 0
         while name_width >= self.max_description_width:
             i += 1
             self.name_y += 1
-            fnt1 = ImageFont.truetype(self.current_font, self.name_font_size - i)
-            name_width = name_obj.textlength(dict["card_name"], font=fnt1)
+            fnt_name = ImageFont.truetype(self.current_font, self.name_font_size - i)
+            name_width = name_obj.textlength(dict["card_name"], font=fnt_name)
 
         # Wrap Description Text
-        lines = []
-        current_line = ""
-        for word in dict["description"].split(" "):
-            test_line = f"{current_line} {word}".strip()
-            line_width = description_obj.textlength(test_line, fnt3)
-            if len(current_line) > 0:
-                if (
-                    line_width <= self.max_description_width
-                    and current_line[len(current_line) - 1] != "."
-                ):
-                    current_line = test_line
-                else:
-                    lines.append(f"{current_line}\n")
-                    current_line = word
-            else:
-                current_line = test_line
-        if current_line:
-            lines.append(current_line)
-        wrapped_text = "".join(lines)
+        wrapped_text = CardCreator.wrap_description_text(
+            self, dict, fnt_description, description_obj
+        )
 
         # TODO: Add logic that doesn't add newlines or shrinks description text if the text is too long to fit in the box.
 
         name_x = (self.image_width - name_width) / 2
         health_x = (self.image_width - health_width) / 2
         name_obj.text(
-            (name_x, self.name_y), dict["card_name"], font=fnt1, fill=font_color_name
+            (name_x, self.name_y),
+            dict["card_name"],
+            font=fnt_name,
+            fill=font_color_name,
         )
         health_obj.text(
-            (health_x, health_y), dict["health"], font=fnt2, fill=font_color_name
+            (health_x, health_y), dict["health"], font=fnt_health, fill=font_color_name
         )
         description_obj.multiline_text(
             (self.description_x, self.description_y),
             wrapped_text,
-            font=fnt3,
+            font=fnt_description,
             fill=font_color_description,
             align="left",
         )
@@ -154,6 +167,9 @@ class CardCreator:
         return new_image
 
     def generate_equipment_or_spell_card(self, dict):
+        # Set global vars
+        CardCreator.declare_vars(self)
+
         color_for_font_name = list(self.colors[dict["color"]])
         if dict["type"] == "air":
             color_for_font_description = list(self.colors["black"])
@@ -175,7 +191,6 @@ class CardCreator:
         color_for_font_nums.append(255)
         font_color_name = tuple(color_for_font_name)
         font_color_description = tuple(color_for_font_description)
-        font_color_nums = tuple(color_for_font_nums)
 
         # Import artwork and crop
         artwork = Image.open("cropped_images/" + dict["artwork"])
@@ -205,50 +220,39 @@ class CardCreator:
         # Add text
         name_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
         description_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
-        fnt1 = ImageFont.truetype(self.current_font, self.name_font_size)
-        fnt2 = ImageFont.truetype(self.current_font, self.description_font_size)
+        fnt_name = ImageFont.truetype(self.current_font, self.name_font_size)
+        fnt_description = ImageFont.truetype(
+            self.current_font, self.description_font_size
+        )
         name_obj = ImageDraw.Draw(name_txt)
         description_obj = ImageDraw.Draw(description_txt)
 
-        name_width = name_obj.textlength(dict["card_name"], font=fnt1)
+        name_width = name_obj.textlength(dict["card_name"], font=fnt_name)
 
         # Make Names smaller if necessary
         i = 0
         while name_width >= self.max_description_width:
             i = i - 1
             self.name_y += 1
-            fnt1 = ImageFont.truetype(self.current_font, self.name_font_size - i)
-            name_width = name_obj.textlength(dict["card_name"], font=fnt1)
+            fnt_name = ImageFont.truetype(self.current_font, self.name_font_size - i)
+            name_width = name_obj.textlength(dict["card_name"], font=fnt_name)
 
         # Wrap Description Text
-        lines = []
-        current_line = ""
-        for word in dict["description"].split(" "):
-            test_line = f"{current_line} {word}".strip()
-            line_width = description_obj.textlength(test_line, fnt2)
-            if len(current_line) > 0:
-                if (
-                    line_width <= self.max_description_width
-                    and current_line[len(current_line) - 1] != "."
-                ):
-                    current_line = test_line
-                else:
-                    lines.append(f"{current_line}\n")
-                    current_line = word
-            else:
-                current_line = test_line
-        if current_line:
-            lines.append(current_line)
-        wrapped_text = "".join(lines)
+        wrapped_text = CardCreator.wrap_description_text(
+            self, dict, fnt_description, description_obj
+        )
 
         name_x = (self.image_width - name_width) / 2
         name_obj.text(
-            (name_x, self.name_y), dict["card_name"], font=fnt1, fill=font_color_name
+            (name_x, self.name_y),
+            dict["card_name"],
+            font=fnt_name,
+            fill=font_color_name,
         )
         description_obj.multiline_text(
             (self.description_x, self.description_y),
             wrapped_text,
-            font=fnt2,
+            font=fnt_description,
             fill=font_color_description,
             align="left",
         )
