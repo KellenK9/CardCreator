@@ -279,123 +279,43 @@ class CardCreator:
         return new_image
 
 
+# Create Cards
 Creator = CardCreator()
-# Champions
-with open("card_json/first_champions.json", "r", encoding="utf-8") as json_file:
-    loaded_json = json.load(json_file)
-for card in loaded_json["cards"]:
-    Creator.generate_card(card).show()
-    Creator.generate_card(card).save(
-        "finished_cards/Champions/" + card["card_name"] + "_card.png", "PNG"
-    )
-with open("card_json/second_champions.json", "r", encoding="utf-8") as json_file:
-    loaded_json = json.load(json_file)
-for card in loaded_json["cards"]:
-    Creator.generate_card(card).show()
-    Creator.generate_card(card).save(
-        "finished_cards/Champions/" + card["card_name"] + "_card.png", "PNG"
-    )
+champion_json_paths = ["first_champions", "second_champions", "third_champions"]
+spell_json_paths = ["first_spells", "second_spells", "third_spells"]
+equipment_json_paths = [
+    "first_equipment_air",
+    "first_equipment_earth",
+    "first_equipment_fire",
+    "first_equipment_water",
+    "second_equipment_air",
+    "second_equipment_earth",
+    "second_equipment_fire",
+    "second_equipment_water",
+    "third_equipment",
+]
 
-# Fire
-with open("card_json/first_equipment_fire.json", "r", encoding="utf-8") as json_file:
-    loaded_json = json.load(json_file)
-for card in loaded_json["cards"]:
-    Creator.generate_equipment_card(card).show()
-    Creator.generate_equipment_card(card).save(
-        f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
-    )
-with open("card_json/second_equipment_fire.json", "r", encoding="utf-8") as json_file:
-    loaded_json = json.load(json_file)
-for card in loaded_json["cards"]:
-    Creator.generate_equipment_card(card).show()
-    Creator.generate_equipment_card(card).save(
-        f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
-    )
-
-# Water
-with open("card_json/first_equipment_water.json", "r", encoding="utf-8") as json_file:
-    loaded_json = json.load(json_file)
-for card in loaded_json["cards"]:
-    Creator.generate_equipment_card(card).show()
-    Creator.generate_equipment_card(card).save(
-        f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
-    )
-with open("card_json/second_equipment_water.json", "r", encoding="utf-8") as json_file:
-    loaded_json = json.load(json_file)
-for card in loaded_json["cards"]:
-    Creator.generate_equipment_card(card).show()
-    Creator.generate_equipment_card(card).save(
-        f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
-    )
-
-# Earth
-with open("card_json/first_equipment_earth.json", "r", encoding="utf-8") as json_file:
-    loaded_json = json.load(json_file)
-for card in loaded_json["cards"]:
-    Creator.generate_equipment_card(card).show()
-    Creator.generate_equipment_card(card).save(
-        f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
-    )
-with open("card_json/second_equipment_earth.json", "r", encoding="utf-8") as json_file:
-    loaded_json = json.load(json_file)
-for card in loaded_json["cards"]:
-    Creator.generate_equipment_card(card).show()
-    Creator.generate_equipment_card(card).save(
-        f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
-    )
-
-# Air
-with open("card_json/first_equipment_air.json", "r", encoding="utf-8") as json_file:
-    loaded_json = json.load(json_file)
-for card in loaded_json["cards"]:
-    Creator.generate_equipment_card(card).show()
-    Creator.generate_equipment_card(card).save(
-        f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
-    )
-with open("card_json/second_equipment_air.json", "r", encoding="utf-8") as json_file:
-    loaded_json = json.load(json_file)
-for card in loaded_json["cards"]:
-    Creator.generate_equipment_card(card).show()
-    Creator.generate_equipment_card(card).save(
-        f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
-    )
-
-# Spells
-with open("card_json/first_spells.json", "r", encoding="utf-8") as json_file:
-    loaded_json = json.load(json_file)
-for card in loaded_json["cards"]:
-    Creator.generate_equipment_card(card).show()
-    Creator.generate_equipment_card(card).save(
-        "finished_cards/Spells/" + card["card_name"] + "_card.png", "PNG"
-    )
-with open("card_json/second_spells.json", "r", encoding="utf-8") as json_file:
-    loaded_json = json.load(json_file)
-for card in loaded_json["cards"]:
-    Creator.generate_equipment_card(card).show()
-    Creator.generate_equipment_card(card).save(
-        "finished_cards/Spells/" + card["card_name"] + "_card.png", "PNG"
-    )
-
-
-# Third Wave
-with open("card_json/third_equipment.json", "r", encoding="utf-8") as json_file:
-    loaded_json = json.load(json_file)
-for card in loaded_json["cards"]:
-    Creator.generate_equipment_card(card).show()
-    Creator.generate_equipment_card(card).save(
-        f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
-    )
-with open("card_json/third_champions.json", "r", encoding="utf-8") as json_file:
-    loaded_json = json.load(json_file)
-for card in loaded_json["cards"]:
-    Creator.generate_card(card).show()
-    Creator.generate_card(card).save(
-        "finished_cards/Champions/" + card["card_name"] + "_card.png", "PNG"
-    )
-with open("card_json/third_spells.json", "r", encoding="utf-8") as json_file:
-    loaded_json = json.load(json_file)
-for card in loaded_json["cards"]:
-    Creator.generate_equipment_card(card).show()
-    Creator.generate_equipment_card(card).save(
-        "finished_cards/Spells/" + card["card_name"] + "_card.png", "PNG"
-    )
+for path in champion_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.generate_card(card).show()
+        Creator.generate_card(card).save(
+            "finished_cards/Champions/" + card["card_name"] + "_card.png", "PNG"
+        )
+for path in spell_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.generate_equipment_card(card).show()
+        Creator.generate_equipment_card(card).save(
+            "finished_cards/Spells/" + card["card_name"] + "_card.png", "PNG"
+        )
+for path in equipment_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.generate_equipment_card(card).show()
+        Creator.generate_equipment_card(card).save(
+            f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
+        )
