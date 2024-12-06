@@ -36,8 +36,10 @@ class CardCreator:
             "fonts/LeagueGothic-Regular.otf",
             "fonts/ChunkFive-Regular.otf",
             "fonts/PlayfairDisplay-Black.otf",
+            "fonts/Lato-Bold.ttf",
         ]
-        self.current_font = self.fonts[4]
+        self.current_name_font = self.fonts[4]
+        self.current_description_font = self.fonts[5]
 
     def wrap_description_text(self, dict, fnt_description, description_obj):
         lines = []
@@ -105,10 +107,10 @@ class CardCreator:
         name_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
         health_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
         description_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
-        fnt_name = ImageFont.truetype(self.current_font, self.name_font_size)
-        fnt_health = ImageFont.truetype(self.current_font, health_font_size)
+        fnt_name = ImageFont.truetype(self.current_name_font, self.name_font_size)
+        fnt_health = ImageFont.truetype(self.current_name_font, health_font_size)
         fnt_description = ImageFont.truetype(
-            self.current_font, self.description_font_size
+            self.current_description_font, self.description_font_size
         )
         name_obj = ImageDraw.Draw(name_txt)
         health_obj = ImageDraw.Draw(health_txt)
@@ -122,7 +124,9 @@ class CardCreator:
         while name_width >= self.max_description_width:
             i = i - 1
             self.name_y += 1
-            fnt_name = ImageFont.truetype(self.current_font, self.name_font_size - i)
+            fnt_name = ImageFont.truetype(
+                self.current_name_font, self.name_font_size - i
+            )
             name_width = name_obj.textlength(dict["card_name"], font=fnt_name)
 
         # Wrap Description Text
@@ -220,9 +224,9 @@ class CardCreator:
         # Add text
         name_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
         description_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
-        fnt_name = ImageFont.truetype(self.current_font, self.name_font_size)
+        fnt_name = ImageFont.truetype(self.current_name_font, self.name_font_size)
         fnt_description = ImageFont.truetype(
-            self.current_font, self.description_font_size
+            self.current_description_font, self.description_font_size
         )
         name_obj = ImageDraw.Draw(name_txt)
         description_obj = ImageDraw.Draw(description_txt)
@@ -234,7 +238,9 @@ class CardCreator:
         while name_width >= self.max_description_width:
             i = i - 1
             self.name_y += 1
-            fnt_name = ImageFont.truetype(self.current_font, self.name_font_size - i)
+            fnt_name = ImageFont.truetype(
+                self.current_name_font, self.name_font_size - i
+            )
             name_width = name_obj.textlength(dict["card_name"], font=fnt_name)
 
         # Wrap Description Text
