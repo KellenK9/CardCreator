@@ -14,6 +14,8 @@ class CardCreator:
         self.description_y = 2080
         self.name_font_size = 160
         self.description_font_size = 80
+        self.longest_name_for_normal_size = 18
+        self.max_description_width = self.image_width - (self.description_x * 2)
 
         self.colors = {
             "red": (255, 0, 0),
@@ -36,15 +38,14 @@ class CardCreator:
             "fonts/PlayfairDisplay-Black.otf",
         ]
 
-    def generate_card(self, dict):
+        self.current_font = self.fonts[4]
+
+    def generate_champion_card(self, dict):
+        # Set Champion specific Vars
         health_y = 1800
         health_font_size = 200
         color_for_font_name = list(self.colors[dict["color"]])
         color_for_font_description = list(self.colors["white"])
-        longest_name_for_normal_size = 18
-        max_description_width = self.image_width - (self.description_x * 2)
-
-        current_font = self.fonts[4]
 
         # Append font color tuple
         color_for_font_name.append(255)
@@ -70,19 +71,19 @@ class CardCreator:
 
         # Center and size Text
         name_length = len(dict["card_name"])
-        if name_length > longest_name_for_normal_size:
+        if name_length > self.longest_name_for_normal_size:
             self.name_font_size -= ceil(
-                1.5 * (name_length - longest_name_for_normal_size + 4)
+                1.5 * (name_length - self.longest_name_for_normal_size + 4)
             )
-            self.name_y += 2 * (name_length - longest_name_for_normal_size)
+            self.name_y += 2 * (name_length - self.longest_name_for_normal_size)
 
         # Add Text
         name_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
         health_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
         description_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
-        fnt1 = ImageFont.truetype(current_font, self.name_font_size)
-        fnt2 = ImageFont.truetype(current_font, health_font_size)
-        fnt3 = ImageFont.truetype(current_font, self.description_font_size)
+        fnt1 = ImageFont.truetype(self.current_font, self.name_font_size)
+        fnt2 = ImageFont.truetype(self.current_font, health_font_size)
+        fnt3 = ImageFont.truetype(self.current_font, self.description_font_size)
         name_obj = ImageDraw.Draw(name_txt)
         health_obj = ImageDraw.Draw(health_txt)
         description_obj = ImageDraw.Draw(description_txt)
@@ -93,10 +94,10 @@ class CardCreator:
 
         # Make Names smaller if necessary
         i = 0
-        while name_width >= max_description_width:
+        while name_width >= self.max_description_width:
             i += 1
             self.name_y += 1
-            fnt1 = ImageFont.truetype(current_font, self.name_font_size - i)
+            fnt1 = ImageFont.truetype(self.current_font, self.name_font_size - i)
             name_width = name_obj.textlength(dict["card_name"], font=fnt1)
 
         # Wrap Description Text
@@ -107,7 +108,7 @@ class CardCreator:
             line_width = description_obj.textlength(test_line, fnt3)
             if len(current_line) > 0:
                 if (
-                    line_width <= max_description_width
+                    line_width <= self.max_description_width
                     and current_line[len(current_line) - 1] != "."
                 ):
                     current_line = test_line
@@ -152,25 +153,21 @@ class CardCreator:
 
         return new_image
 
-    def generate_equipment_card(self, dict):
+    def generate_equipment_or_spell_card(self, dict):
         color_for_font_name = list(self.colors[dict["color"]])
         if dict["type"] == "air":
             color_for_font_description = list(self.colors["black"])
         else:
             color_for_font_description = list(self.colors["white"])
         color_for_font_nums = list(self.colors[dict["color"]])
-        longest_name_for_normal_size = 18
-        max_description_width = self.image_width - (self.description_x * 2)
-
-        current_font = self.fonts[4]
 
         # Center and size Text
         name_length = len(dict["card_name"])
-        if name_length > longest_name_for_normal_size:
+        if name_length > self.longest_name_for_normal_size:
             self.name_font_size -= ceil(
-                1.5 * (name_length - longest_name_for_normal_size + 4)
+                1.5 * (name_length - self.longest_name_for_normal_size + 4)
             )
-            self.name_y += 2 * (name_length - longest_name_for_normal_size)
+            self.name_y += 2 * (name_length - self.longest_name_for_normal_size)
 
         # Append font color tuple
         color_for_font_name.append(255)
@@ -208,8 +205,8 @@ class CardCreator:
         # Add text
         name_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
         description_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
-        fnt1 = ImageFont.truetype(current_font, self.name_font_size)
-        fnt2 = ImageFont.truetype(current_font, self.description_font_size)
+        fnt1 = ImageFont.truetype(self.current_font, self.name_font_size)
+        fnt2 = ImageFont.truetype(self.current_font, self.description_font_size)
         name_obj = ImageDraw.Draw(name_txt)
         description_obj = ImageDraw.Draw(description_txt)
 
@@ -217,10 +214,10 @@ class CardCreator:
 
         # Make Names smaller if necessary
         i = 0
-        while name_width >= max_description_width:
+        while name_width >= self.max_description_width:
             i = i - 1
             self.name_y += 1
-            fnt1 = ImageFont.truetype(current_font, self.name_font_size - i)
+            fnt1 = ImageFont.truetype(self.current_font, self.name_font_size - i)
             name_width = name_obj.textlength(dict["card_name"], font=fnt1)
 
         # Wrap Description Text
@@ -231,7 +228,7 @@ class CardCreator:
             line_width = description_obj.textlength(test_line, fnt2)
             if len(current_line) > 0:
                 if (
-                    line_width <= max_description_width
+                    line_width <= self.max_description_width
                     and current_line[len(current_line) - 1] != "."
                 ):
                     current_line = test_line
@@ -286,23 +283,23 @@ for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
-        Creator.generate_card(card).show()
-        Creator.generate_card(card).save(
+        Creator.generate_champion_card(card).show()
+        Creator.generate_champion_card(card).save(
             "finished_cards/Champions/" + card["card_name"] + "_card.png", "PNG"
         )
 for path in spell_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
-        Creator.generate_equipment_card(card).show()
-        Creator.generate_equipment_card(card).save(
+        Creator.generate_equipment_or_spell_card(card).show()
+        Creator.generate_equipment_or_spell_card(card).save(
             "finished_cards/Spells/" + card["card_name"] + "_card.png", "PNG"
         )
 for path in equipment_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
-        Creator.generate_equipment_card(card).show()
-        Creator.generate_equipment_card(card).save(
+        Creator.generate_equipment_or_spell_card(card).show()
+        Creator.generate_equipment_or_spell_card(card).save(
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
         )
