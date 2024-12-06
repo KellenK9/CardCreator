@@ -139,6 +139,7 @@ class CardCreator:
 
         # TODO: Add logic that doesn't add newlines or shrinks description text if the text is too long to fit in the box.
 
+        # Create text objects
         name_x = (self.image_width - name_width) / 2
         health_x = (self.image_width - health_width) / 2
         name_obj.text(
@@ -245,6 +246,7 @@ class CardCreator:
             self, dict, fnt_description, description_obj
         )
 
+        # Create text objects
         name_x = (self.image_width - name_width) / 2
         name_obj.text(
             (name_x, self.name_y),
