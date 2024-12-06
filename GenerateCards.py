@@ -37,7 +37,6 @@ class CardCreator:
             "fonts/ChunkFive-Regular.otf",
             "fonts/PlayfairDisplay-Black.otf",
         ]
-
         self.current_font = self.fonts[4]
 
     def wrap_description_text(self, dict, fnt_description, description_obj):
