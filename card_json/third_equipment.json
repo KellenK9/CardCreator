@@ -2,7 +2,7 @@
     "cards":[
         {
             "card_name": "Catalyst Orb",
-            "description": "[ACTIVATED] Destroy this card then deal 10 damage to each enemy Champion.[TRIGGER] If this card is sent to the Grave: Draw 1 card.",
+            "description": "[ACTIVATED] Destroy this card then deal 10 damage to each enemy Champion. [TRIGGER] If this card is sent to the Grave: Draw 1 card.",
             "color": "light_beige",
             "type": "earth",
             "artwork": "temp/catalyst_orb.png"
@@ -16,7 +16,7 @@
         },
         {
             "card_name": "Crimson Cataclysm",
-            "description": "[ACTIVATED] Deal 20 damage to a Champion then destroy this card.[TRIGGER] If this card is destroyed add 1 copy of 'Crimson Cataclysm' from your deck to your hand.",
+            "description": "[ACTIVATED] Deal 20 damage to a Champion then destroy this card. [TRIGGER] If this card is destroyed add 1 copy of 'Crimson Cataclysm' from your deck to your hand.",
             "color": "pink",
             "type": "fire",
             "artwork": "temp/chained_detonation.png"
@@ -30,7 +30,7 @@
         },
         {
             "card_name": "Tides of Reckoning",
-            "description": "[TRIGGER] If this card is discarded: Heal 10 damage from a Champion.[TRIGGER] If this card is destroyed: Deal 20 damage to a Champion.",
+            "description": "[TRIGGER] If this card is discarded: Heal 10 damage from a Champion. [TRIGGER] If this card is destroyed: Deal 20 damage to a Champion.",
             "color": "teal",
             "type": "water",
             "artwork": "temp/tides_of_reckoning.png"
@@ -44,7 +44,7 @@
         },
         {
             "card_name": "Memory of the Tides",
-            "description": "[ACTIVATED] Destroy this card then add 1 'Tidal Wave' from Grave to Hand.[TRIGGER] If this card is destroyed: Deal 20 damage to a Champion.",
+            "description": "[ACTIVATED] Destroy this card then add 1 'Tidal Wave' from Grave to Hand. [TRIGGER] If this card is destroyed: Deal 20 damage to a Champion.",
             "color": "teal",
             "type": "water",
             "artwork": "temp/memory_of_the_tides.png" 
