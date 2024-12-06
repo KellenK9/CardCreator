@@ -2,42 +2,42 @@
     "cards":[
     {
         "card_name": "Wild Shot",
-        "description": "Discard 1 random card from your opponent’s hand.",
+        "description": "[ACTIVATED] Discard 1 random card from your opponent’s hand.",
         "color": "white",
         "type": "spell",
         "artwork": "temp/wild_shot.png"
     },
     {
         "card_name": "Dimension Recall",
-        "description": "Discard 1 card then shuffle 1 Equipment on the field into the deck.",
+        "description": "[ACTIVATED] Discard 1 card then shuffle 1 Equipment on the field into the deck.",
         "color": "white",
         "type": "spell",
         "artwork": "temp/dimension_recall.png"
     },
     {
         "card_name": "Elemental Blast",
-        "description": "Discard any number of Equipment cards of the same element then deal damage to a Champion equal to the number of Equipment discarded X 10.",
+        "description": "[ACTIVATED] Discard any number of Equipment cards of the same element then deal damage to a Champion equal to the number of Equipment discarded X 10.",
         "color": "white",
         "type": "spell",
         "artwork": "temp/cannon2.png"
     },
     {
         "card_name": "Verdant Codex",
-        "description": "Draw 3 cards then discard 2 cards.",
+        "description": "[ACTIVATED] Draw 3 cards then discard 2 cards.",
         "color": "white",
         "type": "spell",
         "artwork": "temp/sprouting_book.png"
     },
     {
         "card_name": "Tainted Elixir",
-        "description": "Deal 10 damage to a Champion or if that Champion was healed during your opponents last turn: deal 30 damage instead.",
+        "description": "[ACTIVATED] Deal 10 damage to a Champion or if that Champion was healed during your opponents last turn: deal 30 damage instead.",
         "color": "white",
         "type": "spell",
         "artwork": "temp/tainted_elixir.png"
     },
     {
         "card_name": "Defiance of Death",
-        "description": "If an Equipment equipped to one of your Champions was destroyed during your opponents last turn: add that Equipment from your Grave to your Hand.",
+        "description": "[ACTIVATED] If an Equipment equipped to one of your Champions was destroyed during your opponents last turn: add that Equipment from your Grave to your Hand.",
         "color": "white",
         "type": "spell",
         "artwork": "temp/payback.png"

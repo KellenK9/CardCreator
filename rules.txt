@@ -17,7 +17,7 @@ There are 3 types of cards: Champions, Equipment, and Spells.
 
 Cards can have 3 types of effects: Activated, Trigger, and Passive.
 - Activated Effects can be activated by the turn player and count as their turn.
-- Trigger Effects can be activated by either player when a specific condition is met listed on the card; they don't count as a turn.
+- Trigger Effects can be activated by either player when a specific condition is met listed on theIR card; they don't count as a turn.
 - Passive effects are not activated and are always live; they don't count as a turn.
 
 Keywords:
@@ -30,5 +30,5 @@ Specific Card Rulings:
 
 Extra Padding:
   Increases a Champion's max health by 50 and raises their current health by the same amount when equipped.
-    Example: A champion that has 60/100 health gets equipped with Extra Padding and now has 110/150 health.
+    Example: A Champion that has 60/100 health gets equipped with Extra Padding and now has 110/150 health.
   Champions may be defeated if their health drops to 0 after Extra Padding becomes unequipped.

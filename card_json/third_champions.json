@@ -3,7 +3,7 @@
     {
         "card_name": "Sovereign of the Southern Spires",
         "health": "100",
-        "description": "When this Champion is defeated: both players draw 2 cards.",
+        "description": "[TRIGGER] When this Champion is defeated: both players draw 2 cards.",
         "slot1": "air",
         "slot2": "none",
         "slot3": "air",
@@ -13,7 +13,7 @@
     {
         "card_name": "Tavern Hopper",
         "health": "130",
-        "description": "Heal 10 damage from each of your Earth Champions then deal 20 damage to 'Tavern Hopper'.",
+        "description": "[ACTIVATED] Heal 10 damage from each of your Earth Champions then deal 20 damage to 'Tavern Hopper'.",
         "slot1": "none",
         "slot2": "earth",
         "slot3": "none",
@@ -23,7 +23,7 @@
     {
         "card_name": "Cappybarrage",
         "health": "180",
-        "description": "Any damage dealt to this Champion is doubled.",
+        "description": "[PASSIVE] Any damage dealt to this Champion is doubled.",
         "slot1": "air",
         "slot2": "air",
         "slot3": "air",
@@ -33,7 +33,7 @@
     {
         "card_name": "Orpheus of the Reforged Blade",
         "health": "130",
-        "description": "Shuffle one Earth Equipment from your grave into your deck.",
+        "description": "[ACTIVATED] Shuffle one Earth Equipment from your grave into your deck.",
         "slot1": "none",
         "slot2": "earth",
         "slot3": "none",

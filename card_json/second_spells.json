@@ -2,56 +2,56 @@
 "cards":[
 {
     "card_name": "Useless Potion",
-    "description": "Add up to 3 copies of 'Useless Potion' from your deck to your hand.",
+    "description": "[ACTIVATED] Add up to 3 copies of 'Useless Potion' from your deck to your hand.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/useless_potion.png"
 },
 {
     "card_name": "Pressure",
-    "description": "Deal 10 damage to a Champion then return this card to the hand then if you have 3 or more cards in hand: discard 1 card.",
+    "description": "[ACTIVATED] Deal 10 damage to a Champion then return this card to the hand then if you have 3 or more cards in hand: discard 1 card.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/pressure.png"
 },
 {
     "card_name": "Dagger Upgrade",
-    "description": "Discard 1 'Dagger' Equipment then add 1 Equipment from your deck to your hand of the same element as the card discarded.",
+    "description": "[ACTIVATED] Discard 1 'Dagger' Equipment then add 1 Equipment from your deck to your hand of the same element as the card discarded.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/dagger_upgrade.png"
 },
 {
     "card_name": "Love Potion of Calming Mind",
-    "description": "Discard 1 Water Equipment then heal 30 damage from a Champion.",
+    "description": "[ACTIVATED] Discard 1 Water Equipment then heal 30 damage from a Champion.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/potion_of_calming_mind.png"
 },
 {
     "card_name": "Love Potion of Fiery Heart",
-    "description": "Discard 1 Fire Equipment then deal 30 damage to a Champion.",
+    "description": "[ACTIVATED] Discard 1 Fire Equipment then deal 30 damage to a Champion.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/potion_of_fiery_heart.png"
 },
 {
     "card_name": "Love Potion of Vibrant Soul",
-    "description": "Discard 1 Air Equipment then draw 3 cards and discard 1 card.",
+    "description": "[ACTIVATED] Discard 1 Air Equipment then draw 3 cards and discard 1 card.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/potion_of_vibrant_soul.png"
 },
 {
     "card_name": "Love Potion of Steadfast Bone",
-    "description": "Discard 1 Earth Equipment then add 1 Earth Equipment from your deck to your hand and discard 1 card.",
+    "description": "[ACTIVATED] Discard 1 Earth Equipment then add 1 Earth Equipment from your deck to your hand and discard 1 card.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/potion_of_steadfast_bone.png"
 },
 {
     "card_name": "Shoddy Craftsmanship",
-    "description": "If your opponent equipped 1 Equipment last turn: destroy that Equipment.",
+    "description": "[ACTIVATED] If your opponent equipped 1 Equipment last turn: destroy that Equipment.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/shoddy_craftsmanship.png"

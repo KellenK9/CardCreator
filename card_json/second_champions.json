@@ -43,7 +43,7 @@
 {
     "card_name": "Technician Magician",
     "health": "90",
-    "description": "The first time this Champion takes damage: deal 10 damage to each enemy Champion.",
+    "description": "[TRIGGER] The first time this Champion takes damage: deal 10 damage to each enemy Champion.",
     "slot1": "fire",
     "slot2": "none",
     "slot3": "fire",
@@ -53,7 +53,7 @@
 {
     "card_name": "Water Beetle",
     "health": "50",
-    "description": "Any damage dealt to your 'Water Beetle' is reduced by 10.",
+    "description": "[PASSIVE] Any damage dealt to your 'Water Beetle' is reduced by 10.",
     "slot1": "none",
     "slot2": "water",
     "slot3": "none",

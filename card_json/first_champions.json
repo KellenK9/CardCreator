@@ -43,7 +43,7 @@
 {
     "card_name": "Pirate Lord Jandreps",
     "health": "110",
-    "description": "Deal 20 damage to this Champion then draw 2 cards.",
+    "description": "[ACTIVATED] Deal 20 damage to this Champion then draw 2 cards.",
     "slot1": "none",
     "slot2": "water",
     "slot3": "none",
@@ -53,7 +53,7 @@
 {
     "card_name": "Thunderbird",
     "health": "70",
-    "description": "When this Champion is defeated: draw 2 cards.",
+    "description": "[TRIGGER] When this Champion is defeated: draw 2 cards.",
     "slot1": "air",
     "slot2": "none",
     "slot3": "air",
@@ -63,7 +63,7 @@
 {
     "card_name": "Volcanic Slug",
     "health": "80",
-    "description": "Destroy any number of Equipment attached to this Champion then deal 20 damage to a Champion for each card destroyed by this effect.",
+    "description": "[ACTIVATED] Destroy any number of Equipment attached to this Champion then deal 20 damage to a Champion for each card destroyed by this effect.",
     "slot1": "fire",
     "slot2": "none",
     "slot3": "fire",

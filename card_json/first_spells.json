@@ -2,56 +2,56 @@
 "cards":[
 {
     "card_name": "Fireball",
-    "description": "Deal 20 damage to a champion.",
+    "description": "[ACTIVATED] Deal 20 damage to a Champion.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/fireball.png"
 },
 {
     "card_name": "Spreading Flame",
-    "description": "Deal 10 damage to each enemy champion.",
+    "description": "[ACTIVATED] Deal 10 damage to each enemy Champion.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/spreading_flame.png"
 },
 {
     "card_name": "Pot of Greed",
-    "description": "Draw 2 cards.",
+    "description": "[ACTIVATED] Draw 2 cards.",
     "color": "white",
     "type": "spell",
     "artwork": "pot_of_greed.jpg"
 },
 {
     "card_name": "Spring Water",
-    "description": "Heal 20 damage from a champion.",
+    "description": "[ACTIVATED] Heal 20 damage from a hampion.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/spring_water.png"
 },
 {
     "card_name": "Knowledge Exchange",
-    "description": "Discard your entire hand then draw the same number of cards you discarded.",
+    "description": "[ACTIVATED] Discard your entire hand then draw the same number of cards you discarded.",
     "color": "white",
     "type": "spell",
     "artwork": "library.png"
 },
 {
     "card_name": "Recurring Visions",
-    "description": "Add 1 spell from your grave to your hand.",
+    "description": "[ACTIVATED] Add 1 spell from your grave to your hand.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/recurring_visions.png"
 },
 {
     "card_name": "Decoy",
-    "description": "When this card is discarded: draw 1 card.",
+    "description": "[TRIGGER] When this card is discarded: draw 1 card.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/decoy.png"
 },
 {
     "card_name": "Celestial Shower",
-    "description": "Destroy 1 Equipment attached to your Champion then destroy 1 Equipment on the field.",
+    "description": "[ACTIVATED] Destroy 1 Equipment attached to your Champion then destroy 1 Equipment on the field.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/celestial_shower.png"

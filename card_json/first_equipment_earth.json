@@ -2,21 +2,21 @@
 "cards":[
 {
     "card_name": "Earth Dagger",
-    "description": "Deal 10 damage to a champion.",
+    "description": "[ACTIVATED] Deal 10 damage to a Champion.",
     "color": "light_beige",
     "type": "earth",
     "artwork": "temp/earth_dagger.png"
 },
 {
     "card_name": "Emerald Dagger",
-    "description": "Add 1 Earth Equipment other than 'Emerald Dagger' from your grave to your hand.",
+    "description": "[ACTIVATED] Add 1 Earth Equipment other than 'Emerald Dagger' from your grave to your hand.",
     "color": "light_beige",
     "type": "earth",
     "artwork": "temp/emerald_dagger.png"
 },
 {
     "card_name": "Extra Padding",
-    "description": "While this card is equipped to a Champion: that Champion gains 50 max health. This card may be equipped to any equipment slot.",
+    "description": "[PASSIVE] While this card is equipped to a Champion: that Champion gains 50 max health.[PASSIVE] This card may be equipped to any equipment slot.",
     "color": "light_beige",
     "type": "earth",
     "artwork": "molten_armor.png"

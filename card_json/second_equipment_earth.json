@@ -2,14 +2,14 @@
 "cards":[
 {
     "card_name": "Grenade",
-    "description": "Deal 30 damage to a Champion and destroy this card. This card may be equipped to a fire equipment slot.",
+    "description": "[ACTIVATED] Deal 30 damage to a Champion and destroy this card.[PASSIVE] This card may be equipped to a fire equipment slot.",
     "color": "light_beige",
     "type": "earth",
     "artwork": "temp/grenade.png"
 },
 {
     "card_name": "Foolish Burial",
-    "description": "Send 1 Earth Equipment from deck to grave then destroy this card.",
+    "description": "[ACTIVATED] Send 1 Earth Equipment from deck to grave then destroy this card.",
     "color": "light_beige",
     "type": "earth",
     "artwork": "temp/foolish_burial.png"

@@ -2,28 +2,28 @@
 "cards":[
 {
     "card_name": "Rapid Winds",
-    "description": "Draw 3 cards and destroy this card.",
+    "description": "[ACTIVATED] Draw 3 cards and destroy this card.",
     "color": "black",
     "type": "air",
     "artwork": "tornado.png"
 },
 {
     "card_name": "Quarter Pillar of the Sky",
-    "description": "While you control 4 Quarter Pillar of the Sky’s: you win the game.",
+    "description": "[PASSIVE] While you control 4 Quarter Pillar of the Sky’s: you win the game.",
     "color": "black",
     "type": "air",
     "artwork": "tower_of_torn_disciples.png"
 },
 {
     "card_name": "Angel Recall",
-    "description": "Shuffle 5 Air Equipment from your grave into your deck then draw a card.",
+    "description": "[ACTIVATED] Shuffle 5 Air Equipment from your grave into your deck then draw a card.",
     "color": "black",
     "type": "air",
     "artwork": "temp/angel_recall.png"
 },
 {
     "card_name": "Wings of the Next Angel",
-    "description": "If you have 3 copies of ‘Wings of the Next Angel’ in your grave: deal 10 damage to each enemy Champion.",
+    "description": "[ACTIVATED] If you have 3 copies of ‘Wings of the Next Angel’ in your grave: deal 10 damage to each enemy Champion.",
     "color": "black",
     "type": "air",
     "artwork": "temp/wings_of_the_next_angel.png"
