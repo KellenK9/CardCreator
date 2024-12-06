@@ -62,6 +62,15 @@ class CardCreator:
         wrapped_text = "".join(lines)
         return wrapped_text
 
+    def make_names_smaller_if_necessary(self, name_obj, dict):
+        i = 0
+        while name_width >= self.max_description_width:
+            i = i - 1
+            self.name_y += 1
+            fnt_name = ImageFont.truetype(self.current_font, self.name_font_size - i)
+            name_width = name_obj.textlength(dict["card_name"], font=fnt_name)
+        return fnt_name, name_width
+
     def generate_champion_card(self, dict):
         # Set global vars
         CardCreator.declare_vars(self)
@@ -119,12 +128,9 @@ class CardCreator:
         health_width = health_obj.textlength(dict["health"], font=fnt_health)
 
         # Make Names smaller if necessary
-        i = 0
-        while name_width >= self.max_description_width:
-            i += 1
-            self.name_y += 1
-            fnt_name = ImageFont.truetype(self.current_font, self.name_font_size - i)
-            name_width = name_obj.textlength(dict["card_name"], font=fnt_name)
+        fnt_name, name_width = CardCreator.make_names_smaller_if_necessary(
+            self, name_obj, dict
+        )
 
         # Wrap Description Text
         wrapped_text = CardCreator.wrap_description_text(
@@ -230,12 +236,9 @@ class CardCreator:
         name_width = name_obj.textlength(dict["card_name"], font=fnt_name)
 
         # Make Names smaller if necessary
-        i = 0
-        while name_width >= self.max_description_width:
-            i = i - 1
-            self.name_y += 1
-            fnt_name = ImageFont.truetype(self.current_font, self.name_font_size - i)
-            name_width = name_obj.textlength(dict["card_name"], font=fnt_name)
+        fnt_name, name_width = CardCreator.make_names_smaller_if_necessary(
+            self, name_obj, dict
+        )
 
         # Wrap Description Text
         wrapped_text = CardCreator.wrap_description_text(
