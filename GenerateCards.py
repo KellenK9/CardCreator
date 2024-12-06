@@ -122,7 +122,7 @@ class CardCreator:
         # Make Names smaller if necessary
         i = 0
         while name_width >= self.max_description_width:
-            i = i - 1
+            i += 1
             self.name_y += 1
             fnt_name = ImageFont.truetype(
                 self.current_name_font, self.name_font_size - i
