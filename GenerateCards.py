@@ -16,6 +16,8 @@ class CardCreator:
         self.description_font_size = 80
         self.longest_name_for_normal_size = 18
         self.max_description_width = self.image_width - (self.description_x * 2)
+        self.description_line_spacing = 6
+        self.y_offset_between_effects = 24
 
         self.colors = {
             "red": (255, 0, 0),
@@ -61,7 +63,7 @@ class CardCreator:
         if current_line:
             lines.append(current_line)
         wrapped_text = "".join(lines)
-        return wrapped_text
+        return wrapped_text, lines
 
     def generate_champion_card(self, dict):
         # Set global vars
@@ -130,7 +132,7 @@ class CardCreator:
             name_width = name_obj.textlength(dict["card_name"], font=fnt_name)
 
         # Wrap Description Text
-        wrapped_text = CardCreator.wrap_description_text(
+        wrapped_text, lines = CardCreator.wrap_description_text(
             self, dict, fnt_description, description_obj
         )
 
@@ -148,13 +150,25 @@ class CardCreator:
         health_obj.text(
             (health_x, health_y), dict["health"], font=fnt_health, fill=font_color_name
         )
-        description_obj.multiline_text(
-            (self.description_x, self.description_y),
-            wrapped_text,
-            font=fnt_description,
-            fill=font_color_description,
-            align="left",
-        )
+        # Create description text object with custom spacing
+        self.description_y -= self.y_offset_between_effects
+        for line in lines:
+            # Add line to description text object
+            if line[0] == "[":
+                self.description_y += self.y_offset_between_effects
+            description_obj.text(
+                (self.description_x, self.description_y),
+                line,
+                font=fnt_description,
+                fill=font_color_description,
+            )
+            # Measure the text height using textbbox
+            bbox = description_obj.textbbox((0, 0), line, font=fnt_description)
+            line_height = bbox[3] - bbox[1]  # Height is bottom - top
+            # Move y down for next line
+            self.description_y += line_height + self.description_line_spacing
+            if line[-1] == ".":
+                self.description_y += self.y_offset_between_effects
 
         # Combine images
         new_image = Image.alpha_composite(artwork, frame)
@@ -244,7 +258,7 @@ class CardCreator:
             name_width = name_obj.textlength(dict["card_name"], font=fnt_name)
 
         # Wrap Description Text
-        wrapped_text = CardCreator.wrap_description_text(
+        wrapped_text, lines = CardCreator.wrap_description_text(
             self, dict, fnt_description, description_obj
         )
 
@@ -256,13 +270,23 @@ class CardCreator:
             font=fnt_name,
             fill=font_color_name,
         )
-        description_obj.multiline_text(
-            (self.description_x, self.description_y),
-            wrapped_text,
-            font=fnt_description,
-            fill=font_color_description,
-            align="left",
-        )
+        # Create description text object with custom spacing
+        self.description_y -= self.y_offset_between_effects
+        for line in lines:
+            if line[0] == "[":
+                self.description_y += self.y_offset_between_effects
+            # Add line to description text object
+            description_obj.text(
+                (self.description_x, self.description_y),
+                line,
+                font=fnt_description,
+                fill=font_color_description,
+            )
+            # Measure the text height using textbbox
+            bbox = description_obj.textbbox((0, 0), line, font=fnt_description)
+            line_height = bbox[3] - bbox[1]  # Height is bottom - top
+            # Move y down for next line
+            self.description_y += line_height + self.description_line_spacing
 
         # Combine images
         new_image = Image.alpha_composite(artwork, frame)
@@ -289,7 +313,7 @@ equipment_json_paths = [
     "second_equipment_water",
     "third_equipment",
 ]
-
+"""
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -306,6 +330,7 @@ for path in spell_json_paths:
         Creator.generate_equipment_or_spell_card(card).save(
             "finished_cards/Spells/" + card["card_name"] + "_card.png", "PNG"
         )
+"""
 for path in equipment_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
