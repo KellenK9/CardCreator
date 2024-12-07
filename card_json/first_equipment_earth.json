@@ -5,7 +5,7 @@
     "description": "[ACTIVATED] Deal 10 damage to a Champion.",
     "color": "light_beige",
     "type": "earth",
-    "artwork": "temp/earth_dagger.png"
+    "artwork": "earth_dagger.png"
 },
 {
     "card_name": "Emerald Dagger",
