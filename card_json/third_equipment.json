@@ -76,6 +76,13 @@
             "color": "light_beige",
             "type": "earth",
             "artwork": "temp/fantasy_catapult.png"
+        },
+        {
+            "card_name": "Accelerating Particle",
+            "description": "[ACTIVATED] If you control another 'Accelerating Particle': Destroy all Equipment on the field. [PASSIVE] This card may be equipped to any equipment slot.",
+            "color": "pink",
+            "type": "fire",
+            "artwork": "temp/accelerating_particle.png"
         }
     ]
 }

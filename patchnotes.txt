@@ -38,3 +38,9 @@ Buffs:
 Notes:
     The Earth Update!
     Moved Golem's Telescope from cards to unused
+
+v1.1.2
+New Cards:
+    Accelerating Particle
+Notes:
+    Effect classifications added to card text
