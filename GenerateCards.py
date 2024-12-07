@@ -9,6 +9,8 @@ class CardCreator:
     def declare_vars(self):
         self.image_width = 2048
         self.image_height = 2867
+        self.pixel_image_width = 32
+        self.pixel_image_height = 45
         self.name_y = 2550
         self.description_x = 55
         self.description_y = 2080
@@ -307,25 +309,34 @@ class CardCreator:
         )
 
     def generate_champion_pixel_art_card(self, dict):
+        # Set global vars
+        CardCreator.declare_vars(self)
+
         # Import frame
-        frame = Image.open("card_frames/champion-frame-pixel-art.png")
+        frame = Image.open("card_frames/pixel_art_frames/champion_frame.png")
 
         # Import artwork and crop
-        if "temp/" in dict["artwork"]:
-            card_path = dict["artwork"][5:]
-        else:
-            card_path = dict["artwork"]
-        artwork = Image.open("cropped_images/pixel_art_versions" + card_path)
-        artwork = artwork.crop(box=(0, 0, self.image_width, self.image_height))
+        artwork = Image.open(
+            "cropped_images/pixel_art_versions/" + dict["card_name"] + "_card.png"
+        )
+        artwork = artwork.crop(
+            box=(0, 0, self.pixel_image_width, self.pixel_image_height)
+        )
         artwork = artwork.convert("RGBA")
 
         # Add slots
         if dict["slot3"] != "none" and dict["slot3"] != None:
-            third_slot = Image.open("card_frames/" + dict["slot3"] + "-right.png")
+            third_slot = Image.open(
+                "card_frames/pixel_art_frames/" + dict["slot3"] + "-right.png"
+            )
         if dict["slot2"] != "none" and dict["slot2"] != None:
-            second_slot = Image.open("card_frames/" + dict["slot2"] + "-middle.png")
+            second_slot = Image.open(
+                "card_frames/pixel_art_frames/" + dict["slot2"] + "-middle.png"
+            )
         if dict["slot1"] != "none" and dict["slot1"] != None:
-            first_slot = Image.open("card_frames/" + dict["slot1"] + "-left.png")
+            first_slot = Image.open(
+                "card_frames/pixel_art_frames/" + dict["slot1"] + "-left.png"
+            )
 
         # Combine images
         new_image = Image.alpha_composite(artwork, frame)
@@ -338,7 +349,7 @@ class CardCreator:
         return new_image
 
 
-# Create Cards
+# Set Variables for Creating Cards
 Creator = CardCreator()
 champion_json_paths = ["first_champions", "second_champions", "third_champions"]
 spell_json_paths = ["first_spells", "second_spells", "third_spells"]
@@ -353,6 +364,7 @@ equipment_json_paths = [
     "second_equipment_water",
     "third_equipment",
 ]
+# Create Cards
 """
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
@@ -377,6 +389,34 @@ for path in equipment_json_paths:
         Creator.generate_equipment_or_spell_card(card).show()
         Creator.generate_equipment_or_spell_card(card).save(
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
+        )
+"""
+# Create pixel art versions of cards
+for path in champion_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.generate_champion_pixel_art_card(card).save(
+            "finished_cards/pixel_art_cards/Champions/"
+            + card["card_name"]
+            + "_card.png",
+            "PNG",
+        )
+"""
+for path in spell_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.generate_equipment_or_spell_card(card).save(
+            "finished_cards/pixel_art_cards/Spells/" + card["card_name"] + "_card.png", "PNG"
+        )
+for path in equipment_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.generate_equipment_or_spell_card(card).save(
+            f"finished_cards/pixel_art_cards/{card["type"]}/{card["card_name"]}_card.png",
+            "PNG",
         )
 """
 # Create pixel art versions of artwork
