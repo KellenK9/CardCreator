@@ -307,7 +307,7 @@ class CardCreator:
 
     def create_zoomed_cards(self, card_name, card_path):
         size = 771, 1080
-        im = Image.open("finished_cards/" + card_path)
+        im = Image.open(card_path)
         im.thumbnail(size, Image.Resampling.LANCZOS)
         im.save(
             "finished_cards/zoomed_versions/" + card_name + "_card.png",
