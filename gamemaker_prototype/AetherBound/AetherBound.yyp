@@ -61,6 +61,7 @@
     {"id":{"name":"spr_water_dagger","path":"sprites/spr_water_dagger/spr_water_dagger.yy",},},
     {"id":{"name":"spr_water_golem_zoomed","path":"sprites/spr_water_golem_zoomed/spr_water_golem_zoomed.yy",},},
     {"id":{"name":"spr_water_golem","path":"sprites/spr_water_golem/spr_water_golem.yy",},},
+    {"id":{"name":"spr_zoom_filter","path":"sprites/spr_zoom_filter/spr_zoom_filter.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
