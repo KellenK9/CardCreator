@@ -311,11 +311,21 @@ class CardCreator:
         frame = Image.open("card_frames/champion-frame-pixel-art.png")
 
         # Import artwork and crop
-        artwork = Image.open("cropped_images/" + dict["artwork"])
+        if "temp/" in dict["artwork"]:
+            card_path = dict["artwork"][5:]
+        else:
+            card_path = dict["artwork"]
+        artwork = Image.open("cropped_images/pixel_art_versions" + card_path)
         artwork = artwork.crop(box=(0, 0, self.image_width, self.image_height))
         artwork = artwork.convert("RGBA")
 
-        # Shrink image from 2048p to 32p
+        # Add slots
+        if dict["slot3"] != "none" and dict["slot3"] != None:
+            third_slot = Image.open("card_frames/" + dict["slot3"] + "-right.png")
+        if dict["slot2"] != "none" and dict["slot2"] != None:
+            second_slot = Image.open("card_frames/" + dict["slot2"] + "-middle.png")
+        if dict["slot1"] != "none" and dict["slot1"] != None:
+            first_slot = Image.open("card_frames/" + dict["slot1"] + "-left.png")
 
         # Combine images
         new_image = Image.alpha_composite(artwork, frame)
@@ -369,7 +379,8 @@ for path in equipment_json_paths:
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
         )
 """
-# Create pixel art versions or aftwork
+# Create pixel art versions of artwork
+"""
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -385,3 +396,4 @@ for path in equipment_json_paths:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
         Creator.create_pixel_images(card["card_name"], card["artwork"])
+"""
