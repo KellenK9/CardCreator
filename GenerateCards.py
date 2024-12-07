@@ -314,12 +314,21 @@ class CardCreator:
             "PNG",
         )
 
+    def create_pixel_frames(self, artwork_path):
+        size = 177, 248
+        im = Image.open("card_frames/" + artwork_path)
+        im.thumbnail(size, Image.Resampling.LANCZOS)
+        im.save(
+            "card_frames/pixel_art_frames/" + artwork_path,
+            "PNG",
+        )
+
     def generate_champion_pixel_art_card(self, dict):
         # Set global vars
         CardCreator.declare_vars(self)
 
         # Import frame
-        frame = Image.open("card_frames/pixel_art_frames/champion_frame.png")
+        frame = Image.open("card_frames/pixel_art_frames/champion-frame.png")
 
         # Import artwork and crop
         artwork = Image.open(
@@ -399,6 +408,26 @@ equipment_json_paths = [
     "second_equipment_water",
     "third_equipment",
 ]
+list_of_frames = [
+    "air-frame",
+    "water-frame",
+    "earth-frame",
+    "fire-frame",
+    "champion-frame",
+    "spell-frame",
+    "air-left",
+    "air-right",
+    "air-middle",
+    "water-left",
+    "water-right",
+    "water-middle",
+    "earth-left",
+    "earth-right",
+    "earth-middle",
+    "fire-left",
+    "fire-right",
+    "fire-middle",
+]
 # Create Cards
 """
 for path in champion_json_paths:
@@ -425,6 +454,7 @@ for path in equipment_json_paths:
         Creator.generate_equipment_or_spell_card(card).save(
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
         )
+"""
 """
 # Create pixel art versions of cards
 for path in champion_json_paths:
@@ -453,6 +483,7 @@ for path in equipment_json_paths:
             f"finished_cards/pixel_art_cards/{card["type"]}/{card["card_name"]}_card.png",
             "PNG",
         )
+"""
 # Create pixel art versions of artwork
 """
 for path in champion_json_paths:
@@ -498,3 +529,6 @@ for path in equipment_json_paths:
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png",
         )
 """
+#
+for artwork_path in list_of_frames:
+    Creator.create_pixel_frames(f"{artwork_path}.png")
