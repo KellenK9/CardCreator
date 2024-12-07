@@ -233,9 +233,6 @@ class CardCreator:
         if dict["type"] == "spell":
             frame = Image.open("card_frames/spell-frame.png")
             icon = None
-        if dict["type"] == "speed spell":
-            frame = Image.open("card_frames/spell-frame.png")
-            icon = Image.open("card_frames/speed-icon.png")
 
         # Add text
         name_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
@@ -348,6 +345,35 @@ class CardCreator:
             new_image = Image.alpha_composite(new_image, third_slot)
         return new_image
 
+    def generate_equipment_or_spell_pixel_art_card(self, dict):
+        # Set global vars
+        CardCreator.declare_vars(self)
+
+        # Import and color frame
+        if dict["type"] == "water":
+            frame = Image.open("card_frames/pixel_art_frames/water-frame.png")
+        if dict["type"] == "fire":
+            frame = Image.open("card_frames/pixel_art_frames/fire-frame.png")
+        if dict["type"] == "earth":
+            frame = Image.open("card_frames/pixel_art_frames/earth-frame.png")
+        if dict["type"] == "air":
+            frame = Image.open("card_frames/pixel_art_frames/air-frame.png")
+        if dict["type"] == "spell":
+            frame = Image.open("card_frames/pixel_art_frames/spell-frame.png")
+
+        # Import artwork and crop
+        artwork = Image.open(
+            "cropped_images/pixel_art_versions/" + dict["card_name"] + "_card.png"
+        )
+        artwork = artwork.crop(
+            box=(0, 0, self.pixel_image_width, self.pixel_image_height)
+        )
+        artwork = artwork.convert("RGBA")
+
+        # Combine images
+        new_image = Image.alpha_composite(artwork, frame)
+        return new_image
+
 
 # Set Variables for Creating Cards
 Creator = CardCreator()
@@ -402,23 +428,22 @@ for path in champion_json_paths:
             + "_card.png",
             "PNG",
         )
-"""
 for path in spell_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
-        Creator.generate_equipment_or_spell_card(card).save(
-            "finished_cards/pixel_art_cards/Spells/" + card["card_name"] + "_card.png", "PNG"
+        Creator.generate_equipment_or_spell_pixel_art_card(card).save(
+            "finished_cards/pixel_art_cards/Spells/" + card["card_name"] + "_card.png",
+            "PNG",
         )
 for path in equipment_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
-        Creator.generate_equipment_or_spell_card(card).save(
+        Creator.generate_equipment_or_spell_pixel_art_card(card).save(
             f"finished_cards/pixel_art_cards/{card["type"]}/{card["card_name"]}_card.png",
             "PNG",
         )
-"""
 # Create pixel art versions of artwork
 """
 for path in champion_json_paths:
