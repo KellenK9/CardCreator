@@ -9,8 +9,8 @@ class CardCreator:
     def declare_vars(self):
         self.image_width = 2048
         self.image_height = 2867
-        self.pixel_image_width = 32
-        self.pixel_image_height = 45
+        self.pixel_image_width = 177
+        self.pixel_image_height = 248
         self.name_y = 2550
         self.description_x = 55
         self.description_y = 2080
