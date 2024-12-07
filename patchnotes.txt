@@ -44,3 +44,4 @@ New Cards:
     Accelerating Particle
 Notes:
     Effect classifications added to card text
+    Started development on AetherBound Origins pc game.
