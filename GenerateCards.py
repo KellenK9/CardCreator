@@ -305,6 +305,15 @@ class CardCreator:
             "PNG",
         )
 
+    def create_zoomed_cards(self, card_name, card_path):
+        size = 771, 1080
+        im = Image.open("finished_cards/" + card_path)
+        im.thumbnail(size, Image.Resampling.LANCZOS)
+        im.save(
+            "finished_cards/zoomed_versions/" + card_name + "_card.png",
+            "PNG",
+        )
+
     def generate_champion_pixel_art_card(self, dict):
         # Set global vars
         CardCreator.declare_vars(self)
@@ -418,6 +427,7 @@ for path in equipment_json_paths:
         )
 """
 # Create pixel art versions of cards
+"""
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -444,6 +454,7 @@ for path in equipment_json_paths:
             f"finished_cards/pixel_art_cards/{card["type"]}/{card["card_name"]}_card.png",
             "PNG",
         )
+"""
 # Create pixel art versions of artwork
 """
 for path in champion_json_paths:
@@ -462,3 +473,28 @@ for path in equipment_json_paths:
     for card in loaded_json["cards"]:
         Creator.create_pixel_images(card["card_name"], card["artwork"])
 """
+# Create zoomed versions of cards
+for path in champion_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.create_zoomed_cards(
+            card["card_name"],
+            "finished_cards/Champions/" + card["card_name"] + "_card.png",
+        )
+for path in spell_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.create_zoomed_cards(
+            card["card_name"],
+            "finished_cards/Spells/" + card["card_name"] + "_card.png",
+        )
+for path in equipment_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.create_zoomed_cards(
+            card["card_name"],
+            f"finished_cards/{card["type"]}/{card["card_name"]}_card.png",
+        )
