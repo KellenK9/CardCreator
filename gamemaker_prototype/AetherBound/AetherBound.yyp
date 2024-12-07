@@ -44,6 +44,7 @@
     {"id":{"name":"obj_champions_card_opponents","path":"objects/obj_champions_card_opponents/obj_champions_card_opponents.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"Room_game_field","path":"rooms/Room_game_field/Room_game_field.yy",},},
+    {"id":{"name":"script_covert_name_to_zoomed_sprite","path":"scripts/script_covert_name_to_zoomed_sprite/script_covert_name_to_zoomed_sprite.yy",},},
     {"id":{"name":"spr_fire_dagger_zoomed","path":"sprites/spr_fire_dagger_zoomed/spr_fire_dagger_zoomed.yy",},},
     {"id":{"name":"spr_fire_dagger","path":"sprites/spr_fire_dagger/spr_fire_dagger.yy",},},
     {"id":{"name":"spr_fire_golem_zoomed","path":"sprites/spr_fire_golem_zoomed/spr_fire_golem_zoomed.yy",},},

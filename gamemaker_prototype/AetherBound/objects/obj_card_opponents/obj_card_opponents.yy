@@ -3,6 +3,7 @@
   "%Name":"obj_card_opponents",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_card_opponents",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mock_card_fire",
-    "path":"sprites/spr_mock_card_fire/spr_mock_card_fire.yy",
+    "name":"spr_fire_dagger",
+    "path":"sprites/spr_fire_dagger/spr_fire_dagger.yy",
   },
   "spriteMaskId":null,
   "visible":true,

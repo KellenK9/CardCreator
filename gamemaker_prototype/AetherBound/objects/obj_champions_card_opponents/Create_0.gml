@@ -1,5 +1,6 @@
 /// Set Variables
 
+card_name = "Fire Golem"
 max_health = 100
 current_health = max_health
 

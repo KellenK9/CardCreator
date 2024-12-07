@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"script_covert_name_to_zoomed_sprite",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"script_covert_name_to_zoomed_sprite",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

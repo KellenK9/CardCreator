@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_card",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_card",
   "overriddenProperties":[],
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mock_card_fire",
-    "path":"sprites/spr_mock_card_fire/spr_mock_card_fire.yy",
+    "name":"spr_water_dagger",
+    "path":"sprites/spr_water_dagger/spr_water_dagger.yy",
   },
   "spriteMaskId":null,
   "visible":true,

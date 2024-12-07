@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mock_card_champion",
-    "path":"sprites/spr_mock_card_champion/spr_mock_card_champion.yy",
+    "name":"spr_water_golem",
+    "path":"sprites/spr_water_golem/spr_water_golem.yy",
   },
   "spriteMaskId":null,
   "visible":true,
