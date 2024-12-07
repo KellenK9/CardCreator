@@ -1,5 +1,5 @@
 /// @desc Initialize
-total_scale = 6
+total_scale = 1
 
 y_offset = 100
 

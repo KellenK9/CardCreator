@@ -9,5 +9,3 @@ zoomed_y = 0
 
 zoomed_left_border_x = zoomed_x
 zoomed_right_border_x = 1920 - zoomed_x
-
-spr_to_show = spr_mock_zoomed_card
