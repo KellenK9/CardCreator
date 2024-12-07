@@ -297,6 +297,36 @@ class CardCreator:
 
         return new_image
 
+    def create_pixel_images(self, card_name, artwork_path):
+        size = 32, 32
+        im = Image.open("cropped_images/" + artwork_path)
+        im.thumbnail(size, Image.Resampling.LANCZOS)
+        im.save(
+            "cropped_images/pixel_art_versions/" + card_name + "_card.png",
+            "PNG",
+        )
+
+    def generate_champion_pixel_art_card(self, dict):
+        # Import frame
+        frame = Image.open("card_frames/champion-frame-pixel-art.png")
+
+        # Import artwork and crop
+        artwork = Image.open("cropped_images/" + dict["artwork"])
+        artwork = artwork.crop(box=(0, 0, self.image_width, self.image_height))
+        artwork = artwork.convert("RGBA")
+
+        # Shrink image from 2048p to 32p
+
+        # Combine images
+        new_image = Image.alpha_composite(artwork, frame)
+        if dict["slot1"] != "none" and dict["slot1"] != None:
+            new_image = Image.alpha_composite(new_image, first_slot)
+        if dict["slot2"] != "none" and dict["slot2"] != None:
+            new_image = Image.alpha_composite(new_image, second_slot)
+        if dict["slot3"] != "none" and dict["slot3"] != None:
+            new_image = Image.alpha_composite(new_image, third_slot)
+        return new_image
+
 
 # Create Cards
 Creator = CardCreator()
@@ -313,6 +343,7 @@ equipment_json_paths = [
     "second_equipment_water",
     "third_equipment",
 ]
+"""
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -337,3 +368,20 @@ for path in equipment_json_paths:
         Creator.generate_equipment_or_spell_card(card).save(
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
         )
+"""
+# Create pixel art versions or aftwork
+for path in champion_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.create_pixel_images(card["card_name"], card["artwork"])
+for path in spell_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.create_pixel_images(card["card_name"], card["artwork"])
+for path in equipment_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.create_pixel_images(card["card_name"], card["artwork"])
