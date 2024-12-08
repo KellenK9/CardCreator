@@ -26,7 +26,7 @@ if(mouse_check_button_released(mb_left) and global.holding_card and global.playe
 			// Play spell
 			if(script_am_i_activatable(global.card_held)){
 				global.playing_spell = true
-				script_activate_equipment_effect(global.card_held)
+				script_activate_effect(global.card_held)
 			}
 		}
 	}

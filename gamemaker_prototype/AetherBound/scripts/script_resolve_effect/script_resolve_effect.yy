@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"script_activate_equipment_effect",
+  "%Name":"script_resolve_effect",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"script_activate_equipment_effect",
+  "name":"script_resolve_effect",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

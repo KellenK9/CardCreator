@@ -64,7 +64,7 @@ if(alarm[0] > 0){
 if(mouse_check_button_pressed(mb_left)){
 	if(in_play and global.player_turn and type == "Equipment" and position_meeting(mouse_x, mouse_y, self)){
 		if(script_am_i_activatable(self)){
-			script_activate_equipment_effect(self)
+			script_activate_effect(self)
 		}
 	}
 }

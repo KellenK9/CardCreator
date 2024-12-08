@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function script_activate_equipment_effect(_card_obj){
+function script_activate_effect(_card_obj){
 	_card_name = _card_obj.card_name
 	global.activating_effect_name = _card_name
 	if(_card_name == "Water Dagger"){
