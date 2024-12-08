@@ -9,3 +9,26 @@ zoomed_y = 0
 
 zoomed_left_border_x = zoomed_x
 zoomed_right_border_x = 1920 - zoomed_x
+
+// Set global vars
+global.player_turn = true
+global.game_over = false
+global.player_won = false
+
+// Create Graves and Decks
+player_grave = instance_create_depth(1280, 660, 0, obj_grave)
+player_grave.player_grave = true
+cpu_grave = instance_create_depth(100, 390, 0, obj_grave)
+cpu_grave.player_grave = false
+player_deck = instance_create_depth(1280, 930, 0, obj_deck)
+player_deck.player_deck = true
+cpu_deck = instance_create_depth(100, 140, 0, obj_deck)
+cpu_deck.player_deck = false
+// Create player's Champions
+instance_create_depth(200, 660, 0, obj_champion_card)
+instance_create_depth(600, 660, 0, obj_champion_card)
+instance_create_depth(1000, 660, 0, obj_champion_card)
+// Create opponent's Champions
+instance_create_depth(380, 390, 0, obj_champions_card_opponents)
+instance_create_depth(780, 390, 0, obj_champions_card_opponents)
+instance_create_depth(1180, 390, 0, obj_champions_card_opponents)
