@@ -11,3 +11,5 @@ gui_x = x + gui_x_offset
 gui_y = y + gui_y_offset
 
 glowing = false
+
+equipped_distance_threshold = 200
