@@ -446,7 +446,6 @@ for path in spell_json_paths:
         Creator.generate_equipment_or_spell_card(card).save(
             "finished_cards/Spells/" + card["card_name"] + "_card.png", "PNG"
         )
-        """
 for path in equipment_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -455,7 +454,7 @@ for path in equipment_json_paths:
         Creator.generate_equipment_or_spell_card(card).save(
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
         )
-
+"""
 # Create pixel art versions of cards
 """
 for path in champion_json_paths:
