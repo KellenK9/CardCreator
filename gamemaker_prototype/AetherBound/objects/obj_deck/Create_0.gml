@@ -15,6 +15,10 @@ cards_in_deck = [
 	"Fireball",
 	"Fireball",
 	"Fireball",
+	"Spreading Flame",
+	"Spreading Flame",
+	"Spreading Flame",
+	"Spreading Flame",
 ]
 deck_size = array_length(cards_in_deck)
 alarm[0] = 2

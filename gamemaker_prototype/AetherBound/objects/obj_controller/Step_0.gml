@@ -24,7 +24,10 @@ if(mouse_check_button_released(mb_left) and global.holding_card and global.playe
 	if(global.card_held.type == "Spell"){
 		if(mouse_x < sprite_get_width(spr_field_border)){
 			// Play spell
-			global.playing_spell = true
+			if(script_am_i_activatable(global.card_held)){
+				global.playing_spell = true
+				script_activate_equipment_effect(global.card_held)
+			}
 		}
 	}
 }

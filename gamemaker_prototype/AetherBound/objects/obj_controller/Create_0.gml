@@ -27,6 +27,7 @@ global.hand_x = 1500 + (global.hand_size * 16)
 global.hand_y = 200 + (global.hand_size * 4)
 global.playing_equipment = false
 global.playing_spell = false
+global.prompting_player_for_input = false
 alarm[0] = 10
 alarm[1] = -2
 
