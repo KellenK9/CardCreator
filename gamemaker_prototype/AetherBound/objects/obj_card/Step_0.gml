@@ -15,7 +15,7 @@ if(moving_towards_grave){
 	}
 }
 
-if(mouse_check_button_pressed(mb_left) and not in_play){
+if(mouse_check_button_pressed(mb_left) and not in_play and global.game_start and speed == 0 and (curr_x != 0 or curr_y != 0)){
 	if(position_meeting(mouse_x, mouse_y, self)){
 		if(speed == 0 and x > 1920 - sprite_get_width(spr_zoom_filter) and not global.holding_card){
 			being_held = true
@@ -47,6 +47,7 @@ if(alarm[0] > 0){
 		x = global.equip_slot_coord_recent[0]
 		y = global.equip_slot_coord_recent[1]
 		global.playing_equipment = false
+		global.player_turn = false
 	}
 	else{
 		if(global.playing_spell){
@@ -55,6 +56,7 @@ if(alarm[0] > 0){
 			in_play = true
 			alarm[3] = 30
 			global.playing_spell = false
+			global.player_turn = false
 		}
 	}
 }

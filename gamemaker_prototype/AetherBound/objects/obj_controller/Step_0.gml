@@ -20,16 +20,7 @@ if(mouse_check_button_released(mb_middle) or mouse_check_button_released(mb_righ
 }
 
 // Check if card played
-if(mouse_check_button_released(mb_left) and global.holding_card){
-	if(global.card_held.type == "Equipment"){
-		for(var _i = 0; _i < equip_array_length; ++_i){
-			if(point_distance(mouse_x, mouse_y, equip_slot_x_values[_i], 930) < equip_distance_threshold or point_distance(mouse_x, mouse_y, equip_slot_x_values[_i], 930-equip_distance_threshold) < equip_distance_threshold){
-				// Play Equipment
-				global.playing_equipment = true
-				global.equip_slot_coord_recent = [equip_slot_x_values[_i], 930]
-			}
-		}
-	}
+if(mouse_check_button_released(mb_left) and global.holding_card and global.player_turn){
 	if(global.card_held.type == "Spell"){
 		if(mouse_x < sprite_get_width(spr_field_border)){
 			// Play spell
@@ -39,6 +30,6 @@ if(mouse_check_button_released(mb_left) and global.holding_card){
 }
 
 // Make move for cpu
-if(global.game_start and not global.player_turn){
+if(global.game_start and not global.player_turn and alarm[1] < 0){
 	alarm[1] = 100
 }

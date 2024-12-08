@@ -1,14 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_deck",
+  "%Name":"obj_equipment_slot",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_deck",
+  "name":"obj_equipment_slot",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_deck",
-    "path":"sprites/spr_deck/spr_deck.yy",
+    "name":"spr_eligible_equip_slot",
+    "path":"sprites/spr_eligible_equip_slot/spr_eligible_equip_slot.yy",
   },
   "spriteMaskId":null,
   "visible":true,
