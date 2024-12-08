@@ -49,20 +49,10 @@ if(alarm[0] > 0){
 		global.playing_equipment = false
 		global.player_turn = false
 	}
-	else{
-		if(global.playing_spell){
-			speed = 0
-			alarm[0] = -2
-			in_play = true
-			alarm[3] = 30
-			global.playing_spell = false
-			global.player_turn = false
-		}
-	}
 }
 
 if(mouse_check_button_pressed(mb_left)){
-	if(in_play and global.player_turn and type == "Equipment" and position_meeting(mouse_x, mouse_y, self)){
+	if(in_play and global.player_turn and type == "Equipment" and position_meeting(mouse_x, mouse_y, self) and not global.prompting_player_for_input){
 		if(script_am_i_activatable(self)){
 			script_activate_effect(self)
 		}

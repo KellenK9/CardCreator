@@ -8,3 +8,13 @@ if(mouse_check_button_released(mb_left) and position_meeting(mouse_x, mouse_y, s
 		script_resolve_effect(self)
 	}
 }
+
+if(current_health <= 0){
+	for (var _i = 0; _i < instance_number(obj_card); ++_i;){
+		curr_card = instance_find(obj_card, _i)
+		if(curr_card.in_play and distance_to_point(curr_card.x, curr_card.y) < equipped_distance_threshold){
+			curr_card.alarm[3] = 30
+		}
+	}
+	instance_destroy(self)
+}

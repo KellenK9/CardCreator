@@ -1,12 +1,12 @@
 /// @description Draw self over health
 
 if(being_held or speed > 0 or alarm[0] > 0 or alarm[3] > 0){
-	if(in_play and global.player_turn and type == "Equipment"){
+	if(in_play and global.player_turn and type == "Equipment" and not global.prompting_player_for_input){
 		if(script_am_i_activatable(self)){
 			draw_sprite(spr_glow_effect, 1, x, y)
 		}
 	}
-	if(not in_play and global.player_turn){
+	if(not in_play and global.player_turn and not global.prompting_player_for_input){
 		if(type == "Spell"){
 			if(script_am_i_activatable(self)){
 				draw_sprite(spr_glow_effect, 1, x, y)
