@@ -1,0 +1,7 @@
+AetherBound Origins
+
+Single player, digital version of the AetherBound TCG.
+
+Controls:
+Left mouse button to interact with glowing cards
+Right and middle mouse buttons to view cards
