@@ -54,14 +54,14 @@
             "description": "[ACTIVATED] Return 1 'Vital Bloom' from your field to your hand then deal 10 damage to this Champion and 30 damage to a Champion.",
             "color": "light_beige",
             "type": "earth",
-            "artwork": "withering_thorns2.png"
+            "artwork": "withering_thorns.png"
         },
         {
             "card_name": "Vital Bloom",
             "description": "[ACTIVATED] Return 1 'Withering Thorns' from your field to your hand then heal 20 damage from this Champion.",
             "color": "light_beige",
             "type": "earth",
-            "artwork": "vital_bloom2.png"
+            "artwork": "vital_bloom.png"
         },
         {
             "card_name": "Catalytic Converter",
