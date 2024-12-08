@@ -36,3 +36,13 @@ if(mouse_check_button_released(mb_left) and global.holding_card and global.playe
 if(global.game_start and not global.player_turn and alarm[1] < 0){
 	alarm[1] = 100
 }
+
+//End Game if Champions are defeated
+if(instance_number(obj_champion_card) == 0){
+	global.game_over = true
+	global.player_won = false
+}
+if(instance_number(obj_champions_card_opponents) == 0){
+	global.game_over = true
+	global.player_won = true
+}
