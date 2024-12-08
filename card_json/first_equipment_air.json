@@ -5,7 +5,7 @@
     "description": "[ACTIVATED] Deal 10 damage to a Champion.",
     "color": "black",
     "type": "air",
-    "artwork": "temp/air_dagger.png"
+    "artwork": "air_dagger.png"
 },
 {
     "card_name": "The Graceful Host",
