@@ -7,14 +7,14 @@ cards_in_deck = [
 	"Water Dagger",
 	"Water Dagger",
 	"Water Dagger",
-	"Water Dagger",
-	"Water Dagger",
-	"Water Dagger",
-	"Water Dagger",
-	"Water Dagger",
-	"Water Dagger",
-	"Water Dagger",
-	"Water Dagger",
+	"The Sacred Spring",
+	"The Sacred Spring",
+	"The Sacred Spring",
+	"The Sacred Spring",
+	"Fireball",
+	"Fireball",
+	"Fireball",
+	"Fireball",
 ]
 deck_size = array_length(cards_in_deck)
-global.deck_shuffled = array_shuffle(cards_in_deck)
+alarm[0] = 2

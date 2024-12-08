@@ -10,16 +10,23 @@ zoomed_y = 0
 zoomed_left_border_x = zoomed_x
 zoomed_right_border_x = 1920 - zoomed_x
 
+equip_distance_threshold = 95
+equip_slot_x_values = [100, 290, 500, 690, 900, 1090]
+equip_array_length = array_length(equip_slot_x_values)
+
 // Set global vars
 global.holding_card = false
 global.player_turn = false
 global.game_over = false
+global.game_start = false
 global.player_won = false
 global.starting_hand_size = 7
 global.hand_size = 0
 global.opponent_hand_size = 0
 global.hand_x = 1500 + (global.hand_size * 16)
 global.hand_y = 200 + (global.hand_size * 4)
+global.playing_equipment = false
+global.playing_spell = false
 alarm[0] = 10
 
 // Create Graves and Decks

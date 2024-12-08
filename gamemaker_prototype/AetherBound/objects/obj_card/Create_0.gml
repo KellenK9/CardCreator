@@ -2,7 +2,10 @@
 
 card_name = "Water Dagger"
 type = "Equipment" //or Spell
+alarm[2] = 2
 alarm[0] = 60
 being_held = false
 curr_x = 0
 curr_y = 0
+in_play = false
+moving_towards_grave = false
