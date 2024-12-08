@@ -11,9 +11,16 @@ zoomed_left_border_x = zoomed_x
 zoomed_right_border_x = 1920 - zoomed_x
 
 // Set global vars
-global.player_turn = true
+global.holding_card = false
+global.player_turn = false
 global.game_over = false
 global.player_won = false
+global.starting_hand_size = 7
+global.hand_size = 0
+global.opponent_hand_size = 0
+global.hand_x = 1500 + (global.hand_size * 16)
+global.hand_y = 200 + (global.hand_size * 4)
+alarm[0] = 10
 
 // Create Graves and Decks
 player_grave = instance_create_depth(1280, 660, 0, obj_grave)

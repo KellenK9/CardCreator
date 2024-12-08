@@ -17,4 +17,4 @@ cards_in_deck = [
 	"Water Dagger",
 ]
 deck_size = array_length(cards_in_deck)
-deck_shuffled = array_shuffle(cards_in_deck)
+global.deck_shuffled = array_shuffle(cards_in_deck)
