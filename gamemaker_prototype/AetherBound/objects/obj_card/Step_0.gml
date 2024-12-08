@@ -1,5 +1,7 @@
 /// @description 
 
+sprite_index = script_convert_name_sprite(card_name)
+
 if(point_distance(x, y, curr_x, curr_y) <= 7 and speed != 0){
 	speed = 0
 	x = curr_x
