@@ -50,6 +50,7 @@
     {"id":{"name":"script_covert_name_to_zoomed_sprite","path":"scripts/script_covert_name_to_zoomed_sprite/script_covert_name_to_zoomed_sprite.yy",},},
     {"id":{"name":"script_draw_card","path":"scripts/script_draw_card/script_draw_card.yy",},},
     {"id":{"name":"spr_deck","path":"sprites/spr_deck/spr_deck.yy",},},
+    {"id":{"name":"spr_eligible_equip_slot","path":"sprites/spr_eligible_equip_slot/spr_eligible_equip_slot.yy",},},
     {"id":{"name":"spr_fire_dagger_zoomed","path":"sprites/spr_fire_dagger_zoomed/spr_fire_dagger_zoomed.yy",},},
     {"id":{"name":"spr_fire_dagger","path":"sprites/spr_fire_dagger/spr_fire_dagger.yy",},},
     {"id":{"name":"spr_fire_golem_zoomed","path":"sprites/spr_fire_golem_zoomed/spr_fire_golem_zoomed.yy",},},

@@ -11,6 +11,7 @@ if(mouse_check_button_pressed(mb_left)){
 		if(speed == 0 and x > 1920 - sprite_get_width(spr_zoom_filter) and not global.holding_card){
 			being_held = true
 			global.holding_card = true
+			depth = depth - 3
 		}
 	}
 }
@@ -20,8 +21,10 @@ if(being_held){
 	y = mouse_y
 	if(mouse_check_button_released(mb_left)){
 		being_held = false
-		global.holding_card = false
+		alarm[1] = 1
 		// if not near open equipment slot during your turn:
-		alarm[0] = 5
+		if(x < 1920 - sprite_get_width(spr_hand_and_menu_area)){
+			alarm[0] = 5
+		}
 	}
 }
