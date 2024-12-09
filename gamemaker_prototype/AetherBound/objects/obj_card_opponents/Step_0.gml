@@ -7,6 +7,7 @@ if(moving_towards_grave){
 		speed = 0
 		x = cpu_grave_x
 		y = cpu_grave_y
+		moving_towards_grave = false
 	}
 }
 if(moving_towards_slot){
@@ -14,5 +15,6 @@ if(moving_towards_slot){
 		speed = 0
 		x = curr_x
 		y = curr_y
+		moving_towards_slot = false
 	}
 }
