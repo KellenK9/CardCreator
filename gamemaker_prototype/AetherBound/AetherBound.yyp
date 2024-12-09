@@ -47,6 +47,7 @@
     {"id":{"name":"obj_equipment_slot","path":"objects/obj_equipment_slot/obj_equipment_slot.yy",},},
     {"id":{"name":"obj_grave","path":"objects/obj_grave/obj_grave.yy",},},
     {"id":{"name":"Room_game_field","path":"rooms/Room_game_field/Room_game_field.yy",},},
+    {"id":{"name":"script_activate_effect_opponent","path":"scripts/script_activate_effect_opponent/script_activate_effect_opponent.yy",},},
     {"id":{"name":"script_activate_effect","path":"scripts/script_activate_effect/script_activate_effect.yy",},},
     {"id":{"name":"script_am_i_activatable","path":"scripts/script_am_i_activatable/script_am_i_activatable.yy",},},
     {"id":{"name":"script_convert_name_sprite","path":"scripts/script_convert_name_sprite/script_convert_name_sprite.yy",},},
