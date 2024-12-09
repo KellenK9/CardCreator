@@ -5,7 +5,3 @@ Single player, digital version of the AetherBound TCG.
 Controls:
 Left mouse button to interact with glowing cards
 Right and middle mouse buttons to view cards
-
-Backlog:
--Tie Equipment slots to Champions
--Allow CPU to equip cards

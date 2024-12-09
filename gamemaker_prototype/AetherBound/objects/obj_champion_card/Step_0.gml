@@ -16,5 +16,11 @@ if(current_health <= 0){
 			curr_card.alarm[3] = 30
 		}
 	}
+	if(num_equip_slots >= 1){
+		instance_destroy(equipment_slot1)
+		if(num_equip_slots >= 1){
+			instance_destroy(equipment_slot2)
+		}
+	}
 	instance_destroy(self)
 }

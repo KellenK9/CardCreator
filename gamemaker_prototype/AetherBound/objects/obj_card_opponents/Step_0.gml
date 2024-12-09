@@ -9,3 +9,10 @@ if(moving_towards_grave){
 		y = cpu_grave_y
 	}
 }
+if(moving_towards_slot){
+	if(point_distance(x, y, curr_x, curr_y) <= 7){
+		speed = 0
+		x = curr_x
+		y = curr_y
+	}
+}

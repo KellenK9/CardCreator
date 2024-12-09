@@ -13,7 +13,7 @@ function script_activate_effect_opponent(_card_obj){
 			players_champions[_i] = instance_find(obj_champion_card, _i)
 		}
 		_target = players_champions[irandom(array_length(players_champions) - 1)]
-		_target.current_health = _target.current_health - 20
+		_target.current_health = _target.current_health - 10
 	}
 	if(_card_name == "The Sacred Spring"){
 		_target = instance_nearest(_card_obj.x, _card_obj.y, obj_champions_card_opponents)

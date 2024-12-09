@@ -11,8 +11,8 @@ zoomed_left_border_x = zoomed_x
 zoomed_right_border_x = 1920 - zoomed_x
 
 global.equip_distance_threshold = 95
-equip_slot_x_values = [100, 290, 500, 690, 900, 1090]
-equip_array_length = array_length(equip_slot_x_values)
+//equip_slot_x_values = [100, 290, 500, 690, 900, 1090]
+//equip_array_length = array_length(equip_slot_x_values)
 
 // Set global vars
 global.holding_card = false
@@ -48,7 +48,3 @@ instance_create_depth(1000, 660, 0, obj_champion_card)
 instance_create_depth(380, 390, 0, obj_champions_card_opponents)
 instance_create_depth(780, 390, 0, obj_champions_card_opponents)
 instance_create_depth(1180, 390, 0, obj_champions_card_opponents)
-// Create Equipment Slots
-for(var _i = 0; _i < equip_array_length; ++_i){
-	instance_create_depth(equip_slot_x_values[_i], 930, 10, obj_equipment_slot)
-}
