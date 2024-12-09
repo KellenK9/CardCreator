@@ -28,7 +28,7 @@ function script_activate_effect_opponent(_card_obj){
 			curr_champion = instance_find(obj_champion_card, _i)
 			curr_champion.current_health = curr_champion.current_health - 10
 		}
-		_card_obj.alarm[3] = 30
+		_card_obj.alarm[3] = 1
 	}
 	if(_card_name == "Fireball"){
 		// Choose a random target
@@ -37,6 +37,6 @@ function script_activate_effect_opponent(_card_obj){
 		}
 		_target = players_champions[irandom(array_length(players_champions) - 1)]
 		_target.current_health = _target.current_health - 20
-		_card_obj.alarm[3] = 30
+		_card_obj.alarm[3] = 1
 	}
 }
