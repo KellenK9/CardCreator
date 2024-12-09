@@ -12,6 +12,13 @@ function script_am_i_activatable(_card_object){
 	else{
 		your_champion = obj_champions_card_opponents
 	}
+	// check if card in grave
+	for(var _i = 0; _i < instance_number(obj_grave); ++_i;){
+		curr_grave = instance_find(obj_grave, _i)
+		if(_card_object.x == curr_grave.x and _card_object.y == curr_grave.y){
+			return false
+		}
+	}
 	// Cases that are always activatable
 	always_activatable = ["Water Dagger", "Fire Dagger", "Fireball", "Spreading Flame"]
 	if(array_contains(always_activatable, card_name)){

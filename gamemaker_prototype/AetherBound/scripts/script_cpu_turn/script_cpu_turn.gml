@@ -26,6 +26,7 @@ function script_cpu_turn(){
 				script_activate_effect_opponent(spell_cards[_i])
 				global.opponent_hand_size = global.opponent_hand_size - 1
 				card_activated = true
+				spell_cards[_i].in_play = true
 			}
 		}
 	}
@@ -54,6 +55,7 @@ function script_cpu_turn(){
 					global.recent_cpu_equip_slot_coord = [curr_slot.x, curr_slot.y]
 					global.opponent_hand_size = global.opponent_hand_size - 1
 					card_activated = true
+					equipment_cards[_i].in_play = true
 				}
 			}
 		}

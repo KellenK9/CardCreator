@@ -7,6 +7,6 @@ Left mouse button to interact with glowing cards
 Right and middle mouse buttons to view cards
 
 Backlog:
--Equipment can't activate from grave
--Game crash bug
+X-Equipment can't activate from grave
+-Game crash bug?
 -Opponents equipment destroyed when champion is

@@ -20,8 +20,8 @@ equip_slot_distance = 96
 
 // Create Equipment Slots
 if(num_equip_slots == 2){
-	equipment_slot1 = instance_create_depth(x + equip_slot_distance, 140, 10, obj_equipment_slot_opponents)
-	equipment_slot2 = instance_create_depth(x - equip_slot_distance, 140, 10, obj_equipment_slot_opponents)
+	equipment_slot1 = instance_create_depth(x + equip_slot_distance, 135, 10, obj_equipment_slot_opponents)
+	equipment_slot2 = instance_create_depth(x - equip_slot_distance, 135, 10, obj_equipment_slot_opponents)
 	equipment_slot1.slot_type = element
 	equipment_slot2.slot_type = element
 }
