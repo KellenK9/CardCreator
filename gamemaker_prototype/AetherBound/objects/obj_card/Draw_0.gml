@@ -1,6 +1,6 @@
 /// @description 
 
-if(in_play and global.player_turn and type == "Equipment" and not global.prompting_player_for_input){
+if(in_play and global.player_turn and type == "Equipment" and not global.prompting_player_for_input and not global.game_over){
 	if(script_am_i_activatable(self)){
 		draw_sprite(spr_glow_effect, 1, x, y)
 	}

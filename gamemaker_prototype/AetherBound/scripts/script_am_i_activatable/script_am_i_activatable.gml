@@ -1,6 +1,9 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function script_am_i_activatable(_card_object){
+	if(global.game_over){
+		return false
+	}
 	card_name = _card_object.card_name
 	if(card_name == "Water Dagger"){
 		return true
