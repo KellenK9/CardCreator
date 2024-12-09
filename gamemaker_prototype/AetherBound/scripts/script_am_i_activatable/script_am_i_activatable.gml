@@ -13,7 +13,7 @@ function script_am_i_activatable(_card_object){
 		your_champion = obj_champions_card_opponents
 	}
 	// Cases that are always activatable
-	always_activatable = ["Water Dagger", "Fireball", "Spreading Flame"]
+	always_activatable = ["Water Dagger", "Fire Dagger", "Fireball", "Spreading Flame"]
 	if(array_contains(always_activatable, card_name)){
 		return true
 	}

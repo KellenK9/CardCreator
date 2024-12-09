@@ -7,7 +7,7 @@ function script_activate_effect_opponent(_card_obj){
 		_card_obj.alarm[0] = -2
 		_card_obj.in_play = true
 	}
-	if(_card_name == "Water Dagger"){
+	if(_card_name == "Water Dagger" or _card_name == "Fire Dagger"){
 		// Choose a random target
 		for (var _i = 0; _i < instance_number(obj_champion_card); ++_i;){
 			players_champions[_i] = instance_find(obj_champion_card, _i)
