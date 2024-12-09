@@ -1,10 +1,12 @@
 /// Set Variables
 
 card_name = "Fire Golem"
-max_health = 100
+alarm[0] = 1
+champ_slots_arr = script_get_info_from_champion_name(card_name)
+max_health = champ_slots_arr[2]
 current_health = max_health
-num_equip_slots = 2
-element = "Water"
+num_equip_slots = champ_slots_arr[0]
+element = champ_slots_arr[1]
 
 gui_x_offset = -14
 gui_y_offset = -64

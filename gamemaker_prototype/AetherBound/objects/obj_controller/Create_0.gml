@@ -41,10 +41,16 @@ player_deck.player_deck = true
 cpu_deck = instance_create_depth(100, 140, 0, obj_deck)
 cpu_deck.player_deck = false
 // Create player's Champions
-instance_create_depth(200, 660, 0, obj_champion_card)
-instance_create_depth(600, 660, 0, obj_champion_card)
-instance_create_depth(1000, 660, 0, obj_champion_card)
+champion1 = instance_create_depth(200, 660, 0, obj_champion_card)
+champion1.card_name = "Water Golem"
+champion2 = instance_create_depth(600, 660, 0, obj_champion_card)
+champion2.card_name = "Water Golem"
+champion3 = instance_create_depth(1000, 660, 0, obj_champion_card)
+champion3.card_name = "Water Golem"
 // Create opponent's Champions
-instance_create_depth(380, 390, 0, obj_champions_card_opponents)
-instance_create_depth(780, 390, 0, obj_champions_card_opponents)
-instance_create_depth(1180, 390, 0, obj_champions_card_opponents)
+opp_champion1 = instance_create_depth(380, 390, 0, obj_champions_card_opponents)
+opp_champion1.card_name = "Fire Golem"
+opp_champion2 = instance_create_depth(780, 390, 0, obj_champions_card_opponents)
+opp_champion2.card_name = "Fire Golem"
+opp_champion3 = instance_create_depth(1180, 390, 0, obj_champions_card_opponents)
+opp_champion3.card_name = "Fire Golem"

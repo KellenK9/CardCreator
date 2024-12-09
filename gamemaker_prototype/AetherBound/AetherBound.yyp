@@ -57,6 +57,7 @@
     {"id":{"name":"script_determine_card_type","path":"scripts/script_determine_card_type/script_determine_card_type.yy",},},
     {"id":{"name":"script_draw_card_opponent","path":"scripts/script_draw_card_opponent/script_draw_card_opponent.yy",},},
     {"id":{"name":"script_draw_card","path":"scripts/script_draw_card/script_draw_card.yy",},},
+    {"id":{"name":"script_get_info_from_champion_name","path":"scripts/script_get_info_from_champion_name/script_get_info_from_champion_name.yy",},},
     {"id":{"name":"script_resolve_effect","path":"scripts/script_resolve_effect/script_resolve_effect.yy",},},
     {"id":{"name":"spr_deck","path":"sprites/spr_deck/spr_deck.yy",},},
     {"id":{"name":"spr_eligible_equip_slot","path":"sprites/spr_eligible_equip_slot/spr_eligible_equip_slot.yy",},},
