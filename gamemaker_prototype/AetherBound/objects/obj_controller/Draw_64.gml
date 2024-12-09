@@ -13,3 +13,6 @@ if(global.game_over){
 		draw_text(1400, 1020, "You lose.")
 	}
 }
+else{
+	draw_text(1400, 20, string_concat("Opponents hand size: ", global.opponent_hand_size))
+}
