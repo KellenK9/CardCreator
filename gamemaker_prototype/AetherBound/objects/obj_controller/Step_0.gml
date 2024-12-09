@@ -25,6 +25,7 @@ if(mouse_check_button_released(mb_left) and global.holding_card and global.playe
 		if(mouse_x < sprite_get_width(spr_field_border)){
 			// Play spell
 			if(script_am_i_activatable(global.card_held)){
+				global.hand_size = global.hand_size - 1
 				global.playing_spell = true
 				script_activate_effect(global.card_held)
 			}

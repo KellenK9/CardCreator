@@ -46,6 +46,7 @@ if(alarm[0] > 0){
 		in_play = true
 		x = global.equip_slot_coord_recent[0]
 		y = global.equip_slot_coord_recent[1]
+		global.hand_size = global.hand_size - 1
 		global.playing_equipment = false
 		global.player_turn = false
 	}

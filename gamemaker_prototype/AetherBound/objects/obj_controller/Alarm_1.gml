@@ -23,6 +23,7 @@ for (var _i = 0; _i < array_length(spell_cards); ++_i;){
 	if(not spell_cards[_i].in_play){
 		if(script_am_i_activatable(spell_cards[_i]) and not card_activated){
 			script_activate_effect_opponent(spell_cards[_i])
+			global.opponent_hand_size = global.opponent_hand_size - 1
 			card_activated = true
 		}
 	}
@@ -50,6 +51,7 @@ for (var _i = 0; _i < array_length(equipment_cards); ++_i;){
 				curr_slot.slot_filled = true
 				equipment_cards[_i].alarm[0] = 1
 				global.recent_cpu_equip_slot_coord = [curr_slot.x, curr_slot.y]
+				global.opponent_hand_size = global.opponent_hand_size - 1
 				card_activated = true
 			}
 		}
