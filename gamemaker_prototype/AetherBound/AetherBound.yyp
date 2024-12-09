@@ -53,6 +53,7 @@
     {"id":{"name":"script_am_i_activatable","path":"scripts/script_am_i_activatable/script_am_i_activatable.yy",},},
     {"id":{"name":"script_convert_name_sprite","path":"scripts/script_convert_name_sprite/script_convert_name_sprite.yy",},},
     {"id":{"name":"script_covert_name_to_zoomed_sprite","path":"scripts/script_covert_name_to_zoomed_sprite/script_covert_name_to_zoomed_sprite.yy",},},
+    {"id":{"name":"script_cpu_turn","path":"scripts/script_cpu_turn/script_cpu_turn.yy",},},
     {"id":{"name":"script_determine_card_type","path":"scripts/script_determine_card_type/script_determine_card_type.yy",},},
     {"id":{"name":"script_draw_card_opponent","path":"scripts/script_draw_card_opponent/script_draw_card_opponent.yy",},},
     {"id":{"name":"script_draw_card","path":"scripts/script_draw_card/script_draw_card.yy",},},

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"script_cpu_turn",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"script_cpu_turn",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
