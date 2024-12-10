@@ -39,11 +39,20 @@ if(global.game_start and not global.player_turn and alarm[1] < 0){
 }
 
 //End Game if Champions are defeated
-if(instance_number(obj_champion_card) == 0){
+if(instance_number(obj_champion_card) == 0 or global.timer <= 0){
 	global.game_over = true
 	global.player_won = false
 }
 if(instance_number(obj_champions_card_opponents) == 0){
 	global.game_over = true
 	global.player_won = true
+}
+
+//Decrement timer
+if(global.game_start and global.player_turn and not global.game_over){
+	if(alarm[3] == -2){
+		alarm[3] = 60
+	}
+}else{
+	alarm[3] = -2
 }

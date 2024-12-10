@@ -22,7 +22,7 @@ if(current_health <= 0){
 	}
 	if(num_equip_slots >= 1){
 		instance_destroy(equipment_slot1)
-		if(num_equip_slots >= 1){
+		if(num_equip_slots >= 2){
 			instance_destroy(equipment_slot2)
 		}
 	}
