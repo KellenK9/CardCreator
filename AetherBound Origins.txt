@@ -20,7 +20,7 @@ Champions:
     Fire Golem
     Water Golem
     Hades
-    Posedion
+    Poseidon
 Spells:
     Fireball
     Spreading Flame
