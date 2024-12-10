@@ -14,3 +14,19 @@ Backlog:
 
 Known Bugs:
 -Opponent's Spring Water healing multiple different golems at 80 health?
+
+Current Card Pool:
+Champions:
+    Fire Golem
+    Water Golem
+    Hades
+    Posedion
+Spells:
+    Fireball
+    Spreading Flame
+    Spring Water
+Equipment:
+    Fire Dagger
+    Water Dagger
+    The Sacred Spring
+
