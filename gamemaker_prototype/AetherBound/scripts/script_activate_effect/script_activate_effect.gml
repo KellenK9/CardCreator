@@ -69,9 +69,10 @@ function script_activate_effect(_card_obj){
 			script_draw_card(1280, 930) //player_deck coords hardcoded
 			global.card_delay = 60
 		}
-		if(global.card_delay > 0){
+		if(global.card_delay > 10){
 			script_activate_effect(_card_obj)
 		}else{ //global.card_delay == 0
+			global.card_delay = -1
 			script_draw_card(1280, 930)
 			global.player_turn = false
 			global.playing_spell = false
