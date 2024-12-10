@@ -23,10 +23,24 @@ function script_cpu_turn(){
 	for (var _i = 0; _i < array_length(spell_cards); ++_i;){
 		if(not spell_cards[_i].in_play){
 			if(script_am_i_activatable(spell_cards[_i]) and not card_activated){
-				script_activate_effect_opponent(spell_cards[_i])
-				global.opponent_hand_size = global.opponent_hand_size - 1
-				card_activated = true
-				spell_cards[_i].in_play = true
+				// CPU first checks to activate Spring Water and heal
+				if(spell_cards[_i].card_name == "Spring Water"){
+					for (var _j = 0; _j < instance_number(obj_champions_card_opponents); ++_j;){
+						curr_champion = instance_find(obj_champions_card_opponents, _j)
+						if(curr_champion.max_health - curr_champion.current_health >= 20){
+							script_activate_effect_opponent(spell_cards[_i])
+							global.opponent_hand_size = global.opponent_hand_size - 1
+							card_activated = true
+							spell_cards[_i].in_play = true
+						}
+					}
+				}
+				else{
+					script_activate_effect_opponent(spell_cards[_i])
+					global.opponent_hand_size = global.opponent_hand_size - 1
+					card_activated = true
+					spell_cards[_i].in_play = true
+				}
 			}
 		}
 	}

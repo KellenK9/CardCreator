@@ -35,4 +35,20 @@ function script_activate_effect_opponent(_card_obj){
 		_target.current_health = _target.current_health - 20
 		_card_obj.alarm[3] = 1
 	}
+	if(_card_name == "Spring Water"){
+		// Choose Champion with lowest health
+		for (var _i = 0; _i < instance_number(obj_champions_card_opponents); ++_i;){
+			opponent_champion = instance_find(obj_champions_card_opponents, _i)
+			if(_i == 0){
+				_target = opponent_champion
+			}
+			if(opponent_champion.max_health - opponent_champion.current_health >= 20){
+				if(opponent_champion.current_health <= _target.current_health or _target.max_health - _target.current_health < 20){
+					_target = opponent_champion
+				}
+			}
+		}
+		_target.current_health = _target.current_health + 20
+		_card_obj.alarm[3] = 1
+	}
 }

@@ -12,3 +12,4 @@ cpu_grave_x = 100
 cpu_grave_y = 390
 
 alarm[2] = 2
+alarm[4] = 1

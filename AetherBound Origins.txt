@@ -14,3 +14,4 @@ Backlog:
 -Add enough champions and cards for a valid game
 -Center Champion health
 -Regenerate artwork for spring water
+-Opponent cannot equip fire dagger to fire champions

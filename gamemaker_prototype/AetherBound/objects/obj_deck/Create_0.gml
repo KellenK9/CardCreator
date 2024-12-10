@@ -40,6 +40,10 @@ if(player_deck){
 		"Spreading Flame",
 		"Spreading Flame",
 		"Spreading Flame",
+		"Spring Water",
+		"Spring Water",
+		"Spring Water",
+		"Spring Water",
 	]
 }
 deck_size = array_length(cards_in_deck)
