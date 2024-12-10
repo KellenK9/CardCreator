@@ -14,4 +14,3 @@ Backlog:
 
 Known Bugs:
 -Opponent's Spring Water healing multiple different golems at 80 health?
--Game crashed when opponent used dagger and I had 2 Champions left

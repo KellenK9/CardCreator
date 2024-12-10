@@ -15,5 +15,5 @@ if(global.game_over){
 }
 else{
 	draw_text(1400, 20, string_concat("Opponents hand size: ", global.opponent_hand_size))
+	draw_text(1400,1020, global.timer)
 }
-draw_text(1400,1020, global.timer)
