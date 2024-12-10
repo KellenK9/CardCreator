@@ -7,10 +7,9 @@ Left mouse button to interact with glowing cards
 Right and middle mouse buttons to view cards
 
 Backlog:
--Game crash bug?
 -Make AI specific to the deck
--Implement stalemate mechanic?
--Import Deck (including Champion) from file
+-Implement stalemate mechanic? surrender?
+-Import Deck (including Champions) from file
 -Add enough champions and cards for a valid game
 -Center Champion health
 -Regenerate artwork for spring water
