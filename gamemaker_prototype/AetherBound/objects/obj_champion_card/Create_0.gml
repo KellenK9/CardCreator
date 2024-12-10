@@ -11,6 +11,7 @@ sprite_index = script_convert_name_sprite(card_name)
 
 gui_x_offset = -14
 gui_y_offset = 40
+gui_health_shift_x = 5
 
 gui_x = x + gui_x_offset
 gui_y = y + gui_y_offset

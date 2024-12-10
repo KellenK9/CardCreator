@@ -14,6 +14,7 @@ gui_y_offset = -64
 
 gui_x = x + gui_x_offset
 gui_y = y + gui_y_offset
+gui_health_shift_x = 5
 
 glowing = false
 

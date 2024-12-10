@@ -1,6 +1,10 @@
 /// Adjust Vars
 
-gui_x = x + gui_x_offset
+if(current_health < 100){
+	gui_x = x + gui_x_offset + gui_health_shift_x
+}else{
+	gui_x = x + gui_x_offset
+}
 gui_y = y + gui_y_offset
 
 if(mouse_check_button_released(mb_left) and position_meeting(mouse_x, mouse_y, self)){
