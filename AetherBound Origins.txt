@@ -11,4 +11,6 @@ Backlog:
 -Implement stalemate mechanic? surrender?
 -Import Deck (including Champions) from file
 -Add enough champions and cards for a valid game
+
+Known Bugs:
 -Opponent's Spring Water healing multiple different golems at 80 health?
