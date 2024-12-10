@@ -23,7 +23,7 @@
 },
 {
     "card_name": "Spring Water",
-    "description": "[ACTIVATED] Heal 20 damage from a hampion.",
+    "description": "[ACTIVATED] Heal 20 damage from a Champion.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/spring_water.png"

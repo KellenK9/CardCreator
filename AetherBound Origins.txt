@@ -13,3 +13,4 @@ Backlog:
 -Import Deck (including Champion) from file
 -Add enough champions and cards for a valid game
 -Center Champion health
+-Regenerate artwork for spring water

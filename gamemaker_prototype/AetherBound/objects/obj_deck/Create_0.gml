@@ -21,6 +21,10 @@ if(player_deck){
 		"Spreading Flame",
 		"Spreading Flame",
 		"Spreading Flame",
+		"Spring Water",
+		"Spring Water",
+		"Spring Water",
+		"Spring Water",
 	]
 }else{
 	cards_in_deck = [

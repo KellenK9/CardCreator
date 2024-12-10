@@ -34,4 +34,19 @@ function script_am_i_activatable(_card_object){
 			return false
 		}
 	}
+	if(card_name == "Spring Water"){
+		for (var _i = 0; _i < instance_number(obj_champion_card); ++_i;){
+			curr_champion = instance_find(obj_champion_card, _i)
+			if(curr_champion.max_health > curr_champion.current_health){
+				return true
+			}
+		}
+		for (var _i = 0; _i < instance_number(obj_champions_card_opponents); ++_i;){
+			curr_champion = instance_find(obj_champions_card_opponents, _i)
+			if(curr_champion.max_health > curr_champion.current_health){
+				return true
+			}
+		}
+		return false
+	}
 }
