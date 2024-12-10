@@ -10,7 +10,9 @@ Backlog:
 -Make AI specific to the deck
 -Implement stalemate mechanic? surrender?
 -Import Deck (including Champions) from file
--Add enough champions and cards for a valid game
+-Add enough champions and cards for a valid water vs fire game
+-Add title screen
+-Add options button that allows you to return to menu / surrender
 
 Known Bugs:
 -Opponent's Spring Water healing multiple different golems at 80 health?
