@@ -51,4 +51,9 @@ function script_activate_effect_opponent(_card_obj){
 		_target.current_health = _target.current_health + 20
 		_card_obj.alarm[3] = 1
 	}
+	if(_card_name == "Pot of Greed"){
+		script_draw_card_opponent()
+		script_draw_card_opponent()
+		_card_obj.alarm[3] = 1
+	}
 }

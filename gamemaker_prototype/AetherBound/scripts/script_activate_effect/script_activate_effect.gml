@@ -1,6 +1,9 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function script_activate_effect(_card_obj){
+	if(global.card_delay > 0){
+		global.card_delay = global.card_delay - 1
+	}
 	_card_name = _card_obj.card_name
 	global.activating_effect_name = _card_name
 	global.activating_card_obj = _card_obj
@@ -59,6 +62,20 @@ function script_activate_effect(_card_obj){
 			if(curr_champion.max_health > curr_champion.current_health){
 				curr_champion.glowing = true
 			}
+		}
+	}
+	if(_card_name == "Pot of Greed"){
+		if(global.card_delay < 0){
+			script_draw_card(1280, 930) //player_deck coords hardcoded
+			global.card_delay = 60
+		}
+		if(global.card_delay > 0){
+			script_activate_effect(_card_obj)
+		}else{ //global.card_delay == 0
+			script_draw_card(1280, 930)
+			global.player_turn = false
+			global.playing_spell = false
+			_card_obj.alarm[3] = 30
 		}
 	}
 }

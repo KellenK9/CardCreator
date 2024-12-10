@@ -22,6 +22,10 @@ if(player_deck){
 		"Spring Water",
 		"Spring Water",
 		"Spring Water",
+		"Pot of Greed",
+		"Pot of Greed",
+		"Pot of Greed",
+		"Pot of Greed",
 	]
 }else{
 	cards_in_deck = [
@@ -41,6 +45,10 @@ if(player_deck){
 		"Spring Water",
 		"Spring Water",
 		"Spring Water",
+		"Pot of Greed",
+		"Pot of Greed",
+		"Pot of Greed",
+		"Pot of Greed",
 	]
 }
 deck_size = array_length(cards_in_deck)

@@ -23,6 +23,15 @@ function script_cpu_turn(){
 	for (var _i = 0; _i < array_length(spell_cards); ++_i;){
 		if(not spell_cards[_i].in_play){
 			if(script_am_i_activatable(spell_cards[_i]) and not card_activated){
+				// CPU first checks to activate Pot of Greed first
+				if(spell_cards[_i].card_name == "Pot of Greed"){
+					if(script_am_i_activatable(spell_cards[_i])){
+						script_activate_effect_opponent(spell_cards[_i])
+						global.opponent_hand_size = global.opponent_hand_size - 1
+						card_activated = true
+						spell_cards[_i].in_play = true
+					}
+				}
 				// CPU first checks to activate Spring Water and heal
 				if(spell_cards[_i].card_name == "Spring Water"){
 					for (var _j = 0; _j < instance_number(obj_champions_card_opponents); ++_j;){

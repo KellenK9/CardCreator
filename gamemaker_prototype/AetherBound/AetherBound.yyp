@@ -76,6 +76,8 @@
     {"id":{"name":"spr_hand_and_menu_area","path":"sprites/spr_hand_and_menu_area/spr_hand_and_menu_area.yy",},},
     {"id":{"name":"spr_poseidon_zoomed","path":"sprites/spr_poseidon_zoomed/spr_poseidon_zoomed.yy",},},
     {"id":{"name":"spr_poseidon","path":"sprites/spr_poseidon/spr_poseidon.yy",},},
+    {"id":{"name":"spr_pot_of_greed_zoomed","path":"sprites/spr_pot_of_greed_zoomed/spr_pot_of_greed_zoomed.yy",},},
+    {"id":{"name":"spr_pot_of_greed","path":"sprites/spr_pot_of_greed/spr_pot_of_greed.yy",},},
     {"id":{"name":"spr_spreading_flame_zoomed","path":"sprites/spr_spreading_flame_zoomed/spr_spreading_flame_zoomed.yy",},},
     {"id":{"name":"spr_spreading_flame","path":"sprites/spr_spreading_flame/spr_spreading_flame.yy",},},
     {"id":{"name":"spr_spring_water_zoomed","path":"sprites/spr_spring_water_zoomed/spr_spring_water_zoomed.yy",},},

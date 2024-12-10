@@ -49,4 +49,19 @@ function script_am_i_activatable(_card_object){
 		}
 		return false
 	}
+	if(card_name == "Pot of Greed"){
+		if(_card_object.object_index == obj_card){
+			if(array_length(global.deck_shuffled) >= 2){
+				return true
+			}else{
+				return false
+			}
+		}else{
+			if(array_length(global.opponent_deck_shuffled) >= 2){
+				return true
+			}else{
+				return false
+			}
+		}
+	}
 }

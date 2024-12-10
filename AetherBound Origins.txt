@@ -13,9 +13,12 @@ Backlog:
 -Add enough champions and cards for a valid water vs fire game
 -Add title screen
 -Add options button that allows you to return to menu / surrender
+-Make latest card in grave on top
 
 Known Bugs:
 -Opponent's Spring Water healing multiple different golems at 80 health?
+-Pot of Greed is only drawing 1 for player
+-Pot of Greed is increasing the opponents hand size by 2 but it should only be 1 since it discards itself. The opponents hand size then drops at 2 some point later when it should drop to 1
 
 Current Card Pool:
 Champions:
@@ -27,6 +30,7 @@ Spells:
     Fireball
     Spreading Flame
     Spring Water
+    Pot of Greed
 Equipment:
     Fire Dagger
     Water Dagger
