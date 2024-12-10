@@ -44,13 +44,13 @@ cpu_deck.player_deck = false
 champion1 = instance_create_depth(200, 660, 0, obj_champion_card)
 champion1.card_name = "Water Golem"
 champion2 = instance_create_depth(600, 660, 0, obj_champion_card)
-champion2.card_name = "Water Golem"
+champion2.card_name = "Poseidon"
 champion3 = instance_create_depth(1000, 660, 0, obj_champion_card)
 champion3.card_name = "Water Golem"
 // Create opponent's Champions
 opp_champion1 = instance_create_depth(380, 390, 0, obj_champions_card_opponents)
 opp_champion1.card_name = "Fire Golem"
 opp_champion2 = instance_create_depth(780, 390, 0, obj_champions_card_opponents)
-opp_champion2.card_name = "Fire Golem"
+opp_champion2.card_name = "Hades"
 opp_champion3 = instance_create_depth(1180, 390, 0, obj_champions_card_opponents)
 opp_champion3.card_name = "Fire Golem"

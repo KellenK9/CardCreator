@@ -7,6 +7,7 @@ max_health = champ_slots_arr[2]
 current_health = max_health
 num_equip_slots = champ_slots_arr[0]
 element = champ_slots_arr[1]
+sprite_index = script_convert_name_sprite(card_name)
 
 gui_x_offset = -14
 gui_y_offset = 40

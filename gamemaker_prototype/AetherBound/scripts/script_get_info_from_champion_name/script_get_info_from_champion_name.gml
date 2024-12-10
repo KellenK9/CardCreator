@@ -9,6 +9,9 @@ function script_get_info_from_champion_name(_champion_name){
 		return [2, "Fire", 100]
 	}
 	if(_champion_name == "Poseidon"){
-		return [1, "Water", 100]
+		return [1, "Water", 150]
+	}
+	if(_champion_name == "Hades"){
+		return [1, "Fire", 150]
 	}
 }
