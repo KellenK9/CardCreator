@@ -5,7 +5,7 @@
     "description": "[ACTIVATED] Deal 10 damage to a Champion.",
     "color": "pink",
     "type": "fire",
-    "artwork": "temp/fire_dagger.png"
+    "artwork": "fire_dagger.png"
 },
 {
     "card_name": "Gambit",
