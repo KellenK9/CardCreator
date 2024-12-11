@@ -12,7 +12,7 @@
     "description": "[ACTIVATED] Add 1 Earth Equipment other than 'Emerald Dagger' from your grave to your hand.",
     "color": "light_beige",
     "type": "earth",
-    "artwork": "temp/emerald_dagger.png"
+    "artwork": "emerald_dagger.png"
 },
 {
     "card_name": "Extra Padding",
