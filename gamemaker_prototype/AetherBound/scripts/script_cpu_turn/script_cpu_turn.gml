@@ -27,7 +27,8 @@ function script_cpu_turn(){
 				if(spell_cards[_i].card_name == "Pot of Greed"){
 					if(script_am_i_activatable(spell_cards[_i])){
 						global.opponent_hand_size = global.opponent_hand_size - 1
-						script_activate_effect_opponent(spell_cards[_i])
+						obj_controller.alarm[4] = 2 //setting this alarm activates effects with a delay
+						global.card_delay_card = spell_cards[_i]
 						card_activated = true
 						spell_cards[_i].in_play = true
 					}

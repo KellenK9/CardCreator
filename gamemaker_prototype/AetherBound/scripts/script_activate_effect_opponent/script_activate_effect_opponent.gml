@@ -56,7 +56,7 @@ function script_activate_effect_opponent(_card_obj){
 		global.card_delay_card = _card_obj
 		if(global.card_delay_count == 0){
 			script_draw_card_opponent()
-			alarm[4] = time_between_actions
+			obj_controller.alarm[4] = time_between_actions
 			global.card_delay_count = 1
 		}else{
 			script_draw_card_opponent()

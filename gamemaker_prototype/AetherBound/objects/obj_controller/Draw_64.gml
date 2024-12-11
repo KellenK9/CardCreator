@@ -14,6 +14,8 @@ if(global.game_over){
 	}
 }
 else{
-	draw_text(1400, 20, string_concat("Opponents hand size: ", global.opponent_hand_size))
+	if(global.game_start){
+		draw_text(1400, 20, string_concat("Opponents hand size: ", array_length(global.opponent_deck_shuffled)))
+	}
 	draw_text(1400,1020, global.timer)
 }
