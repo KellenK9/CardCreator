@@ -52,8 +52,16 @@ function script_activate_effect_opponent(_card_obj){
 		_card_obj.alarm[3] = 1
 	}
 	if(_card_name == "Pot of Greed"){
-		script_draw_card_opponent()
-		script_draw_card_opponent()
-		_card_obj.alarm[3] = 1
+		time_between_actions = 20
+		global.card_delay_card = _card_obj
+		if(global.card_delay_count == 0){
+			script_draw_card_opponent()
+			alarm[4] = time_between_actions
+			global.card_delay_count = 1
+		}else{
+			script_draw_card_opponent()
+			global.card_delay_count = 0
+			_card_obj.alarm[3] = 30
+		}
 	}
 }

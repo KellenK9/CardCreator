@@ -18,7 +18,7 @@ Backlog:
 
 Known Bugs:
 -Opponent's Spring Water healing multiple different golems at 80 health?
--Pot of Greed is only drawing 1 for player, rework logic for time delay in card resolutions
+-Only 1 Fire Dagger in opponent's hand?
 -Pot of Greed is increasing the opponents hand size by 2 but it should only be 1 since it discards itself. The opponents hand size then drops by 2 while activating spring water when it should drop to 1
 
 Current Card Pool:
