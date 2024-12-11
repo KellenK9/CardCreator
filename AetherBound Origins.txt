@@ -14,6 +14,7 @@ Backlog:
 -Add title screen
 -Add options button that allows you to return to menu / surrender
 -Make latest card in grave on top
+-Add Fullscreen in HTML5: https://manta-ray.itch.io/html5-full-screen-extension
 
 Known Bugs:
 -Opponent's Spring Water healing multiple different golems at 80 health?
