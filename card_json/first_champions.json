@@ -18,7 +18,7 @@
     "slot2": "none",
     "slot3": "water",
     "color": "teal",
-    "artwork": "temp/water_golem.png"
+    "artwork": "water_golem.png"
 },
 {
     "card_name": "Earth Golem",
