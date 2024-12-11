@@ -22,7 +22,6 @@ global.game_start = false
 global.player_won = false
 global.starting_hand_size = 7
 global.hand_size = 0
-global.opponent_hand_size = 0
 global.hand_x = 1500 + (global.hand_size * 16)
 global.hand_y = 200 + (global.hand_size * 4)
 global.playing_equipment = false

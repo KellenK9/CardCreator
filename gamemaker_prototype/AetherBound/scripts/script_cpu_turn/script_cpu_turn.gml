@@ -26,7 +26,6 @@ function script_cpu_turn(){
 				// CPU first checks to activate Pot of Greed first
 				if(spell_cards[_i].card_name == "Pot of Greed"){
 					if(script_am_i_activatable(spell_cards[_i])){
-						global.opponent_hand_size = global.opponent_hand_size - 1
 						obj_controller.alarm[4] = 2 //setting this alarm activates effects with a delay
 						global.card_delay_card = spell_cards[_i]
 						card_activated = true
@@ -39,7 +38,6 @@ function script_cpu_turn(){
 						curr_champion = instance_find(obj_champions_card_opponents, _j)
 						if(curr_champion.max_health - curr_champion.current_health >= 20){
 							script_activate_effect_opponent(spell_cards[_i])
-							global.opponent_hand_size = global.opponent_hand_size - 1
 							card_activated = true
 							spell_cards[_i].in_play = true
 						}
@@ -47,7 +45,6 @@ function script_cpu_turn(){
 				}
 				else{
 					script_activate_effect_opponent(spell_cards[_i])
-					global.opponent_hand_size = global.opponent_hand_size - 1
 					card_activated = true
 					spell_cards[_i].in_play = true
 				}
@@ -77,7 +74,6 @@ function script_cpu_turn(){
 					curr_slot.slot_filled = true
 					equipment_cards[_i].alarm[0] = 1
 					global.recent_cpu_equip_slot_coord = [curr_slot.x, curr_slot.y]
-					global.opponent_hand_size = global.opponent_hand_size - 1
 					card_activated = true
 					equipment_cards[_i].in_play = true
 				}

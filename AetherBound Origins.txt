@@ -18,6 +18,7 @@ Backlog:
 
 Known Bugs:
 -Opponent's Spring Water healing multiple different golems at 80 health?
+-Game will crash if activating effect too quickly after opponent's turn
 
 Current Card Pool:
 Champions:
