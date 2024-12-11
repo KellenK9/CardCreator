@@ -56,3 +56,13 @@ if(global.game_start and global.player_turn and not global.game_over){
 }else{
 	alarm[3] = -2
 }
+
+//Set opponent hand size equal to each obj_card_opponent that's in_play but not in_grave
+_counter = 0
+for (var _i = 0; _i < instance_number(obj_card_opponents); ++_i;){
+	curr_card = instance_find(obj_card_opponents, _i)
+	if(not curr_card.in_play){
+		_counter++
+	}
+}
+opponent_hand_size = _counter

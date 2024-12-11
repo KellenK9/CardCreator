@@ -33,6 +33,7 @@ alarm[1] = -2
 global.timer = 999
 alarm[3] = -2
 global.card_delay_count = 0
+opponent_hand_size = 0
 
 // Create Graves and Decks
 player_grave = instance_create_depth(1280, 660, 0, obj_grave)
