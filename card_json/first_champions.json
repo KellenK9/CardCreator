@@ -28,7 +28,7 @@
     "slot2": "none",
     "slot3": "earth",
     "color": "beige",
-    "artwork": "temp/earth_golem.png"
+    "artwork": "earth_golem.png"
 },
 {
     "card_name": "Air Golem",
