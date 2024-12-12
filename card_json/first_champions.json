@@ -38,7 +38,7 @@
     "slot2": "none",
     "slot3": "air",
     "color": "yellow",
-    "artwork": "temp/air_golem.png"
+    "artwork": "air_golem.png"
 },
 {
     "card_name": "Pirate Lord Jandreps",
