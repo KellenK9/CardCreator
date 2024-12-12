@@ -17,6 +17,7 @@ Backlog:
 -Add Fullscreen in HTML5: https://manta-ray.itch.io/html5-full-screen-extension
 -Music
 -Feedback for actions (visuals, audio)
+-Fonts
 
 Known Bugs:
 -None
