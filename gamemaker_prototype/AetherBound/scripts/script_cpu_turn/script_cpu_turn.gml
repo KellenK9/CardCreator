@@ -36,7 +36,7 @@ function script_cpu_turn(){
 				if(spell_cards[_i].card_name == "Spring Water"){
 					for (var _j = 0; _j < instance_number(obj_champions_card_opponents); ++_j;){
 						curr_champion = instance_find(obj_champions_card_opponents, _j)
-						if(curr_champion.max_health - curr_champion.current_health >= 20){
+						if(curr_champion.max_health - curr_champion.current_health >= 20 and not card_activated){ //Need to have a check for not card_activated for every nested for loop
 							script_activate_effect_opponent(spell_cards[_i])
 							card_activated = true
 							spell_cards[_i].in_play = true

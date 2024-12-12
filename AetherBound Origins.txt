@@ -17,7 +17,7 @@ Backlog:
 -Add Fullscreen in HTML5: https://manta-ray.itch.io/html5-full-screen-extension
 
 Known Bugs:
--Opponent's Spring Water healing extra Champions. When all my opponents golems were at 60 health, it healed all 3 of them. When all my opponents golems were at 80 next turn, it healed champions 2 and 3
+-None
 
 Current Card Pool:
 Champions:
