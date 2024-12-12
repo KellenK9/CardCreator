@@ -18,7 +18,7 @@ Backlog:
 
 Known Bugs:
 -Opponent's Spring Water healing multiple different golems at 80 health?
--Game will crash if activating effect too quickly after opponent's turn
+X-Game will crash. I ran into this twice and the cpu script couldn't find the _target for their fire dagger. Occurs when I have less than 1 Champion
 
 Current Card Pool:
 Champions:
