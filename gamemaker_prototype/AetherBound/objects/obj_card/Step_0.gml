@@ -12,6 +12,7 @@ if(moving_towards_grave){
 		speed = 0
 		x = player_grave_x
 		y = player_grave_y
+		moving_towards_grave = false
 	}
 }
 
