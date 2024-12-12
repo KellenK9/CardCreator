@@ -17,8 +17,7 @@ Backlog:
 -Add Fullscreen in HTML5: https://manta-ray.itch.io/html5-full-screen-extension
 
 Known Bugs:
--Opponent's Spring Water healing multiple different golems at 80 health?
-X-Game will crash. I ran into this twice and the cpu script couldn't find the _target for their fire dagger. Occurs when I have less than 1 Champion
+-Opponent's Spring Water healing extra Champions. When all my opponents golems were at 60 health, it healed all 3 of them. When all my opponents golems were at 80 next turn, it healed champions 2 and 3
 
 Current Card Pool:
 Champions:
