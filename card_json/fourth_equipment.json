@@ -1,0 +1,25 @@
+{
+    "cards":[
+        {
+            "card_name": "Compound Grenade",
+            "description": "[ACTIVATED] Destroy this card and Deal 20 damage to a Champion. [TRIGGER] If this card is sent to the Grave: you can shuffle any number of 'Compound' cards from your grave into your deck then deal 10 damage to a Champion for each card returned.",
+            "color": "light_beige",
+            "type": "earth",
+            "artwork": "temp/.png"
+        },
+        {
+            "card_name": "Bloodrite",
+            "description": "[ACTIVATED] Return this card to the hand and destroy 1 Equipment equipped to this Champion then deal 40 damage to a Champion. [TRIGGER] If this card is destroyed by the effect of 'Bloodrite': return it to the hand.",
+            "color": "pink",
+            "type": "fire",
+            "artwork": "temp/.png"
+        },
+        {
+            "card_name": "Droplet",
+            "description": "[ACTIVATED] Destroy all Equipment attached to this Champion then deal 10 damage to each enemy Champion. [TRIGGER] If this card is destroyed: you can add any number of 'Droplet's from deck to hand.",
+            "color": "teal",
+            "type": "water",
+            "artwork": "temp/.png"
+        }
+    ]
+}
