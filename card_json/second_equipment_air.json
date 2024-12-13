@@ -2,7 +2,7 @@
 "cards":[
 {
     "card_name": "Rapid Winds",
-    "description": "[ACTIVATED] Draw 3 cards and destroy this card.",
+    "description": "[ACTIVATED] Destroy this card then draw 4 cards and discard 1 card.",
     "color": "black",
     "type": "air",
     "artwork": "tornado.png"

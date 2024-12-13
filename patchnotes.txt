@@ -45,3 +45,12 @@ New Cards:
 Notes:
     Effect classifications added to card text
     Started development on AetherBound Origins pc game.
+
+v1.1.3
+New Cards:
+    Bloodrite
+    Droplet
+    Compound Fireball
+    Compound Grenade
+Buffs:
+    Rapid Winds
