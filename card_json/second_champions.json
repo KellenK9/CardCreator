@@ -18,7 +18,7 @@
     "slot2": "water",
     "slot3": "none",
     "color": "teal",
-    "artwork": "temp/poseidon.png"
+    "artwork": "poseidon.png"
 },
 {
     "card_name": "Hades",
@@ -28,7 +28,7 @@
     "slot2": "fire",
     "slot3": "none",
     "color": "red",
-    "artwork": "temp/hades.png"
+    "artwork": "hades.png"
 },
 {
     "card_name": "Gaia",
@@ -38,7 +38,7 @@
     "slot2": "earth",
     "slot3": "none",
     "color": "beige",
-    "artwork": "temp/gaia.png"
+    "artwork": "gaia.png"
 },
 {
     "card_name": "Technician Magician",
