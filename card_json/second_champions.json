@@ -48,7 +48,7 @@
     "slot2": "none",
     "slot3": "fire",
     "color": "red",
-    "artwork": "temp/technician_magician.png"
+    "artwork": "technician_magician.png"
 },
 {
     "card_name": "Water Beetle",
