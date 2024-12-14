@@ -18,10 +18,10 @@ Backlog:
 -Music
 -Feedback for actions (visuals, audio)
 -Fonts
--Better solution for depth of cards in hand and grave
+-Better solution for depth of cards in hand and grave. This can also be used to fix selecting multiple cards with 1 click for Verdant Codex
 
 Known Bugs:
--None
+-Single click selects multiple cards with Verdant Codex. Change to only select top card
 
 Current Card Pool:
 Champions:

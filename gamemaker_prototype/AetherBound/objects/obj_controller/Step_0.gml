@@ -27,6 +27,7 @@ if(mouse_check_button_released(mb_left) and global.holding_card and global.playe
 			if(script_am_i_activatable(global.card_held)){
 				global.hand_size = global.hand_size - 1
 				global.playing_spell = true
+				global.card_held.alarm[5] = 1
 				script_activate_effect(global.card_held)
 			}
 		}
