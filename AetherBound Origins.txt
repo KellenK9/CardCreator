@@ -34,6 +34,7 @@ Spells:
     Spreading Flame
     Spring Water
     Pot of Greed
+    Verdant Codex
 Equipment:
     Fire Dagger
     Water Dagger
