@@ -65,4 +65,39 @@ function script_activate_effect_opponent(_card_obj){
 			_card_obj.alarm[3] = 30
 		}
 	}
+	if(_card_name == "Verdant Codex"){
+		time_between_actions = 20
+		global.card_delay_card = _card_obj
+		if(global.card_delay_count < 3){
+			script_draw_card_opponent()
+			obj_controller.alarm[4] = time_between_actions
+			global.card_delay_count++
+		}else{
+			if(global.card_delay_count == 4){
+				for (var _i = 0; _i < instance_number(obj_card_opponents); ++_i;){
+					curr_card = instance_find(obj_card_opponents, _i)
+					if(not curr_card.in_play){
+						cpu_cards[_i] = instance_find(obj_card_opponents, _i)
+					}
+				}
+				_target = cpu_cards[irandom(array_length(cpu_cards) - 1)]
+				_target.alarm[3] = 10
+				_target.in_play = true
+				obj_controller.alarm[4] = time_between_actions
+				global.card_delay_count++
+			}else{
+				for (var _i = 0; _i < instance_number(obj_card_opponents); ++_i;){
+					curr_card = instance_find(obj_card_opponents, _i)
+					if(not curr_card.in_play){
+						cpu_cards[_i] = instance_find(obj_card_opponents, _i)
+					}
+				}
+				_target = cpu_cards[irandom(array_length(cpu_cards) - 1)]
+				_target.alarm[3] = 10
+				_target.in_play = true
+				global.card_delay_count = 0
+				_card_obj.alarm[3] = 30
+			}
+		}
+	}
 }
