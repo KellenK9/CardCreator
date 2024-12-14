@@ -47,4 +47,24 @@ function script_resolve_effect(_target){
 		global.playing_spell = false
 		global.activating_card_obj.alarm[3] = 30
 	}
+	if(global.activating_effect_name == "Verdant Codex"){
+		if(global.card_delay_count == 0){
+			_target.alarm[3] = 2
+			_target.in_play = true
+			_target.glowing = false
+			global.card_delay_count++
+		}else{
+			_target.alarm[3] = 2
+			_target.in_play = true
+			global.card_delay_count = 0
+			global.prompting_player_for_input = false
+			global.player_turn = false
+			global.playing_spell = false
+			global.activating_card_obj.alarm[3] = 30
+			for (var _i = 0; _i < instance_number(obj_card); ++_i;){
+				curr_card = instance_find(obj_card, _i)
+				curr_card.glowing = false
+			}
+		}
+	}
 }

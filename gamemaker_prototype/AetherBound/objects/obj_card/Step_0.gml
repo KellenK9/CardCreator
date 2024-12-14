@@ -60,3 +60,9 @@ if(mouse_check_button_pressed(mb_left)){
 		}
 	}
 }
+
+if(mouse_check_button_released(mb_left) and position_meeting(mouse_x, mouse_y, self)){
+	if(global.prompting_player_for_input and glowing){
+		script_resolve_effect(self)
+	}
+}

@@ -11,3 +11,4 @@ curr_y = 0
 in_play = false
 moving_towards_grave = false
 alarm[4] = 1
+glowing = false

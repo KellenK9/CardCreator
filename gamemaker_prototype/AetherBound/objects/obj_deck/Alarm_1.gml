@@ -26,6 +26,10 @@ if(player_deck){
 		"Pot of Greed",
 		"Pot of Greed",
 		"Pot of Greed",
+		"Verdant Codex",
+		"Verdant Codex",
+		"Verdant Codex",
+		"Verdant Codex",
 	]
 }else{
 	cards_in_deck = [

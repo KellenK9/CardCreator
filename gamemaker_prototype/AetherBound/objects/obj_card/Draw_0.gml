@@ -21,4 +21,8 @@ if(not in_play and global.player_turn and not global.prompting_player_for_input 
 	}
 }
 
+if(glowing){
+	draw_sprite(spr_glow_effect, 1, x, y)
+}
+
 draw_self()

@@ -66,7 +66,7 @@ function script_activate_effect(_card_obj){
 		global.card_delay_card = _card_obj
 		if(global.card_delay_count == 0){
 			script_draw_card(1280, 930) //player_deck coords hardcoded
-			alarm[4] = time_between_actions
+			obj_controller.alarm[4] = time_between_actions
 			global.card_delay_count = 1
 		}else{
 			script_draw_card(1280, 930)
@@ -74,6 +74,25 @@ function script_activate_effect(_card_obj){
 			global.playing_spell = false
 			global.card_delay_count = 0
 			_card_obj.alarm[3] = 30
+		}
+	}
+	if(_card_name == "Verdant Codex"){
+		time_between_actions = 60
+		global.card_delay_card = _card_obj
+		if(global.card_delay_count < 2){
+			script_draw_card(1280, 930) //player_deck coords hardcoded
+			obj_controller.alarm[4] = time_between_actions
+			global.card_delay_count++
+		}else{
+			script_draw_card(1280, 930)
+			global.card_delay_count = 0
+			global.prompting_player_for_input = true
+			for (var _i = 0; _i < instance_number(obj_card); ++_i;){
+				curr_card = instance_find(obj_card, _i)
+				if(not curr_card.in_play){
+					curr_card.glowing = true
+				}
+			}
 		}
 	}
 }
