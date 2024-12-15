@@ -13,12 +13,13 @@ Backlog:
 -Add enough cards for a valid water vs fire game
 -Add title screen
 -Add options button that allows you to return to menu / surrender
--Make latest card in grave on top
 -Add Fullscreen in HTML5: https://manta-ray.itch.io/html5-full-screen-extension
 -Music
 -Feedback for actions (visuals, audio)
 -Fonts
 -Better solution for depth of cards in hand and grave. This can also be used to fix selecting multiple cards with 1 click for Verdant Codex
+-Zoom in on top card when zooming
+-Make latest card in grave on top
 -Let CPU activate Champions activated effects
 
 Known Bugs:
