@@ -2,10 +2,12 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function script_activate_effect_opponent(_card_obj){
 	_card_name = _card_obj.card_name
-	if(_card_obj.type == "Spell"){
-		_card_obj.speed = 0
-		_card_obj.alarm[0] = -2
-		_card_obj.in_play = true
+	if(_card_obj.object_index == obj_card){
+		if(_card_obj.type == "Spell"){
+			_card_obj.speed = 0
+			_card_obj.alarm[0] = -2
+			_card_obj.in_play = true
+		}
 	}
 	if(_card_name == "Water Dagger" or _card_name == "Fire Dagger"){
 		// Choose a random target

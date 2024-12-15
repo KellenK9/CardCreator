@@ -40,6 +40,7 @@ if(being_held){
 	}
 }
 
+//Equip
 if(alarm[0] > 0){
 	if(global.playing_equipment){
 		speed = 0
@@ -53,6 +54,7 @@ if(alarm[0] > 0){
 	}
 }
 
+//Get activated
 if(mouse_check_button_pressed(mb_left)){
 	if(in_play and global.player_turn and type == "Equipment" and position_meeting(mouse_x, mouse_y, self) and not global.prompting_player_for_input){
 		if(script_am_i_activatable(self)){

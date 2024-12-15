@@ -7,6 +7,17 @@ if(current_health < 100){
 }
 gui_y = y + gui_y_offset
 
+//Get activated
+if(mouse_check_button_pressed(mb_left)){
+	if(global.player_turn and position_meeting(mouse_x, mouse_y, self) and not global.prompting_player_for_input){
+		if(script_am_i_activatable(self)){
+			alarm[5] = 1
+			script_activate_effect(self)
+		}
+	}
+}
+
+//Get chosen by the player when they are targeting a card
 if(mouse_check_button_released(mb_left) and position_meeting(mouse_x, mouse_y, self)){
 	if(global.prompting_player_for_input and glowing){
 		alarm[5] = 1

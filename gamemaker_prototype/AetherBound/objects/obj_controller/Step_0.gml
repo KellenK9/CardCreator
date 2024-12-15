@@ -36,7 +36,7 @@ if(mouse_check_button_released(mb_left) and global.holding_card and global.playe
 
 // Make move for cpu
 if(global.game_start and not global.player_turn and alarm[1] < 0){
-	alarm[1] = 100
+	alarm[1] = 200
 }
 
 //End Game if Champions are defeated

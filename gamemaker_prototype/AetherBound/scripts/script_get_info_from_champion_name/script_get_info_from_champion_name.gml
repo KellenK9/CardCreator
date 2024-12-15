@@ -14,4 +14,10 @@ function script_get_info_from_champion_name(_champion_name){
 	if(_champion_name == "Hades"){
 		return [1, "Fire", 150]
 	}
+	if(_champion_name == "Technician Magician"){
+		return [2, "Fire", 90]
+	}
+	if(_champion_name == "Pirate Lord Jandreps"){
+		return [1, "Water", 110]
+	}
 }

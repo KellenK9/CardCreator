@@ -4,10 +4,12 @@ function script_activate_effect(_card_obj){
 	_card_name = _card_obj.card_name
 	global.activating_effect_name = _card_name
 	global.activating_card_obj = _card_obj
-	if(_card_obj.type == "Spell"){
-		_card_obj.speed = 0
-		_card_obj.alarm[0] = -2
-		_card_obj.in_play = true
+	if(_card_obj.object_index == obj_card){
+		if(_card_obj.type == "Spell"){
+			_card_obj.speed = 0
+			_card_obj.alarm[0] = -2
+			_card_obj.in_play = true
+		}
 	}
 	if(_card_name == "Water Dagger" or _card_name == "Fire Dagger"){
 		//prompt player for Champion to select
@@ -93,6 +95,21 @@ function script_activate_effect(_card_obj){
 					curr_card.glowing = true
 				}
 			}
+		}
+	}
+	if(_card_name == "Pirate Lord Jandreps"){
+		time_between_actions = 60
+		global.card_delay_card = _card_obj
+		if(global.card_delay_count == 0){
+			script_draw_card(1280, 930) //player_deck coords hardcoded
+			obj_controller.alarm[4] = time_between_actions
+			global.card_delay_count = 1
+			_card_obj.current_health = _card_obj.current_health - 20
+		}else{
+			script_draw_card(1280, 930)
+			global.player_turn = false
+			//global.playing_spell = false
+			global.card_delay_count = 0
 		}
 	}
 }
