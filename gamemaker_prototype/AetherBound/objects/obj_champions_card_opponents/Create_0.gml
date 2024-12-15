@@ -23,3 +23,6 @@ equipped_distance_threshold = 200
 equip_slot_distance = 96
 
 activation_effect_opacity = 0
+
+//Champion specific vars (typically for trigger or passive effects)
+technician_activated = false

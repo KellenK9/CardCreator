@@ -102,4 +102,23 @@ function script_activate_effect_opponent(_card_obj){
 			}
 		}
 	}
+	if(_card_name == "Pirate Lord Jandreps"){
+		_card_obj.current_health = _card_obj.current_health - 20
+		time_between_actions = 20
+		global.card_delay_card = _card_obj
+		if(global.card_delay_count == 0){
+			script_draw_card_opponent()
+			obj_controller.alarm[4] = time_between_actions
+			global.card_delay_count = 1
+		}else{
+			script_draw_card_opponent()
+			global.card_delay_count = 0
+		}
+	}
+	if(_card_name == "Technician Magician"){
+		for (var _i = 0; _i < instance_number(obj_champion_card); ++_i;){
+			curr_champion = instance_find(obj_champion_card, _i)
+			curr_champion.current_health = curr_champion.current_health - 10
+		}
+	}
 }

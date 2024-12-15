@@ -29,3 +29,13 @@ if(current_health <= 0){
 	}
 	instance_destroy(self)
 }
+
+if(card_name == "Technician Magician"){
+	if(current_health < max_health){
+		if(not technician_activated){
+			script_activate_effect_opponent(self)
+			technician_activated = true
+			alarm[5] = 1
+		}
+	}
+}

@@ -20,7 +20,7 @@ function script_am_i_activatable(_card_object){
 		}
 	}
 	// Cases that are always activatable
-	always_activatable = ["Water Dagger", "Fire Dagger", "Fireball", "Spreading Flame", "Pirate Lord Jandreps"]
+	always_activatable = ["Water Dagger", "Fire Dagger", "Fireball", "Spreading Flame"]
 	if(array_contains(always_activatable, card_name)){
 		return true
 	}
@@ -73,6 +73,21 @@ function script_am_i_activatable(_card_object){
 			}
 		}else{
 			if(array_length(global.opponent_deck_shuffled) >= 3){
+				return true
+			}else{
+				return false
+			}
+		}
+	}
+	if(card_name == "Pirate Lord Jandreps"){
+		if(_card_object.object_index == obj_champion_card){
+			if(array_length(global.deck_shuffled) >= 2){
+				return true
+			}else{
+				return false
+			}
+		}else{
+			if(array_length(global.opponent_deck_shuffled) >= 2){
 				return true
 			}else{
 				return false

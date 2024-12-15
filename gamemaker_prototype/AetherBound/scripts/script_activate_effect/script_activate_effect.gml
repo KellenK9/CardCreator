@@ -112,4 +112,10 @@ function script_activate_effect(_card_obj){
 			global.card_delay_count = 0
 		}
 	}
+	if(_card_name == "Technician Magician"){
+		for (var _i = 0; _i < instance_number(obj_champions_card_opponents); ++_i;){
+			curr_champion = instance_find(obj_champions_card_opponents, _i)
+			curr_champion.current_health = curr_champion.current_health - 10
+		}
+	}
 }
