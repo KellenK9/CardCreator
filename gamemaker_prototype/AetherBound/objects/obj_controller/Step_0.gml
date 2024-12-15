@@ -20,7 +20,7 @@ if(mouse_check_button_released(mb_middle) or mouse_check_button_released(mb_righ
 }
 
 // Check if card played
-if(mouse_check_button_released(mb_left) and global.holding_card and global.player_turn){
+if(mouse_check_button_released(mb_left) and global.holding_card and global.player_turn and global.card_delay_count == 0){
 	if(global.card_held.type == "Spell"){
 		if(mouse_x < sprite_get_width(spr_field_border)){
 			// Play spell

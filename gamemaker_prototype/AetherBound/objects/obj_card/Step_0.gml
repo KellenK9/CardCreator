@@ -56,7 +56,7 @@ if(alarm[0] > 0){
 
 //Get activated
 if(mouse_check_button_pressed(mb_left)){
-	if(in_play and global.player_turn and type == "Equipment" and position_meeting(mouse_x, mouse_y, self) and not global.prompting_player_for_input){
+	if(in_play and global.player_turn and type == "Equipment" and position_meeting(mouse_x, mouse_y, self) and not global.prompting_player_for_input and global.card_delay_count == 0){
 		if(script_am_i_activatable(self)){
 			alarm[5] = 1
 			script_activate_effect(self)

@@ -1,6 +1,6 @@
 /// @description draw
 
-if(global.player_turn and not global.prompting_player_for_input and not global.game_over and not global.holding_card){
+if(global.player_turn and not global.prompting_player_for_input and not global.game_over and not global.holding_card and global.card_delay_count == 0){
 	if(script_am_i_activatable(self)){
 		draw_sprite(spr_glow_effect, 1, x, y)
 	}

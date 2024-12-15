@@ -22,6 +22,7 @@ Backlog:
 
 Known Bugs:
 -Single click selects multiple cards with Verdant Codex. Change to only select top card
+-Activating Jandreps causes a gold box effect around the player's deck
 
 Current Card Pool:
 Champions:
