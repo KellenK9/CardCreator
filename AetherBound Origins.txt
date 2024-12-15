@@ -10,7 +10,7 @@ Backlog:
 -Make AI specific to the deck
 -Implement stalemate mechanic? surrender?
 -Import Deck (including Champions) from file
--Add enough champions and cards for a valid water vs fire game
+-Add enough cards for a valid water vs fire game
 -Add title screen
 -Add options button that allows you to return to menu / surrender
 -Make latest card in grave on top
@@ -19,6 +19,7 @@ Backlog:
 -Feedback for actions (visuals, audio)
 -Fonts
 -Better solution for depth of cards in hand and grave. This can also be used to fix selecting multiple cards with 1 click for Verdant Codex
+-Let CPU activate Champions activated effects
 
 Known Bugs:
 -Single click selects multiple cards with Verdant Codex. Change to only select top card
@@ -30,6 +31,8 @@ Champions:
     Water Golem
     Hades
     Poseidon
+    Technician Magician
+    Pirate Lord Jandreps
 Spells:
     Fireball
     Spreading Flame
