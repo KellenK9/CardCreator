@@ -1,3 +1,3 @@
 /// Draw Background
 
-draw_sprite(spr_hand_and_menu_area, 0, room_width, 0)
+draw_sprite(spr_cloth1, 0, room_width, 0)
