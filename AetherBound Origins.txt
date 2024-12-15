@@ -25,7 +25,7 @@ Backlog:
 Known Bugs:
 -Single click selects multiple cards with Verdant Codex. Change to only select top card
 -Activating Jandreps causes a gold box effect around the player's deck
--Activating dagger equipped to a Champion with 10 health where Champion died before able to select target for dagger? Might have happened with playtester.
+-Activating dagger equipped to a Champion with 10 health where Champion died before able to select target for dagger? Due to opponent's turns taking long and activating late
 
 Current Card Pool:
 Champions:
