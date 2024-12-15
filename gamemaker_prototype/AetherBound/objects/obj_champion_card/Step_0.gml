@@ -41,6 +41,45 @@ if(current_health <= 0){
 	instance_destroy(self)
 }
 
+//Check if health changed
+if(current_health < latest_health){
+	took_damage = true
+	latest_health = current_health
+}
+if(current_health > latest_health){
+	healed = true
+	latest_health = current_health
+}
+
+//Glow red if took damage recently
+if(took_damage){
+	green_shade = green_shade - 5
+	blue_shade = blue_shade - 5
+	if(alarm[1] <= 0){
+		alarm[1] = 40
+	}
+}
+else{
+	if(green_shade < 255){
+		green_shade = green_shade + 5
+		blue_shade = blue_shade + 5
+	}
+}
+//Glow green if healed recently
+if(healed){
+	red_shade = red_shade - 5
+	blue_shade = blue_shade - 5
+	if(alarm[1] <= 0){
+		alarm[1] = 40
+	}
+}
+else{
+	if(red_shade < 255){
+		red_shade = red_shade + 5
+		blue_shade = blue_shade + 5
+	}
+}
+
 if(card_name == "Technician Magician"){
 	if(current_health < max_health){
 		if(not technician_activated){

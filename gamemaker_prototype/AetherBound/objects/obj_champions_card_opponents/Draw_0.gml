@@ -1,6 +1,7 @@
 /// Draw Upside down
 
 image_angle = 180
+image_blend = make_colour_rgb(red_shade, green_shade, blue_shade)
 
 if(glowing){
 	draw_sprite(spr_glow_effect, 1, x, y)

@@ -24,5 +24,13 @@ equip_slot_distance = 96
 
 activation_effect_opacity = 0
 
+red_shade = 255
+green_shade = 255
+blue_shade = 255
+took_damage = false
+healed = false
+latest_health = current_health
+alarm[1] = -2
+
 //Champion specific vars (typically for trigger or passive effects)
 technician_activated = false
