@@ -17,9 +17,10 @@ Backlog:
 -Music
 -Feedback for actions (visuals, audio)
 -Fonts
--Better solution for depth of cards in hand and grave. This can also be used to fix selecting multiple cards with 1 click for Verdant Codex
--Zoom in on top card when zooming
--Make latest card in grave on top
+-Better solution for depth of cards in hand and grave
+  -Verdant Codex shouldn't select multiple cards with 1 click
+  -Zoom in on top card when zooming
+  -Make latest card in grave on top
 -Let CPU activate Champions activated effects
 
 Known Bugs:
