@@ -20,6 +20,13 @@
             "color": "teal",
             "type": "water",
             "artwork": "temp/.png"
+        },
+        {
+            "card_name": "Relicshot Engine",
+            "description": "[ACTIVATED] Destroy 1 Equipment you control then deal 20 damage to a Champion.",
+            "color": "pink",
+            "type": "fire",
+            "artwork": "temp/.png"
         }
     ]
 }
