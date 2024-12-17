@@ -54,3 +54,5 @@ New Cards:
     Compound Grenade
 Buffs:
     Rapid Winds
+Nerfs:
+    Greedy Rage
