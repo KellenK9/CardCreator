@@ -1,4 +1,4 @@
-v1.0 Playtested Extensively through Thanksgiving 2024.
+Version Alpha 1.0 (v1.0) Playtested Extensively through Thanksgiving 2024.
 
 
 v1.1.0
