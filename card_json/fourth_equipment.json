@@ -19,14 +19,14 @@
             "description": "[ACTIVATED] Destroy all Equipment attached to this Champion then deal 10 damage to each enemy Champion. [TRIGGER] If this card is destroyed: you can add any number of 'Droplet's from deck to hand.",
             "color": "teal",
             "type": "water",
-            "artwork": "temp/.png"
+            "artwork": "droplet.png"
         },
         {
             "card_name": "Relicshot Engine",
             "description": "[ACTIVATED] Destroy 1 Equipment you control then deal 20 damage to a Champion.",
             "color": "pink",
             "type": "fire",
-            "artwork": "temp/.png"
+            "artwork": "relicshot_engine.png"
         }
     ]
 }
