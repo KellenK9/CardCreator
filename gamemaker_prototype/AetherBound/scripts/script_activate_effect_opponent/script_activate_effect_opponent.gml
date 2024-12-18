@@ -121,4 +121,16 @@ function script_activate_effect_opponent(_card_obj){
 			curr_champion.current_health = curr_champion.current_health - 10
 		}
 	}
+	if(_card_name == "Sirens Echo Mk. IV"){
+		// Choose a random target
+		for (var _i = 0; _i < instance_number(obj_champion_card); ++_i;){
+			players_champions[_i] = instance_find(obj_champion_card, _i)
+		}
+		_target = players_champions[irandom(array_length(players_champions) - 1)]
+		_target.current_health = _target.current_health - 20
+		_card_obj.alarm[1] = 1 //move to hand
+		_card_obj.in_play = false
+		equip_slot = instance_position(_card_obj.x, _card_obj.y, obj_equipment_slot_opponents)
+		equip_slot.slot_filled = false
+	}
 }

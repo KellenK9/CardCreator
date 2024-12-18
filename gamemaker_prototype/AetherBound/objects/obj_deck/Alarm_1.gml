@@ -30,6 +30,10 @@ if(player_deck){
 		"Verdant Codex",
 		"Verdant Codex",
 		"Verdant Codex",
+		"Sirens Echo Mk. IV",
+		"Sirens Echo Mk. IV",
+		"Sirens Echo Mk. IV",
+		"Sirens Echo Mk. IV",
 	]
 }else{
 	cards_in_deck = [

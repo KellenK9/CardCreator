@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function script_resolve_effect(_target){
-	if(global.activating_effect_name == "Water Dagger"){
+	if(global.activating_effect_name == "Water Dagger" or global.activating_effect_name == "Fire Dagger"){
 		_target.current_health = _target.current_health - 10
 		for (var _i = 0; _i < instance_number(obj_champion_card); ++_i;){
 			curr_champion = instance_find(obj_champion_card, _i)
@@ -66,5 +66,22 @@ function script_resolve_effect(_target){
 				curr_card.glowing = false
 			}
 		}
+	}
+	if(global.activating_effect_name == "Sirens Echo Mk. IV"){
+		_target.current_health = _target.current_health - 20
+		for (var _i = 0; _i < instance_number(obj_champion_card); ++_i;){
+			curr_champion = instance_find(obj_champion_card, _i)
+			curr_champion.glowing = false
+		}
+		for (var _i = 0; _i < instance_number(obj_champions_card_opponents); ++_i;){
+			curr_champion = instance_find(obj_champions_card_opponents, _i)
+			curr_champion.glowing = false
+		}
+		global.prompting_player_for_input = false
+		global.player_turn = false
+		global.activating_card_obj.alarm[0] = 30
+		global.activating_card_obj.in_play = false
+		equip_slot = instance_position(global.activating_card_obj.x, global.activating_card_obj.y, obj_equipment_slot)
+		equip_slot.slot_filled = false
 	}
 }

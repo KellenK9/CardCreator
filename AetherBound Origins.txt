@@ -27,6 +27,7 @@ Known Bugs:
 -Single click selects multiple cards with Verdant Codex. Change to only select top card
 -Activating Jandreps causes a gold box effect around the player's deck
 -Activating dagger equipped to a Champion with 10 health where Champion died before able to select target for dagger? Due to opponent's turns taking long and activating late
+-Moving cards drawn over zoomed image
 
 Current Card Pool:
 Champions:
@@ -46,4 +47,5 @@ Equipment:
     Fire Dagger
     Water Dagger
     The Sacred Spring
+    Sirens Echo Mk. IV
 
