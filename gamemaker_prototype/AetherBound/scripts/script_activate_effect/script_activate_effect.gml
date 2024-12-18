@@ -107,4 +107,24 @@ function script_activate_effect(_card_obj){
 			curr_champion.current_health = curr_champion.current_health - 10
 		}
 	}
+	if(_card_name == "Love Potion of Calming Mind"){
+		//prompt player for water equipment in hand to select
+		global.prompting_player_for_input = true
+		for (var _i = 0; _i < instance_number(obj_card); ++_i;){
+			curr_card = instance_find(obj_card, _i)
+			if(not curr_card.in_play and curr_card.type == "Equipment" and curr_card.element == "Water"){
+				curr_card.glowing = true
+			}
+		}
+	}
+	if(_card_name == "Love Potion of Fiery Heart"){
+		//prompt player for fire equipment in hand to select
+		global.prompting_player_for_input = true
+		for (var _i = 0; _i < instance_number(obj_card); ++_i;){
+			curr_card = instance_find(obj_card, _i)
+			if(not curr_card.in_play and curr_card.type == "Equipment" and curr_card.element == "Fire"){
+				curr_card.glowing = true
+			}
+		}
+	}
 }

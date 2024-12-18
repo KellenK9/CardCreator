@@ -7,7 +7,11 @@ function script_determine_card_type(_card_name){
 	"Spreading Flame",
 	"Spring Water",
 	"Pot of Greed",
-	"Verdant Codex"
+	"Verdant Codex",
+	"Celestial Shower",
+	"Pressure",
+	"Love Potion of Calming Mind",
+	"Love Potion of Fiery Heart"
 	]
 	if(array_contains(list_of_spells, _card_name)){
 		_card_type = "Spell"

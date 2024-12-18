@@ -22,8 +22,17 @@ if(player_deck){
 		"Holy Water Balloon",
 		"Tidal Wave",
 		"Tidal Wave",
-		"Tidal Wave",
-		"Tidal Wave",
+		"Pressure",
+		"Pressure",
+		"Celestial Shower",
+		"Celestial Shower",
+		"Celestial Shower",
+		"Celestial Shower",
+		"Love Potion of Calming Mind",
+		"Love Potion of Calming Mind",
+		"Love Potion of Calming Mind",
+		"Love Potion of Calming Mind",
+		
 	]
 }else{
 	cards_in_deck = [
@@ -51,6 +60,14 @@ if(player_deck){
 		"Verdant Codex",
 		"Verdant Codex",
 		"Verdant Codex",
+		"Celestial Shower",
+		"Celestial Shower",
+		"Celestial Shower",
+		"Celestial Shower",
+		"Love Potion of Fiery Heart",
+		"Love Potion of Fiery Heart",
+		"Love Potion of Fiery Heart",
+		"Love Potion of Fiery Heart",
 	]
 }
 deck_size = array_length(cards_in_deck)

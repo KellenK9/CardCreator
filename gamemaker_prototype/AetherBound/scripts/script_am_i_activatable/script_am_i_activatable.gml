@@ -20,7 +20,14 @@ function script_am_i_activatable(_card_object){
 		}
 	}
 	// Cases that are always activatable
-	always_activatable = ["Water Dagger", "Fire Dagger", "Fireball", "Spreading Flame", "Sirens Echo Mk. IV", "Tidal Wave"]
+	always_activatable = [
+	"Water Dagger",
+	"Fire Dagger",
+	"Fireball",
+	"Spreading Flame",
+	"Sirens Echo Mk. IV",
+	"Tidal Wave",
+	"Pressure"]
 	if(array_contains(always_activatable, card_name)){
 		return true
 	}
@@ -93,5 +100,80 @@ function script_am_i_activatable(_card_object){
 				return false
 			}
 		}
+	}
+	if(card_name == "Celestial Shower"){
+		cpu_has_equipment = false
+		player_has_equipment = false
+		for (var _i = 0; _i < instance_number(obj_card_opponents); ++_i;){
+			curr_card = instance_find(obj_card_opponents, _i)
+			if(curr_card.in_play and curr_card.type == "Equipment"){
+				cpu_has_equipment = true
+			}
+		}
+		for (var _i = 0; _i < instance_number(obj_card); ++_i;){
+			curr_card = instance_find(obj_card, _i)
+			if(curr_card.in_play and curr_card.type == "Equipment"){
+				player_has_equipment = true
+			}
+		}
+		if(player_has_equipment and cpu_has_equipment){
+			return true
+		}else{
+			return false
+		}
+	}
+	if(card_name == "Love Potion of Calming Mind"){
+		have_equipment_for_discard = false
+		have_target = false
+		if(_card_object.object_index == obj_card){
+			for (var _i = 0; _i < instance_number(obj_card); ++_i;){
+				curr_card = instance_find(obj_card, _i)
+				if(not curr_card.in_play and curr_card.type == "Equipment" and curr_card.element == "Water"){
+					have_equipment_for_discard =  true
+				}
+			}
+		}else{
+			for (var _i = 0; _i < instance_number(obj_card_opponents); ++_i;){
+				curr_card = instance_find(obj_card_opponents, _i)
+				if(not curr_card.in_play and curr_card.type == "Equipment" and curr_card.element == "Water"){
+					have_equipment_for_discard =  true
+				}
+			}
+		}
+		for (var _i = 0; _i < instance_number(obj_champion_card); ++_i;){
+			curr_champion = instance_find(obj_champion_card, _i)
+			if(curr_champion.max_health > curr_champion.current_health){
+				have_target = true
+			}
+		}
+		for (var _i = 0; _i < instance_number(obj_champions_card_opponents); ++_i;){
+			curr_champion = instance_find(obj_champions_card_opponents, _i)
+			if(curr_champion.max_health > curr_champion.current_health){
+				have_target = true
+			}
+		}
+		if(have_equipment_for_discard and have_target){
+			return true
+		}else{
+			return false
+		}
+	}
+	if(card_name == "Love Potion of Fiery Heart"){
+		if(_card_object.object_index == obj_card){
+			for (var _i = 0; _i < instance_number(obj_card); ++_i;){
+				curr_card = instance_find(obj_card, _i)
+				if(not curr_card.in_play and curr_card.type == "Equipment" and curr_card.element == "Fire"){
+					return true
+				}
+			}
+		}else{
+			for (var _i = 0; _i < instance_number(obj_card_opponents); ++_i;){
+				curr_card = instance_find(obj_card_opponents, _i)
+				if(not curr_card.in_play and curr_card.type == "Equipment" and curr_card.element == "Fire"){
+					return true
+				}
+			}
+		}
+		return false
 	}
 }
