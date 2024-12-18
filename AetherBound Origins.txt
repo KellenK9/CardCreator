@@ -21,7 +21,10 @@ Backlog:
   -Verdant Codex shouldn't select multiple cards with 1 click
   -Zoom in on top card when zooming
   -Make latest card in grave on top
--Let CPU activate Champions activated effects
+-Let CPU activate:
+  -Champions activated effects
+  -Love Potion of Calming Mind
+-Add effects for Pressure, Celestial Shower, and Love Potion of Fiery Heart
 
 Known Bugs:
 -Single click selects multiple cards with Verdant Codex. Change to only select top card
@@ -43,6 +46,7 @@ Spells:
     Spring Water
     Pot of Greed
     Verdant Codex
+    Love Potion of Calming Mind
 Equipment:
     Fire Dagger
     Water Dagger
