@@ -34,7 +34,7 @@ function script_am_i_activatable(_card_object){
 			return false
 		}
 	}
-	if(card_name == "Spring Water"){
+	if(card_name == "Spring Water" or card_name == "Holy Water Balloon"){
 		for (var _i = 0; _i < instance_number(obj_champion_card); ++_i;){
 			curr_champion = instance_find(obj_champion_card, _i)
 			if(curr_champion.max_health > curr_champion.current_health){

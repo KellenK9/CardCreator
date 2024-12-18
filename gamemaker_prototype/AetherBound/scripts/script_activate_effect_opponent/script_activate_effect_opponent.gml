@@ -133,4 +133,21 @@ function script_activate_effect_opponent(_card_obj){
 		equip_slot = instance_position(_card_obj.x, _card_obj.y, obj_equipment_slot_opponents)
 		equip_slot.slot_filled = false
 	}
+	if(_card_name == "Holy Water Balloon"){
+		// Choose Champion with most health lost
+		biggest_diff = 0
+		for (var _i = 0; _i < instance_number(obj_champions_card_opponents); ++_i;){
+			opponent_champion = instance_find(obj_champions_card_opponents, _i)
+			if(_i == 0){
+				_target = opponent_champion
+			}
+			curr_diff = opponent_champion.max_health - opponent_champion.current_health
+			if(curr_diff > biggest_diff){
+				biggest_diff = curr_diff
+				_target = opponent_champion
+			}
+		}
+		_target.current_health = _target.current_health + 30
+		_card_obj.alarm[3] = 1
+	}
 }

@@ -76,6 +76,8 @@
     {"id":{"name":"spr_hades_zoomed","path":"sprites/spr_hades_zoomed/spr_hades_zoomed.yy",},},
     {"id":{"name":"spr_hades","path":"sprites/spr_hades/spr_hades.yy",},},
     {"id":{"name":"spr_hand_and_menu_area","path":"sprites/spr_hand_and_menu_area/spr_hand_and_menu_area.yy",},},
+    {"id":{"name":"spr_holy_water_balloon_zoomed","path":"sprites/spr_holy_water_balloon_zoomed/spr_holy_water_balloon_zoomed.yy",},},
+    {"id":{"name":"spr_holy_water_balloon","path":"sprites/spr_holy_water_balloon/spr_holy_water_balloon.yy",},},
     {"id":{"name":"spr_pirate_lord_jandreps_zoomed","path":"sprites/spr_pirate_lord_jandreps_zoomed/spr_pirate_lord_jandreps_zoomed.yy",},},
     {"id":{"name":"spr_pirate_lord_jandreps","path":"sprites/spr_pirate_lord_jandreps/spr_pirate_lord_jandreps.yy",},},
     {"id":{"name":"spr_poseidon_zoomed","path":"sprites/spr_poseidon_zoomed/spr_poseidon_zoomed.yy",},},

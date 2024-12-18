@@ -3,7 +3,7 @@
 function script_equipment_element_lookup(_equipment_card_obj){
 	curr_card_name = _equipment_card_obj.card_name
 	fire_equipment = ["Fire Dagger"]
-	water_equipment = ["Water Dagger", "The Sacred Spring", "Sirens Echo Mk. IV"]
+	water_equipment = ["Water Dagger", "The Sacred Spring", "Sirens Echo Mk. IV", "Holy Water Balloon"]
 	earth_equipment = []
 	if(array_contains(fire_equipment,curr_card_name)){
 		_equipment_card_obj.element = "Fire"

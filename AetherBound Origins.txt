@@ -48,4 +48,5 @@ Equipment:
     Water Dagger
     The Sacred Spring
     Sirens Echo Mk. IV
+    Holy Water Balloon
 

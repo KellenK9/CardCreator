@@ -13,3 +13,4 @@ moving_towards_grave = false
 alarm[4] = 1
 glowing = false
 activation_effect_opacity = 0
+destroyed = false

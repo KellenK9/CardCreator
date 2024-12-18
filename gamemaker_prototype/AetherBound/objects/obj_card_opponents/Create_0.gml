@@ -18,3 +18,5 @@ alarm[2] = 2
 alarm[4] = 1
 
 activation_effect_opacity = 0
+
+destroyed = false
