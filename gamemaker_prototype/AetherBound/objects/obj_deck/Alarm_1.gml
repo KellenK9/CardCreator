@@ -20,8 +20,10 @@ if(player_deck){
 		"Sirens Echo Mk. IV",
 		"Holy Water Balloon",
 		"Holy Water Balloon",
-		"Holy Water Balloon",
-		"Holy Water Balloon",
+		"Tidal Wave",
+		"Tidal Wave",
+		"Tidal Wave",
+		"Tidal Wave",
 	]
 }else{
 	cards_in_deck = [

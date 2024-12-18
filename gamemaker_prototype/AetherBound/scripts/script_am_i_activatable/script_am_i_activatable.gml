@@ -20,7 +20,7 @@ function script_am_i_activatable(_card_object){
 		}
 	}
 	// Cases that are always activatable
-	always_activatable = ["Water Dagger", "Fire Dagger", "Fireball", "Spreading Flame", "Sirens Echo Mk. IV"]
+	always_activatable = ["Water Dagger", "Fire Dagger", "Fireball", "Spreading Flame", "Sirens Echo Mk. IV", "Tidal Wave"]
 	if(array_contains(always_activatable, card_name)){
 		return true
 	}

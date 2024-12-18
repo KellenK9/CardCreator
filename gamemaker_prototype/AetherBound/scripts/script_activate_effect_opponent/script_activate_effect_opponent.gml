@@ -150,4 +150,14 @@ function script_activate_effect_opponent(_card_obj){
 		_target.current_health = _target.current_health + 30
 		_card_obj.alarm[3] = 1
 	}
+	if(_card_name == "Tidal Wave"){
+		// Choose a random target
+		for (var _i = 0; _i < instance_number(obj_champion_card); ++_i;){
+			players_champions[_i] = instance_find(obj_champion_card, _i)
+		}
+		_target = players_champions[irandom(array_length(players_champions) - 1)]
+		_target.current_health = _target.current_health - 40
+		_card_obj.alarm[3] = 1
+		_card_obj.destroyed = true
+	}
 }
