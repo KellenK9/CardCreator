@@ -5,7 +5,7 @@
             "description": "[ACTIVATED] Destroy this card and Deal 20 damage to a Champion. [TRIGGER] If this card is sent to the Grave: you can shuffle any number of 'Compound' cards from your grave into your deck then deal 10 damage to a Champion for each card returned.",
             "color": "light_beige",
             "type": "earth",
-            "artwork": "temp/.png"
+            "artwork": "compound_grenade.png"
         },
         {
             "card_name": "Bloodrite",
