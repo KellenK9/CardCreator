@@ -24,7 +24,8 @@ Backlog:
 -Let CPU activate:
   -Champions activated effects
   -Love Potion of Calming Mind
--Add effects for Pressure, Celestial Shower, and Love Potion of Fiery Heart
+  -Love Potion of Fiery Heart
+-Add effects for Pressure and Celestial Shower
 
 Known Bugs:
 -Single click selects multiple cards with Verdant Codex. Change to only select top card
@@ -47,6 +48,7 @@ Spells:
     Pot of Greed
     Verdant Codex
     Love Potion of Calming Mind
+    Love Potion of Fiery Heart
 Equipment:
     Fire Dagger
     Water Dagger
