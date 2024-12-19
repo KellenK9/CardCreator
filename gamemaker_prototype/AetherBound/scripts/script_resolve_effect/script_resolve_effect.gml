@@ -202,4 +202,40 @@ function script_resolve_effect(_target){
 			}
 		}
 	}
+	if(global.activating_effect_name == "Pressure"){
+		if(global.card_delay_count == 0){
+			_target.current_health = _target.current_health - 10
+			for (var _i = 0; _i < instance_number(obj_champion_card); ++_i;){
+				curr_champion = instance_find(obj_champion_card, _i)
+				curr_champion.glowing = false
+			}
+			for (var _i = 0; _i < instance_number(obj_champions_card_opponents); ++_i;){
+				curr_champion = instance_find(obj_champions_card_opponents, _i)
+				curr_champion.glowing = false
+			}
+			global.activating_card_obj.alarm[0] = 30
+			global.activating_card_obj.in_play = false
+			if(global.hand_size < 3){
+				global.prompting_player_for_input = false
+				global.player_turn = false
+				global.playing_spell = false
+			}else{
+				for (var _i = 0; _i < instance_number(obj_card); ++_i;){
+					curr_card = instance_find(obj_card, _i)
+					curr_card.glowing = true
+				}
+				global.card_delay_count++
+			}
+		}else{
+			_target.alarm[3] = 10
+			global.prompting_player_for_input = false
+			global.player_turn = false
+			global.playing_spell = false
+			global.card_delay_count = 0
+			for (var _i = 0; _i < instance_number(obj_card); ++_i;){
+				curr_card = instance_find(obj_card, _i)
+				curr_card.glowing = false
+			}
+		}
+	}
 }

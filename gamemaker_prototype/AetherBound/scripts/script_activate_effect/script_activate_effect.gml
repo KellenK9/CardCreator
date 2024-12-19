@@ -11,7 +11,7 @@ function script_activate_effect(_card_obj){
 			_card_obj.in_play = true
 		}
 	}
-	if(_card_name == "Water Dagger" or _card_name == "Fire Dagger" or _card_name == "Fireball" or _card_name == "Tidal Wave" or _card_name == "Sirens Echo Mk. IV"){
+	if(_card_name == "Water Dagger" or _card_name == "Fire Dagger" or _card_name == "Fireball" or _card_name == "Tidal Wave" or _card_name == "Sirens Echo Mk. IV" or _card_name == "Pressure"){
 		//prompt player for Champion to select
 		global.prompting_player_for_input = true
 		for (var _i = 0; _i < instance_number(obj_champion_card); ++_i;){

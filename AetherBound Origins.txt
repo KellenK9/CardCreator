@@ -25,7 +25,8 @@ Backlog:
   -Champions activated effects
   -Love Potion of Calming Mind
   -Love Potion of Fiery Heart
--Add effects for Pressure and Celestial Shower
+  -Pressure
+-Add effect for Celestial Shower
 
 Known Bugs:
 -Single click selects multiple cards with Verdant Codex. Change to only select top card
@@ -49,6 +50,7 @@ Spells:
     Verdant Codex
     Love Potion of Calming Mind
     Love Potion of Fiery Heart
+    Pressure
 Equipment:
     Fire Dagger
     Water Dagger
