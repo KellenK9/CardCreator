@@ -5,7 +5,7 @@
     "description": "[ACTIVATED] Deal 20 damage to a Champion.",
     "color": "white",
     "type": "spell",
-    "artwork": "temp/fireball.png"
+    "artwork": "fireball.png"
 },
 {
     "card_name": "Spreading Flame",
