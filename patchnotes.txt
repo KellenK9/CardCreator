@@ -53,6 +53,8 @@ New Cards:
     Droplet
     Compound Fireball
     Compound Grenade
+    Spirit of Eurydice
+    Firestorm
 Buffs:
     Rapid Winds
 Nerfs:
