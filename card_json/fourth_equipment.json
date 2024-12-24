@@ -27,6 +27,20 @@
             "color": "pink",
             "type": "fire",
             "artwork": "relicshot_engine.png"
+        },
+        {
+            "card_name": "Firestorm",
+            "description": "[ACTIVATED] Shuffle 4 ‘Fireball’s from your grave into your deck then deal 40 damage to a Champion.",
+            "color": "pink",
+            "type": "fire",
+            "artwork": "temp/.png"
+        },
+        {
+            "card_name": "Spirit of Eurydice",
+            "description": "[ACTIVATED] Send 1 ‘Spirit of Eurydice’ from your deck to your grave then deal 20 damage to a Champion.",
+            "color": "light_beige",
+            "type": "earth",
+            "artwork": "temp/.png"
         }
     ]
 }
