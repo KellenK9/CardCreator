@@ -15,11 +15,11 @@
     "artwork": "temp/spreading_flame.png"
 },
 {
-    "card_name": "Pot of Greed",
+    "card_name": "Flask of Fortune",
     "description": "[ACTIVATED] Draw 2 cards.",
     "color": "white",
     "type": "spell",
-    "artwork": "temp/pot_of_greed.jpg"
+    "artwork": "flask_of_fortune.png"
 },
 {
     "card_name": "Spring Water",

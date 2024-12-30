@@ -8,11 +8,11 @@
     "artwork": "grenade.png"
 },
 {
-    "card_name": "Foolish Burial",
+    "card_name": "Shallow Grave",
     "description": "[ACTIVATED] Send 1 Earth Equipment from deck to grave then destroy this card.",
     "color": "light_beige",
     "type": "earth",
-    "artwork": "temp/foolish_burial.png"
+    "artwork": "shallow_grave.png"
 }
 ]
 }
