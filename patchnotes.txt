@@ -53,12 +53,19 @@ New Cards:
     Droplet
     Compound Fireball
     Compound Grenade
-    Spirit of Eurydice
-    Firestorm
 Buffs:
     Rapid Winds
 Nerfs:
     Greedy Rage
+
+v1.1.4
+New Cards:
+    Spirit of Eurydice
+    Firestorm
+Buffs:
+    Decoy
 Renames:
     Pot of Greed -> Flask of Fortune
     Foolish Burial -> Shallow Grave
+Notes:
+    The Christmas Update!

@@ -44,7 +44,7 @@
 },
 {
     "card_name": "Decoy",
-    "description": "[TRIGGER] When this card is discarded: Draw 1 card.",
+    "description": "[ACTIVATED] Add 1 'Decoy' from Deck to Hand. [TRIGGER] When this card is sent to the Grave: Draw 1 card.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/decoy.png"
