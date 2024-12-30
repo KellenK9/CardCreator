@@ -2,7 +2,7 @@
     "cards":[
     {
         "card_name": "Compound Fireball",
-        "description": "[ACTIVATED] Deal 10 damage to a Champion. [TRIGGER] If this card is sent to the Grave: you can shuffle any number of 'Compound' cards from your grave into your deck then deal 10 damage to a Champion for each card returned.",
+        "description": "[ACTIVATED] Deal 10 damage to a Champion. [TRIGGER] If this card is sent to the Grave: you can Shuffle any number of 'Compound' cards from your Grave into your Deck then Deal 10 damage to a Champion for each card returned.",
         "color": "white",
         "type": "spell",
         "artwork": "compound_fireball.png"

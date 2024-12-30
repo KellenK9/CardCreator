@@ -2,42 +2,42 @@
     "cards":[
         {
             "card_name": "Compound Grenade",
-            "description": "[ACTIVATED] Destroy this card and Deal 20 damage to a Champion. [TRIGGER] If this card is sent to the Grave: you can shuffle any number of 'Compound' cards from your grave into your deck then deal 10 damage to a Champion for each card returned.",
+            "description": "[ACTIVATED] Destroy this card and Deal 20 damage to a Champion. [TRIGGER] If this card is sent to the Grave: you can Shuffle any number of 'Compound' cards from your Grave into your Deck then Deal 10 damage to a Champion for each card returned.",
             "color": "light_beige",
             "type": "earth",
             "artwork": "compound_grenade.png"
         },
         {
             "card_name": "Bloodrite",
-            "description": "[ACTIVATED] Return this card to the hand and destroy 1 Equipment equipped to this Champion then deal 40 damage to a Champion. [TRIGGER] If this card is destroyed by the effect of 'Bloodrite': return it to the hand.",
+            "description": "[ACTIVATED] Return this card to the Hand and Destroy 1 Equipment equipped to this Champion then Deal 40 damage to a Champion. [TRIGGER] If this card is destroyed by the effect of 'Bloodrite': Return it to the Hand.",
             "color": "pink",
             "type": "fire",
             "artwork": "temp/.png"
         },
         {
             "card_name": "Droplet",
-            "description": "[ACTIVATED] Destroy all Equipment attached to this Champion then deal 10 damage to each enemy Champion. [TRIGGER] If this card is destroyed: you can add any number of 'Droplet's from deck to hand.",
+            "description": "[ACTIVATED] Destroy all Equipment attached to this Champion then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is destroyed: you can Add any number of 'Droplet's from Deck to Hand.",
             "color": "teal",
             "type": "water",
             "artwork": "droplet.png"
         },
         {
             "card_name": "Relicshot Engine",
-            "description": "[ACTIVATED] Destroy 1 Equipment you control then deal 20 damage to a Champion.",
+            "description": "[ACTIVATED] Destroy 1 Equipment you control then Deal 20 damage to a Champion.",
             "color": "pink",
             "type": "fire",
             "artwork": "relicshot_engine.png"
         },
         {
             "card_name": "Firestorm",
-            "description": "[ACTIVATED] Shuffle 4 ‘Fireball’s from your grave into your deck then deal 40 damage to a Champion.",
+            "description": "[ACTIVATED] Shuffle 4 ‘Fireball’s from your Grave into your Deck then Deal 40 damage to a Champion.",
             "color": "pink",
             "type": "fire",
             "artwork": "temp/.png"
         },
         {
             "card_name": "Spirit of Eurydice",
-            "description": "[ACTIVATED] Send 1 ‘Spirit of Eurydice’ from your deck to your grave then deal 20 damage to a Champion.",
+            "description": "[ACTIVATED] Send 1 ‘Spirit of Eurydice’ from your Deck to your Grave then Deal 20 damage to a Champion.",
             "color": "light_beige",
             "type": "earth",
             "artwork": "temp/.png"

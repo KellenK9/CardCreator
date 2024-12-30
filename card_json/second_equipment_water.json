@@ -2,21 +2,21 @@
 "cards":[
 {
     "card_name": "Holy Water Balloon",
-    "description": "[ACTIVATED] Heal 30 damage from a Champion then destroy this card.",
+    "description": "[ACTIVATED] Heal 30 damage from a Champion then Destroy this card.",
     "color": "teal",
     "type": "water",
     "artwork": "temp/holy_water_balloon.png"
 },
 {
     "card_name": "Raging Sea of the East",
-    "description": "[ACTIVATED] Deal 10 damage to each enemy Champion then destroy this card and add ‘Raging Sea of the West’ from your grave to your hand.",
+    "description": "[ACTIVATED] Deal 10 damage to each enemy Champion then Destroy this card and Add ‘Raging Sea of the West’ from your Grave to your Hand.",
     "color": "teal",
     "type": "water",
     "artwork": "raging_sea_of_the_east.png"
 },
 {
     "card_name": "Raging Sea of the West",
-    "description": "[ACTIVATED] Heal 10 damage from each of your Champions then destroy this card and add ‘Raging Sea of the East’ from your grave to your hand.",
+    "description": "[ACTIVATED] Heal 10 damage from each of your Champions then Destroy this card and Add ‘Raging Sea of the East’ from your Grave to your Hand.",
     "color": "teal",
     "type": "water",
     "artwork": "raging_sea_of_the_west.png"

@@ -2,7 +2,7 @@
 "cards":[
 {
     "card_name": "Rapid Winds",
-    "description": "[ACTIVATED] Destroy this card then draw 4 cards and discard 1 card.",
+    "description": "[ACTIVATED] Destroy this card then Draw 4 cards and Discard 1 card.",
     "color": "black",
     "type": "air",
     "artwork": "tornado.png"
@@ -16,14 +16,14 @@
 },
 {
     "card_name": "Angel Recall",
-    "description": "[ACTIVATED] Shuffle 5 Air Equipment from your grave into your deck then draw a card.",
+    "description": "[ACTIVATED] Shuffle 5 Air Equipment from your Grave into your Deck then Draw a card.",
     "color": "black",
     "type": "air",
     "artwork": "angel_recall.png"
 },
 {
     "card_name": "Wings of the Next Angel",
-    "description": "[ACTIVATED] If you have 3 copies of ‘Wings of the Next Angel’ in your grave: deal 10 damage to each enemy Champion.",
+    "description": "[ACTIVATED] If you have 3 copies of ‘Wings of the Next Angel’ in your Grave: Deal 10 damage to each enemy Champion.",
     "color": "black",
     "type": "air",
     "artwork": "wings_of_the_next_angel.png"

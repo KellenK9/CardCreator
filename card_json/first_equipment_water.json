@@ -16,7 +16,7 @@
 },
 {
     "card_name": "Tidal Wave",
-    "description": "[ACTIVATED] Deal 40 damage to a Champion then destroy all cards attached to this Champion.",
+    "description": "[ACTIVATED] Deal 40 damage to a Champion then Destroy all cards attached to this Champion.",
     "color": "teal",
     "type": "water",
     "artwork": "tidal_wave.png"
