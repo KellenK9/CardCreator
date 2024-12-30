@@ -7,7 +7,7 @@ Each turn a player can do 1 of the following actions:
 1. Draw a card
 2. Activate a Spell card from hand.
 3. Equip 1 Equipment from your hand to a Champion.
-4. Activate an 'Activated Effect' of an Equipped Equipment you control.
+4. Activate an 'Activated Effect' of an equipped Equipment you control.
 5. Activate an 'Activated Effect' of a Champion you control.
 
 There are 3 types of cards: Champions, Equipment, and Spells.
