@@ -12,7 +12,7 @@
             "description": "[ACTIVATED] Return this card to the Hand and Destroy 1 Equipment equipped to this Champion then Deal 40 damage to a Champion. [TRIGGER] If this card is destroyed by the effect of 'Bloodrite': Return it to the Hand.",
             "color": "pink",
             "type": "fire",
-            "artwork": "temp/.png"
+            "artwork": "bloodrite.png"
         },
         {
             "card_name": "Droplet",
@@ -33,14 +33,14 @@
             "description": "[ACTIVATED] Shuffle 4 ‘Fireball’s from your Grave into your Deck then Deal 40 damage to a Champion.",
             "color": "pink",
             "type": "fire",
-            "artwork": "temp/.png"
+            "artwork": "firestorm.png"
         },
         {
             "card_name": "Spirit of Eurydice",
             "description": "[ACTIVATED] Send 1 ‘Spirit of Eurydice’ from your Deck to your Grave then Deal 20 damage to a Champion.",
             "color": "light_beige",
             "type": "earth",
-            "artwork": "temp/.png"
+            "artwork": "spirit_of_eurydice.png"
         }
     ]
 }
