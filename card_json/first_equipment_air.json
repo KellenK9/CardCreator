@@ -12,7 +12,7 @@
     "description": "[ACTIVATED] Both players Draw 2 cards.",
     "color": "black",
     "type": "air",
-    "artwork": "temp/graceful_host.png"
+    "artwork": "graceful_host.png"
 },
 {
     "card_name": "Zeus' Thunderbolt",
