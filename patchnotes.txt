@@ -63,6 +63,7 @@ New Cards:
     Spirit of Eurydice
     Firestorm
     Soul of Jandreps
+    The Spear of Diomedes
     Copycat
 Buffs:
     Decoy
