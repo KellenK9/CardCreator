@@ -2,7 +2,7 @@
 "cards":[
 {
     "card_name": "Useless Potion",
-    "description": "[ACTIVATED] Add up to 3 copies of 'Useless Potion' from your Deck to your Hand.",
+    "description": "[ACTIVATED] Add one or more copies of 'Useless Potion' from your Deck to your Hand.",
     "color": "white",
     "type": "spell",
     "artwork": "temp/useless_potion.png"
