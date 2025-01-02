@@ -41,6 +41,13 @@
             "color": "light_beige",
             "type": "earth",
             "artwork": "spirit_of_eurydice.png"
+        },
+        {
+            "card_name": "Soul of Jandreps",
+            "description": "[ACTIVATED] Deal 10 damage to this Champion and Draw 2 cards.",
+            "color": "black",
+            "type": "air",
+            "artwork": "soul_of_jandreps.png"
         }
     ]
 }

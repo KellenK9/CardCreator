@@ -82,7 +82,7 @@
             "description": "[ACTIVATED] If you control another 'Accelerating Particle': Destroy all Equipment on the Field. [PASSIVE] This card may be equipped to any Equipment Slot.",
             "color": "pink",
             "type": "fire",
-            "artwork": "temp/accelerating_particle.png"
+            "artwork": "accelerating_particle.png"
         }
     ]
 }

@@ -6,6 +6,13 @@
         "color": "white",
         "type": "spell",
         "artwork": "compound_fireball.png"
+    },
+    {
+        "card_name": "Copycat",
+        "description": "[ACTIVATED] If your opponent activated a Spell last turn: Apply that Spell's activated effect.",
+        "color": "white",
+        "type": "spell",
+        "artwork": "copycat.png"
     }
 ]
 }
