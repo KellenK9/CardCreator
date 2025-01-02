@@ -36,3 +36,7 @@ Greedy Rage:
   Its effect does not trigger if Greedy Rage is also sent to the grave. Greddy Rage must remain on the field in order to activate.
     Example: Magma Slug has both Greedy Rage and Fire Dagger equipped and sends both to the grave to deal 40 total damage. Greedy Rage cannot activate.
     Example: Magma Slug has both Greedy Rage and Fire Dagger equipped and sends only Fire Dagger to the grave to deal 20 damage. Greedy Rage can activate to deal 20 additional damage.
+Copycat:
+  Requires the effect you are attempting to copy to be activatable.
+    Example: Copycat cannot copy Shoddy Craftsmanship because it does not meet the condition 'If your opponent equipped 1 Equipment last turn'
+    Example: Copycat can only copy Love Potion of Fiery Heart if you have a Fire Equipment in hand.
