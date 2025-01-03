@@ -101,6 +101,8 @@ function script_resolve_effect(_target){
 		global.player_turn = false
 		global.activating_card_obj.alarm[3] = 30
 		global.activating_card_obj.destroyed = true
+		equip_slot = instance_position(global.activating_card_obj.x, global.activating_card_obj.y, obj_equipment_slot)
+		equip_slot.slot_filled = false
 	}
 	if(global.activating_effect_name == "Tidal Wave"){
 		_target.current_health = _target.current_health - 40
