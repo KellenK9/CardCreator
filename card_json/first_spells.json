@@ -12,7 +12,7 @@
     "description": "[ACTIVATED] Deal 10 damage to each enemy Champion.",
     "color": "white",
     "type": "spell",
-    "artwork": "temp/spreading_flame.png"
+    "artwork": "spreading_flame.png"
 },
 {
     "card_name": "Flask of Fortune",
@@ -26,7 +26,7 @@
     "description": "[ACTIVATED] Heal 20 damage from a Champion.",
     "color": "white",
     "type": "spell",
-    "artwork": "temp/spring_water.png"
+    "artwork": "spring_water.png"
 },
 {
     "card_name": "Knowledge Exchange",

@@ -54,7 +54,7 @@
             "description": "[ACTIVATED] Deal 10 damage to each Champion. [PASSIVE] This card may be equipped to an Air or Fire Equipment Slot.",
             "color": "light_beige",
             "type": "earth",
-            "artwork": "temp/.png"
+            "artwork": "spear_of_diomedes.png"
         }
     ]
 }
