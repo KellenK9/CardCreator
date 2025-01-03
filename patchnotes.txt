@@ -65,6 +65,7 @@ New Cards:
     Soul of Jandreps
     The Spear of Diomedes
     Copycat
+    Rewind
 Buffs:
     Decoy
     Useless Potion

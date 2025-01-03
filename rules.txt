@@ -43,3 +43,5 @@ Copycat:
   The opponent must Activate a Spell; this requires them activating that spell from hand to use its activated effect.
     Example: Copycat cannot copy Decoy if only Decoy's trigger effect was activated.
     Example: Copycat can copy Decoy if the opponent activated Decoy's activated effect; and will apply Decoy's activated effect to add a copy of itself but not its trigger effect to draw.
+Rewind:
+  Must be equipped to an appropriate Equipment Slot as if it were equipped from hand.
