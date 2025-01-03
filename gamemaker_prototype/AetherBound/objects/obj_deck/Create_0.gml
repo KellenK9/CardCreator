@@ -14,3 +14,5 @@ if(player_deck){
 }
 deck_size = array_length(cards_in_deck)
 alarm[0] = 2
+
+cpu_name = "Mid"
