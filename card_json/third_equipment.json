@@ -26,7 +26,7 @@
             "description": "[TRIGGER] If this card is discarded or destroyed: Deal 10 damage to a Champion.",
             "color": "pink",
             "type": "fire",
-            "artwork": "temp/strawman.png"
+            "artwork": "strawman.png"
         },
         {
             "card_name": "Tides of Reckoning",
