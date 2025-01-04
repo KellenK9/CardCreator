@@ -40,7 +40,7 @@
     "description": "[ACTIVATED] Add 1 Spell from your Grave to your Hand.",
     "color": "white",
     "type": "spell",
-    "artwork": "temp/recurring_visions.png"
+    "artwork": "recurring_visions.png"
 },
 {
     "card_name": "Decoy",
