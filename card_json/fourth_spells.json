@@ -20,6 +20,13 @@
         "color": "white",
         "type": "spell",
         "artwork": "rewind.png"
+    },
+    {
+        "card_name": "The Missing Ingredient",
+        "description": "[ACTIVATED] Discard 1 'Useless Potion' then Deal 40 damage to a Champion.",
+        "color": "white",
+        "type": "spell",
+        "artwork": "temp/.png"
     }
 ]
 }

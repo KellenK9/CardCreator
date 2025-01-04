@@ -66,6 +66,7 @@ New Cards:
     The Spear of Diomedes
     Copycat
     Rewind
+    The Missing Ingredient
 Buffs:
     Decoy
     Useless Potion
