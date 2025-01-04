@@ -54,7 +54,7 @@
     "description": "[ACTIVATED] If your opponent equipped 1 Equipment last turn: Destroy that Equipment.",
     "color": "white",
     "type": "spell",
-    "artwork": "temp/shoddy_craftsmanship.png"
+    "artwork": "shoddy_craftsmanship.png"
 }
 ]
 }
