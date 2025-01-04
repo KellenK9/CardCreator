@@ -5,7 +5,7 @@
     "description": "[ACTIVATED] Add one or more copies of 'Useless Potion' from your Deck to your Hand.",
     "color": "white",
     "type": "spell",
-    "artwork": "temp/useless_potion.png"
+    "artwork": "useless_potion.png"
 },
 {
     "card_name": "Pressure",

@@ -19,7 +19,7 @@
         "description": "[ACTIVATED] Equip 1 Equipment from your opponent's Grave to an opponent's Champion then you can Shuffle 1 Equipment from the Field into the Deck.",
         "color": "white",
         "type": "spell",
-        "artwork": "temp/.png"
+        "artwork": "rewind.png"
     }
 ]
 }
