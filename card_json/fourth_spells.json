@@ -27,6 +27,13 @@
         "color": "white",
         "type": "spell",
         "artwork": "temp/.png"
+    },
+    {
+        "card_name": "Armor Up",
+        "description": "[ACTIVATED] Equip 1 'Extra Padding' from your Deck to your Champion then Heal 10 damage from that Champion.",
+        "color": "white",
+        "type": "spell",
+        "artwork": "temp/.png"
     }
 ]
 }

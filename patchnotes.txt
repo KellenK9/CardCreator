@@ -67,6 +67,7 @@ New Cards:
     Copycat
     Rewind
     The Missing Ingredient
+    Armor Up
 Buffs:
     Decoy
     Useless Potion
