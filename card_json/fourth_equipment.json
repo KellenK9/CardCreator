@@ -1,13 +1,6 @@
 {
     "cards":[
         {
-            "card_name": "Compound Grenade",
-            "description": "[ACTIVATED] Destroy this card and Deal 20 damage to a Champion. [TRIGGER] If this card is sent to the Grave: you can Shuffle any number of 'Compound' cards from your Grave into your Deck then Deal 10 damage to a Champion for each card returned.",
-            "color": "light_beige",
-            "type": "earth",
-            "artwork": "compound_grenade.png"
-        },
-        {
             "card_name": "Bloodrite",
             "description": "[ACTIVATED] Return this card to the Hand and Destroy 1 Equipment equipped to this Champion then Deal 40 damage to a Champion. [TRIGGER] If this card is destroyed by the effect of 'Bloodrite': Return it to the Hand.",
             "color": "pink",

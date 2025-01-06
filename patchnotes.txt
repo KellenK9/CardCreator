@@ -64,15 +64,24 @@ New Cards:
     Firestorm
     Soul of Jandreps
     The Spear of Diomedes
-    Copycat
-    Rewind
-    The Missing Ingredient
-    Armor Up
 Buffs:
     Decoy
-    Useless Potion
 Renames:
     Pot of Greed -> Flask of Fortune
     Foolish Burial -> Shallow Grave
 Notes:
     The Christmas Update!
+
+v1.1.5
+Removed Cards:
+    Compound Fireball
+    Compound Grenade
+New Cards:
+    Copycat
+    Rewind
+    The Missing Ingredient
+    Armor Up
+Buffs:
+    Useless Potion
+Notes:
+    The Spell Update!
