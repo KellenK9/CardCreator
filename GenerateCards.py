@@ -408,6 +408,8 @@ equipment_json_paths = [
     "second_equipment_water",
     "third_equipment",
     "fourth_equipment",
+    # "future_spells",
+    # "future_equipment",
 ]
 list_of_frames = [
     "air-frame",
