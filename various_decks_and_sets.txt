@@ -1,0 +1,6 @@
+The very first sety should include simple and fun cards with a small amount of text.
+
+Cards may be created in this project without making the cut.
+Cards not making the cut:
+-Compound Fireball and Grenade
+    Long text is bad and expandable archetypes are great for sets 2+
