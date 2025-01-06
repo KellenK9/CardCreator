@@ -19,14 +19,14 @@
         "description": "[ACTIVATED] Discard 1 'Useless Potion' then Deal 40 damage to a Champion.",
         "color": "white",
         "type": "spell",
-        "artwork": "temp/.png"
+        "artwork": "the_missing_ingredient.png"
     },
     {
         "card_name": "Armor Up",
         "description": "[ACTIVATED] Equip 1 'Extra Padding' from your Deck to your Champion then Heal 10 damage from that Champion.",
         "color": "white",
         "type": "spell",
-        "artwork": "temp/.png"
+        "artwork": "armor_up.png"
     }
 ]
 }
