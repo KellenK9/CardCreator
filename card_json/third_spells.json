@@ -12,7 +12,7 @@
         "description": "[ACTIVATED] Discard 1 card then Shuffle 1 Equipment on the Field into the Deck.",
         "color": "white",
         "type": "spell",
-        "artwork": "temp/dimension_recall.png"
+        "artwork": "dimension_recall.png"
     },
     {
         "card_name": "Elemental Blast",
