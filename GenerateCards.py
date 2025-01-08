@@ -314,7 +314,7 @@ class CardCreator:
         im = Image.open("cropped_images/" + artwork_path)
         im.thumbnail(size, Image.Resampling.LANCZOS)
         im.save(
-            "cropped_images/printable_versions/" + card_name.replace(" ", "_") + ".png",
+            "cropped_images/printable_versions/" + artwork_path,
             "PNG",
         )
 
