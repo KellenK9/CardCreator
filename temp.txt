@@ -10,9 +10,6 @@ Elemental Blast:
 
 Capybarrage:
 
-Catalyst Orb:
-a small high-tech mystical orb appearing as a ball of energy contained by metal. The orb should be floating above a stone pedestal surrounded by a lush mystical forest.
-
 Catalytic Converter:
 
 Chained Detonation:
@@ -54,3 +51,12 @@ Orpheus:
 
 Wild Shot:
 a fantasy goblin wearing a blindfold shooting his gun in the air. The goblin should be skinny, smiling, and wearing tan rags. The goblin should be in the middle of an ornate gold bank where other frightened goblins and a frightened satyr are all wearing fancy expensive modern outfits.
+
+
+
+
+
+Backlog:
+-Fix name pixel size Bugs
+-Check how champion cards would look with slots above or below all text
+-Write code to generate printable images

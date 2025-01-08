@@ -5,7 +5,7 @@
             "description": "[ACTIVATED] Destroy this card then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is sent to the Grave: Draw 1 card.",
             "color": "light_beige",
             "type": "earth",
-            "artwork": "temp/catalyst_orb.png"
+            "artwork": "catalyst_orb.png"
         },
         {
             "card_name": "Siren's Echo Mk. IV",
