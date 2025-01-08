@@ -70,13 +70,13 @@ class CardCreator:
         wrapped_text = "".join(lines)
         return wrapped_text, lines
 
-    def generate_champion_card(self, dict):
+    def generate_digital_champion_card(self, dict):
         # Set global vars
         CardCreator.declare_vars(self)
 
         # Set Champion specific Vars
-        health_y = 1800
-        health_font_size = 200
+        health_y = 800
+        health_font_size = 100
         color_for_font_name = list(self.colors[dict["color"]])
         color_for_font_description = list(self.colors["white"])
 
@@ -87,16 +87,25 @@ class CardCreator:
         font_color_description = tuple(color_for_font_description)
 
         # Import artwork and crop
-        artwork = Image.open("cropped_images/" + dict["artwork"])
+        artwork = Image.open("cropped_images/printable_versions/" + dict["artwork"])
         artwork = artwork.crop(box=(0, 0, self.image_width, self.image_height))
         artwork = artwork.convert("RGBA")
 
         # Import frame
-        frame = Image.open("card_frames/champion-frame.png")
+        if "earth" in dict["slot1"] or "earth" in dict["slot2"]:
+            frame = Image.open("card_frames/digital/earth-champion-frame.png")
+        if "air" in dict["slot1"] or "air" in dict["slot2"]:
+            frame = Image.open("card_frames/digital/air-champion-frame.png")
+        if "water" in dict["slot1"] or "water" in dict["slot2"]:
+            frame = Image.open("card_frames/digital/water-champion-frame.png")
+        if "fire" in dict["slot1"] or "fire" in dict["slot2"]:
+            frame = Image.open("card_frames/digital/fire-champion-frame.png")
 
         # Add slots
         if dict["slot3"] != "none" and dict["slot3"] != None:
-            third_slot = Image.open("card_frames/" + dict["slot3"] + "-right.png")
+            third_slot = Image.open(
+                "card_frames/digital/equipment_slots/" + dict["slot3"] + "_slot.png"
+            )
         if dict["slot2"] != "none" and dict["slot2"] != None:
             second_slot = Image.open("card_frames/" + dict["slot2"] + "-middle.png")
         if dict["slot1"] != "none" and dict["slot1"] != None:
@@ -187,7 +196,30 @@ class CardCreator:
         new_image = Image.alpha_composite(new_image, health_txt)
         new_image = Image.alpha_composite(new_image, description_txt)
 
-        return new_image
+        # Crop image
+        new_image = new_image.crop(
+            (
+                self.crop_border,
+                self.crop_border,
+                self.image_width - self.crop_border,
+                self.image_height - self.crop_border,
+            )
+        )
+
+        # Round Corners
+        # Create a mask with rounded corners
+        mask = Image.new("L", new_image.size, 0)
+        draw = ImageDraw.Draw(mask)
+        width, height = new_image.size
+        draw.rounded_rectangle(
+            [(0, 0), (width, height)], radius=self.corner_radius, fill=255
+        )
+
+        # Apply the mask to the original image
+        rounded_image = Image.new("RGBA", new_image.size, (0, 0, 0, 0))
+        rounded_image.paste(new_image, (0, 0), mask=mask)
+
+        return rounded_image
 
     def generate_digital_equipment_or_spell_card(self, dict):
         # Set global vars
