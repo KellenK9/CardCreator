@@ -5,7 +5,7 @@
     "description": "[ACTIVATED] Add 1 'Fireball' from Deck or Grave to Hand.",
     "color": "pink",
     "type": "fire",
-    "artwork": "temp/fireball_summoning.png"
+    "artwork": "fireball_summoning.png"
 },
 {
     "card_name": "Vengeful Rage",

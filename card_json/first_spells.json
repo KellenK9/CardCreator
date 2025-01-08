@@ -54,7 +54,7 @@
     "description": "[ACTIVATED] Destroy 1 Equipment attached to your Champion then Destroy 1 Equipment on the Field.",
     "color": "white",
     "type": "spell",
-    "artwork": "temp/celestial_shower.png"
+    "artwork": "celestial_shower.png"
 }
 ]
 }
