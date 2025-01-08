@@ -220,19 +220,14 @@ class CardCreator:
         # Import and color frame
         if dict["type"] == "water":
             frame = Image.open("card_frames/water-frame.png")
-            icon = Image.open("card_frames/water-icon.png")
         if dict["type"] == "fire":
             frame = Image.open("card_frames/fire-frame.png")
-            icon = Image.open("card_frames/fire-icon.png")
         if dict["type"] == "earth":
             frame = Image.open("card_frames/earth-frame.png")
-            icon = Image.open("card_frames/earth-icon.png")
         if dict["type"] == "air":
             frame = Image.open("card_frames/air-frame.png")
-            icon = Image.open("card_frames/air-icon.png")
         if dict["type"] == "spell":
             frame = Image.open("card_frames/spell-frame.png")
-            icon = None
 
         # Add text
         name_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
@@ -291,8 +286,6 @@ class CardCreator:
         new_image = Image.alpha_composite(artwork, frame)
         new_image = Image.alpha_composite(new_image, name_txt)
         new_image = Image.alpha_composite(new_image, description_txt)
-        if icon is not None:
-            new_image = Image.alpha_composite(new_image, icon)
 
         return new_image
 
@@ -547,6 +540,7 @@ for artwork_path in list_of_frames:
     Creator.create_pixel_frames(f"{artwork_path}.png")
 """
 # Create printable versions of art
+"""
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -562,3 +556,4 @@ for path in equipment_json_paths:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
         Creator.create_print_sized_images(card["card_name"], card["artwork"])
+"""
