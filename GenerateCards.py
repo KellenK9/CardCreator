@@ -186,7 +186,7 @@ class CardCreator:
 
         return new_image
 
-    def generate_equipment_or_spell_card(self, dict):
+    def generate_digital_equipment_or_spell_card(self, dict):
         # Set global vars
         CardCreator.declare_vars(self)
 
@@ -213,21 +213,21 @@ class CardCreator:
         font_color_description = tuple(color_for_font_description)
 
         # Import artwork and crop
-        artwork = Image.open("cropped_images/" + dict["artwork"])
+        artwork = Image.open("cropped_images/printable_versions/" + dict["artwork"])
         artwork = artwork.crop(box=(0, 0, self.image_width, self.image_height))
         artwork = artwork.convert("RGBA")
 
         # Import and color frame
         if dict["type"] == "water":
-            frame = Image.open("card_frames/water-frame.png")
+            frame = Image.open("card_frames/digital/water-frame.png")
         if dict["type"] == "fire":
-            frame = Image.open("card_frames/fire-frame.png")
+            frame = Image.open("card_frames/digital/fire-frame.png")
         if dict["type"] == "earth":
-            frame = Image.open("card_frames/earth-frame.png")
+            frame = Image.open("card_frames/digital/earth-frame.png")
         if dict["type"] == "air":
-            frame = Image.open("card_frames/air-frame.png")
+            frame = Image.open("card_frames/digital/air-frame.png")
         if dict["type"] == "spell":
-            frame = Image.open("card_frames/spell-frame.png")
+            frame = Image.open("card_frames/digital/spell-frame.png")
 
         # Add text
         name_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
@@ -303,7 +303,7 @@ class CardCreator:
         im = Image.open("cropped_images/" + artwork_path)
         im.thumbnail(size, Image.Resampling.LANCZOS)
         im.save(
-            "cropped_images/printable_versions/" + card_name + "_card.png",
+            "cropped_images/printable_versions/" + card_name + ".png",
             "PNG",
         )
 
@@ -443,23 +443,24 @@ for path in champion_json_paths:
         Creator.generate_champion_card(card).save(
             "finished_cards/Champions/" + card["card_name"] + "_card.png", "PNG"
         )
+"""
 for path in spell_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
-        Creator.generate_equipment_or_spell_card(card).show()
-        Creator.generate_equipment_or_spell_card(card).save(
+        Creator.generate_digital_equipment_or_spell_card(card).show()
+        Creator.generate_digital_equipment_or_spell_card(card).save(
             "finished_cards/Spells/" + card["card_name"] + "_card.png", "PNG"
         )
 for path in equipment_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
-        Creator.generate_equipment_or_spell_card(card).show()
-        Creator.generate_equipment_or_spell_card(card).save(
+        Creator.generate_digital_equipment_or_spell_card(card).show()
+        Creator.generate_digital_equipment_or_spell_card(card).save(
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
         )
-"""
+
 # Create pixel art versions of artwork
 """
 for path in champion_json_paths:
