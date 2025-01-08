@@ -15,18 +15,19 @@ class CardCreator:
         self.name_y = 1000
         self.description_x = 58
         self.description_y = 860
+        self.description_y_champions = 825
         self.name_font_size = 60
         self.description_font_size = 24
-        self.longest_name_for_normal_size = 18
+        self.longest_name_for_normal_size = 32
         self.max_description_width = self.image_width - (self.description_x * 2)
         self.description_line_spacing = 6
         self.y_offset_between_effects = 6
         self.stroke_width = 2
         self.corner_radius = 46
         self.slot_y = 980
-        self.slot3_x = 755 * 3 / 4
-        self.slot2_x = 755 / 2
-        self.slot1_x = 755 / 4
+        self.slot3_x = self.image_width * 3 / 4 + 25
+        self.slot2_x = self.image_width / 2
+        self.slot1_x = self.image_width / 4 - 25
 
         self.colors = {
             "red": (255, 0, 0),
@@ -135,9 +136,9 @@ class CardCreator:
         name_length = len(dict["card_name"])
         if name_length > self.longest_name_for_normal_size:
             self.name_font_size -= ceil(
-                1.5 * (name_length - self.longest_name_for_normal_size + 4)
+                (name_length - self.longest_name_for_normal_size)
             )
-            self.name_y += 2 * (name_length - self.longest_name_for_normal_size)
+            # self.name_y += 2 * (name_length - self.longest_name_for_normal_size)
 
         # Add Text
         name_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
@@ -192,13 +193,13 @@ class CardCreator:
             stroke_fill=(0, 0, 0),
         )
         # Create description text object with custom spacing
-        self.description_y -= self.y_offset_between_effects
+        self.description_y_champions -= self.y_offset_between_effects
         for line in lines:
             # Add line to description text object
             if line[0] == "[":
-                self.description_y += self.y_offset_between_effects
+                self.description_y_champions += self.y_offset_between_effects
             description_obj.text(
-                (self.description_x, self.description_y),
+                (self.description_x, self.description_y_champions),
                 line,
                 font=fnt_description,
                 fill=font_color_description,
@@ -209,43 +210,40 @@ class CardCreator:
             bbox = description_obj.textbbox((0, 0), line, font=fnt_description)
             line_height = bbox[3] - bbox[1]  # Height is bottom - top
             # Move y down for next line
-            self.description_y += line_height + self.description_line_spacing
+            self.description_y_champions += line_height + self.description_line_spacing
             if line[-1] == ".":
-                self.description_y += self.y_offset_between_effects
+                self.description_y_champions += self.y_offset_between_effects
 
         # Combine images
         new_image = Image.alpha_composite(artwork, frame)
         slot_width, slot_height = first_slot.size
-        if dict["slot1"] != "none" and dict["slot1"] != None:
-            new_image.paste(
-                first_slot,
-                (
-                    floor(self.slot1_x - (slot_width / 2)),
-                    floor(self.slot_y - (slot_height / 2)),
-                    floor(self.slot1_x + (slot_width / 2)),
-                    floor(self.slot_y + (slot_height / 2)),
-                ),
-            )
-        if dict["slot2"] != "none" and dict["slot2"] != None:
-            new_image.paste(
-                second_slot,
-                (
-                    floor(self.slot2_x - (slot_width / 2)),
-                    floor(self.slot_y - (slot_height / 2)),
-                    floor(self.slot2_x + (slot_width / 2)),
-                    floor(self.slot_y + (slot_height / 2)),
-                ),
-            )
-        if dict["slot3"] != "none" and dict["slot3"] != None:
-            new_image.paste(
-                third_slot,
-                (
-                    floor(self.slot3_x - (slot_width / 2)),
-                    floor(self.slot_y - (slot_height / 2)),
-                    floor(self.slot3_x + (slot_width / 2)),
-                    floor(self.slot_y + (slot_height / 2)),
-                ),
-            )
+        new_image.paste(
+            first_slot,
+            (
+                floor(self.slot1_x - (slot_width / 2)),
+                floor(self.slot_y - (slot_height / 2)),
+                floor(self.slot1_x + (slot_width / 2)),
+                floor(self.slot_y + (slot_height / 2)),
+            ),
+        )
+        new_image.paste(
+            second_slot,
+            (
+                floor(self.slot2_x - (slot_width / 2)),
+                floor(self.slot_y - (slot_height / 2)),
+                floor(self.slot2_x + (slot_width / 2)),
+                floor(self.slot_y + (slot_height / 2)),
+            ),
+        )
+        new_image.paste(
+            third_slot,
+            (
+                floor(self.slot3_x - (slot_width / 2)),
+                floor(self.slot_y - (slot_height / 2)),
+                floor(self.slot3_x + (slot_width / 2)),
+                floor(self.slot_y + (slot_height / 2)),
+            ),
+        )
         new_image = Image.alpha_composite(new_image, name_txt)
         new_image = Image.alpha_composite(new_image, health_txt)
         new_image = Image.alpha_composite(new_image, description_txt)
