@@ -13,8 +13,8 @@ class CardCreator:
         self.pixel_image_width = 177
         self.pixel_image_height = 248
         self.name_y = 1000
-        self.description_x = 50
-        self.description_y = 850
+        self.description_x = 58
+        self.description_y = 860
         self.name_font_size = 60
         self.description_font_size = 24
         self.longest_name_for_normal_size = 18
@@ -22,6 +22,7 @@ class CardCreator:
         self.description_line_spacing = 6
         self.y_offset_between_effects = 6
         self.stroke_width = 2
+        self.corner_radius = 46
 
         self.colors = {
             "red": (255, 0, 0),
@@ -304,8 +305,19 @@ class CardCreator:
         )
 
         # Round Corners
+        # Create a mask with rounded corners
+        mask = Image.new("L", new_image.size, 0)
+        draw = ImageDraw.Draw(mask)
+        width, height = new_image.size
+        draw.rounded_rectangle(
+            [(0, 0), (width, height)], radius=self.corner_radius, fill=255
+        )
 
-        return new_image
+        # Apply the mask to the original image
+        rounded_image = Image.new("RGBA", new_image.size, (0, 0, 0, 0))
+        rounded_image.paste(new_image, (0, 0), mask=mask)
+
+        return rounded_image
 
     def create_pixel_images(self, card_name, artwork_path):
         size = 177, 177
