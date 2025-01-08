@@ -454,7 +454,7 @@ for path in champion_json_paths:
         Creator.generate_champion_card(card).save(
             "finished_cards/Champions/" + card["card_name"] + "_card.png", "PNG"
         )
-
+"""
 for path in spell_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -471,7 +471,7 @@ for path in equipment_json_paths:
         Creator.generate_digital_equipment_or_spell_card(card).save(
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
         )
-"""
+
 # Create pixel art versions of artwork
 """
 for path in champion_json_paths:
@@ -552,7 +552,7 @@ for artwork_path in list_of_frames:
     Creator.create_pixel_frames(f"{artwork_path}.png")
 """
 # Create printable versions of art
-
+"""
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -568,3 +568,4 @@ for path in equipment_json_paths:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
         Creator.create_print_sized_images(card["card_name"], card["artwork"])
+"""
