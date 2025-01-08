@@ -7,15 +7,16 @@ from math import ceil
 
 class CardCreator:
     def declare_vars(self):
-        self.image_width = 2048
-        self.image_height = 2867
+        self.image_width = 825
+        self.image_height = 1125
+        self.crop_border = 35
         self.pixel_image_width = 177
         self.pixel_image_height = 248
-        self.name_y = 2550
-        self.description_x = 55
-        self.description_y = 2080
-        self.name_font_size = 160
-        self.description_font_size = 80
+        self.name_y = 900
+        self.description_x = 25
+        self.description_y = 600
+        self.name_font_size = 120
+        self.description_font_size = 60
         self.longest_name_for_normal_size = 18
         self.max_description_width = self.image_width - (self.description_x * 2)
         self.description_line_spacing = 6
@@ -287,6 +288,16 @@ class CardCreator:
         new_image = Image.alpha_composite(new_image, name_txt)
         new_image = Image.alpha_composite(new_image, description_txt)
 
+        # Crop image and round corners
+        new_image = new_image.crop(
+            (
+                self.crop_border,
+                self.crop_border,
+                self.image_width - self.crop_border,
+                self.image_height - self.crop_border,
+            )
+        )
+
         return new_image
 
     def create_pixel_images(self, card_name, artwork_path):
@@ -303,7 +314,7 @@ class CardCreator:
         im = Image.open("cropped_images/" + artwork_path)
         im.thumbnail(size, Image.Resampling.LANCZOS)
         im.save(
-            "cropped_images/printable_versions/" + card_name + ".png",
+            "cropped_images/printable_versions/" + card_name.replace(" ", "_") + ".png",
             "PNG",
         )
 
@@ -443,7 +454,7 @@ for path in champion_json_paths:
         Creator.generate_champion_card(card).save(
             "finished_cards/Champions/" + card["card_name"] + "_card.png", "PNG"
         )
-"""
+
 for path in spell_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -460,7 +471,7 @@ for path in equipment_json_paths:
         Creator.generate_digital_equipment_or_spell_card(card).save(
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
         )
-
+"""
 # Create pixel art versions of artwork
 """
 for path in champion_json_paths:
@@ -541,7 +552,7 @@ for artwork_path in list_of_frames:
     Creator.create_pixel_frames(f"{artwork_path}.png")
 """
 # Create printable versions of art
-"""
+
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -557,4 +568,3 @@ for path in equipment_json_paths:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
         Creator.create_print_sized_images(card["card_name"], card["artwork"])
-"""
