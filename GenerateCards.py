@@ -193,12 +193,8 @@ class CardCreator:
         # Set global vars
         CardCreator.declare_vars(self)
 
-        color_for_font_name = list(self.colors[dict["color"]])
-        if dict["type"] == "air":
-            color_for_font_description = list(self.colors["black"])
-        else:
-            color_for_font_description = list(self.colors["white"])
-        color_for_font_nums = list(self.colors[dict["color"]])
+        color_for_font_name = list(self.colors["white"])
+        color_for_font_description = list(self.colors["white"])
 
         # Center and size Text
         name_length = len(dict["card_name"])
@@ -211,7 +207,6 @@ class CardCreator:
         # Append font color tuple
         color_for_font_name.append(255)
         color_for_font_description.append(255)
-        color_for_font_nums.append(255)
         font_color_name = tuple(color_for_font_name)
         font_color_description = tuple(color_for_font_description)
 
