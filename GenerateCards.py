@@ -12,15 +12,16 @@ class CardCreator:
         self.crop_border = 35
         self.pixel_image_width = 177
         self.pixel_image_height = 248
-        self.name_y = 900
-        self.description_x = 25
-        self.description_y = 600
-        self.name_font_size = 120
-        self.description_font_size = 60
+        self.name_y = 1000
+        self.description_x = 50
+        self.description_y = 850
+        self.name_font_size = 60
+        self.description_font_size = 24
         self.longest_name_for_normal_size = 18
         self.max_description_width = self.image_width - (self.description_x * 2)
         self.description_line_spacing = 6
-        self.y_offset_between_effects = 24
+        self.y_offset_between_effects = 6
+        self.stroke_width = 2
 
         self.colors = {
             "red": (255, 0, 0),
@@ -264,6 +265,8 @@ class CardCreator:
             dict["card_name"],
             font=fnt_name,
             fill=font_color_name,
+            stroke_width=self.stroke_width,
+            stroke_fill=(0, 0, 0),
         )
         # Create description text object with custom spacing
         self.description_y -= self.y_offset_between_effects
@@ -276,6 +279,8 @@ class CardCreator:
                 line,
                 font=fnt_description,
                 fill=font_color_description,
+                stroke_width=self.stroke_width,
+                stroke_fill=(0, 0, 0),
             )
             # Measure the text height using textbbox
             bbox = description_obj.textbbox((0, 0), line, font=fnt_description)
@@ -288,7 +293,7 @@ class CardCreator:
         new_image = Image.alpha_composite(new_image, name_txt)
         new_image = Image.alpha_composite(new_image, description_txt)
 
-        # Crop image and round corners
+        # Crop image
         new_image = new_image.crop(
             (
                 self.crop_border,
@@ -297,6 +302,8 @@ class CardCreator:
                 self.image_height - self.crop_border,
             )
         )
+
+        # Round Corners
 
         return new_image
 
