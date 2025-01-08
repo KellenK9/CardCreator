@@ -2,7 +2,7 @@ from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
 import json
-from math import ceil
+from math import ceil, floor
 
 
 class CardCreator:
@@ -23,6 +23,10 @@ class CardCreator:
         self.y_offset_between_effects = 6
         self.stroke_width = 2
         self.corner_radius = 46
+        self.slot_y = 980
+        self.slot3_x = 755 * 3 / 4
+        self.slot2_x = 755 / 2
+        self.slot1_x = 755 / 4
 
         self.colors = {
             "red": (255, 0, 0),
@@ -75,9 +79,9 @@ class CardCreator:
         CardCreator.declare_vars(self)
 
         # Set Champion specific Vars
-        health_y = 800
-        health_font_size = 100
-        color_for_font_name = list(self.colors[dict["color"]])
+        health_y = 710
+        health_font_size = 80
+        color_for_font_name = list(self.colors["white"])
         color_for_font_description = list(self.colors["white"])
 
         # Append font color tuple
@@ -106,10 +110,26 @@ class CardCreator:
             third_slot = Image.open(
                 "card_frames/digital/equipment_slots/" + dict["slot3"] + "_slot.png"
             )
+        else:
+            third_slot = Image.open(
+                "card_frames/digital/equipment_slots/empty_slot.png"
+            )
         if dict["slot2"] != "none" and dict["slot2"] != None:
-            second_slot = Image.open("card_frames/" + dict["slot2"] + "-middle.png")
+            second_slot = Image.open(
+                "card_frames/digital/equipment_slots/" + dict["slot2"] + "_slot.png"
+            )
+        else:
+            second_slot = Image.open(
+                "card_frames/digital/equipment_slots/empty_slot.png"
+            )
         if dict["slot1"] != "none" and dict["slot1"] != None:
-            first_slot = Image.open("card_frames/" + dict["slot1"] + "-left.png")
+            first_slot = Image.open(
+                "card_frames/digital/equipment_slots/" + dict["slot1"] + "_slot.png"
+            )
+        else:
+            first_slot = Image.open(
+                "card_frames/digital/equipment_slots/empty_slot.png"
+            )
 
         # Center and size Text
         name_length = len(dict["card_name"])
@@ -160,9 +180,16 @@ class CardCreator:
             dict["card_name"],
             font=fnt_name,
             fill=font_color_name,
+            stroke_width=self.stroke_width,
+            stroke_fill=(0, 0, 0),
         )
         health_obj.text(
-            (health_x, health_y), dict["health"], font=fnt_health, fill=font_color_name
+            (health_x, health_y),
+            dict["health"],
+            font=fnt_health,
+            fill=font_color_name,
+            stroke_width=self.stroke_width,
+            stroke_fill=(0, 0, 0),
         )
         # Create description text object with custom spacing
         self.description_y -= self.y_offset_between_effects
@@ -175,6 +202,8 @@ class CardCreator:
                 line,
                 font=fnt_description,
                 fill=font_color_description,
+                stroke_width=self.stroke_width,
+                stroke_fill=(0, 0, 0),
             )
             # Measure the text height using textbbox
             bbox = description_obj.textbbox((0, 0), line, font=fnt_description)
@@ -186,12 +215,37 @@ class CardCreator:
 
         # Combine images
         new_image = Image.alpha_composite(artwork, frame)
+        slot_width, slot_height = first_slot.size
         if dict["slot1"] != "none" and dict["slot1"] != None:
-            new_image = Image.alpha_composite(new_image, first_slot)
+            new_image.paste(
+                first_slot,
+                (
+                    floor(self.slot1_x - (slot_width / 2)),
+                    floor(self.slot_y - (slot_height / 2)),
+                    floor(self.slot1_x + (slot_width / 2)),
+                    floor(self.slot_y + (slot_height / 2)),
+                ),
+            )
         if dict["slot2"] != "none" and dict["slot2"] != None:
-            new_image = Image.alpha_composite(new_image, second_slot)
+            new_image.paste(
+                second_slot,
+                (
+                    floor(self.slot2_x - (slot_width / 2)),
+                    floor(self.slot_y - (slot_height / 2)),
+                    floor(self.slot2_x + (slot_width / 2)),
+                    floor(self.slot_y + (slot_height / 2)),
+                ),
+            )
         if dict["slot3"] != "none" and dict["slot3"] != None:
-            new_image = Image.alpha_composite(new_image, third_slot)
+            new_image.paste(
+                third_slot,
+                (
+                    floor(self.slot3_x - (slot_width / 2)),
+                    floor(self.slot_y - (slot_height / 2)),
+                    floor(self.slot3_x + (slot_width / 2)),
+                    floor(self.slot_y + (slot_height / 2)),
+                ),
+            )
         new_image = Image.alpha_composite(new_image, name_txt)
         new_image = Image.alpha_composite(new_image, health_txt)
         new_image = Image.alpha_composite(new_image, description_txt)
@@ -491,16 +545,15 @@ list_of_frames = [
     "fire-middle",
 ]
 # Create Cards
-"""
+
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
-        Creator.generate_champion_card(card).show()
-        Creator.generate_champion_card(card).save(
+        Creator.generate_digital_champion_card(card).show()
+        Creator.generate_digital_champion_card(card).save(
             "finished_cards/Champions/" + card["card_name"] + "_card.png", "PNG"
         )
-"""
 for path in spell_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
