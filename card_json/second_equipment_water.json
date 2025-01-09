@@ -5,7 +5,7 @@
     "description": "[ACTIVATED] Heal 30 damage from a Champion then Destroy this card.",
     "color": "teal",
     "type": "water",
-    "artwork": "temp/holy_water_balloon.png"
+    "artwork": "holy_water_balloon.png"
 },
 {
     "card_name": "Raging Sea of the East",
