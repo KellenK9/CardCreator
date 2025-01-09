@@ -132,14 +132,6 @@ class CardCreator:
                 "card_frames/digital/equipment_slots/empty_slot.png"
             )
 
-        # Center and size Text
-        name_length = len(dict["card_name"])
-        if name_length > self.longest_name_for_normal_size:
-            self.name_font_size -= ceil(
-                (name_length - self.longest_name_for_normal_size)
-            )
-            # self.name_y += 2 * (name_length - self.longest_name_for_normal_size)
-
         # Add Text
         name_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
         health_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
@@ -160,7 +152,7 @@ class CardCreator:
         i = 0
         while name_width >= self.max_description_width:
             i += 1
-            self.name_y += 1
+            # self.name_y += 1
             fnt_name = ImageFont.truetype(
                 self.current_name_font, self.name_font_size - i
             )
@@ -280,14 +272,6 @@ class CardCreator:
         color_for_font_name = list(self.colors["white"])
         color_for_font_description = list(self.colors["white"])
 
-        # Center and size Text
-        name_length = len(dict["card_name"])
-        if name_length > self.longest_name_for_normal_size:
-            self.name_font_size -= ceil(
-                1.5 * (name_length - self.longest_name_for_normal_size + 4)
-            )
-            self.name_y += 2 * (name_length - self.longest_name_for_normal_size)
-
         # Append font color tuple
         color_for_font_name.append(255)
         color_for_font_description.append(255)
@@ -326,8 +310,8 @@ class CardCreator:
         # Make Names smaller if necessary
         i = 0
         while name_width >= self.max_description_width:
-            i = i - 1
-            self.name_y += 1
+            i = i + 1
+            # self.name_y += 1
             fnt_name = ImageFont.truetype(
                 self.current_name_font, self.name_font_size - i
             )
@@ -543,7 +527,7 @@ list_of_frames = [
     "fire-middle",
 ]
 # Create printable versions of art
-
+"""
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -559,7 +543,7 @@ for path in equipment_json_paths:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
         Creator.create_print_sized_images(card["card_name"], card["artwork"])
-
+"""
 # Create Cards
 
 for path in champion_json_paths:
