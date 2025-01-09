@@ -217,6 +217,7 @@ class CardCreator:
                 floor(self.slot1_x + (slot_width / 2)),
                 floor(self.slot_y + (slot_height / 2)),
             ),
+            first_slot,
         )
         new_image.paste(
             second_slot,
@@ -226,6 +227,7 @@ class CardCreator:
                 floor(self.slot2_x + (slot_width / 2)),
                 floor(self.slot_y + (slot_height / 2)),
             ),
+            second_slot,
         )
         new_image.paste(
             third_slot,
@@ -235,6 +237,7 @@ class CardCreator:
                 floor(self.slot3_x + (slot_width / 2)),
                 floor(self.slot_y + (slot_height / 2)),
             ),
+            third_slot,
         )
         new_image = Image.alpha_composite(new_image, name_txt)
         new_image = Image.alpha_composite(new_image, health_txt)
