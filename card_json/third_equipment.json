@@ -12,7 +12,7 @@
             "description": "[ACTIVATED] Deal 20 damage to a Champion and Return this card to your Hand.",
             "color": "teal",
             "type": "water",
-            "artwork": "temp/sirens_echo_mkIV.png"
+            "artwork": "sirens_echo_mkIV.png"
         },
         {
             "card_name": "Crimson Cataclysm",

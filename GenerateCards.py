@@ -527,7 +527,7 @@ list_of_frames = [
     "fire-middle",
 ]
 # Create printable versions of art
-"""
+
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -543,7 +543,7 @@ for path in equipment_json_paths:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
         Creator.create_print_sized_images(card["card_name"], card["artwork"])
-"""
+
 # Create Cards
 
 for path in champion_json_paths:
