@@ -7,7 +7,6 @@
     "slot1": "fire",
     "slot2": "none",
     "slot3": "fire",
-    "color": "red",
     "artwork": "fire_golem.png"
 },
 {
@@ -17,7 +16,6 @@
     "slot1": "water",
     "slot2": "none",
     "slot3": "water",
-    "color": "teal",
     "artwork": "water_golem.png"
 },
 {
@@ -27,7 +25,6 @@
     "slot1": "earth",
     "slot2": "none",
     "slot3": "earth",
-    "color": "beige",
     "artwork": "earth_golem.png"
 },
 {
@@ -37,7 +34,6 @@
     "slot1": "air",
     "slot2": "none",
     "slot3": "air",
-    "color": "yellow",
     "artwork": "air_golem.png"
 },
 {
@@ -47,7 +43,6 @@
     "slot1": "none",
     "slot2": "water",
     "slot3": "none",
-    "color": "teal",
     "artwork": "pirate_lord_jandreps.png"
 },
 {
@@ -57,7 +52,6 @@
     "slot1": "air",
     "slot2": "none",
     "slot3": "air",
-    "color": "yellow",
     "artwork": "thunderbird.png"
 },
 {
@@ -67,7 +61,6 @@
     "slot1": "fire",
     "slot2": "none",
     "slot3": "fire",
-    "color": "red",
     "artwork": "magma_slug.png"
 }
 ]

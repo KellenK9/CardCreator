@@ -3,56 +3,48 @@
         {
             "card_name": "Bloodrite",
             "description": "[ACTIVATED] Return this card to the Hand and Destroy 1 Equipment equipped to this Champion then Deal 40 damage to a Champion. [TRIGGER] If this card is destroyed by the effect of 'Bloodrite': Return it to the Hand.",
-            "color": "pink",
             "type": "fire",
             "artwork": "bloodrite.png"
         },
         {
             "card_name": "Droplet",
             "description": "[ACTIVATED] Destroy all Equipment attached to this Champion then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is destroyed: you can Add any number of 'Droplet's from Deck to Hand.",
-            "color": "teal",
             "type": "water",
             "artwork": "droplet.png"
         },
         {
             "card_name": "Relicshot Engine",
             "description": "[ACTIVATED] Destroy 1 Equipment you control then Deal 20 damage to a Champion.",
-            "color": "pink",
             "type": "fire",
             "artwork": "relicshot_engine.png"
         },
         {
             "card_name": "Firestorm",
             "description": "[ACTIVATED] Shuffle 4 ‘Fireball’s from your Grave into your Deck then Deal 40 damage to a Champion.",
-            "color": "pink",
             "type": "fire",
             "artwork": "firestorm.png"
         },
         {
             "card_name": "Spirit of Eurydice",
             "description": "[ACTIVATED] Send 1 ‘Spirit of Eurydice’ from your Deck to your Grave then Deal 20 damage to a Champion.",
-            "color": "light_beige",
             "type": "earth",
             "artwork": "spirit_of_eurydice.png"
         },
         {
             "card_name": "Soul of Jandreps",
             "description": "[ACTIVATED] Deal 10 damage to this Champion and Draw 2 cards.",
-            "color": "black",
             "type": "air",
             "artwork": "soul_of_jandreps.png"
         },
         {
             "card_name": "The Spear of Diomedes",
             "description": "[ACTIVATED] Deal 10 damage to each Champion. [PASSIVE] This card may be equipped to an Air or Fire Equipment Slot.",
-            "color": "light_beige",
             "type": "earth",
             "artwork": "spear_of_diomedes.png"
         },
         {
             "card_name": "Zeus' Wrath",
             "description": "[ACTIVATED] Deal damage to a Champion equal to 10 X the number of cards your opponent drew last turn.",
-            "color": "black",
             "type": "air",
             "artwork": "zeus'_wrath.png"
         }

@@ -3,84 +3,72 @@
         {
             "card_name": "Catalyst Orb",
             "description": "[ACTIVATED] Destroy this card then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is sent to the Grave: Draw 1 card.",
-            "color": "light_beige",
             "type": "earth",
             "artwork": "catalyst_orb.png"
         },
         {
             "card_name": "Siren's Echo Mk. IV",
             "description": "[ACTIVATED] Deal 20 damage to a Champion and Return this card to your Hand.",
-            "color": "teal",
             "type": "water",
             "artwork": "sirens_echo_mkIV.png"
         },
         {
             "card_name": "Crimson Cataclysm",
             "description": "[ACTIVATED] Deal 20 damage to a Champion then Destroy this card. [TRIGGER] If this card is destroyed: Add 1 copy of 'Crimson Cataclysm' from your Deck to your Hand.",
-            "color": "pink",
             "type": "fire",
             "artwork": "temp/chained_detonation.png"
         },
         {
             "card_name": "Strawman",
             "description": "[TRIGGER] If this card is discarded or destroyed: Deal 10 damage to a Champion.",
-            "color": "pink",
             "type": "fire",
             "artwork": "strawman.png"
         },
         {
             "card_name": "Tides of Reckoning",
             "description": "[TRIGGER] If this card is discarded: Heal 10 damage from a Champion. [TRIGGER] If this card is destroyed: Deal 20 damage to a Champion.",
-            "color": "teal",
             "type": "water",
             "artwork": "temp/tides_of_reckoning.png"
         },
         {
             "card_name": "Explosive Piñata",
             "description": "[TRIGGER] If this card is Discarded or Destroyed: you can Destroy 1 Air Equipment you control then Draw 2 cards.",
-            "color": "black",
             "type": "air",
             "artwork": "explosive_pinata.png"
         },
         {
             "card_name": "Memory of the Tides",
             "description": "[ACTIVATED] Destroy this card then Add 1 'Tidal Wave' from Grave to Hand. [TRIGGER] If this card is destroyed: Deal 20 damage to a Champion.",
-            "color": "teal",
             "type": "water",
             "artwork": "temp/memory_of_the_tides.png" 
         },
         {
             "card_name": "Withering Thorns",
             "description": "[ACTIVATED] Return 1 'Vital Bloom' from your Field to your Hand then Deal 10 damage to this Champion and 30 damage to a Champion.",
-            "color": "light_beige",
             "type": "earth",
             "artwork": "withering_thorns.png"
         },
         {
             "card_name": "Vital Bloom",
             "description": "[ACTIVATED] Return 1 'Withering Thorns' from your Field to your Hand then Heal 20 damage from this Champion.",
-            "color": "light_beige",
             "type": "earth",
             "artwork": "vital_bloom.png"
         },
         {
             "card_name": "Catalytic Converter",
             "description": "[ACTIVATED] Destroy 1 'Catalyst Orb' you control then Heal 20 damage from the Champion that was equipped with that 'Catalyst Orb'.",
-            "color": "light_beige",
             "type": "earth",
             "artwork": "temp/catalytic_converter.png"
         },
         {
             "card_name": "Grenad'o'pult",
             "description": "[ACTIVATED] Destroy all 'Grenade's you control and Deal 30 damage to a Champion for each 'Grenade' destroyed.",
-            "color": "light_beige",
             "type": "earth",
             "artwork": "temp/fantasy_catapult.png"
         },
         {
             "card_name": "Accelerating Particle",
             "description": "[ACTIVATED] If you control another 'Accelerating Particle': Destroy all Equipment on the Field. [PASSIVE] This card may be equipped to any Equipment Slot.",
-            "color": "pink",
             "type": "fire",
             "artwork": "accelerating_particle.png"
         }

@@ -3,21 +3,18 @@
 {
     "card_name": "Air Dagger",
     "description": "[ACTIVATED] Deal 10 damage to a Champion.",
-    "color": "black",
     "type": "air",
     "artwork": "air_dagger.png"
 },
 {
     "card_name": "The Graceful Host",
     "description": "[ACTIVATED] Both players Draw 2 cards.",
-    "color": "black",
     "type": "air",
     "artwork": "graceful_host.png"
 },
 {
     "card_name": "Zeus' Thunderbolt",
     "description": "[ACTIVATED] Discard 3 cards then Deal 40 damage to a Champion.",
-    "color": "black",
     "type": "air",
     "artwork": "zeus'_thunderbolt.png"
 }

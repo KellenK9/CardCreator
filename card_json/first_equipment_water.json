@@ -3,21 +3,18 @@
 {
     "card_name": "Water Dagger",
     "description": "[ACTIVATED] Deal 10 damage to a Champion.",
-    "color": "teal",
     "type": "water",
     "artwork": "water_dagger.png"
 },
 {
     "card_name": "The Sacred Spring",
     "description": "[ACTIVATED] Heal 10 damage from this Champion.",
-    "color": "teal",
     "type": "water",
     "artwork": "fountain.png"
 },
 {
     "card_name": "Tidal Wave",
     "description": "[ACTIVATED] Deal 40 damage to a Champion then Destroy all cards attached to this Champion.",
-    "color": "teal",
     "type": "water",
     "artwork": "tidal_wave.png"
 }

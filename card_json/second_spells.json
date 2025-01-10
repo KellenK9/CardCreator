@@ -3,56 +3,48 @@
 {
     "card_name": "Useless Potion",
     "description": "[ACTIVATED] Add one or more copies of 'Useless Potion' from your Deck to your Hand.",
-    "color": "white",
     "type": "spell",
     "artwork": "useless_potion.png"
 },
 {
     "card_name": "Pressure",
     "description": "[ACTIVATED] Deal 10 damage to a Champion then Return this card to the Hand then if you have 3 or more cards in Hand: Discard 1 card.",
-    "color": "white",
     "type": "spell",
     "artwork": "temp/pressure.png"
 },
 {
     "card_name": "Dagger Upgrade",
     "description": "[ACTIVATED] Discard 1 'Dagger' Equipment then Add 1 Equipment from your Deck to your Hand of the same element as the card discarded.",
-    "color": "white",
     "type": "spell",
     "artwork": "temp/dagger_upgrade.png"
 },
 {
     "card_name": "Love Potion of Calming Mind",
     "description": "[ACTIVATED] Discard 1 Water Equipment then Heal 30 damage from a Champion.",
-    "color": "white",
     "type": "spell",
     "artwork": "love_potion_of_calming_mind.png"
 },
 {
     "card_name": "Love Potion of Fiery Heart",
     "description": "[ACTIVATED] Discard 1 Fire Equipment then Deal 30 damage to a Champion.",
-    "color": "white",
     "type": "spell",
     "artwork": "love_potion_of_fiery_heart.png"
 },
 {
     "card_name": "Love Potion of Vibrant Soul",
     "description": "[ACTIVATED] Discard 1 Air Equipment then Draw 3 cards and Discard 1 card.",
-    "color": "white",
     "type": "spell",
     "artwork": "love_potion_of_vibrant_soul.png"
 },
 {
     "card_name": "Love Potion of Steadfast Bone",
     "description": "[ACTIVATED] Discard 1 Earth Equipment then Add 1 Earth Equipment from your Deck to your Hand and Discard 1 card.",
-    "color": "white",
     "type": "spell",
     "artwork": "love_potion_of_steadfast_bone.png"
 },
 {
     "card_name": "Shoddy Craftsmanship",
     "description": "[ACTIVATED] If your opponent equipped 1 Equipment last turn: Destroy that Equipment.",
-    "color": "white",
     "type": "spell",
     "artwork": "shoddy_craftsmanship.png"
 }

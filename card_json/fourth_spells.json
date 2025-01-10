@@ -3,35 +3,30 @@
     {
         "card_name": "Copycat",
         "description": "[ACTIVATED] If your opponent activated a Spell last turn: Apply that Spell's activated effect.",
-        "color": "white",
         "type": "spell",
         "artwork": "copycat.png"
     },
     {
         "card_name": "Rewind",
         "description": "[ACTIVATED] Equip 1 Equipment from your opponent's Grave to an opponent's Champion then you can Shuffle 1 Equipment from the Field into the Deck.",
-        "color": "white",
         "type": "spell",
         "artwork": "rewind.png"
     },
     {
         "card_name": "The Missing Ingredient",
         "description": "[ACTIVATED] Discard 1 'Useless Potion' then Deal 40 damage to a Champion.",
-        "color": "white",
         "type": "spell",
         "artwork": "the_missing_ingredient.png"
     },
     {
         "card_name": "Armor Up",
         "description": "[ACTIVATED] Equip 1 'Extra Padding' from your Deck to your Champion then Heal 10 damage from that Champion.",
-        "color": "white",
         "type": "spell",
         "artwork": "armor_up.png"
     },
     {
         "card_name": "Rank Your Friends",
         "description": "[ACTIVATED] Look at the top 5 cards of your Deck and place them back in any order then Draw a card.",
-        "color": "white",
         "type": "spell",
         "artwork": "rank_your_friends.png"
     }

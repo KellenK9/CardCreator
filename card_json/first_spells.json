@@ -3,56 +3,48 @@
 {
     "card_name": "Fireball",
     "description": "[ACTIVATED] Deal 20 damage to a Champion.",
-    "color": "white",
     "type": "spell",
     "artwork": "fireball.png"
 },
 {
     "card_name": "Spreading Flame",
     "description": "[ACTIVATED] Deal 10 damage to each enemy Champion.",
-    "color": "white",
     "type": "spell",
     "artwork": "spreading_flame.png"
 },
 {
     "card_name": "Flask of Fortune",
     "description": "[ACTIVATED] Draw 2 cards.",
-    "color": "white",
     "type": "spell",
     "artwork": "flask_of_fortune.png"
 },
 {
     "card_name": "Spring Water",
     "description": "[ACTIVATED] Heal 20 damage from a Champion.",
-    "color": "white",
     "type": "spell",
     "artwork": "spring_water.png"
 },
 {
     "card_name": "Knowledge Exchange",
     "description": "[ACTIVATED] Discard your entire Hand then Draw the same number of cards you discarded.",
-    "color": "white",
     "type": "spell",
     "artwork": "library.png"
 },
 {
     "card_name": "Recurring Visions",
     "description": "[ACTIVATED] Add 1 Spell from your Grave to your Hand.",
-    "color": "white",
     "type": "spell",
     "artwork": "recurring_visions.png"
 },
 {
     "card_name": "Decoy",
     "description": "[ACTIVATED] Add 1 'Decoy' from Deck to Hand. [TRIGGER] When this card is sent to the Grave: Draw 1 card.",
-    "color": "white",
     "type": "spell",
     "artwork": "temp/decoy.png"
 },
 {
     "card_name": "Celestial Shower",
     "description": "[ACTIVATED] Destroy 1 Equipment attached to your Champion then Destroy 1 Equipment on the Field.",
-    "color": "white",
     "type": "spell",
     "artwork": "celestial_shower.png"
 }

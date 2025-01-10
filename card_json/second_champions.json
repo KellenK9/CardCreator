@@ -7,7 +7,6 @@
     "slot1": "none",
     "slot2": "air",
     "slot3": "none",
-    "color": "yellow",
     "artwork": "zeus.png"
 },
 {
@@ -17,7 +16,6 @@
     "slot1": "none",
     "slot2": "water",
     "slot3": "none",
-    "color": "teal",
     "artwork": "poseidon.png"
 },
 {
@@ -27,7 +25,6 @@
     "slot1": "none",
     "slot2": "fire",
     "slot3": "none",
-    "color": "red",
     "artwork": "hades.png"
 },
 {
@@ -37,7 +34,6 @@
     "slot1": "none",
     "slot2": "earth",
     "slot3": "none",
-    "color": "beige",
     "artwork": "gaia.png"
 },
 {
@@ -47,7 +43,6 @@
     "slot1": "fire",
     "slot2": "none",
     "slot3": "fire",
-    "color": "red",
     "artwork": "technician_magician.png"
 },
 {
@@ -57,7 +52,6 @@
     "slot1": "none",
     "slot2": "water",
     "slot3": "none",
-    "color": "teal",
     "artwork": "water_beetle.png"
 }
 ]

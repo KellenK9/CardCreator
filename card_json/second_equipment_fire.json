@@ -3,14 +3,12 @@
 {
     "card_name": "Fireball Summoning",
     "description": "[ACTIVATED] Add 1 'Fireball' from Deck or Grave to Hand.",
-    "color": "pink",
     "type": "fire",
     "artwork": "fireball_summoning.png"
 },
 {
     "card_name": "Vengeful Rage",
     "description": "[ACTIVATED] Deal 10 damage to each enemy Champion then Destroy this card if you control multiple Champions.",
-    "color": "pink",
     "type": "fire",
     "artwork": "infernal_behemoth.png"
 }

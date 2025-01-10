@@ -7,7 +7,6 @@
         "slot1": "air",
         "slot2": "none",
         "slot3": "air",
-        "color": "yellow",
         "artwork": "sovereign_of_the_southern_spires.png"
     },
     {
@@ -17,7 +16,6 @@
         "slot1": "none",
         "slot2": "earth",
         "slot3": "none",
-        "color": "beige",
         "artwork": "tavern_hopper.png"
     },
     {
@@ -27,7 +25,6 @@
         "slot1": "air",
         "slot2": "air",
         "slot3": "air",
-        "color": "beige",
         "artwork": "temp/capybarrage.png"
     },
     {
@@ -37,7 +34,6 @@
         "slot1": "none",
         "slot2": "earth",
         "slot3": "none",
-        "color": "beige",
         "artwork": "temp/warrior.png"
     }
 ]

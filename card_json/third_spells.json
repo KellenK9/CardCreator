@@ -3,42 +3,36 @@
     {
         "card_name": "Wild Shot",
         "description": "[ACTIVATED] Discard 1 random card from your opponent’s Hand.",
-        "color": "white",
         "type": "spell",
         "artwork": "temp/wild_shot.png"
     },
     {
         "card_name": "Dimension Recall",
         "description": "[ACTIVATED] Discard 1 card then Shuffle 1 Equipment on the Field into the Deck.",
-        "color": "white",
         "type": "spell",
         "artwork": "dimension_recall.png"
     },
     {
         "card_name": "Elemental Blast",
         "description": "[ACTIVATED] Discard any number of Equipment cards of the same element then Deal damage to a Champion equal to the number of Equipment discarded X 10.",
-        "color": "white",
         "type": "spell",
         "artwork": "temp/cannon2.png"
     },
     {
         "card_name": "Verdant Codex",
         "description": "[ACTIVATED] Draw 3 cards then Discard 2 cards.",
-        "color": "white",
         "type": "spell",
         "artwork": "verdant_codex.png"
     },
     {
         "card_name": "Tainted Elixir",
         "description": "[ACTIVATED] Deal 10 damage to a Champion or if that Champion was healed during your opponents last turn: Deal 30 damage instead.",
-        "color": "white",
         "type": "spell",
         "artwork": "temp/tainted_elixir.png"
     },
     {
         "card_name": "Defiance of Death",
         "description": "[ACTIVATED] If an Equipment equipped to one of your Champions was destroyed during your opponents last turn: Add that Equipment from your Grave to your Hand.",
-        "color": "white",
         "type": "spell",
         "artwork": "temp/payback.png"
     }
