@@ -45,9 +45,23 @@ a fantasy goblin wearing a blindfold shooting his gun in the air. The goblin sho
 
 
 
+Which cards have artwork that I generated that most need to be replaced? This could be due to the art being old and no longer fitting the style, or looking bad after being cropped.
+Most Needed Makeovers:
+Dimension Recall
+Sovereign of the Southern Skies
+Thunderbird
+Fire Golem
+Volcanic Slug
+Extra Padding
+Fire Dagger
+Vengeful Rage
+Tidal Wave
+Sacred Spring
+Raging Sea of the East
+Raging Sea of the West
+Rapid Winds
+Quarter Pillar of the Sky
 
 
 Backlog:
--Fix name pixel size Bugs
 -Check how champion cards would look with slots above or below all text
--Write code to generate printable images
