@@ -86,3 +86,7 @@ Buffs:
     Useless Potion
 Notes:
     The Spell Update!
+
+v1.1.6
+New Cards:
+    Zeus' Wrath

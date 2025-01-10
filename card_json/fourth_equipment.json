@@ -48,6 +48,13 @@
             "color": "light_beige",
             "type": "earth",
             "artwork": "spear_of_diomedes.png"
+        },
+        {
+            "card_name": "Zeus' Wrath",
+            "description": "[ACTIVATED] Deal damage to a Champion equal to 10 X the number of cards your opponent drew last turn.",
+            "color": "black",
+            "type": "air",
+            "artwork": "zeus'_wrath.png"
         }
     ]
 }
