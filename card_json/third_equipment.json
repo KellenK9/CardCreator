@@ -64,7 +64,7 @@
             "card_name": "Grenad'o'pult",
             "description": "[ACTIVATED] Destroy all 'Grenade's you control and Deal 30 damage to a Champion for each 'Grenade' destroyed.",
             "type": "earth",
-            "artwork": "temp/fantasy_catapult.png"
+            "artwork": "grenad'o'pult.png"
         },
         {
             "card_name": "Accelerating Particle",

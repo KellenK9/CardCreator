@@ -4,7 +4,7 @@
         "card_name": "Wild Shot",
         "description": "[ACTIVATED] Discard 1 random card from your opponent’s Hand.",
         "type": "spell",
-        "artwork": "temp/wild_shot.png"
+        "artwork": "wild_shot.png"
     },
     {
         "card_name": "Dimension Recall",
@@ -28,7 +28,7 @@
         "card_name": "Tainted Elixir",
         "description": "[ACTIVATED] Deal 10 damage to a Champion or if that Champion was healed during your opponents last turn: Deal 30 damage instead.",
         "type": "spell",
-        "artwork": "temp/tainted_elixir.png"
+        "artwork": "tainted_elixir.png"
     },
     {
         "card_name": "Defiance of Death",
