@@ -544,7 +544,7 @@ list_of_frames = [
     "fire-middle",
 ]
 # Create printable versions of art
-"""
+
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -560,9 +560,9 @@ for path in equipment_json_paths:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
         Creator.create_print_sized_images(card["card_name"], card["artwork"])
-"""
+
 # Create Digital Cards
-"""
+
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -587,7 +587,7 @@ for path in equipment_json_paths:
         Creator.generate_equipment_or_spell_card(card).save(
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
         )
-"""
+
 # Create Printable Cards
 
 for path in champion_json_paths:
@@ -634,6 +634,11 @@ for path in equipment_json_paths:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
         Creator.create_pixel_images(card["card_name"], card["artwork"])
+"""
+# Create smaller versions of frames
+"""
+for artwork_path in list_of_frames:
+    Creator.create_pixel_frames(f"{artwork_path}.png")
 """
 # Create pixel art versions of cards
 """
@@ -690,9 +695,4 @@ for path in equipment_json_paths:
             card["card_name"],
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png",
         )
-"""
-# Create smaller versions of frames
-"""
-for artwork_path in list_of_frames:
-    Creator.create_pixel_frames(f"{artwork_path}.png")
 """
