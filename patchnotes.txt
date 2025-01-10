@@ -81,6 +81,7 @@ New Cards:
     Rewind
     The Missing Ingredient
     Armor Up
+    Rank Your Friends
 Buffs:
     Useless Potion
 Notes:

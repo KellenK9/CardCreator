@@ -27,6 +27,13 @@
         "color": "white",
         "type": "spell",
         "artwork": "armor_up.png"
+    },
+    {
+        "card_name": "Rank Your Friends",
+        "description": "[ACTIVATED] Look at the top 5 cards of your Deck and place them back in any order then Draw a card.",
+        "color": "white",
+        "type": "spell",
+        "artwork": "rank_your_friends.png"
     }
 ]
 }
