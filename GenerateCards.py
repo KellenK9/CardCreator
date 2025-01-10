@@ -75,7 +75,7 @@ class CardCreator:
         wrapped_text = "".join(lines)
         return wrapped_text, lines
 
-    def generate_digital_champion_card(self, dict):
+    def generate_champion_card(self, dict, printed=False):
         # Set global vars
         CardCreator.declare_vars(self)
 
@@ -97,39 +97,43 @@ class CardCreator:
         artwork = artwork.convert("RGBA")
 
         # Import frame
+        if printed:
+            folder = "printable"
+        else:
+            folder = "digital"
         if "earth" in dict["slot1"] or "earth" in dict["slot2"]:
-            frame = Image.open("card_frames/digital/earth-champion-frame.png")
+            frame = Image.open(f"card_frames/{folder}/earth-champion-frame.png")
         if "air" in dict["slot1"] or "air" in dict["slot2"]:
-            frame = Image.open("card_frames/digital/air-champion-frame.png")
+            frame = Image.open(f"card_frames/{folder}/air-champion-frame.png")
         if "water" in dict["slot1"] or "water" in dict["slot2"]:
-            frame = Image.open("card_frames/digital/water-champion-frame.png")
+            frame = Image.open(f"card_frames/{folder}/water-champion-frame.png")
         if "fire" in dict["slot1"] or "fire" in dict["slot2"]:
-            frame = Image.open("card_frames/digital/fire-champion-frame.png")
+            frame = Image.open(f"card_frames/{folder}/fire-champion-frame.png")
 
         # Add slots
         if dict["slot3"] != "none" and dict["slot3"] != None:
             third_slot = Image.open(
-                "card_frames/digital/equipment_slots/" + dict["slot3"] + "_slot.png"
+                f"card_frames/{folder}/equipment_slots/" + dict["slot3"] + "_slot.png"
             )
         else:
             third_slot = Image.open(
-                "card_frames/digital/equipment_slots/empty_slot.png"
+                f"card_frames/{folder}/equipment_slots/empty_slot.png"
             )
         if dict["slot2"] != "none" and dict["slot2"] != None:
             second_slot = Image.open(
-                "card_frames/digital/equipment_slots/" + dict["slot2"] + "_slot.png"
+                f"card_frames/{folder}/equipment_slots/" + dict["slot2"] + "_slot.png"
             )
         else:
             second_slot = Image.open(
-                "card_frames/digital/equipment_slots/empty_slot.png"
+                f"card_frames/{folder}/equipment_slots/empty_slot.png"
             )
         if dict["slot1"] != "none" and dict["slot1"] != None:
             first_slot = Image.open(
-                "card_frames/digital/equipment_slots/" + dict["slot1"] + "_slot.png"
+                f"card_frames/{folder}/equipment_slots/" + dict["slot1"] + "_slot.png"
             )
         else:
             first_slot = Image.open(
-                "card_frames/digital/equipment_slots/empty_slot.png"
+                f"card_frames/{folder}/equipment_slots/empty_slot.png"
             )
 
         # Add Text
@@ -243,32 +247,35 @@ class CardCreator:
         new_image = Image.alpha_composite(new_image, health_txt)
         new_image = Image.alpha_composite(new_image, description_txt)
 
-        # Crop image
-        new_image = new_image.crop(
-            (
-                self.crop_border,
-                self.crop_border,
-                self.image_width - self.crop_border,
-                self.image_height - self.crop_border,
+        if printed:
+            return new_image
+        else:
+            # Crop image
+            new_image = new_image.crop(
+                (
+                    self.crop_border,
+                    self.crop_border,
+                    self.image_width - self.crop_border,
+                    self.image_height - self.crop_border,
+                )
             )
-        )
 
-        # Round Corners
-        # Create a mask with rounded corners
-        mask = Image.new("L", new_image.size, 0)
-        draw = ImageDraw.Draw(mask)
-        width, height = new_image.size
-        draw.rounded_rectangle(
-            [(0, 0), (width, height)], radius=self.corner_radius, fill=255
-        )
+            # Round Corners
+            # Create a mask with rounded corners
+            mask = Image.new("L", new_image.size, 0)
+            draw = ImageDraw.Draw(mask)
+            width, height = new_image.size
+            draw.rounded_rectangle(
+                [(0, 0), (width, height)], radius=self.corner_radius, fill=255
+            )
 
-        # Apply the mask to the original image
-        rounded_image = Image.new("RGBA", new_image.size, (0, 0, 0, 0))
-        rounded_image.paste(new_image, (0, 0), mask=mask)
+            # Apply the mask to the original image
+            rounded_image = Image.new("RGBA", new_image.size, (0, 0, 0, 0))
+            rounded_image.paste(new_image, (0, 0), mask=mask)
 
-        return rounded_image
+            return rounded_image
 
-    def generate_digital_equipment_or_spell_card(self, dict):
+    def generate_equipment_or_spell_card(self, dict, printed=False):
         # Set global vars
         CardCreator.declare_vars(self)
 
@@ -287,16 +294,20 @@ class CardCreator:
         artwork = artwork.convert("RGBA")
 
         # Import and color frame
+        if printed:
+            folder = "printable"
+        else:
+            folder = "digital"
         if dict["type"] == "water":
-            frame = Image.open("card_frames/digital/water-frame.png")
+            frame = Image.open(f"card_frames/{folder}/water-frame.png")
         if dict["type"] == "fire":
-            frame = Image.open("card_frames/digital/fire-frame.png")
+            frame = Image.open(f"card_frames/{folder}/fire-frame.png")
         if dict["type"] == "earth":
-            frame = Image.open("card_frames/digital/earth-frame.png")
+            frame = Image.open(f"card_frames/{folder}/earth-frame.png")
         if dict["type"] == "air":
-            frame = Image.open("card_frames/digital/air-frame.png")
+            frame = Image.open(f"card_frames/{folder}/air-frame.png")
         if dict["type"] == "spell":
-            frame = Image.open("card_frames/digital/spell-frame.png")
+            frame = Image.open(f"card_frames/{folder}/spell-frame.png")
 
         # Add text
         name_txt = Image.new("RGBA", frame.size, (255, 255, 255, 0))
@@ -360,30 +371,33 @@ class CardCreator:
         new_image = Image.alpha_composite(new_image, name_txt)
         new_image = Image.alpha_composite(new_image, description_txt)
 
-        # Crop image
-        new_image = new_image.crop(
-            (
-                self.crop_border,
-                self.crop_border,
-                self.image_width - self.crop_border,
-                self.image_height - self.crop_border,
+        if printed:
+            return new_image
+        else:
+            # Crop image
+            new_image = new_image.crop(
+                (
+                    self.crop_border,
+                    self.crop_border,
+                    self.image_width - self.crop_border,
+                    self.image_height - self.crop_border,
+                )
             )
-        )
 
-        # Round Corners
-        # Create a mask with rounded corners
-        mask = Image.new("L", new_image.size, 0)
-        draw = ImageDraw.Draw(mask)
-        width, height = new_image.size
-        draw.rounded_rectangle(
-            [(0, 0), (width, height)], radius=self.corner_radius, fill=255
-        )
+            # Round Corners
+            # Create a mask with rounded corners
+            mask = Image.new("L", new_image.size, 0)
+            draw = ImageDraw.Draw(mask)
+            width, height = new_image.size
+            draw.rounded_rectangle(
+                [(0, 0), (width, height)], radius=self.corner_radius, fill=255
+            )
 
-        # Apply the mask to the original image
-        rounded_image = Image.new("RGBA", new_image.size, (0, 0, 0, 0))
-        rounded_image.paste(new_image, (0, 0), mask=mask)
+            # Apply the mask to the original image
+            rounded_image = Image.new("RGBA", new_image.size, (0, 0, 0, 0))
+            rounded_image.paste(new_image, (0, 0), mask=mask)
 
-        return rounded_image
+            return rounded_image
 
     def create_pixel_images(self, card_name, artwork_path):
         size = 177, 177
@@ -547,31 +561,60 @@ for path in equipment_json_paths:
     for card in loaded_json["cards"]:
         Creator.create_print_sized_images(card["card_name"], card["artwork"])
 
-# Create Cards
+# Create Digital Cards
 
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
-        Creator.generate_digital_champion_card(card).show()
-        Creator.generate_digital_champion_card(card).save(
+        Creator.generate_champion_card(card).show()
+        Creator.generate_champion_card(card).save(
             "finished_cards/Champions/" + card["card_name"] + "_card.png", "PNG"
         )
 for path in spell_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
-        Creator.generate_digital_equipment_or_spell_card(card).show()
-        Creator.generate_digital_equipment_or_spell_card(card).save(
+        Creator.generate_equipment_or_spell_card(card).show()
+        Creator.generate_equipment_or_spell_card(card).save(
             "finished_cards/Spells/" + card["card_name"] + "_card.png", "PNG"
         )
 for path in equipment_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
-        Creator.generate_digital_equipment_or_spell_card(card).show()
-        Creator.generate_digital_equipment_or_spell_card(card).save(
+        Creator.generate_equipment_or_spell_card(card).show()
+        Creator.generate_equipment_or_spell_card(card).save(
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
+        )
+
+# Create Printable Cards
+
+for path in champion_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.generate_champion_card(card, True).show()
+        Creator.generate_champion_card(card, True).save(
+            "finished_cards/printable/Champions/" + card["card_name"] + "_card.png",
+            "PNG",
+        )
+for path in spell_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.generate_equipment_or_spell_card(card, True).show()
+        Creator.generate_equipment_or_spell_card(card, True).save(
+            "finished_cards/printable/Spells/" + card["card_name"] + "_card.png", "PNG"
+        )
+for path in equipment_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.generate_equipment_or_spell_card(card, True).show()
+        Creator.generate_equipment_or_spell_card(card, True).save(
+            f"finished_cards/printable/{card["type"]}/{card["card_name"]}_card.png",
+            "PNG",
         )
 
 # Create pixel art versions of artwork
