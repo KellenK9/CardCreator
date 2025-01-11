@@ -274,6 +274,8 @@ class CardCreator:
             rounded_image = Image.new("RGBA", new_image.size, (0, 0, 0, 0))
             rounded_image.paste(new_image, (0, 0), mask=mask)
 
+            # rounded_image = rounded_image.convert("CMYK").convert("RGB")
+
             return rounded_image
 
     def generate_equipment_or_spell_card(self, dict, printed=False):
@@ -397,6 +399,8 @@ class CardCreator:
             # Apply the mask to the original image
             rounded_image = Image.new("RGBA", new_image.size, (0, 0, 0, 0))
             rounded_image.paste(new_image, (0, 0), mask=mask)
+
+            # rounded_image = rounded_image.convert("CMYK").convert("RGB")
 
             return rounded_image
 
@@ -563,7 +567,7 @@ for path in equipment_json_paths:
         Creator.create_print_sized_images(card["card_name"], card["artwork"])
 """
 # Create Digital Cards
-
+"""
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -572,7 +576,6 @@ for path in champion_json_paths:
         Creator.generate_champion_card(card).save(
             "finished_cards/Champions/" + card["card_name"] + "_card.png", "PNG"
         )
-"""
 for path in spell_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -591,7 +594,7 @@ for path in equipment_json_paths:
         )
 """
 # Create Printable Cards
-"""
+
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -601,6 +604,7 @@ for path in champion_json_paths:
             "finished_cards/printable/Champions/" + card["card_name"] + "_card.png",
             "PNG",
         )
+"""
 for path in spell_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
