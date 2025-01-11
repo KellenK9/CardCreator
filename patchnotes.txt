@@ -90,3 +90,5 @@ Notes:
 v1.1.6
 New Cards:
     Zeus' Wrath
+Notes:
+    The Control Update
