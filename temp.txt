@@ -56,5 +56,7 @@ Rapid Winds
 Quarter Pillar of the Sky
 
 
-Backlog:
--Check how champion cards would look with slots above or below all text
+
+Notes from Game Print Shop:
+Our website will only accept RGB images. CMYK images will be rejected.
+However, for the closest color matching, we recommend that designers develop in CMYK and then convert their files to RGB before uploading them to our site.
