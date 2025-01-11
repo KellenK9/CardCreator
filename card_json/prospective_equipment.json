@@ -2,8 +2,8 @@
     "cards":[
         {
             "card_name": "The Blade That Strikes Down the Blessed",
-            "description": "[ACTIVATED] Deal 20 damage to a Champion that was healed last turn. [PASSIVE] This card may be equipped to any Equipment Slot?",
-            "type": "fire",
+            "description": "[ACTIVATED] Deal 20 damage to a Champion that was healed last turn.",
+            "type": "fire?",
             "artwork": ".png"
         },
         {
