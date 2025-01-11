@@ -24,7 +24,7 @@ class CardCreator:
         self.y_offset_between_effects = 6
         self.stroke_width = 2
         self.corner_radius = 46
-        self.slot_y = 1050  # 980
+        self.slot_y = 1055
         self.slot3_x = self.image_width * 3 / 4 + 25
         self.slot2_x = self.image_width / 2
         self.slot1_x = self.image_width / 4 - 25
@@ -156,7 +156,7 @@ class CardCreator:
         i = 0
         while name_width >= self.max_description_width:
             i += 1
-            # self.name_y += 1
+            self.name_y += 1
             fnt_name = ImageFont.truetype(
                 self.current_name_font, self.name_font_size - i
             )
