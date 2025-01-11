@@ -12,7 +12,7 @@ class CardCreator:
         self.crop_border = 35
         self.pixel_image_width = 177
         self.pixel_image_height = 248
-        self.name_y = 1000
+        self.name_y = 950  # 1000
         self.description_x = 58
         self.description_y = 860
         self.description_y_champions = 825
@@ -24,7 +24,7 @@ class CardCreator:
         self.y_offset_between_effects = 6
         self.stroke_width = 2
         self.corner_radius = 46
-        self.slot_y = 980
+        self.slot_y = 1050  # 980
         self.slot3_x = self.image_width * 3 / 4 + 25
         self.slot2_x = self.image_width / 2
         self.slot1_x = self.image_width / 4 - 25
@@ -544,7 +544,7 @@ list_of_frames = [
     "fire-middle",
 ]
 # Create printable versions of art
-
+"""
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -560,7 +560,7 @@ for path in equipment_json_paths:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
         Creator.create_print_sized_images(card["card_name"], card["artwork"])
-
+"""
 # Create Digital Cards
 
 for path in champion_json_paths:
@@ -571,6 +571,7 @@ for path in champion_json_paths:
         Creator.generate_champion_card(card).save(
             "finished_cards/Champions/" + card["card_name"] + "_card.png", "PNG"
         )
+"""
 for path in spell_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -587,9 +588,9 @@ for path in equipment_json_paths:
         Creator.generate_equipment_or_spell_card(card).save(
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
         )
-
+"""
 # Create Printable Cards
-
+"""
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -616,7 +617,7 @@ for path in equipment_json_paths:
             f"finished_cards/printable/{card["type"]}/{card["card_name"]}_card.png",
             "PNG",
         )
-
+"""
 # Create pixel art versions of artwork
 """
 for path in champion_json_paths:
