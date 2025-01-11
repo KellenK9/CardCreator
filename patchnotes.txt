@@ -90,5 +90,7 @@ Notes:
 v1.1.6
 New Cards:
     Zeus' Wrath
+Renames:
+    Orpheus of the Reforged Blade -> Orpheus
 Notes:
     The Control Update

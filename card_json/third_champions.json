@@ -28,13 +28,13 @@
         "artwork": "temp/capybarrage.png"
     },
     {
-        "card_name": "Orpheus of the Reforged Blade",
+        "card_name": "Orpheus",
         "health": "130",
         "description": "[ACTIVATED] Shuffle one Earth Equipment from your Grave into your Deck.",
         "slot1": "none",
         "slot2": "earth",
         "slot3": "none",
-        "artwork": "temp/warrior.png"
+        "artwork": "orpheus.png"
     }
 ]
 }

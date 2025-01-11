@@ -28,7 +28,7 @@
             "card_name": "Tides of Reckoning",
             "description": "[TRIGGER] If this card is discarded: Heal 10 damage from a Champion. [TRIGGER] If this card is destroyed: Deal 20 damage to a Champion.",
             "type": "water",
-            "artwork": "temp/tides_of_reckoning.png"
+            "artwork": "tides_of_reckoning.png"
         },
         {
             "card_name": "Explosive Piñata",
@@ -40,7 +40,7 @@
             "card_name": "Memory of the Tides",
             "description": "[ACTIVATED] Destroy this card then Add 1 'Tidal Wave' from Grave to Hand. [TRIGGER] If this card is destroyed: Deal 20 damage to a Champion.",
             "type": "water",
-            "artwork": "temp/memory_of_the_tides.png" 
+            "artwork": "memory_of_the_tides.png" 
         },
         {
             "card_name": "Withering Thorns",
