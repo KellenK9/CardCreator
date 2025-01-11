@@ -29,7 +29,7 @@ Destroy - a form of sending Equipment from field to grave
 Specific Card Rulings:
 
 Extra Padding:
-  Increases a Champion's max health by 50 and raises their current health by the same amount when equipped.
+  Increases a Champion's max health by 50 and because that Champion has still taken the same amount of damage it effectively raises their current health by the same amount.
     Example: A Champion that has 60/100 health gets equipped with Extra Padding and now has 110/150 health.
   Champions may be defeated if their health drops to 0 after Extra Padding becomes unequipped.
 Greedy Rage:
