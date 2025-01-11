@@ -12,7 +12,8 @@ class CardCreator:
         self.crop_border = 35
         self.pixel_image_width = 177
         self.pixel_image_height = 248
-        self.name_y = 950  # 1000
+        self.name_y = 1000
+        self.name_y_champions = 950
         self.description_x = 58
         self.description_y = 860
         self.description_y_champions = 825
@@ -156,7 +157,7 @@ class CardCreator:
         i = 0
         while name_width >= self.max_description_width:
             i += 1
-            self.name_y += 1
+            self.name_y_champions += 1
             fnt_name = ImageFont.truetype(
                 self.current_name_font, self.name_font_size - i
             )
@@ -173,7 +174,7 @@ class CardCreator:
         name_x = (self.image_width - name_width) / 2
         health_x = (self.image_width - health_width) / 2
         name_obj.text(
-            (name_x, self.name_y),
+            (name_x, self.name_y_champions),
             dict["card_name"],
             font=fnt_name,
             fill=font_color_name,
