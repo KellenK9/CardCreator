@@ -10,7 +10,7 @@
     "card_name": "Gambit",
     "description": "[ACTIVATED] Flip a coin. If heads: Deal 30 damage to a Champion. If tails: Deal 20 damage to this Champion.",
     "type": "fire",
-    "artwork": "temp/gambit.png"
+    "artwork": "gambit.png"
 },
 {
     "card_name": "Greedy Rage",
