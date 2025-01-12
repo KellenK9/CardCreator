@@ -34,7 +34,7 @@
         "card_name": "Defiance of Death",
         "description": "[ACTIVATED] If an Equipment equipped to one of your Champions was destroyed during your opponents last turn: Add that Equipment from your Grave to your Hand.",
         "type": "spell",
-        "artwork": "temp/payback.png"
+        "artwork": "defiance_of_death.png"
     }
 ]
 }
