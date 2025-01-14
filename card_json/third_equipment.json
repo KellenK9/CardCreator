@@ -58,7 +58,7 @@
             "card_name": "Catalytic Converter",
             "description": "[ACTIVATED] Destroy 1 'Catalyst Orb' you control then Heal 20 damage from the Champion that was equipped with that 'Catalyst Orb'.",
             "type": "earth",
-            "artwork": "temp/catalytic_converter.png"
+            "artwork": "catalytic_converter.png"
         },
         {
             "card_name": "Grenad'o'pult",

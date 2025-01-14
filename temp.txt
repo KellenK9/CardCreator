@@ -3,14 +3,11 @@ Prompts for new card artwork
 Generic wording:
 The next image I would like you to generate for my fantasy card game is 
 The focus of the image should be 
-The style should be colorful, detailed, intricate, mystical, epic, realistic, psychedelic, and cartoon inspired with nice line work.
+The style should be colorful, detailed, intricate, mystical, epic, realistic, immersive, psychedelic, and cartoon inspired with nice line work.
 
 
 Elemental Blast:
 a high-tech giant bronze cannon. The base of the cannon has four large lights that are red, blue, green, and yellow respectively. The cannon is placed in the middle of a giant cobblestone pavilion at the edge between a quaint town and lush mystical forest.
-
-Catalytic Converter:
-a large fantasy high-tech bronze machine that converts catalyst orbs to water. One end of the machine should be pouring a thin stream of sparkling water into a shallow basin attached to the machine. The other end of the machine should have a row of catalyst orbs being fed into the machine, where catalyst orbs appear as small balls of shining blue energy encased in an ornate metal mesh. Small potion vials should be attached to the machine near the basin with some vials empty and others full of the sparkling water. The machine should be placed on a grassy riverbank with a lush fantasy forest in the distance.
 
 Chained Detonation:
 a skinny smiling goblin standing at the entrance of a cave mine at the base of a small mountain holding the red handle of a blasting cap detonator connected by a black rope to an explosion near the top of the mountain.
