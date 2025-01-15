@@ -16,7 +16,7 @@
     "card_name": "Dagger Upgrade",
     "description": "[ACTIVATED] Discard 1 'Dagger' Equipment then Add 1 Equipment from your Deck to your Hand of the same element as the card discarded.",
     "type": "spell",
-    "artwork": "temp/dagger_upgrade.png"
+    "artwork": "dagger_upgrade.png"
 },
 {
     "card_name": "Love Potion of Calming Mind",
