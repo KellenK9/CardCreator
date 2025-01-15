@@ -57,7 +57,7 @@
 {
     "card_name": "Volcanic Slug",
     "health": "80",
-    "description": "[ACTIVATED] Destroy any number of Equipment attached to this Champion then Deal 20 damage to a Champion for each card destroyed by this effect.",
+    "description": "[ACTIVATED] Destroy any number of Equipment equipped to this Champion then Deal 20 damage to a Champion for each card destroyed by this effect.",
     "slot1": "fire",
     "slot2": "none",
     "slot3": "fire",

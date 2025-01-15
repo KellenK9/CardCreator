@@ -8,7 +8,7 @@
         },
         {
             "card_name": "Droplet",
-            "description": "[ACTIVATED] Destroy all Equipment attached to this Champion then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is destroyed: you can Add any number of 'Droplet's from Deck to Hand.",
+            "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is destroyed: you can Add any number of 'Droplet's from Deck to Hand.",
             "type": "water",
             "artwork": "droplet.png"
         },

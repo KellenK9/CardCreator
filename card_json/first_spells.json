@@ -44,7 +44,7 @@
 },
 {
     "card_name": "Celestial Shower",
-    "description": "[ACTIVATED] Destroy 1 Equipment attached to your Champion then Destroy 1 Equipment on the Field.",
+    "description": "[ACTIVATED] Destroy 1 Equipment equipped to your Champion then Destroy 1 Equipment on the Field.",
     "type": "spell",
     "artwork": "celestial_shower.png"
 }
