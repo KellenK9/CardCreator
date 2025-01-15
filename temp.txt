@@ -3,7 +3,7 @@ Prompts for new card artwork
 Generic wording:
 The next image I would like you to generate for my fantasy card game is 
 The focus of the image should be 
-The style should be colorful, detailed, intricate, mystical, epic, realistic, immersive, psychedelic, and cartoon inspired with nice line work.
+The style of the image should be colorful, detailed, intricate, mystical, epic, realistic, immersive, psychedelic, and cartoon inspired with nice line work.
 
 
 Elemental Blast:
@@ -29,20 +29,25 @@ a massive intimidating regal golden bird perched in a massive nest at the peak o
 Fire Golem:
 
 Volcanic Slug:
+a giant molten magma slug slithering atop molten rock. The slug should have 2 molten stalks sprouting from its head and at the end of the stalks are cartoon eyeballs with eyelashes. The slug should have a gaping wide smile showcasing a single tooth. The slug should leave a trail of lava and burning goop in its wake. The background should include obsidian and a lava waterfall. The image should feature lots of red, black, and warm colors, and purple eyes.
 
 Extra Padding:
+a sleek silver metal breastplate. The armor should have a large ornate family crest carved in the center and featuring three greek gods and one goddess. The armor should emanate a colorful glow casting colorful light upon the dreary surrounding armory.
 
 Vengeful Rage:
 
 Tidal Wave:
+a massive wave crashing down in the middle of the open ocean. It should be difficult to see under the water, but a massive Poseidon can be hazily seen under the tidal wave. There should be a thunderstorm / stormy weather.
 
 Sacred Spring:
+a bountiful spring with magical healing water sprouting out from the middle of a lush forest. The spring should be posed like a fountain but made of natural objects like mossy stone and plant life.
 
 Raging Sea of the East:
 
 Raging Sea of the West:
 
 Rapid Winds:
+a goblin dressed in farm clothes pictured horizontal above the ground holding onto a wooden post as the wind attempts to pull the goblin away. The background should feature a barn and field with winds whipping farm objects up into the air. We should see the wind throwing around multiple objects in the background including a hay bale, cow, tractor, pitchfork, and a couple goblins also dressed like western rural country folk. The sky should look ominous and be illuminated by a single massive lightning bolt.
 
 Quarter Pillar of the Sky:
 
