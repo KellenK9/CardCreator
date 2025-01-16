@@ -10,7 +10,7 @@
     "card_name": "Pressure",
     "description": "[ACTIVATED] Deal 10 damage to a Champion then Return this card to the Hand then if you have 3 or more cards in Hand: Discard 1 card.",
     "type": "spell",
-    "artwork": "temp/pressure.png"
+    "artwork": "pressure.png"
 },
 {
     "card_name": "Dagger Upgrade",
