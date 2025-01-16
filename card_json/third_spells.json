@@ -16,7 +16,7 @@
         "card_name": "Elemental Blast",
         "description": "[ACTIVATED] Discard any number of Equipment cards of the same element then Deal damage to a Champion equal to the number of Equipment discarded X 10.",
         "type": "spell",
-        "artwork": "temp/cannon2.png"
+        "artwork": "elemental_blast.png"
     },
     {
         "card_name": "Verdant Codex",

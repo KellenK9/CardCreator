@@ -6,9 +6,6 @@ The focus of the image should be
 The style of the image should be colorful, detailed, intricate, mystical, epic, realistic, immersive, psychedelic, and cartoon inspired with nice line work.
 
 
-Elemental Blast:
-a high-tech giant bronze cannon. The base of the cannon has four large lights that are red, blue, green, and yellow respectively. The cannon is placed in the middle of a giant cobblestone pavilion at the edge between a quaint town and lush mystical forest.
-
 Chained Detonation:
 a skinny smiling goblin standing at the entrance of a cave mine at the base of a small mountain holding the red handle of a blasting cap detonator connected by a black rope to an explosion near the top of the mountain.
 
@@ -35,8 +32,3 @@ a goblin dressed in farm clothes pictured horizontal above the ground holding on
 
 Quarter Pillar of the Sky:
 
-
-
-Notes from Game Print Shop:
-Our website will only accept RGB images. CMYK images will be rejected.
-However, for the closest color matching, we recommend that designers develop in CMYK and then convert their files to RGB before uploading them to our site.
