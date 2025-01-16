@@ -10,7 +10,7 @@
     "card_name": "The Sacred Spring",
     "description": "[ACTIVATED] Heal 10 damage from this Champion.",
     "type": "water",
-    "artwork": "fountain.png"
+    "artwork": "sacred_spring.png"
 },
 {
     "card_name": "Tidal Wave",
