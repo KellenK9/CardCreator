@@ -5,6 +5,24 @@
             "description": "[ACTIVATED] Destroy this card and Deal 20 damage to a Champion. [TRIGGER] If this card is sent to the Grave: you can Shuffle any number of 'Compound' cards from your Grave into your Deck then Deal 10 damage to a Champion for each card returned.",
             "type": "earth",
             "artwork": "compound_grenade.png"
+        },
+        {
+            "card_name": "Imported Grenade",
+            "description": "[ACTIVATED] Deal 10 damage to a Champion then Destroy this card and Equip 1 'Imported' Equipment other than 'Imported Grenade' from your Grave to a Champion you control.",
+            "type": "earth",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Energy Wave",
+            "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion and 1 Equipment on the Field. [PASSIVE] This card may be equipped to any Equipment Slot.",
+            "type": "water",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Set the Land Ablaze",
+            "description": "[ACTIVATED] Deal 10 damage to this Champion and each enemy Champion then Return this card to the Hand. [TRIGGER] If this card is discarded: Flip a coin. If Heads: Deal 10 damage to each enemy Champion.",
+            "type": "fire",
+            "artwork": ".png"
         }
     ]
 }
