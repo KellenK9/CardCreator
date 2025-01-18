@@ -5,6 +5,12 @@
         "description": "[ACTIVATED] Shuffle this card and 1 card from each Grave into the Deck.",
         "type": "spell",
         "artwork": ".png"
+    },
+    {
+        "card_name": "Recycle",
+        "description": "[ACTIVATED] Return all Equipment from the Field to the Hand.",
+        "type": "spell",
+        "artwork": ".png"
     }
 ]
 }
