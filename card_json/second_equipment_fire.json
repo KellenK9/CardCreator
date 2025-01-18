@@ -10,7 +10,7 @@
     "card_name": "Vengeful Rage",
     "description": "[ACTIVATED] Deal 10 damage to each enemy Champion then Destroy this card if you control multiple Champions.",
     "type": "fire",
-    "artwork": "infernal_behemoth.png"
+    "artwork": "vengeful_rage.png"
 }
 ]
 }
