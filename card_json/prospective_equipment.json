@@ -17,12 +17,6 @@
             "description": "[ACTIVATED] Declare 'Spell' or 'Equipment' then your opponent draws a card and reveals it and if you called it correctly: Deal 60 damage to a Champion and Destroy this card.",
             "type": "air",
             "artwork": ".png"
-        },
-        {
-            "card_name": "Hermes Boots",
-            "description": "[ACTIVATED] When this Champion takes damage: Draw 1 card then Discard 1 card.",
-            "type": "air",
-            "artwork": ".png"
         }
     ]
 }
