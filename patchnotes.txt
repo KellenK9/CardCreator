@@ -92,5 +92,10 @@ New Cards:
     Zeus' Wrath
 Renames:
     Orpheus of the Reforged Blade -> Orpheus
+
+v1.1.7
+New Cards:
+    Hermes' Sandals
+    Safety Padding
 Notes:
-    The Control Update
+    Post first order, pre playtesting
