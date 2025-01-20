@@ -100,5 +100,3 @@ New Cards:
     Curse of the Oracle
     Aegis
     Security Checkpoint
-Notes:
-    Post first order, pre playtesting
