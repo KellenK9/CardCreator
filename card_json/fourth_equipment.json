@@ -65,6 +65,12 @@
             "description": "[ACTIVATED] Declare 'Spell' or 'Equipment' then your opponent draws a card and reveals it and if you called it correctly: Deal 60 damage to a Champion and Destroy this card.",
             "type": "air",
             "artwork": "curse_of_the_oracle.png"
+        },
+        {
+            "card_name": "Aegis",
+            "description": "[TRIGGER] If this Champion would take damage: you can Destroy this card instead.",
+            "type": "air",
+            "artwork": "aegis.png"
         }
     ]
 }

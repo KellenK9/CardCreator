@@ -5,12 +5,6 @@
             "description": "[ACTIVATED] Deal 20 damage to a Champion that was healed last turn.",
             "type": "fire?",
             "artwork": ".png"
-        },
-        {
-            "card_name": "Aegis",
-            "description": "[TRIGGER] If this Champion would take damage: you can Destroy this card instead.",
-            "type": "air",
-            "artwork": ".png"
         }
     ]
 }
