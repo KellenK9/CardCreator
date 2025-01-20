@@ -98,6 +98,7 @@ New Cards:
     Hermes' Sandals
     Safety Padding
     Curse of the Oracle
+    Aegis
     Security Checkpoint
 Notes:
     Post first order, pre playtesting
