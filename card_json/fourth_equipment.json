@@ -59,6 +59,12 @@
             "description": "[ACTIVATED] When this Champion takes damage: Draw 1 card then Discard 1 card.",
             "type": "air",
             "artwork": "hermes_sandals.png"
+        },
+        {
+            "card_name": "Curse of the Oracle",
+            "description": "[ACTIVATED] Declare 'Spell' or 'Equipment' then your opponent draws a card and reveals it and if you called it correctly: Deal 60 damage to a Champion and Destroy this card.",
+            "type": "air",
+            "artwork": "curse_of_the_oracle.png"
         }
     ]
 }
