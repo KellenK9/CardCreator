@@ -29,6 +29,12 @@
         "description": "[ACTIVATED] Look at the top 5 cards of your Deck and place them back in any order then Draw a card.",
         "type": "spell",
         "artwork": "rank_your_friends.png"
+    },
+    {
+        "card_name": "Security Checkpoint",
+        "description": "[ACTIVATED] Return all Equipment from the Field to the Hand.",
+        "type": "spell",
+        "artwork": "security_checkpoint.png"
     }
 ]
 }
