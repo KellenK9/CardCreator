@@ -45,3 +45,5 @@ Copycat:
     Example: Copycat can copy Decoy if the opponent activated Decoy's activated effect; and will apply Decoy's activated effect to add a copy of itself but not its trigger effect to draw.
 Rewind:
   Must be equipped to an appropriate Equipment Slot as if it were equipped from hand.
+Aegis:
+  Effect is optional and occurs before any damage is dealt, due to the words 'can' and 'would'
