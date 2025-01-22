@@ -71,6 +71,12 @@
             "description": "[TRIGGER] If this Champion would take damage: you can Destroy this card instead.",
             "type": "air",
             "artwork": "aegis.png"
+        },
+        {
+            "card_name": "Washed out to Sea",
+            "description": "[ACTIVATED] Shuffle 1 'Washed out to Sea' from your Grave into your Deck then Shuffle 1 Equipment from the Field into the Deck.",
+            "type": "water",
+            "artwork": "washed_out_to_sea.png"
         }
     ]
 }

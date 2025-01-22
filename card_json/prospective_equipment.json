@@ -5,12 +5,6 @@
             "description": "[ACTIVATED] Deal 20 damage to a Champion that was healed last turn.",
             "type": "fire?",
             "artwork": ".png"
-        },
-        {
-            "card_name": "Washed out to Sea",
-            "description": "[ACTIVATED] Shuffle 1 'Washed out to Sea' from your Grave into your Deck then Shuffle 1 Equipment from the Field into the Deck.",
-            "type": "water",
-            "artwork": ".png"
         }
     ]
 }
