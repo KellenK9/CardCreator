@@ -101,3 +101,4 @@ New Cards:
     Aegis
     Security Checkpoint
     Washed out to Sea
+    Frostfire Conduit

@@ -77,6 +77,12 @@
             "description": "[ACTIVATED] Shuffle 1 'Washed Out to Sea' from your Grave into your Deck then Shuffle 1 Equipment from the Field into the Deck.",
             "type": "water",
             "artwork": "washed_out_to_sea.png"
+        },
+        {
+            "card_name": "Frostfire Conduit",
+            "description": "[ACTIVATED] Deal 10 damage to this Champion and 20 damage to a Champion. [PASSIVE] This card may be equipped to a Water Equipment Slot.",
+            "type": "fire",
+            "artwork": "frostfire_conduit.png"
         }
     ]
 }
