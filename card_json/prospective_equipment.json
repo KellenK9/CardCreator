@@ -1,7 +1,7 @@
 {
     "cards":[
         {
-            "card_name": "The Blade That Strikes Down the Blessed",
+            "card_name": "Sword of Damocles",
             "description": "[ACTIVATED] Deal 20 damage to a Champion that was healed last turn.",
             "type": "fire?",
             "artwork": ".png"
