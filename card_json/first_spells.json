@@ -13,10 +13,10 @@
     "artwork": "spreading_flame.png"
 },
 {
-    "card_name": "Flask of Fortune",
+    "card_name": "Pirate's Booty",
     "description": "[ACTIVATED] Draw 2 cards.",
     "type": "spell",
-    "artwork": "flask_of_fortune.png"
+    "artwork": "pirates_booty.png"
 },
 {
     "card_name": "Spring Water",

@@ -93,7 +93,7 @@ New Cards:
 Renames:
     Orpheus of the Reforged Blade -> Orpheus
 
-v1.1.7
+v1.2.0
 New Cards:
     Hermes' Sandals
     Safety Padding
@@ -102,3 +102,8 @@ New Cards:
     Security Checkpoint
     Washed out to Sea
     Frostfire Conduit
+    Sword of Damocles
+Renames:
+    Flask of Fortune -> Pirate's Booty
+Notes:
+    A full rainbow of new cards

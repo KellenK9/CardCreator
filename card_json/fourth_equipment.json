@@ -83,6 +83,12 @@
             "description": "[ACTIVATED] Deal 10 damage to this Champion and 20 damage to a Champion. [PASSIVE] This card may be equipped to a Water Equipment Slot.",
             "type": "fire",
             "artwork": "frostfire_conduit.png"
+        },
+        {
+            "card_name": "Sword of Damocles",
+            "description": "[ACTIVATED] Deal 20 damage to a Champion that was healed last turn.",
+            "type": "fire",
+            "artwork": "sword_of_damocles.png"
         }
     ]
 }
