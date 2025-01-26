@@ -108,3 +108,12 @@ Renames:
     Flask of Fortune -> Pirate's Booty
 Notes:
     A full rainbow of new cards
+
+v1.2.1
+New Cards:
+    Ares
+    Echo
+    Scylla
+    Circe
+Notes:
+    A new set of mythological champions
