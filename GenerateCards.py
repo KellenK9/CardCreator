@@ -429,7 +429,7 @@ class CardCreator:
 
     def create_pixel_frames(self, artwork_path):
         size = 177, 248
-        im = Image.open("card_frames/" + artwork_path)
+        im = Image.open("card_frames/digital/" + artwork_path)
         im.thumbnail(size, Image.Resampling.LANCZOS)
         im.save(
             "card_frames/pixel_art_frames/" + artwork_path,
@@ -525,24 +525,20 @@ equipment_json_paths = [
     # "future_equipment",
 ]
 list_of_frames = [
+    "card-back",
     "air-frame",
     "water-frame",
     "earth-frame",
     "fire-frame",
-    "champion-frame",
     "spell-frame",
-    "air-left",
-    "air-right",
-    "air-middle",
-    "water-left",
-    "water-right",
-    "water-middle",
-    "earth-left",
-    "earth-right",
-    "earth-middle",
-    "fire-left",
-    "fire-right",
-    "fire-middle",
+    "air-champion-frame",
+    "water-champion-frame",
+    "fire-champion-frame",
+    "earth-champion-frame",
+    "equipment_slots/air_slot",
+    "equipment_slots/fire_slot",
+    "equipment_slots/water_slot",
+    "equipment_slots/earth_slot",
 ]
 # Create printable versions of art
 
@@ -568,7 +564,7 @@ for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
-        Creator.generate_champion_card(card).show()
+        # Creator.generate_champion_card(card).show()
         Creator.generate_champion_card(card).save(
             "finished_cards/Champions/" + card["card_name"] + "_card.png", "PNG"
         )
@@ -576,7 +572,7 @@ for path in spell_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
-        Creator.generate_equipment_or_spell_card(card).show()
+        # Creator.generate_equipment_or_spell_card(card).show()
         Creator.generate_equipment_or_spell_card(card).save(
             "finished_cards/Spells/" + card["card_name"] + "_card.png", "PNG"
         )
@@ -584,7 +580,7 @@ for path in equipment_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
-        Creator.generate_equipment_or_spell_card(card).show()
+        # Creator.generate_equipment_or_spell_card(card).show()
         Creator.generate_equipment_or_spell_card(card).save(
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
         )
