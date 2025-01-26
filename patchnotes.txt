@@ -103,6 +103,7 @@ New Cards:
     Washed out to Sea
     Frostfire Conduit
     Sword of Damocles
+    Rebirth
 Renames:
     Flask of Fortune -> Pirate's Booty
 Notes:

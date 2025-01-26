@@ -1,10 +1,5 @@
 {
     "cards":[
-    {
-        "card_name": "Rebirth",
-        "description": "[ACTIVATED] Shuffle this card and 1 card from each Grave into the Deck.",
-        "type": "spell",
-        "artwork": ".png"
-    }
+    
 ]
 }
