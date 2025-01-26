@@ -30,7 +30,7 @@
     {
         "card_name": "Orpheus",
         "health": "130",
-        "description": "[ACTIVATED] Shuffle one Earth Equipment from your Grave into your Deck.",
+        "description": "[ACTIVATED] Shuffle 1 Earth Equipment from your Grave into your Deck.",
         "slot1": "none",
         "slot2": "earth",
         "slot3": "none",

@@ -62,7 +62,7 @@
         },
         {
             "card_name": "Grenad'o'pult",
-            "description": "[ACTIVATED] Destroy all 'Grenade's you control and Deal 30 damage to a Champion for each 'Grenade' destroyed.",
+            "description": "[ACTIVATED] Destroy every 'Grenade' you control and Deal 30 damage to a Champion for each 'Grenade' destroyed.",
             "type": "earth",
             "artwork": "grenad'o'pult.png"
         },

@@ -8,7 +8,7 @@
         },
         {
             "card_name": "Droplet",
-            "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is destroyed: you can Add any number of 'Droplet's from Deck to Hand.",
+            "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is destroyed: you can Add any number of 'Droplet' from Deck to Hand.",
             "type": "water",
             "artwork": "droplet.png"
         },
@@ -20,7 +20,7 @@
         },
         {
             "card_name": "Firestorm",
-            "description": "[ACTIVATED] Shuffle 4 ‘Fireball’s from your Grave into your Deck then Deal 40 damage to a Champion.",
+            "description": "[ACTIVATED] Shuffle 4 ‘Fireball’ from your Grave into your Deck then Deal 40 damage to a Champion.",
             "type": "fire",
             "artwork": "firestorm.png"
         },
