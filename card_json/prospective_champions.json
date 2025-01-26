@@ -3,7 +3,7 @@
 {
     "card_name": "Circe",
     "health": "140",
-    "description": "[ACTIVATED] Shuffle 1 or more 'Useless Potion' from your Grave into your Deck.",
+    "description": "[ACTIVATED] Shuffle 1 or more 'Useless Potion' from your Grave into your Deck then Draw 1 card.",
     "slot1": "none",
     "slot2": "air",
     "slot3": "none",
@@ -30,7 +30,7 @@
 {
     "card_name": "Echo",
     "health": "140",
-    "description": "[ACTIVATED] Deal 10 damage to this Champion then Add 1 'Copycat' from your Deck or Grave to Hand.",
+    "description": "[ACTIVATED] Add 1 'Copycat' from your Deck or Grave to your Hand then Discard 1 card.",
     "slot1": "none",
     "slot2": "earth",
     "slot3": "none",
