@@ -1,0 +1,40 @@
+{
+"cards":[
+{
+    "card_name": "Circe",
+    "health": "140",
+    "description": "[ACTIVATED] Shuffle 1 or more 'Useless Potion' from your Grave into your Deck.",
+    "slot1": "none",
+    "slot2": "air",
+    "slot3": "none",
+    "artwork": ".png"
+},
+{
+    "card_name": "Scylla",
+    "health": "140",
+    "description": "[ACTIVATED] Add 1 'Tainted Elixir' from your Grave to your Hand.",
+    "slot1": "none",
+    "slot2": "water",
+    "slot3": "none",
+    "artwork": ".png"
+},
+{
+    "card_name": "Ares",
+    "health": "140",
+    "description": "[ACTIVATED] Add 1 or more 'Wild Shot' from your Deck to your Hand.",
+    "slot1": "none",
+    "slot2": "fire",
+    "slot3": "none",
+    "artwork": ".png"
+},
+{
+    "card_name": "Echo",
+    "health": "140",
+    "description": "[ACTIVATED] Deal 10 damage to this Champion then Add 1 'Copycat' from your Deck or Grave to Hand.",
+    "slot1": "none",
+    "slot2": "earth",
+    "slot3": "none",
+    "artwork": ".png"
+}
+]
+}
