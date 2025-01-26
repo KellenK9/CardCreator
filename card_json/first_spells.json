@@ -40,7 +40,7 @@
     "card_name": "Decoy",
     "description": "[ACTIVATED] Add 1 'Decoy' from Deck to Hand. [TRIGGER] When this card is sent to the Grave: Draw 1 card.",
     "type": "spell",
-    "artwork": "temp/decoy.png"
+    "artwork": "decoy.png"
 },
 {
     "card_name": "Celestial Shower",
