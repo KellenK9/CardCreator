@@ -35,6 +35,15 @@
         "slot2": "earth",
         "slot3": "none",
         "artwork": "orpheus.png"
+    },
+    {
+        "card_name": "Ares",
+        "health": "140",
+        "description": "[ACTIVATED] Add 1 or more 'Wild Shot' from your Deck to your Hand.",
+        "slot1": "none",
+        "slot2": "fire",
+        "slot3": "none",
+        "artwork": "ares.png"
     }
 ]
 }
