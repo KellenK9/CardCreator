@@ -115,5 +115,7 @@ New Cards:
     Echo
     Scylla
     Circe
+Buffs:
+    Pirate Lord Jandreps
 Notes:
     A new set of mythological champions

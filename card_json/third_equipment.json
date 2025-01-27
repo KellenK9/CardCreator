@@ -14,7 +14,7 @@
         },
         {
             "card_name": "Crimson Cataclysm",
-            "description": "[ACTIVATED] Deal 20 damage to a Champion then Destroy this card. [TRIGGER] If this card is destroyed: Add 1 copy of 'Crimson Cataclysm' from your Deck to your Hand.",
+            "description": "[ACTIVATED] Deal 20 damage to a Champion then Destroy this card. [TRIGGER] If this card is destroyed: Add 1 'Crimson Cataclysm' from your Deck to your Hand.",
             "type": "fire",
             "artwork": "crimson_cataclysm.png"
         },

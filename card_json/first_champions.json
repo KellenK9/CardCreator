@@ -38,7 +38,7 @@
 },
 {
     "card_name": "Pirate Lord Jandreps",
-    "health": "110",
+    "health": "130",
     "description": "[ACTIVATED] Deal 20 damage to this Champion then Draw 2 cards.",
     "slot1": "none",
     "slot2": "water",
