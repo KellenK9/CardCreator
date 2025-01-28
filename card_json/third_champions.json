@@ -44,6 +44,15 @@
         "slot2": "fire",
         "slot3": "none",
         "artwork": "ares.png"
+    },
+    {
+        "card_name": "Circe",
+        "health": "140",
+        "description": "[ACTIVATED] Shuffle 1 or more 'Useless Potion' from your Grave into your Deck then Draw 1 card.",
+        "slot1": "none",
+        "slot2": "air",
+        "slot3": "none",
+        "artwork": "circe.png"
     }
 ]
 }
