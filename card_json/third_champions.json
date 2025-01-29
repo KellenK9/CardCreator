@@ -53,6 +53,15 @@
         "slot2": "air",
         "slot3": "none",
         "artwork": "circe.png"
+    },
+    {
+        "card_name": "Scylla",
+        "health": "140",
+        "description": "[ACTIVATED] Add 1 'Tainted Elixir' from your Grave to your Hand.",
+        "slot1": "none",
+        "slot2": "water",
+        "slot3": "none",
+        "artwork": "scylla.png"
     }
 ]
 }

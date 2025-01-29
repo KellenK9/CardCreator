@@ -1,15 +1,6 @@
 {
 "cards":[
 {
-    "card_name": "Scylla",
-    "health": "140",
-    "description": "[ACTIVATED] Add 1 'Tainted Elixir' from your Grave to your Hand.",
-    "slot1": "none",
-    "slot2": "water",
-    "slot3": "none",
-    "artwork": ".png"
-},
-{
     "card_name": "Echo",
     "health": "140",
     "description": "[ACTIVATED] Add 1 'Copycat' from your Deck or Grave to your Hand then Discard 1 card.",
