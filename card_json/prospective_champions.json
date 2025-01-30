@@ -1,13 +1,5 @@
 {
 "cards":[
-{
-    "card_name": "Echo",
-    "health": "140",
-    "description": "[ACTIVATED] Add 1 'Copycat' from your Deck or Grave to your Hand then Discard 1 card.",
-    "slot1": "none",
-    "slot2": "earth",
-    "slot3": "none",
-    "artwork": ".png"
-}
+    
 ]
 }
