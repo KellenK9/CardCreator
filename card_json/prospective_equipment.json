@@ -1,10 +1,5 @@
 {
     "cards":[
-        {
-            "card_name": "Cold Snap",
-            "description": "[ACTIVATED] Deal 10 damage to each Champion with no Equipment equipped.",
-            "type": "earth?",
-            "artwork": ".png"
-        }
+        
     ]
 }

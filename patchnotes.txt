@@ -119,3 +119,7 @@ Buffs:
     Pirate Lord Jandreps
 Notes:
     A new set of mythological champions
+
+v1.2.2
+New Cards:
+    Cold Snap

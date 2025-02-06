@@ -89,6 +89,12 @@
             "description": "[ACTIVATED] Deal 20 damage to a Champion that was healed last turn.",
             "type": "fire",
             "artwork": "sword_of_damocles.png"
+        },
+        {
+            "card_name": "Cold Snap",
+            "description": "[ACTIVATED] Deal 10 damage to each Champion with no Equipment equipped.",
+            "type": "earth",
+            "artwork": "cold_snap.png"
         }
     ]
 }
