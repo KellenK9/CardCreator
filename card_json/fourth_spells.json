@@ -41,6 +41,12 @@
         "description": "[ACTIVATED] Shuffle this card and 1 card from each Grave into the Deck.",
         "type": "spell",
         "artwork": "rebirth.png"
+    },
+    {
+        "card_name": "Wealth Tax",
+        "description": "[ACTIVATED] Deal 10 damage to each Champion for each of their Equipment Slots",
+        "type": "spell",
+        "artwork": "wealth_tax.png"
     }
 ]
 }

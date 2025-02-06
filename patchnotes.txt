@@ -123,3 +123,4 @@ Notes:
 v1.2.2
 New Cards:
     Cold Snap
+    Wealth Tax
