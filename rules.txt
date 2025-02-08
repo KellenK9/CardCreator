@@ -10,6 +10,13 @@ Each turn a player can do 1 of the following actions:
 4. Activate an 'Activated Effect' of an equipped Equipment you control.
 5. Activate an 'Activated Effect' of a Champion you control.
 
+The Game Ends when one the following occurs:
+- One players has all 3 of their Champions defeated
+- Win by card effect i.e. 'Quarter Pillar of the Sky'
+- One player forfeits
+- Both players agree to a draw
+- Time runs out if using a clock
+
 There are 3 types of cards: Champions, Equipment, and Spells.
 - Champions have health, effects, and equipment slots. When all of a player's Champions are defeated: they lose the duel.
 - Equipment comes in different element types and can only be equipped to a Champion's slot of the corresponding type. Only 1 Equipment can be equipped in each slot. Equipment cannot be moved from Champion to Champion.

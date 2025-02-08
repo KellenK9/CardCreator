@@ -36,7 +36,7 @@ Windmill:
     Air engine that allows you to mill out your opponents deck.
 
 Earth Water Control:
-    Cold Snap + Washed Out to Sea + Shoddy Craftsmanship + Celestial Shower + Dimension Recall + Rewind + Accelerating Particle
+    Cold Snap + Washed Out to Sea + Shoddy Craftsmanship + Celestial Shower + Dimension Recall
     Control the field with a variety of cards while punishing your opponent for their lack of field presence.
 
 Stun:
