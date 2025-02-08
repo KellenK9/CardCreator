@@ -71,6 +71,15 @@
         "slot2": "earth",
         "slot3": "none",
         "artwork": "echo.png"
+    },
+    {
+        "card_name": "Chiron",
+        "health": "80",
+        "description": "[ACTIVATED] Return all Equipment equipped to this Champion to the hand.",
+        "slot1": "earth",
+        "slot2": "none",
+        "slot3": "earth",
+        "artwork": "chiron.png"
     }
 ]
 }

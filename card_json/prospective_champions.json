@@ -1,15 +1,6 @@
 {
 "cards":[
     {
-        "card_name": "Chiron",
-        "health": "80",
-        "description": "[ACTIVATED] Return all Equipment equipped to this Champion to the hand.",
-        "slot1": "earth",
-        "slot2": "none",
-        "slot3": "earth",
-        "artwork": "chiron.png"
-    },
-    {
         "card_name": "Proteus",
         "health": "90",
         "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion.",
