@@ -661,6 +661,19 @@ for path in champion_json_paths:
                     "PNG",
                 )
 
+# Create Printable Full art Champions
+
+for path in champion_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        for full_art_path in full_arts:
+            if full_art_path in card["artwork"]:
+                Creator.generate_champion_card(card, True, True).save(
+                    f"finished_cards/printable/full_art/{card["card_name"]}_card.png",
+                    "PNG",
+                )
+
 # Create pixel art versions of artwork
 """
 for path in champion_json_paths:
