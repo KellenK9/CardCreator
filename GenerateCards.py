@@ -76,7 +76,7 @@ class CardCreator:
         wrapped_text = "".join(lines)
         return wrapped_text, lines
 
-    def generate_champion_card(self, dict, printed=False):
+    def generate_champion_card(self, dict, printed=False, full_art=False):
         # Set global vars
         CardCreator.declare_vars(self)
 
@@ -93,7 +93,12 @@ class CardCreator:
         font_color_description = tuple(color_for_font_description)
 
         # Import artwork and crop
-        artwork = Image.open("cropped_images/printable_versions/" + dict["artwork"])
+        if full_art:
+            artwork = Image.open(
+                f"cropped_images/printable_versions/full_arts/{dict["artwork"].split(".")[0]}_extended.png"
+            )
+        else:
+            artwork = Image.open("cropped_images/printable_versions/" + dict["artwork"])
         artwork = artwork.crop(box=(0, 0, self.image_width, self.image_height))
         artwork = artwork.convert("RGBA")
 
@@ -212,7 +217,10 @@ class CardCreator:
                 self.description_y_champions += self.y_offset_between_effects
 
         # Combine images
-        new_image = Image.alpha_composite(artwork, frame)
+        if full_art:
+            new_image = artwork
+        else:
+            new_image = Image.alpha_composite(artwork, frame)
         slot_width, slot_height = first_slot.size
         new_image.paste(
             first_slot,
@@ -610,9 +618,9 @@ for path in equipment_json_paths:
         Creator.generate_equipment_or_spell_card(card).save(
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
         )
-
+"""
 # Create Printable Cards
-
+"""
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -640,6 +648,19 @@ for path in equipment_json_paths:
             "PNG",
         )
 """
+# Create Digital Full art Champions
+
+for path in champion_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        for full_art_path in full_arts:
+            if full_art_path in card["artwork"]:
+                Creator.generate_champion_card(card, False, True).save(
+                    f"finished_cards/full_art/{card["card_name"]}_card.png",
+                    "PNG",
+                )
+
 # Create pixel art versions of artwork
 """
 for path in champion_json_paths:
