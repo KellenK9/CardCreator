@@ -1,10 +1,5 @@
 {
     "cards":[
-        {
-            "card_name": "Popping Spores",
-            "description": "[ACTIVATED] Add 'Infection' from Grave to Hand. [TRIGGER] When this card is destroyed: Deal 10 damage to each enemy Champion.",
-            "type": "earth",
-            "artwork": ".png"
-        }
+        
     ]
 }

@@ -125,3 +125,6 @@ New Cards:
     Cold Snap
     Wealth Tax
     Chiron
+    Proteus
+    Popping Spores
+    Infection
