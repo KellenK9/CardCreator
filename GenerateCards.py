@@ -570,7 +570,7 @@ list_of_frames = [
 ]
 full_arts = ["fire_golem", "earth_golem", "volcanic_slug"]
 # Create printable versions of art
-"""
+
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -586,7 +586,7 @@ for path in equipment_json_paths:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
         Creator.create_print_sized_images(card["card_name"], card["artwork"])
-"""
+
 # Create printable versions of Champion full arts artwork
 
 for path in champion_json_paths:
@@ -600,7 +600,7 @@ for path in champion_json_paths:
                 )
 
 # Create Digital Cards
-"""
+
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -625,9 +625,9 @@ for path in equipment_json_paths:
         Creator.generate_equipment_or_spell_card(card).save(
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png", "PNG"
         )
-"""
+
 # Create Printable Cards
-"""
+
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -654,7 +654,7 @@ for path in equipment_json_paths:
             f"finished_cards/printable/{card["type"]}/{card["card_name"]}_card.png",
             "PNG",
         )
-"""
+
 # Create Digital Full art Champions
 
 for path in champion_json_paths:
