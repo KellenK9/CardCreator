@@ -47,6 +47,12 @@
         "description": "[ACTIVATED] Deal 10 damage to each Champion for each of their Equipment Slots",
         "type": "spell",
         "artwork": "wealth_tax.png"
+    },
+    {
+        "card_name": "Infection",
+        "description": "[ACTIVATED] Destroy 1 Earth Equipment equipped to your Champion then you can Equip 'Popping Spores' from Grave to that Champion",
+        "type": "spell",
+        "artwork": "infection.png"
     }
 ]
 }

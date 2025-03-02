@@ -1,10 +1,5 @@
 {
     "cards":[
-        {
-            "card_name": "Infection",
-            "description": "[ACTIVATED] Destroy 1 Earth Equipment equipped to your Champion then you can Equip 'Popping Spores' from Grave to that Champion",
-            "type": "spell",
-            "artwork": ".png"
-        }
+        
     ]
 }
