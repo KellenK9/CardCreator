@@ -85,12 +85,14 @@ class CardCreator:
         health_font_size = 80
         color_for_font_name = list(self.colors["white"])
         color_for_font_description = list(self.colors["white"])
+        color_for_font_fill = list(self.colors["black"])
 
         # Append font color tuple
         color_for_font_name.append(255)
         color_for_font_description.append(255)
         font_color_name = tuple(color_for_font_name)
         font_color_description = tuple(color_for_font_description)
+        font_color_fill = tuple(color_for_font_fill)
 
         # Import artwork and crop
         if full_art:
@@ -184,7 +186,7 @@ class CardCreator:
             font=fnt_name,
             fill=font_color_name,
             stroke_width=self.stroke_width,
-            stroke_fill=(0, 0, 0),
+            stroke_fill=font_color_fill,
         )
         health_obj.text(
             (health_x, health_y),
@@ -192,7 +194,7 @@ class CardCreator:
             font=fnt_health,
             fill=font_color_name,
             stroke_width=self.stroke_width,
-            stroke_fill=(0, 0, 0),
+            stroke_fill=font_color_fill,
         )
         # Create description text object with custom spacing
         self.description_y_champions -= self.y_offset_between_effects
@@ -206,7 +208,7 @@ class CardCreator:
                 font=fnt_description,
                 fill=font_color_description,
                 stroke_width=self.stroke_width,
-                stroke_fill=(0, 0, 0),
+                stroke_fill=font_color_fill,
             )
             # Measure the text height using textbbox
             bbox = description_obj.textbbox((0, 0), line, font=fnt_description)
