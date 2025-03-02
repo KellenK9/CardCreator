@@ -561,7 +561,7 @@ list_of_frames = [
     "equipment_slots/water_slot",
     "equipment_slots/earth_slot",
 ]
-full_arts = ["fire_golem", "earth_golem"]
+full_arts = ["fire_golem", "earth_golem", "volcanic_slug"]
 # Create printable versions of art
 """
 for path in champion_json_paths:
