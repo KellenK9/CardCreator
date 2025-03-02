@@ -80,6 +80,15 @@
         "slot2": "none",
         "slot3": "earth",
         "artwork": "chiron.png"
+    },
+    {
+        "card_name": "Proteus",
+        "health": "90",
+        "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion.",
+        "slot1": "water",
+        "slot2": "none",
+        "slot3": "water",
+        "artwork": "proteus.png"
     }
 ]
 }
