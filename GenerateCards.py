@@ -76,16 +76,21 @@ class CardCreator:
         wrapped_text = "".join(lines)
         return wrapped_text, lines
 
-    def generate_champion_card(self, dict, printed=False, full_art=False):
+    def generate_champion_card(self, dict, printed=False, full_art=False, holo=False):
         # Set global vars
         CardCreator.declare_vars(self)
 
         # Set Champion specific Vars
         health_y = 710
         health_font_size = 80
-        color_for_font_name = list(self.colors["white"])
-        color_for_font_description = list(self.colors["white"])
-        color_for_font_fill = list(self.colors["black"])
+        if holo:
+            color_for_font_name = list(self.colors["black"])
+            color_for_font_description = list(self.colors["black"])
+            color_for_font_fill = list(self.colors["white"])
+        else:
+            color_for_font_name = list(self.colors["white"])
+            color_for_font_description = list(self.colors["white"])
+            color_for_font_fill = list(self.colors["black"])
 
         # Append font color tuple
         color_for_font_name.append(255)
@@ -658,7 +663,7 @@ for path in champion_json_paths:
     for card in loaded_json["cards"]:
         for full_art_path in full_arts:
             if full_art_path in card["artwork"]:
-                Creator.generate_champion_card(card, False, True).save(
+                Creator.generate_champion_card(card, False, True, True).save(
                     f"finished_cards/full_art/{card["card_name"]}_card.png",
                     "PNG",
                 )
@@ -671,7 +676,7 @@ for path in champion_json_paths:
     for card in loaded_json["cards"]:
         for full_art_path in full_arts:
             if full_art_path in card["artwork"]:
-                Creator.generate_champion_card(card, True, True).save(
+                Creator.generate_champion_card(card, True, True, True).save(
                     f"finished_cards/printable/full_art/{card["card_name"]}_card.png",
                     "PNG",
                 )
