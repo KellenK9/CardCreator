@@ -28,7 +28,7 @@
     "card_name": "Knowledge Exchange",
     "description": "[ACTIVATED] Discard your entire Hand then Draw the same number of cards you discarded.",
     "type": "spell",
-    "artwork": "library.png"
+    "artwork": "knowledge_exchange.png"
 },
 {
     "card_name": "Recurring Visions",
