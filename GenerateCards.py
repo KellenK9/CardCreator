@@ -11,7 +11,10 @@ class CardCreator:
         self.image_height = 1125
         self.crop_border = 35
         self.pixel_image_width = 177
-        self.pixel_image_height = 248
+        self.pixel_image_height = 241
+        self.pixel_crop_border = ceil(
+            self.crop_border * self.pixel_image_width / self.image_width
+        )
         self.name_y = 1000
         self.name_y_champions = 950
         self.description_x = 58
@@ -25,10 +28,19 @@ class CardCreator:
         self.y_offset_between_effects = 6
         self.stroke_width = 2
         self.corner_radius = 46
+        self.pixel_corner_radius = floor(
+            self.corner_radius * self.pixel_image_width / self.image_width
+        )
         self.slot_y = 1055
         self.slot3_x = self.image_width * 3 / 4 + 25
         self.slot2_x = self.image_width / 2
         self.slot1_x = self.image_width / 4 - 25
+        self.pixel_slot_y = (
+            self.pixel_image_height * self.slot_y / self.image_height
+        ) - 8
+        self.pixel_slot1_x = self.pixel_image_width * self.slot1_x / self.image_width
+        self.pixel_slot2_x = self.pixel_image_width * self.slot2_x / self.image_width
+        self.pixel_slot3_x = self.pixel_image_width * self.slot3_x / self.image_width
 
         self.colors = {
             "red": (255, 0, 0),
@@ -456,7 +468,12 @@ class CardCreator:
         )
 
     def create_pixel_frames(self, artwork_path):
-        size = 177, 248
+        # 201, 37  /  825, 1125
+        size = 177, 241
+        if "equipment_slots" in artwork_path:
+            width = floor(177 * 201 / 825)
+            height = floor(241 * 37 / 1125)
+            size = width, height
         im = Image.open("card_frames/digital/" + artwork_path)
         im.thumbnail(size, Image.Resampling.LANCZOS)
         im.save(
@@ -469,40 +486,115 @@ class CardCreator:
         CardCreator.declare_vars(self)
 
         # Import frame
-        frame = Image.open("card_frames/pixel_art_frames/champion-frame.png")
+        if "water" in dict["slot1"] or "water" in dict["slot2"]:
+            frame = Image.open("card_frames/pixel_art_frames/water-champion-frame.png")
+        if "fire" in dict["slot1"] or "fire" in dict["slot2"]:
+            frame = Image.open("card_frames/pixel_art_frames/fire-champion-frame.png")
+        if "earth" in dict["slot1"] or "earth" in dict["slot2"]:
+            frame = Image.open("card_frames/pixel_art_frames/earth-champion-frame.png")
+        if "air" in dict["slot1"] or "air" in dict["slot2"]:
+            frame = Image.open("card_frames/pixel_art_frames/air-champion-frame.png")
 
         # Import artwork and crop
         artwork = Image.open(
             "cropped_images/pixel_art_versions/" + dict["card_name"] + "_card.png"
         )
+        artwork = artwork.convert("RGBA")
         artwork = artwork.crop(
             box=(0, 0, self.pixel_image_width, self.pixel_image_height)
         )
-        artwork = artwork.convert("RGBA")
 
         # Add slots
         if dict["slot3"] != "none" and dict["slot3"] != None:
             third_slot = Image.open(
-                "card_frames/pixel_art_frames/" + dict["slot3"] + "-right.png"
+                "card_frames/pixel_art_frames/equipment_slots/"
+                + dict["slot3"]
+                + "_slot.png"
+            )
+        else:
+            third_slot = Image.open(
+                "card_frames/pixel_art_frames/equipment_slots/empty_slot.png"
             )
         if dict["slot2"] != "none" and dict["slot2"] != None:
             second_slot = Image.open(
-                "card_frames/pixel_art_frames/" + dict["slot2"] + "-middle.png"
+                "card_frames/pixel_art_frames/equipment_slots/"
+                + dict["slot2"]
+                + "_slot.png"
+            )
+        else:
+            second_slot = Image.open(
+                "card_frames/pixel_art_frames/equipment_slots/empty_slot.png"
             )
         if dict["slot1"] != "none" and dict["slot1"] != None:
             first_slot = Image.open(
-                "card_frames/pixel_art_frames/" + dict["slot1"] + "-left.png"
+                "card_frames/pixel_art_frames/equipment_slots/"
+                + dict["slot1"]
+                + "_slot.png"
+            )
+        else:
+            first_slot = Image.open(
+                "card_frames/pixel_art_frames/equipment_slots/empty_slot.png"
             )
 
         # Combine images
+        slot_width = 38
+        slot_height = 7
         new_image = Image.alpha_composite(artwork, frame)
-        if dict["slot1"] != "none" and dict["slot1"] != None:
-            new_image = Image.alpha_composite(new_image, first_slot)
-        if dict["slot2"] != "none" and dict["slot2"] != None:
-            new_image = Image.alpha_composite(new_image, second_slot)
-        if dict["slot3"] != "none" and dict["slot3"] != None:
-            new_image = Image.alpha_composite(new_image, third_slot)
-        return new_image
+        new_image.paste(
+            first_slot,
+            (
+                floor(self.pixel_slot1_x - (slot_width / 2)),
+                floor(self.pixel_slot_y - (slot_height / 2)),
+                floor(self.pixel_slot1_x + (slot_width / 2)),
+                floor(self.pixel_slot_y + (slot_height / 2)),
+            ),
+            first_slot,
+        )
+        new_image.paste(
+            second_slot,
+            (
+                floor(self.pixel_slot2_x - (slot_width / 2)),
+                floor(self.pixel_slot_y - (slot_height / 2)),
+                floor(self.pixel_slot2_x + (slot_width / 2)),
+                floor(self.pixel_slot_y + (slot_height / 2)),
+            ),
+            second_slot,
+        )
+        new_image.paste(
+            third_slot,
+            (
+                floor(self.pixel_slot3_x - (slot_width / 2)),
+                floor(self.pixel_slot_y - (slot_height / 2)),
+                floor(self.pixel_slot3_x + (slot_width / 2)),
+                floor(self.pixel_slot_y + (slot_height / 2)),
+            ),
+            third_slot,
+        )
+
+        # Crop image
+        new_image = new_image.crop(
+            (
+                self.pixel_crop_border,
+                self.pixel_crop_border,
+                self.pixel_image_width - self.pixel_crop_border,
+                self.pixel_image_height - self.pixel_crop_border,
+            )
+        )
+
+        # Round Corners
+        # Create a mask with rounded corners
+        mask = Image.new("L", new_image.size, 0)
+        draw = ImageDraw.Draw(mask)
+        width, height = new_image.size
+        draw.rounded_rectangle(
+            [(0, 0), (width, height)], radius=self.pixel_corner_radius, fill=255
+        )
+
+        # Apply the mask to the original image
+        rounded_image = Image.new("RGBA", new_image.size, (0, 0, 0, 0))
+        rounded_image.paste(new_image, (0, 0), mask=mask)
+
+        return rounded_image
 
     def generate_equipment_or_spell_pixel_art_card(self, dict):
         # Set global vars
@@ -531,7 +623,31 @@ class CardCreator:
 
         # Combine images
         new_image = Image.alpha_composite(artwork, frame)
-        return new_image
+
+        # Crop image
+        new_image = new_image.crop(
+            (
+                self.pixel_crop_border,
+                self.pixel_crop_border,
+                self.pixel_image_width - self.pixel_crop_border,
+                self.pixel_image_height - self.pixel_crop_border,
+            )
+        )
+
+        # Round Corners
+        # Create a mask with rounded corners
+        mask = Image.new("L", new_image.size, 0)
+        draw = ImageDraw.Draw(mask)
+        width, height = new_image.size
+        draw.rounded_rectangle(
+            [(0, 0), (width, height)], radius=self.pixel_corner_radius, fill=255
+        )
+
+        # Apply the mask to the original image
+        rounded_image = Image.new("RGBA", new_image.size, (0, 0, 0, 0))
+        rounded_image.paste(new_image, (0, 0), mask=mask)
+
+        return rounded_image
 
 
 # Set Variables for Creating Cards
@@ -564,13 +680,14 @@ list_of_frames = [
     "fire-champion-frame",
     "earth-champion-frame",
     "equipment_slots/air_slot",
-    "equipment_slots/fire_slot",
-    "equipment_slots/water_slot",
     "equipment_slots/earth_slot",
+    "equipment_slots/water_slot",
+    "equipment_slots/fire_slot",
+    "equipment_slots/empty_slot",
 ]
 full_arts = ["fire_golem", "earth_golem", "volcanic_slug"]
 # Create printable versions of art
-
+"""
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -680,9 +797,9 @@ for path in champion_json_paths:
                     f"finished_cards/printable/full_art/{card["card_name"]}_card.png",
                     "PNG",
                 )
-
-# Create pixel art versions of artwork
 """
+# Create pixel art versions of artwork
+
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -698,14 +815,14 @@ for path in equipment_json_paths:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
         Creator.create_pixel_images(card["card_name"], card["artwork"])
-"""
+
 # Create smaller versions of frames
-"""
+
 for artwork_path in list_of_frames:
     Creator.create_pixel_frames(f"{artwork_path}.png")
-"""
+
 # Create pixel art versions of cards
-"""
+
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -732,9 +849,9 @@ for path in equipment_json_paths:
             f"finished_cards/pixel_art_cards/{card["type"]}/{card["card_name"]}_card.png",
             "PNG",
         )
-"""
+
 # Create zoomed versions of cards
-"""
+
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -759,4 +876,3 @@ for path in equipment_json_paths:
             card["card_name"],
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png",
         )
-"""
