@@ -18,6 +18,6 @@ function script_get_info_from_champion_name(_champion_name){
 		return [2, "Fire", 90]
 	}
 	if(_champion_name == "Pirate Lord Jandreps"){
-		return [1, "Water", 110]
+		return [1, "Water", 130]
 	}
 }

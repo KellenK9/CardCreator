@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_holy_water_balloon_zoomed",
   "bboxMode":0,
-  "bbox_bottom":1078,
+  "bbox_bottom":1054,
   "bbox_left":0,
-  "bbox_right":770,
+  "bbox_right":754,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"69b7b287-8719-4798-a7ac-d3e96c66c631","name":"69b7b287-8719-4798-a7ac-d3e96c66c631","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"2eb24e7c-cca1-40b6-b9ad-2ac1bb094e77","name":"2eb24e7c-cca1-40b6-b9ad-2ac1bb094e77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":1079,
+  "height":1055,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f670d2cd-9526-4c35-bc27-e4fddedfa2b9","blendMode":0,"displayName":"default","isLocked":false,"name":"f670d2cd-9526-4c35-bc27-e4fddedfa2b9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"cdf4dddb-efa9-48c5-b4fd-9743ef161311","blendMode":0,"displayName":"default","isLocked":false,"name":"cdf4dddb-efa9-48c5-b4fd-9743ef161311","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_holy_water_balloon_zoomed",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"69b7b287-8719-4798-a7ac-d3e96c66c631","path":"sprites/spr_holy_water_balloon_zoomed/spr_holy_water_balloon_zoomed.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"25a959d8-2275-46c1-9cc2-9f865237e82d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2eb24e7c-cca1-40b6-b9ad-2ac1bb094e77","path":"sprites/spr_holy_water_balloon_zoomed/spr_holy_water_balloon_zoomed.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"25aa3a88-5997-4084-928c-9865fb224ec8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":771,
+  "width":755,
 }

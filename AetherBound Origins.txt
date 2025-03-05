@@ -17,6 +17,7 @@ Backlog:
 -Music
 -Feedback for actions (visuals, audio)
 -Fonts
+-Post-processing (HDR + Bloom)
 -Better solution for depth of cards in hand and grave
   -Verdant Codex shouldn't select multiple cards with 1 click
   -Zoom in on top card when zooming
@@ -33,6 +34,7 @@ Known Bugs:
 -Activating Jandreps causes a gold box effect around the player's deck
 -Activating dagger equipped to a Champion with 10 health where Champion died before able to select target for dagger? Due to opponent's turns taking long and activating late
 -Moving cards drawn over zoomed image
+-Pressure can activate cards in grave
 
 Current Card Pool:
 Champions:
