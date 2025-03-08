@@ -48,7 +48,7 @@
 {
     "card_name": "Thunderbird",
     "health": "70",
-    "description": "[TRIGGER] When this Champion is defeated: Draw 2 cards.",
+    "description": "[TRIGGER] When this Champion is defeated: Draw 3 cards.",
     "slot1": "air",
     "slot2": "none",
     "slot3": "air",

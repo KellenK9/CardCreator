@@ -128,3 +128,8 @@ New Cards:
     Proteus
     Popping Spores
     Infection
+
+v1.2.3
+New Cards:
+Buffs:
+    Thunderbird
