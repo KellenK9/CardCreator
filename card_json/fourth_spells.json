@@ -53,6 +53,12 @@
         "description": "[ACTIVATED] Destroy 1 Earth Equipment equipped to your Champion then you can Equip 'Popping Spores' from Grave to that Champion",
         "type": "spell",
         "artwork": "infection.png"
+    },
+    {
+        "card_name": "Puppy Mill",
+        "description": "[ACTIVATED] Send the top two cards of your opponent's Deck to the Grave.",
+        "type": "spell",
+        "artwork": "puppy_mill.png"
     }
 ]
 }
