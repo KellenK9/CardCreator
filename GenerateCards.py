@@ -687,7 +687,7 @@ list_of_frames = [
 ]
 full_arts = ["fire_golem", "earth_golem", "volcanic_slug"]
 # Create printable versions of art
-"""
+
 for path in champion_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
         loaded_json = json.load(json_file)
@@ -797,7 +797,7 @@ for path in champion_json_paths:
                     f"finished_cards/printable/full_art/{card["card_name"]}_card.png",
                     "PNG",
                 )
-"""
+
 # Create pixel art versions of artwork
 
 for path in champion_json_paths:
