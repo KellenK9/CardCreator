@@ -133,5 +133,6 @@ v1.2.3
 New Cards:
     Puppy Mill
     Totsuka-no-Tsurugi
+    Quetzalcoatl
 Buffs:
     Thunderbird
