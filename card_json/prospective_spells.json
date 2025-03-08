@@ -1,10 +1,5 @@
 {
     "cards":[
-        {
-            "card_name": "Totsuka-no-Tsurugi",
-            "description": "[ACTIVATED] Deal 10 damage to a Champion then Equip this card to a Fire Slot as a Fire Equipment.",
-            "type": "spell",
-            "artwork": ".png"
-        }
+        
     ]
 }

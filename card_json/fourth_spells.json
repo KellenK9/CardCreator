@@ -59,6 +59,12 @@
         "description": "[ACTIVATED] Send the top two cards of your opponent's Deck to the Grave.",
         "type": "spell",
         "artwork": "puppy_mill.png"
+    },
+    {
+        "card_name": "Totsuka-no-Tsurugi",
+        "description": "[ACTIVATED] Deal 10 damage to a Champion then Equip this card to a Fire Slot as a Fire Equipment.",
+        "type": "spell",
+        "artwork": "totsuka-no-tsurugi.png"
     }
 ]
 }
