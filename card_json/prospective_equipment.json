@@ -1,5 +1,16 @@
 {
     "cards":[
-        
+        {
+            "card_name": "Last Hope",
+            "description": "[ACTIVATED] Deal 30 damage to a Champion then Shuffle this card into the Deck. [PASSIVE] This card cannot be destroyed by your opponent's Spells.",
+            "type": "air",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Magic Shield",
+            "description": "[PASSIVE] This Champion takes 0 damage from Spells.",
+            "type": "",
+            "artwork": ".png"
+        }
     ]
 }
