@@ -134,5 +134,6 @@ New Cards:
     Puppy Mill
     Totsuka-no-Tsurugi
     Quetzalcoatl
+    Thanatos
 Buffs:
     Thunderbird

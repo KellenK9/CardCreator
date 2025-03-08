@@ -2,15 +2,6 @@
 "cards":[
     {
         "card_name": "",
-        "health": "130",
-        "description": "[ACTIVATED] Destroy 1 Equipment you control.",
-        "slot1": "none",
-        "slot2": "fire",
-        "slot3": "none",
-        "artwork": ".png"
-    },
-    {
-        "card_name": "",
         "health": "90",
         "description": "[TRIGGER] When this Champion is defeated: Deal 30 damage to a Champion.",
         "slot1": "fire",

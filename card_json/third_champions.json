@@ -98,6 +98,15 @@
         "slot2": "air",
         "slot3": "none",
         "artwork": "quetzalcoatl.png"
+    },
+    {
+        "card_name": "Thanatos",
+        "health": "130",
+        "description": "[ACTIVATED] Destroy 1 Equipment you control.",
+        "slot1": "none",
+        "slot2": "fire",
+        "slot3": "none",
+        "artwork": "thanatos.png"
     }
 ]
 }
