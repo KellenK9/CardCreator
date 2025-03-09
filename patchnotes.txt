@@ -133,6 +133,7 @@ v1.2.3
 New Cards:
     Quetzalcoatl
     Thanatos
+    Flamebound Fenrir
     Puppy Mill
     Totsuka-no-Tsurugi
     Areadbhar
