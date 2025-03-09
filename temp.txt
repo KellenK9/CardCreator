@@ -35,7 +35,7 @@ Grenade Spam:
     Maximize the potential of Grenades by dealing extra damage, recurring them back, and firing them all off at once.
 
 Windmill:
-    Graceful Host + Curse of the Oracle + Angel Recall
+    Graceful Host + Curse of the Oracle + Angel Recall + Puppy Mill
     Air engine that allows you to mill out your opponents deck.
 
 Earth Water Control:
