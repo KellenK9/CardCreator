@@ -1,5 +1,13 @@
 {
 "cards":[
-    
+    {
+        "card_name": "Fenrir",
+        "health": "90",
+        "description": "[TRIGGER] When this Champion is defeated: you can Destroy 1 Equipment on the Field.",
+        "slot1": "earth",
+        "slot2": "none",
+        "slot3": "earth",
+        "artwork": ".png"
+    }
 ]
 }
