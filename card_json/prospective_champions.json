@@ -1,13 +1,5 @@
 {
 "cards":[
-    {
-        "card_name": "",
-        "health": "90",
-        "description": "[TRIGGER] When this Champion is defeated: Deal 30 damage to a Champion.",
-        "slot1": "fire",
-        "slot2": "none",
-        "slot3": "fire",
-        "artwork": ".png"
-    }
+    
 ]
 }
