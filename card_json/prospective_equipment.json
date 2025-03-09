@@ -3,7 +3,7 @@
         {
             "card_name": "Magic Shield",
             "description": "[PASSIVE] This Champion takes 0 damage from Spells.",
-            "type": "",
+            "type": "water",
             "artwork": ".png"
         },
         {
