@@ -131,9 +131,10 @@ New Cards:
 
 v1.2.3
 New Cards:
-    Puppy Mill
-    Totsuka-no-Tsurugi
     Quetzalcoatl
     Thanatos
+    Puppy Mill
+    Totsuka-no-Tsurugi
+    Areadbhar
 Buffs:
     Thunderbird
