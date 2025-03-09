@@ -1,5 +1,13 @@
 {
 "cards":[
-    
+    {
+        "card_name": "Mama Pufferfish",
+        "health": "90",
+        "description": "[ACTIVATED] Add 1 'Poppin' Pufferfish' from Grave to Hand then Discard 1 card.",
+        "slot1": "water",
+        "slot2": "none",
+        "slot3": "water",
+        "artwork": ".png"
+    }
 ]
 }
