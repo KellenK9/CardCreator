@@ -28,8 +28,8 @@ Cards can have 3 types of effects: Activated, Trigger, and Passive.
 - Passive effects are not activated and are always live; they don't count as a turn.
 
 Keywords:
-Discard - a form of sending cards from hand to deck, often as cost
-Destroy - a form of sending Equipment from field to grave
+Discard - a form of sending cards from Hand to Grave
+Destroy - a form of sending Equipment from Field to Grave
 
 FAQ:
 - There is no hand size limit.
