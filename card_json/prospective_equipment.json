@@ -5,6 +5,12 @@
             "description": "[PASSIVE] This Champion takes 0 damage from Spells.",
             "type": "",
             "artwork": ".png"
+        },
+        {
+            "card_name": "Fueled by Revenge",
+            "description": "[TRIGGER] When this Champion takes damage from an opponent's Equipment: Deal 30 damage to the Champion that was equipped with that Equipment.",
+            "type": "fire",
+            "artwork": ".png"
         }
     ]
 }
