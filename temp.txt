@@ -21,6 +21,11 @@ Starter decks should each be themed around an element and include a God and a Go
 Starter decks should generally include 1 of each spell and 2 of each equipment.
 Booster packs should include both normal and holo cards where every holo card is also available as a non-holo in the box or starter decks.
 
+Currently, all text comfortably fits into either: 1 effect on 3 or less lines or 2 effects on a total of 4 or less lines.
+The sole exception is Bloodrite being 2 effects on 5 total lines. It doesn't seem like that long of an effect.
+Other future cards were just as wordy and archetypal cards may struggle to remain super short.
+Removing/Reworking Bloodrite would allow me to increase text size across this set of cards. It would require future cards to have shorter text or reduce font size if the text is longer.
+
 
 
 --Theoretical Decks and Combos and Engines--
