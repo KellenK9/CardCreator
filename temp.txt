@@ -20,6 +20,7 @@ Initial product line could include 4 starter decks and a set of booster packs.
 Starter decks should each be themed around an element and include a God and a Golem.
 Starter decks should generally include 1 of each spell and 2 of each equipment.
 Booster packs should include both normal and holo cards where every holo card is also available as a non-holo in the box or starter decks.
+The air starter deck will include 4 Champions, other decks could also do the same
 
 Currently, all text comfortably fits into either: 1 effect on 3 or less lines or 2 effects on a total of 4 or less lines.
 The sole exception is Bloodrite being 2 effects on 5 total lines. It doesn't seem like that long of an effect.
