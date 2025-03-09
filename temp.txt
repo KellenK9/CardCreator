@@ -1,3 +1,4 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------
 Prompts for new card artwork
 
 Generic wording:
@@ -14,7 +15,7 @@ Bloodrite:
 
 The Missing Ingredient:
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Initial product line could include 4 starter decks and a set of booster packs.
 Starter decks should each be themed around an element and include a God and a Golem.
@@ -27,7 +28,7 @@ The sole exception is Bloodrite being 2 effects on 5 total lines. It doesn't see
 Other future cards were just as wordy and archetypal cards may struggle to remain super short.
 Removing/Reworking Bloodrite would allow me to increase text size across this set of cards. It would require future cards to have shorter text or reduce font size if the text is longer.
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 --Theoretical Decks and Combos and Engines--
 
@@ -62,3 +63,5 @@ Air Discard Engine:
 QP:
     Quarter Pillar of the Sky + Pirate's Booty + Angel Recall + Knowledge Exchange + Rapid Winds + Decoy + Useless Potion
     Ignore dealing damage and aim for the alternate win condition.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
