@@ -1,0 +1,13 @@
+{
+"cards":[
+    {
+        "card_name": "Midas",
+        "health": "90",
+        "description": "[ACTIVATED] Shuffle 'Greedy Rage' from Grave into Deck.",
+        "slot1": "fire",
+        "slot2": "none",
+        "slot3": "fire",
+        "artwork": ".png"
+    }
+]
+}

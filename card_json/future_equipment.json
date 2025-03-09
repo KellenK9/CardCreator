@@ -23,6 +23,12 @@
             "description": "[ACTIVATED] Deal 10 damage to this Champion and each enemy Champion then Return this card to the Hand. [TRIGGER] If this card is discarded: Flip a coin. If Heads: Deal 10 damage to each enemy Champion.",
             "type": "fire",
             "artwork": ".png"
+        },
+        {
+            "card_name": "Eruption",
+            "description": "[ACTIVATED] Destroy this card and Deal 30 damage to a Champion. [TRIGGER] When this card is destroyed: Add 'Map of the Mantle' from Deck to Hand",
+            "type": "water",
+            "artwork": ".png"
         }
     ]
 }

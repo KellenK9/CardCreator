@@ -5,6 +5,30 @@
         "description": "[ACTIVATED] Deal 10 damage to a Champion. [TRIGGER] If this card is sent to the Grave: you can Shuffle any number of 'Compound' cards from your Grave into your Deck then Deal 10 damage to a Champion for each card returned.",
         "type": "spell",
         "artwork": "compound_fireball.png"
+    },
+    {
+        "card_name": "Summoning the Ghost Blade",
+        "description": "[ACTIVATED] Equip 1 Spell from Grave to a Slot as an Equipment of the same element as that Slot with the activated effect: Destroy this card then Activate this card's activated effect.",
+        "type": "spell",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Sensations",
+        "description": "[ACTIVATED] Add 'Memories' from Deck to Hand then Discard 1 card.",
+        "type": "spell",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Memories",
+        "description": "[TRIGGER] If this card is discarded: Add 'Sensations' from Deck to Hand.",
+        "type": "spell",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Map of the Mantle",
+        "description": "[ACTIVATED] Add 'Eruption' from Deck to Hand.",
+        "type": "spell",
+        "artwork": ".png"
     }
 ]
 }

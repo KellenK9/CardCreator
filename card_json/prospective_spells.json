@@ -1,5 +1,16 @@
 {
     "cards":[
-        
+        {
+            "card_name": "Charge Shot",
+            "description": "[ACTIVATED] Deal damage to a Champion equal to 20 X the number of 'Charge Shot' in your Grave.",
+            "type": "spell",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Charging",
+            "description": "[ACTIVATED] Draw cards equal to the number of 'Charging' in your Grave +1.",
+            "type": "spell",
+            "artwork": ".png"
+        }
     ]
 }
