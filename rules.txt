@@ -44,6 +44,8 @@ FAQ:
     If these actions cause that player to win, the gamestate is proven to have forced wins.
     Example: Player 1 thinks the gamestate is a draw with no forced wins and calls over a judge while Player 2 believes the gamestate has one or more forced wins by drawing a specific card in their deck.
              The judge may ask Player 2 to carry out their forced win by drawing cards from their deck instead of continuing the infinite loop.
+- The game ends instantly when all of one player's Champions are defeated.
+  Example: Technician Magician is player 1's last remaining Champion. If Player 2 defeats Technician Magician, they win the game before Technician Magician's effect activates.
 
 
 Specific Card Rulings:
@@ -69,3 +71,5 @@ Rewind:
   Must be equipped to an appropriate Equipment Slot as if it were equipped from hand.
 Aegis:
   Effect is optional and occurs before any damage is dealt, due to the words 'can' and 'would'
+Totsuka-no-Tsurugi:
+  Activated effect cannot be activated while Equipped. Activated effects on spells can only be activated as spells, from the hand.
