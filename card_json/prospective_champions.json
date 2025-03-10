@@ -1,13 +1,5 @@
 {
 "cards":[
-    {
-        "card_name": "Mama Pufferfish",
-        "health": "90",
-        "description": "[ACTIVATED] Add 1 'Poppin' Pufferfish' from Grave to Hand then either Discard 1 card or Deal 10 damage to this Champion.",
-        "slot1": "water",
-        "slot2": "none",
-        "slot3": "water",
-        "artwork": ".png"
-    }
+    
 ]
 }

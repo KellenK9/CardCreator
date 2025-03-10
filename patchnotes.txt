@@ -140,3 +140,8 @@ New Cards:
     Areadbhar
 Buffs:
     Thunderbird
+
+v1.2.4
+New Cards:
+    Mama Pufferfish
+    Poppin' Pufferfish

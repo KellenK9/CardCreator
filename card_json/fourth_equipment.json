@@ -107,6 +107,12 @@
             "description": "[ACTIVATED] Deal 30 damage to a Champion then Shuffle this card into the Deck. [PASSIVE] This card cannot be destroyed by your opponent's Spells.",
             "type": "air",
             "artwork": "areadbhar.png"
+        },
+        {
+            "card_name": "Poppin' Pufferfish",
+            "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then either Heal 30 damage from this Champion or Deal 30 damage to a Champion.",
+            "type": "water",
+            "artwork": "poppin'_pufferfish.png"
         }
     ]
 }
