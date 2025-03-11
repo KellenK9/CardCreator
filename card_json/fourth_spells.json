@@ -65,6 +65,12 @@
         "description": "[ACTIVATED] Deal 10 damage to a Champion then Equip this card to a Fire Slot as a Fire Equipment.",
         "type": "spell",
         "artwork": "totsuka-no-tsurugi.png"
+    },
+    {
+        "card_name": "Persnickety",
+        "description": "[ACTIVATED] Shuffle any number of cards from your Hand into your Deck then Draw the same number of cards.",
+        "type": "spell",
+        "artwork": "persnickety.png"
     }
 ]
 }
