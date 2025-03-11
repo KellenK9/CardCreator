@@ -11,6 +11,12 @@
             "description": "[ACTIVATED] Draw cards equal to the number of 'Charging' in your Grave +1.",
             "type": "spell",
             "artwork": ".png"
+        },
+        {
+            "card_name": "Persnickety",
+            "description": "[ACTIVATED] Shuffle any number of cards from your Hand into your Deck then Draw the same number of cards.",
+            "type": "spell",
+            "artwork": ".png"
         }
     ]
 }
