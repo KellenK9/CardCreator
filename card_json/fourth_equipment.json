@@ -113,6 +113,12 @@
             "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then either Heal 30 damage from this Champion or Deal 30 damage to a Champion.",
             "type": "water",
             "artwork": "poppin'_pufferfish.png"
+        },
+        {
+            "card_name": "Phoenix Feather",
+            "description": "[ACTIVATED] Equip 1 copy of 'Phoenix Feather' from Deck to a Champion.",
+            "type": "fire",
+            "artwork": "phoenix_feather.png"
         }
     ]
 }
