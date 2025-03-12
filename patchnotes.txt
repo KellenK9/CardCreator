@@ -149,3 +149,10 @@ New Cards:
     Persnickety
 Nerfs:
     Water Beetle
+
+v1.2.5
+Removed Cards:
+    Spear of Diomedes
+New Cards:
+    Heat Wave
+Notes: Reworked Spear of Diomedes to become Heat Wave

@@ -37,10 +37,10 @@
             "artwork": "soul_of_jandreps.png"
         },
         {
-            "card_name": "The Spear of Diomedes",
-            "description": "[ACTIVATED] Deal 10 damage to each Champion. [PASSIVE] This card may be equipped to an Air or Fire Equipment Slot.",
-            "type": "earth",
-            "artwork": "spear_of_diomedes.png"
+            "card_name": "Heat Wave",
+            "description": "[ACTIVATED] Deal 10 damage to each Champion.",
+            "type": "fire",
+            "artwork": "heat_wave.png"
         },
         {
             "card_name": "Zeus' Wrath",
