@@ -147,3 +147,5 @@ New Cards:
     Poppin' Pufferfish
     Phoenix Feather
     Persnickety
+Nerfs:
+    Water Beetle

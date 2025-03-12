@@ -48,7 +48,7 @@
 {
     "card_name": "Water Beetle",
     "health": "50",
-    "description": "[PASSIVE] Any damage dealt to your 'Water Beetle' is reduced by 10.",
+    "description": "[PASSIVE] Any damage dealt to this Champion by your opponent is reduced by 10.",
     "slot1": "none",
     "slot2": "water",
     "slot3": "none",
