@@ -74,3 +74,6 @@ Aegis:
   Effect is optional and occurs before any damage is dealt, due to the words 'can' and 'would'
 Totsuka-no-Tsurugi:
   Activated effect cannot be activated while Equipped. Activated effects on spells can only be activated as spells, from the hand.
+Puppy Mill:
+  Cannot deck out the opponent. Sending the top cards of their deck does not equate to drawing with an empty deck to lose. Decking out can only be done via drawing.
+    Example: Player one has 1 card in Deck and Player 2 uses Puppy Mill. The lone card in Player one's deck is sent to the Grave, but Player one does not deck out.
