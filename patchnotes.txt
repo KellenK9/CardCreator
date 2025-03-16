@@ -156,3 +156,7 @@ Removed Cards:
 New Cards:
     Heat Wave
 Notes: Reworked Spear of Diomedes to become Heat Wave
+
+v1.2.6
+Nerfs:
+    Volcanic Slug

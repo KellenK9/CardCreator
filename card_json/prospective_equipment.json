@@ -11,6 +11,24 @@
             "description": "[TRIGGER] When this Champion takes damage from an opponent's Equipment: Deal 30 damage to the Champion that was equipped with that Equipment.",
             "type": "fire",
             "artwork": ".png"
+        },
+        {
+            "card_name": "Centaur War Meeting",
+            "description": "[TRIGGER] When this card is equipped: Draw 2 cards. [ACTIVATED] Destroy this card then Draw 2 cards and Discard 1 card.",
+            "type": "earth",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Ash of the Hearth",
+            "description": "[TRIGGER] When this card is equipped: Add 1 'Ash of the Hearth' from Grave to Hand. [TRIGGER] When this card is destroyed: you can Equip 1 'Fuel of the Hearth' to a Champion.",
+            "type": "fire",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Fuel of the Hearth",
+            "description": "[TRIGGER] When this card is equipped: Add 1 'Fuel of the Hearth' from Grave to Hand. [TRIGGER] When this card is destroyed: you can Equip 1 'Ash of the Hearth' to a Champion.",
+            "type": "fire",
+            "artwork": ".png"
         }
     ]
 }
