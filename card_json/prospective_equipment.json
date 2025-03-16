@@ -14,7 +14,7 @@
         },
         {
             "card_name": "Centaur War Meeting",
-            "description": "[TRIGGER] When this card is equipped: Draw 2 cards. [ACTIVATED] Destroy this card then Draw 2 cards and Discard 1 card.",
+            "description": "[TRIGGER] When this card is equipped: Draw 2 cards. [ACTIVATED] Destroy this card then Draw a card.",
             "type": "earth",
             "artwork": ".png"
         },
