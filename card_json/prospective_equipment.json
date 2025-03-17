@@ -29,6 +29,18 @@
             "description": "[TRIGGER] When this card is equipped: Add 1 'Fuel of the Hearth' from Grave to Hand. [TRIGGER] When this card is destroyed: you can Equip 1 'Ash of the Hearth' to a Champion.",
             "type": "fire",
             "artwork": ".png"
+        },
+        {
+            "card_name": "Musky",
+            "description": "[TRIGGER] When this card is equipped: you can Destroy 1 'Piranha' you control then Deal 20 damage to a Champion. [TRIGGER] When this card is destroyed: you can Add 1 'Piranha' from Grave to Hand.",
+            "type": "water",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Piranha",
+            "description": "[TRIGGER] When this card is equipped: you can Destroy 1 'Musky' you control then Deal 10 damage to each enemy Champion. [TRIGGER] When this card is destroyed: you can Add 1 'Musky' from Grave to Hand.",
+            "type": "water",
+            "artwork": ".png"
         }
     ]
 }
