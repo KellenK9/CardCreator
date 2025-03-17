@@ -13,8 +13,8 @@
             "artwork": ".png"
         },
         {
-            "card_name": "Centaur War Meeting",
-            "description": "[TRIGGER] When this card is equipped: Draw 2 cards. [ACTIVATED] Destroy this card then Draw a card.",
+            "card_name": "Centaur Battlehorn",
+            "description": "[TRIGGER] When this card is equipped: Draw 2 cards. [ACTIVATED] Destroy this card and Draw a card.",
             "type": "earth",
             "artwork": ".png"
         },
