@@ -119,6 +119,12 @@
             "description": "[ACTIVATED] Equip 1 copy of 'Phoenix Feather' from Deck to a Champion.",
             "type": "fire",
             "artwork": "phoenix_feather.png"
+        },
+        {
+            "card_name": "Centaur Battlehorn",
+            "description": "[TRIGGER] When this card is equipped: Draw 2 cards. [ACTIVATED] Destroy this card and Draw a card.",
+            "type": "earth",
+            "artwork": "centaur_battlehorn.png"
         }
     ]
 }

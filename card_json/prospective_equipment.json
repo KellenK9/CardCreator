@@ -13,12 +13,6 @@
             "artwork": ".png"
         },
         {
-            "card_name": "Centaur Battlehorn",
-            "description": "[TRIGGER] When this card is equipped: Draw 2 cards. [ACTIVATED] Destroy this card and Draw a card.",
-            "type": "earth",
-            "artwork": ".png"
-        },
-        {
             "card_name": "Ash of the Hearth",
             "description": "[TRIGGER] When this card is equipped: Add 1 'Ash of the Hearth' from Grave to Hand. [TRIGGER] When this card is destroyed: you can Equip 1 'Fuel of the Hearth' to a Champion.",
             "type": "fire",
