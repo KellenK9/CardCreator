@@ -47,6 +47,7 @@ FAQ:
              The judge may ask Player 2 to carry out their forced win by drawing cards from their deck instead of continuing the infinite loop.
 - The game ends instantly when all of one player's Champions are defeated.
   Example: Technician Magician is player 1's last remaining Champion. If Player 2 defeats Technician Magician, they win the game before Technician Magician's effect activates.
+- Spell cards stay on the field when activated then go to the Grave after that effect resolves.
 
 
 Specific Card Rulings:

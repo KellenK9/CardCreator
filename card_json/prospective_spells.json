@@ -44,7 +44,7 @@
         },
         {
             "card_name": "Arcane Overflow",
-            "description": "[ACTIVATED] Draw cards equal to the number of Spells in your Grave (excluding 'Arcane Overflow'), then Discard the same number cards.",
+            "description": "[ACTIVATED] Draw cards equal to the number of Spells in your Grave then Discard the same number cards.",
             "type": "spell",
             "artwork": ".png"
         }
