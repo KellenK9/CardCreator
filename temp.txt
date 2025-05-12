@@ -60,7 +60,7 @@ Stun:
     Doesn't actually stop the opponent from playing but punishes healing, mass drawing, and not equipping.
 
 Spell Heavy:
-    Wealth Tax + Security Checkpoint + Recurring Visions + Accelerating Particle
+    Wealth Tax + Security Checkpoint + Recurring Visions + Accelerating Particle + Centaur Battlehorn
     Keep a light field presence while forcing your opponent to do the same.
 
 Generic Discard Engine:
