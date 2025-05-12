@@ -77,3 +77,6 @@ Totsuka-no-Tsurugi:
 Puppy Mill:
   Cannot deck out the opponent. Sending the top cards of their deck does not equate to drawing with an empty deck to lose. Decking out can only be done via drawing.
     Example: Player one has 1 card in Deck and Player 2 uses Puppy Mill. The lone card in Player one's deck is sent to the Grave, but Player one does not deck out.
+Fenrir Reborn:
+  Each Fenrir Reborn can only trigger it's effect once.
+    Example: Fenrir Reborn is revived by its own effect and revived again with Blessing of the Phoenix. Fenrir Reborn cannot be revived again from its own effect, but can be revived with another copy of Blessing of the Phoenix.
