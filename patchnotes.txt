@@ -164,3 +164,4 @@ Nerfs:
 v1.2.7
 New Cards:
     Centaur Battlehorn
+    Lit Fuse
