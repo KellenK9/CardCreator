@@ -160,3 +160,7 @@ Notes: Reworked Spear of Diomedes to become Heat Wave
 v1.2.6
 Nerfs:
     Volcanic Slug
+
+v1.2.7
+New Cards:
+    Centaur Battlehorn
