@@ -125,6 +125,12 @@
             "description": "[TRIGGER] When this card is equipped: Draw 2 cards. [ACTIVATED] Destroy this card and Draw a card.",
             "type": "earth",
             "artwork": "centaur_battlehorn.png"
+        },
+        {
+            "card_name": "Lit Fuse",
+            "description": "[TRIGGER] When this card is equipped: Deal 20 damage to a Champion then Destroy this card.",
+            "type": "fire",
+            "artwork": "lit_fuse.png"
         }
     ]
 }
