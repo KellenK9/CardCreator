@@ -35,6 +35,15 @@
         "slot2": "none",
         "slot3": "air",
         "artwork": ".png"
+    },
+    {
+        "card_name": "Glass Golem",
+        "health": "100",
+        "description": "[PASSIVE] Cannot be healed.",
+        "slot1": "earth",
+        "slot2": "earth",
+        "slot3": "earth",
+        "artwork": ".png"
     }
 ]
 }
