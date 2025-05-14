@@ -152,6 +152,15 @@
         "slot2": "air",
         "slot3": "none",
         "artwork": "athena.png"
+    },
+    {
+        "card_name": "Glass Golem",
+        "health": "100",
+        "description": "[PASSIVE] Cannot be healed.",
+        "slot1": "earth",
+        "slot2": "earth",
+        "slot3": "earth",
+        "artwork": "glass_golem.png"
     }
 ]
 }
