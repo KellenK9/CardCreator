@@ -165,7 +165,7 @@ v1.2.7
 New Cards:
     Centaur Battlehorn
     Lit Fuse
-    Tui Fenua
+    Tui
     Repun Kamuy
     Hestia
     Athena
