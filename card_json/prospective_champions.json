@@ -1,15 +1,6 @@
 {
 "cards":[
     {
-        "card_name": "Hestia",
-        "health": "80",
-        "description": "[ACTIVATED] Destroy all equipment equipped to this card then Draw a card and if you destroyed 2 cards: Deal 10 damage to each enemy Champion.",
-        "slot1": "fire",
-        "slot2": "none",
-        "slot3": "fire",
-        "artwork": ".png"
-    },
-    {
         "card_name": "Mistborn Fenrir",
         "health": "90",
         "description": "[TRIGGER] When this Champion is defeated: Add 1 card from Grave to Hand.",
