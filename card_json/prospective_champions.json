@@ -10,15 +10,6 @@
         "artwork": ".png"
     },
     {
-        "card_name": "Athena",
-        "health": "130",
-        "description": "[ACTIVATED] Your opponent draws 1 card then look at your opponents hand.",
-        "slot1": "none",
-        "slot2": "air",
-        "slot3": "none",
-        "artwork": ".png"
-    },
-    {
         "card_name": "Fenrir Reborn",
         "health": "90",
         "description": "[TRIGGER] The first time this Champion would be defeated: Set its remaining health to 10.",

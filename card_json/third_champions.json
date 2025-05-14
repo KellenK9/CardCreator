@@ -143,6 +143,15 @@
         "slot2": "none",
         "slot3": "fire",
         "artwork": "hestia.png"
+    },
+    {
+        "card_name": "Athena",
+        "health": "130",
+        "description": "[ACTIVATED] Your opponent draws 1 card then look at your opponents hand.",
+        "slot1": "none",
+        "slot2": "air",
+        "slot3": "none",
+        "artwork": "athena.png"
     }
 ]
 }
