@@ -25,18 +25,6 @@
             "artwork": ".png"
         },
         {
-            "card_name": "Musky",
-            "description": "[TRIGGER] When this card is equipped: you can Destroy 1 'Piranha' you control then Deal 20 damage to a Champion. [TRIGGER] When this card is destroyed: you can Add 1 'Piranha' from Grave to Hand.",
-            "type": "water",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Piranha",
-            "description": "[TRIGGER] When this card is equipped: you can Destroy 1 'Musky' you control then Deal 10 damage to each enemy Champion. [TRIGGER] When this card is destroyed: you can Add 1 'Musky' from Grave to Hand.",
-            "type": "water",
-            "artwork": ".png"
-        },
-        {
             "card_name": "Zeus' Cookbook",
             "description": "[ACTIVATED] If your opponent activated a spell last turn: you can Add 1 or more copies of that spell from your Deck or Grave to Hand then Destroy this card.",
             "type": "air",

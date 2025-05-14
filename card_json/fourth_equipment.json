@@ -131,6 +131,18 @@
             "description": "[TRIGGER] When this card is equipped: Deal 20 damage to a Champion then Destroy this card.",
             "type": "fire",
             "artwork": "lit_fuse.png"
+        },
+        {
+            "card_name": "Tui Fenua",
+            "description": "[TRIGGER] When this card is equipped: you can Destroy 1 'Repun Kamuy' you control then Deal 20 damage to a Champion. [TRIGGER] When this card is destroyed: you can Add 1 'Repun Kamuy' from Grave to Hand.",
+            "type": "water",
+            "artwork": "dolphin.png"
+        },
+        {
+            "card_name": "Repun Kamuy",
+            "description": "[TRIGGER] When this card is equipped: you can Destroy 1 'Tui Fenua' you control then Deal 10 damage to each enemy Champion. [TRIGGER] When this card is destroyed: you can Add 1 'Tui Fenua' from Grave to Hand.",
+            "type": "water",
+            "artwork": "orca.png"
         }
     ]
 }
