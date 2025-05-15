@@ -143,6 +143,12 @@
             "description": "[TRIGGER] When this card is equipped: you can Destroy 1 'Tui' you control then Deal 10 damage to each enemy Champion. [TRIGGER] When this card is destroyed: you can Add 1 'Tui' from Grave to Hand.",
             "type": "water",
             "artwork": "orca.png"
+        },
+        {
+            "card_name": "Atlantean Scroll",
+            "description": "[TRIGGER] When this Champion is healed: Draw a card then Discard a card.",
+            "type": "water",
+            "artwork": "atlantean_scroll.png"
         }
     ]
 }

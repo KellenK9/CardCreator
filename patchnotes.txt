@@ -170,3 +170,4 @@ New Cards:
     Hestia
     Athena
     Glass Golem
+    Atlantean Scroll
