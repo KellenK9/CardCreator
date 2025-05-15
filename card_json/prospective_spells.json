@@ -44,7 +44,7 @@
         },
         {
             "card_name": "Warlock's Foresight",
-            "description": "[ACTIVATED] Draw cards equal to the number of Spells in your Grave then Discard the same number cards.",
+            "description": "[ACTIVATED] Draw cards equal to the number of Spells in your Grave then Discard the same number of cards.",
             "type": "spell",
             "artwork": ".png"
         }
