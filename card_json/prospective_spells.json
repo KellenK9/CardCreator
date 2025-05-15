@@ -25,12 +25,6 @@
             "artwork": ".png"
         },
         {
-            "card_name": "Crunch Time",
-            "description": "[ACTIVATED] Draw 3 cards then Discard 1 card for each Champion you control.",
-            "type": "spell",
-            "artwork": ".png"
-        },
-        {
             "card_name": "Blessing of the Phoenix",
             "description": "[ACTIVATED] Discard 1 card then Revive 1 defeated Champion with 10 health.",
             "type": "spell",
