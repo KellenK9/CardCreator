@@ -149,6 +149,12 @@
             "description": "[TRIGGER] When this Champion is healed: Draw a card then Discard a card.",
             "type": "water",
             "artwork": "atlantean_scroll.png"
+        },
+        {
+            "card_name": "Zeus' Cookbook",
+            "description": "[ACTIVATED] If your opponent activated a spell last turn: you can Add 1 or more copies of that spell from your Deck or Grave to Hand then Destroy this card.",
+            "type": "air",
+            "artwork": "zeus_cookbook.png"
         }
     ]
 }

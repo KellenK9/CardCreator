@@ -23,12 +23,6 @@
             "description": "[TRIGGER] When this card is equipped: Add 1 'Fuel of the Hearth' from Grave to Hand. [TRIGGER] When this card is destroyed: you can Equip 1 'Ash of the Hearth' to a Champion.",
             "type": "fire",
             "artwork": ".png"
-        },
-        {
-            "card_name": "Zeus' Cookbook",
-            "description": "[ACTIVATED] If your opponent activated a spell last turn: you can Add 1 or more copies of that spell from your Deck or Grave to Hand then Destroy this card.",
-            "type": "air",
-            "artwork": ".png"
         }
     ]
 }
