@@ -83,6 +83,12 @@
         "description": "[ACTIVATED] Discard 1 card then Revive 1 defeated Champion with 10 health.",
         "type": "spell",
         "artwork": "blessing_of_the_phoenix.png"
+    },
+    {
+        "card_name": "Soulbound",
+        "description": "[ACTIVATED] Select 2 Champions: any damage dealt to one is instead dealt to the other until the end of your next turn.",
+        "type": "spell",
+        "artwork": "soulbound.png"
     }
 ]
 }
