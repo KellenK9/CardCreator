@@ -176,4 +176,5 @@ New Cards:
     Soulbound
     Zeus' Cookbook
     Mistborn Fenrir
+    Fenrir Reborn
 Notes: Added a variety of cards that were sitting on the backburner

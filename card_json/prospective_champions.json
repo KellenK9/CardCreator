@@ -1,13 +1,4 @@
 {
 "cards":[
-    {
-        "card_name": "Fenrir Reborn",
-        "health": "90",
-        "description": "[TRIGGER] The first time this Champion would be defeated: Set its remaining health to 10.",
-        "slot1": "air",
-        "slot2": "none",
-        "slot3": "air",
-        "artwork": ".png"
-    }
 ]
 }
