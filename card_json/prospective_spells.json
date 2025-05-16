@@ -25,12 +25,6 @@
             "artwork": ".png"
         },
         {
-            "card_name": "Blessing of the Phoenix",
-            "description": "[ACTIVATED] Discard 1 card then Revive 1 defeated Champion with 10 health.",
-            "type": "spell",
-            "artwork": ".png"
-        },
-        {
             "card_name": "Just Toss It",
             "description": "[ACTIVATED] Destroy 1 Equipment you control then Deal 30 damage to a Champion.",
             "type": "spell",
