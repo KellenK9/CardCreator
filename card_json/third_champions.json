@@ -161,6 +161,15 @@
         "slot2": "earth",
         "slot3": "earth",
         "artwork": "glass_golem.png"
+    },
+    {
+        "card_name": "Mistborn Fenrir",
+        "health": "90",
+        "description": "[TRIGGER] When this Champion is defeated: Add 1 card from Grave to Hand.",
+        "slot1": "water",
+        "slot2": "none",
+        "slot3": "water",
+        "artwork": "mistborn_fenrir.png"
     }
 ]
 }

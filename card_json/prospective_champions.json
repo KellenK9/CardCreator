@@ -1,15 +1,6 @@
 {
 "cards":[
     {
-        "card_name": "Mistborn Fenrir",
-        "health": "90",
-        "description": "[TRIGGER] When this Champion is defeated: Add 1 card from Grave to Hand.",
-        "slot1": "water",
-        "slot2": "none",
-        "slot3": "water",
-        "artwork": ".png"
-    },
-    {
         "card_name": "Fenrir Reborn",
         "health": "90",
         "description": "[TRIGGER] The first time this Champion would be defeated: Set its remaining health to 10.",

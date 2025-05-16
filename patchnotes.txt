@@ -175,4 +175,5 @@ New Cards:
     Blessing of the Phoenix
     Soulbound
     Zeus' Cookbook
+    Mistborn Fenrir
 Notes: Added a variety of cards that were sitting on the backburner
