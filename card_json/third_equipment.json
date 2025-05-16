@@ -44,7 +44,7 @@
         },
         {
             "card_name": "Withering Thorns",
-            "description": "[ACTIVATED] Return 1 'Vital Bloom' from your Field to your Hand then Deal 10 damage to this Champion and 30 damage to a Champion.",
+            "description": "[ACTIVATED] Return 1 'Vital Bloom' from your Field to your Hand then Deal 10 damage to this Champion and 40 damage to a Champion.",
             "type": "earth",
             "artwork": "withering_thorns.png"
         },

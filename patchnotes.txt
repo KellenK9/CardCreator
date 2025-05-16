@@ -177,4 +177,6 @@ New Cards:
     Zeus' Cookbook
     Mistborn Fenrir
     Fenrir Reborn
+Buffs:
+    Withering Thorns
 Notes: Added a variety of cards that were sitting on the backburner
