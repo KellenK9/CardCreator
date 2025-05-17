@@ -89,6 +89,12 @@
         "description": "[ACTIVATED] Select 2 Champions: any damage dealt to one is instead dealt to the other until the end of your next turn.",
         "type": "spell",
         "artwork": "soulbound.png"
+    },
+    {
+        "card_name": "Meditation",
+        "description": "[ACTIVATED] Draw cards equal to the number of 'Meditation' in your Grave +1.",
+        "type": "spell",
+        "artwork": "meditation.png"
     }
 ]
 }
