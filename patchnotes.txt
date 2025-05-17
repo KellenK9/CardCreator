@@ -179,6 +179,7 @@ New Cards:
     Fenrir Reborn
     Meditation
     Fireball Barrage
+    Warlock's Foresight
 Buffs:
     Withering Thorns
 Notes: Added a variety of cards that were sitting on the backburner

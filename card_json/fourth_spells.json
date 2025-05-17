@@ -101,6 +101,12 @@
         "description": "[ACTIVATED] Deal damage to a Champion equal to 20 X the number of 'Fireball Barrage' in your Grave.",
         "type": "spell",
         "artwork": "fireball_barrage.png"
+    },
+    {
+        "card_name": "Warlock's Foresight",
+        "description": "[ACTIVATED] Draw cards equal to the number of Spells in your Grave then Discard the same number of cards.",
+        "type": "spell",
+        "artwork": "warlocks_foresight.png"
     }
 ]
 }
