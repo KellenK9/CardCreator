@@ -107,6 +107,12 @@
         "description": "[ACTIVATED] Draw cards equal to the number of Spells in your Grave then Discard the same number of cards.",
         "type": "spell",
         "artwork": "warlocks_foresight.png"
+    },
+    {
+        "card_name": "Just Toss It",
+        "description": "[ACTIVATED] Destroy 1 Equipment you control then Deal 30 damage to a Champion.",
+        "type": "spell",
+        "artwork": "just_toss_it.png"
     }
 ]
 }

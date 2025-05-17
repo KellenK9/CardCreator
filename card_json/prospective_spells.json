@@ -5,12 +5,6 @@
             "description": "[ACTIVATED] Destroy 1 'Sacred Spring' you control then Deal 40 damage to a Champion.",
             "type": "spell",
             "artwork": ".png"
-        },
-        {
-            "card_name": "Just Toss It",
-            "description": "[ACTIVATED] Destroy 1 Equipment you control then Deal 30 damage to a Champion.",
-            "type": "spell",
-            "artwork": ".png"
         }
     ]
 }

@@ -180,6 +180,7 @@ New Cards:
     Meditation
     Fireball Barrage
     Warlock's Foresight
+    Just Toss It
 Buffs:
     Withering Thorns
 Notes: Added a variety of cards that were sitting on the backburner
