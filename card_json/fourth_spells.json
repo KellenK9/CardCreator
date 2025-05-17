@@ -113,6 +113,12 @@
         "description": "[ACTIVATED] Destroy 1 Equipment you control then Deal 30 damage to a Champion.",
         "type": "spell",
         "artwork": "just_toss_it.png"
+    },
+    {
+        "card_name": "Poisoning the Well",
+        "description": "[ACTIVATED] Destroy 1 'Sacred Spring' you control then Deal 40 damage to a Champion.",
+        "type": "spell",
+        "artwork": "poisoning_the_well.png"
     }
 ]
 }

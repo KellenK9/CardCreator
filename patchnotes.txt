@@ -181,6 +181,7 @@ New Cards:
     Fireball Barrage
     Warlock's Foresight
     Just Toss It
+    Poisoning the Well
 Buffs:
     Withering Thorns
 Notes: Added a variety of cards that were sitting on the backburner
