@@ -82,5 +82,5 @@ Damage per turn
 1.33 - Grenade + Greedy Rage. 2 slots on same Champion required. Requires a third card to be repeatable. 40 damage in 3 turns. More versatile.
 1.50 - Greedy Rage + Lit Fuse. 2 slots on same Champion required. Not Repeatable. 30 damage in 2 turns.
 1.50 - Infection + Popping Spores. 2 card combo. 2 slots required. Repeatable. 10 damage to each enemy every other turn. High balls at 1.5, low balls at 0.5.
-4 - Hestia + Ash + Fuel. 2 card combo. Specific Champion required. Repeatable. Draw a card and deal 10 to each enemy every turn. High balls at 4, low balls at 2. This must be nerfed.
-4 - Atlantean Scrolls + Poisoning the Well + Sacred Spring. 3 card combo. Stall your opponent at 1.00 while drawing into Poisoning the Well for a quick 40 damage. Not repeatable.
+4.00 - Hestia + Ash + Fuel. 4 card combo. Specific Champion required. Repeatable. Draw a card and deal 10 to each enemy every turn. High balls at 4, low balls at 2. This must be nerfed.
+4.00 - Atlantean Scrolls + Poisoning the Well + Sacred Spring. 3 card combo. Stall your opponent at 1.00 while drawing into Poisoning the Well for a quick 40 damage. Not repeatable.
