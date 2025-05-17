@@ -95,6 +95,12 @@
         "description": "[ACTIVATED] Draw cards equal to the number of 'Meditation' in your Grave +1.",
         "type": "spell",
         "artwork": "meditation.png"
+    },
+    {
+        "card_name": "Fireball Barrage",
+        "description": "[ACTIVATED] Deal damage to a Champion equal to 20 X the number of 'Fireball Barrage' in your Grave.",
+        "type": "spell",
+        "artwork": "fireball_barrage.png"
     }
 ]
 }
