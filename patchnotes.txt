@@ -161,7 +161,7 @@ v1.2.6
 Nerfs:
     Volcanic Slug
 
-v1.2.7
+v1.3.0
 New Cards:
     Hestia
     Athena
