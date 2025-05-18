@@ -163,20 +163,20 @@ Nerfs:
 
 v1.2.7
 New Cards:
+    Hestia
+    Athena
+    Glass Golem
+    Mistborn Fenrir
+    Fenrir Reborn
     Centaur Battlehorn
     Lit Fuse
     Tui
     Repun Kamuy
-    Hestia
-    Athena
-    Glass Golem
     Atlantean Scroll
+    Zeus' Cookbook
     Crunch Time
     Blessing of the Phoenix
     Soulbound
-    Zeus' Cookbook
-    Mistborn Fenrir
-    Fenrir Reborn
     Meditation
     Fireball Barrage
     Warlock's Foresight
