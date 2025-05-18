@@ -23,6 +23,18 @@
             "description": "[TRIGGER] When this card is equipped: Add 1 'Fuel of the Hearth' from Grave to Hand. [TRIGGER] When this card is destroyed: you can Equip 1 'Ash of the Hearth' to a Champion.",
             "type": "fire",
             "artwork": ".png"
+        },
+        {
+            "card_name": "Empty Gift",
+            "description": "[ACTIVATED] Destroy this card and Deal 30 damage to this Champion. [PASSIVE] May be equipped to any Slot, including your opponents.",
+            "type": "earth",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Sticky Gift",
+            "description": "[TRIGGER] When this card is destroyed: Deal 10 damage to this Champion. [PASSIVE] May be equipped to any Slot, including your opponents.",
+            "type": "air",
+            "artwork": ".png"
         }
     ]
 }

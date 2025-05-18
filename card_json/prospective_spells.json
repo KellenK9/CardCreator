@@ -5,6 +5,12 @@
             "description": "[ACTIVATED] If your opponent has a Champion with exactly 10 health remaining: Take control of that Champion.",
             "type": "spell",
             "artwork": ".png"
+        },
+        {
+            "card_name": "Dagger Toss",
+            "description": "[ACTIVATED] Deal 10 damage to a Champion for each different element of 'Dagger' Equipment on your Field or in your Gave.",
+            "type": "spell",
+            "artwork": ".png"
         }
     ]
 }
