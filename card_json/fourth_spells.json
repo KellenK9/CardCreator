@@ -119,6 +119,12 @@
         "description": "[ACTIVATED] Destroy 1 'Sacred Spring' you control then Deal 40 damage to a Champion.",
         "type": "spell",
         "artwork": "poisoning_the_well.png"
+    },
+    {
+        "card_name": "Medusa's Head",
+        "description": "[ACTIVATED] If your opponent activated an equipment effect last turn: Equip this card to an Earth Slot as an Earth Equipment and while this card is on the field that Equipment cannot be activated.",
+        "type": "spell",
+        "artwork": "medusas_head.png"
     }
 ]
 }

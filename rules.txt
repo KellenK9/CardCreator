@@ -81,3 +81,7 @@ Puppy Mill:
 Fenrir Reborn:
   Each Fenrir Reborn can only trigger it's effect once.
     Example: Fenrir Reborn is revived by its own effect and revived again with Blessing of the Phoenix. Fenrir Reborn cannot be revived again from its own effect, but can be revived with another copy of Blessing of the Phoenix.
+Medusa's Head:
+  Only prevents the activated effect of the affected equipment.
+    Example: Popping Spores is activated to add Infection to hand then Medusa's Head is activated in response to Popping Spores. That copy of Popping Spores cannot activate its activated effect while on the field, but if that Popping Spores is destroyed its trigger effect can still be activated.
+  Must respond to an Equipment's activated effect and that Equipment must still be on the field when Medusa's Head is activated.
