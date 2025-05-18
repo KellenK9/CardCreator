@@ -1,4 +1,13 @@
 {
 "cards":[
+    {
+        "card_name": "Achillles",
+        "health": "200",
+        "description": "[PASSIVE] Any damage dealt to this Champion is increased by 10.",
+        "slot1": "fire",
+        "slot2": "none",
+        "slot3": "fire",
+        "artwork": ".png"
+    }
 ]
 }
