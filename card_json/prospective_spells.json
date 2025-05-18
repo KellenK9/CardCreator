@@ -1,4 +1,10 @@
 {
     "cards":[
+        {
+            "card_name": "Mind Control",
+            "description": "[ACTIVATED] If your opponent has a Champion with exactly 10 health remaining: Take control of that Champion.",
+            "type": "spell",
+            "artwork": ".png"
+        }
     ]
 }

@@ -48,6 +48,7 @@ FAQ:
 - The game ends instantly when all of one player's Champions are defeated.
   Example: Technician Magician is player 1's last remaining Champion. If Player 2 defeats Technician Magician, they win the game before Technician Magician's effect activates.
 - Spell cards stay on the field when activated then go to the Grave after that effect resolves.
+- You can only control up to 3 Champions at a time. If you currently control 3 Champions you cannot attempt to steal an opponent's Champion or Revive one of your own.
 
 
 Specific Card Rulings:
@@ -85,3 +86,5 @@ Medusa's Head:
   Only prevents the activated effect of the affected equipment.
     Example: Popping Spores is activated to add Infection to hand then Medusa's Head is activated in response to Popping Spores. That copy of Popping Spores cannot activate its activated effect while on the field, but if that Popping Spores is destroyed its trigger effect can still be activated.
   Must respond to an Equipment's activated effect and that Equipment must still be on the field when Medusa's Head is activated.
+Mind Control:
+  Any Equipment equipped to the Champion that switches control stays equipped to that Champion.
