@@ -14,7 +14,7 @@
         },
         {
             "card_name": "Energy Wave",
-            "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion and 1 Equipment on the Field. [PASSIVE] This card may be equipped to any Equipment Slot.",
+            "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion and 1 Equipment on the Field. [PASSIVE] May be equipped to any Slot.",
             "type": "water",
             "artwork": ".png"
         },

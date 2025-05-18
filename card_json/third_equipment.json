@@ -68,7 +68,7 @@
         },
         {
             "card_name": "Accelerating Particle",
-            "description": "[ACTIVATED] If you control another 'Accelerating Particle': Destroy all Equipment on the Field. [PASSIVE] This card may be equipped to any Equipment Slot.",
+            "description": "[ACTIVATED] If you control another 'Accelerating Particle': Destroy all Equipment on the Field. [PASSIVE] May be equipped to any Slot.",
             "type": "fire",
             "artwork": "accelerating_particle.png"
         }

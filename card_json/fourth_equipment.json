@@ -80,7 +80,7 @@
         },
         {
             "card_name": "Frostfire Conduit",
-            "description": "[ACTIVATED] Deal 10 damage to this Champion and 20 damage to a Champion. [PASSIVE] This card may be equipped to a Water Equipment Slot.",
+            "description": "[ACTIVATED] Deal 10 damage to this Champion and 20 damage to a Champion. [PASSIVE] May be equipped to a Water Slot.",
             "type": "fire",
             "artwork": "frostfire_conduit.png"
         },

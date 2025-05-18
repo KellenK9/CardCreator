@@ -2,7 +2,7 @@
 "cards":[
 {
     "card_name": "Grenade",
-    "description": "[ACTIVATED] Deal 30 damage to a Champion and Destroy this card. [PASSIVE] This card may be equipped to a Fire Equipment Slot.",
+    "description": "[ACTIVATED] Deal 30 damage to a Champion and Destroy this card. [PASSIVE] May be equipped to a Fire Slot.",
     "type": "earth",
     "artwork": "grenade.png"
 },

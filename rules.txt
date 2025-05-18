@@ -57,6 +57,7 @@ Extra Padding:
   Increases a Champion's max health by 50 and because that Champion has still taken the same amount of damage it effectively raises their current health by the same amount.
     Example: A Champion that has 60/100 health gets equipped with Extra Padding and now has 110/150 health.
   Champions may be defeated if their health drops to 0 after Extra Padding becomes unequipped.
+  Must be equipped to an empty equipment slot on a Champion that you control.
 Greedy Rage:
   Its effect does not trigger if Greedy Rage is also sent to the Grave. Greedy Rage must remain on the field in order to activate.
     Example: Hestia has both Greedy Rage and Fire Dagger equipped and sends both to the Grave. Greedy Rage cannot activate.

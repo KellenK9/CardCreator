@@ -14,7 +14,7 @@
 },
 {
     "card_name": "Extra Padding",
-    "description": "[PASSIVE] While this card is equipped to a Champion: that Champion gains 50 max health. [PASSIVE] This card may be equipped to any Equipment Slot.",
+    "description": "[PASSIVE] While this card is equipped to a Champion: that Champion gains 50 max health. [PASSIVE] May be equipped to any Slot.",
     "type": "earth",
     "artwork": "extra_padding.png"
 }
