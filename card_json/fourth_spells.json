@@ -125,6 +125,12 @@
         "description": "[ACTIVATED] If your opponent activated an equipment effect last turn: Equip this card to an Earth Slot as an Earth Equipment and while this card is on the field that Equipment cannot be activated.",
         "type": "spell",
         "artwork": "medusas_head.png"
+    },
+    {
+        "card_name": "Mind Control",
+        "description": "[ACTIVATED] If your opponent has a Champion with exactly 10 health remaining: Take control of that Champion.",
+        "type": "spell",
+        "artwork": "mind_control.png"
     }
 ]
 }
