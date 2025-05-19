@@ -48,7 +48,7 @@ FAQ:
 - The game ends instantly when all of one player's Champions are defeated.
   Example: Technician Magician is player 1's last remaining Champion. If Player 2 defeats Technician Magician, they win the game before Technician Magician's effect activates.
 - Spell cards stay on the field when activated then go to the Grave after that effect resolves.
-- You can only control up to 3 Champions at a time. If you currently control 3 Champions you cannot attempt to steal an opponent's Champion or Revive one of your own.
+- You start with 3 Champions but can have more at a time through cards such as Mind Control.
 - Spells, Equipment, and Champions will all go to the Player's Grave who owns the card, regardless of who had control of that card in another game location (field, hand)
 - Cards with effects that activate when they are or would be destroyed can only be activated by the player who controls that card in its destruction location, regardless of the card's original owner.
 
