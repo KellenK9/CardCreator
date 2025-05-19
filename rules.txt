@@ -49,6 +49,8 @@ FAQ:
   Example: Technician Magician is player 1's last remaining Champion. If Player 2 defeats Technician Magician, they win the game before Technician Magician's effect activates.
 - Spell cards stay on the field when activated then go to the Grave after that effect resolves.
 - You can only control up to 3 Champions at a time. If you currently control 3 Champions you cannot attempt to steal an opponent's Champion or Revive one of your own.
+- Spells, Equipment, and Champions will all go to the Player's Grave who owns the card, regardless of who had control of that card in another game location (field, hand)
+- Cards with effects that activate when they are or would be destroyed can only be activated by the player who controls that card in its destruction location, regardless of the card's original owner.
 
 
 Specific Card Rulings:
@@ -89,3 +91,8 @@ Medusa's Head:
   Must respond to an Equipment's activated effect and that Equipment must still be on the field when Medusa's Head is activated.
 Mind Control:
   Any Equipment equipped to the Champion that switches control stays equipped to that Champion.
+  Champions return to their original owners Grave when defeated.
+  Champions with effects that activate when the Champion is defeated or would be defeated can only be activated by the player who controlled that Champion on the Field.
+    Example: Player 1 controls Fenrir and Player 2 takes control of it using Mind Control. If Fenrir is defeated while Player 2 controls it, Player 2 can activate Fenrir's effect while Player 1 cannot. Fenrir then returns to Player 1's Grave.
+Empty Gift:
+  If Empty Gift is equipped to a Champion controlled by your opponent, your opponent can activate the effect of Empty Gift as the controller of the card, but you cannot.
