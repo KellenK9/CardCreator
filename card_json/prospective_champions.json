@@ -8,6 +8,15 @@
         "slot2": "none",
         "slot3": "fire",
         "artwork": ".png"
+    },
+    {
+        "card_name": "Perses, the Destroyer",
+        "health": "130",
+        "description": "[ACTIVATED] If both players have 3 or more cards in hand: both players Discard a card.",
+        "slot1": "none",
+        "slot2": "fire",
+        "slot3": "none",
+        "artwork": ".png"
     }
 ]
 }
