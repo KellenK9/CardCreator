@@ -6,6 +6,15 @@ The next image I would like you to generate for my fantasy card game is
 The focus of the image should be 
 The style of the image should be colorful, detailed, intricate, mystical, epic, realistic, gritty, immersive, psychedelic, and cartoon inspired with nice line work.
 
+Clay Golem:
+
+Wild Wind Spirit:
+
+Replacement Order:
+
+Tornado:
+
+Ocean's Vengence:
 
 Shoddy Craftsmanship:
 
@@ -76,3 +85,21 @@ Damage per turn
 1.50 - Infection + Popping Spores. 2 card combo. 2 slots required. Repeatable. 10 damage to each enemy every other turn. High balls at 1.5, low balls at 0.5.
 4.00 - Hestia + Ash + Fuel. 4 card combo. Specific Champion required. Repeatable. Draw a card and deal 10 to each enemy every turn. High balls at 4, low balls at 2. This must be nerfed.
 4.00 - Atlantean Scrolls + Poisoning the Well + Sacred Spring. 3 card combo. Stall your opponent at 1.00 while drawing into Poisoning the Well for a quick 40 damage. Not repeatable.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    type    |   Starter Deck    |   Later Sets
+-------------------------------------------------
+Champions   |
+            |   4 Golems        | Ares, Circe, Echo, Scylla
+            |   4 Major Gods    | 
+-------------------------------------------------
+Spells      |   
+            |   Pirate's Booty
+-------------------------------------------------
+Water Equipment
+            |   Dagger          | Tui & Kamui
+
+Just sort them all when printed
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
