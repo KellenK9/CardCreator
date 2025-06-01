@@ -29,6 +29,12 @@
             "description": "[ACTIVATED] Destroy this card and Deal 30 damage to a Champion. [TRIGGER] When this card is destroyed: Add 'Map of the Mantle' from Deck to Hand",
             "type": "water",
             "artwork": ".png"
+        },
+        {
+            "card_name": "Sacred Spring II",
+            "description": "[ACTIVATED] Deal 10 damage to this Champion then Heal 20 damage from this Champion.",
+            "type": "fire",
+            "artwork": ".png"
         }
     ]
 }

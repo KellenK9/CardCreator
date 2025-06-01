@@ -116,7 +116,7 @@
     },
     {
         "card_name": "Poisoning the Well",
-        "description": "[ACTIVATED] Destroy 1 'Sacred Spring' you control then Deal 40 damage to a Champion.",
+        "description": "[ACTIVATED] Destroy 1 'Sacred Spring' card you control then Deal 40 damage to a Champion.",
         "type": "spell",
         "artwork": "poisoning_the_well.png"
     },

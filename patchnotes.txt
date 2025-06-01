@@ -192,4 +192,6 @@ v1.3.1
 New Cards:
     Clay Golem
     Wild Wind Spirit
+Buffs:
+    Poisoning the Well
 Notes: Spawn new Champions from Spells and Equipment
