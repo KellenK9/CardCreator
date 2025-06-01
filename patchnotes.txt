@@ -191,3 +191,5 @@ Notes: Added a variety of cards that were sitting on the backburner
 v1.3.1
 New Cards:
     Clay Golem
+    Wild Wind Spirit
+Notes: Spawn new Champions from Spells and Equipment

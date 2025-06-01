@@ -155,6 +155,12 @@
             "description": "[ACTIVATED] If your opponent activated a spell last turn: you can Add 1 or more copies of that spell from your Deck or Grave to Hand then Destroy this card.",
             "type": "air",
             "artwork": "zeus_cookbook.png"
+        },
+        {
+            "card_name": "Wild Wind Spirit",
+            "description": "[ACTIVATED] Discard 2 Air Equipment then Place this card as a Champion with 50 health and 1 Air Slot.",
+            "type": "air",
+            "artwork": "wild_wind_spirit.png"
         }
     ]
 }
