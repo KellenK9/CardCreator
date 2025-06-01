@@ -187,3 +187,7 @@ New Cards:
 Buffs:
     Withering Thorns
 Notes: Added a variety of cards that were sitting on the backburner
+
+v1.3.1
+New Cards:
+    Clay Golem

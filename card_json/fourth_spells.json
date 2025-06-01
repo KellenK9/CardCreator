@@ -131,6 +131,12 @@
         "description": "[ACTIVATED] If your opponent has a Champion with exactly 10 health remaining: Take control of that Champion.",
         "type": "spell",
         "artwork": "mind_control.png"
+    },
+    {
+        "card_name": "Clay Golem",
+        "description": "[ACTIVATED] Discard 1 card then Place this card as a Champion with 30 Health.",
+        "type": "spell",
+        "artwork": "clay_golem.png"
     }
 ]
 }
