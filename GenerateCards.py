@@ -716,22 +716,9 @@ class CardCreator:
 
 # Set Variables for Creating Cards
 Creator = CardCreator()
-champion_json_paths = ["first_champions", "second_champions", "third_champions"]
-spell_json_paths = ["first_spells", "second_spells", "third_spells", "fourth_spells"]
-equipment_json_paths = [
-    "first_equipment_air",
-    "first_equipment_earth",
-    "first_equipment_fire",
-    "first_equipment_water",
-    "second_equipment_air",
-    "second_equipment_earth",
-    "second_equipment_fire",
-    "second_equipment_water",
-    "third_equipment",
-    "fourth_equipment",
-    # "future_spells",
-    # "future_equipment",
-]
+champion_json_paths = ["champions"]
+spell_json_paths = ["spells"]
+equipment_json_paths = ["equipment"]
 list_of_frames = [
     "card-back",
     "air-frame",

@@ -1,6 +1,138 @@
 {
     "cards":[
     {
+        "card_name": "Fireball",
+        "description": "[ACTIVATED] Deal 20 damage to a Champion.",
+        "type": "spell",
+        "artwork": "fireball.png"
+    },
+    {
+        "card_name": "Spreading Flame",
+        "description": "[ACTIVATED] Deal 10 damage to each enemy Champion.",
+        "type": "spell",
+        "artwork": "spreading_flame.png"
+    },
+    {
+        "card_name": "Pirate's Booty",
+        "description": "[ACTIVATED] Draw 2 cards.",
+        "type": "spell",
+        "artwork": "pirates_booty.png"
+    },
+    {
+        "card_name": "Spring Water",
+        "description": "[ACTIVATED] Heal 20 damage from a Champion.",
+        "type": "spell",
+        "artwork": "spring_water.png"
+    },
+    {
+        "card_name": "Knowledge Exchange",
+        "description": "[ACTIVATED] Discard your entire Hand then Draw the same number of cards you discarded.",
+        "type": "spell",
+        "artwork": "knowledge_exchange.png"
+    },
+    {
+        "card_name": "Recurring Visions",
+        "description": "[ACTIVATED] Add 1 Spell from your Grave to your Hand.",
+        "type": "spell",
+        "artwork": "recurring_visions.png"
+    },
+    {
+        "card_name": "Decoy",
+        "description": "[ACTIVATED] Add 1 'Decoy' from Deck to Hand. [TRIGGER] When this card is sent to the Grave: Draw 1 card.",
+        "type": "spell",
+        "artwork": "decoy.png"
+    },
+    {
+        "card_name": "Celestial Shower",
+        "description": "[ACTIVATED] Destroy 1 Equipment equipped to your Champion then Destroy 1 Equipment on the Field.",
+        "type": "spell",
+        "artwork": "celestial_shower.png"
+    },
+    {
+        "card_name": "Useless Potion",
+        "description": "[ACTIVATED] Add 1 or more copies of 'Useless Potion' from your Deck to your Hand.",
+        "type": "spell",
+        "artwork": "useless_potion.png"
+    },
+    {
+        "card_name": "Pressure",
+        "description": "[ACTIVATED] Deal 10 damage to a Champion then Return this card to the Hand then if you have 3 or more cards in Hand: Discard 1 card.",
+        "type": "spell",
+        "artwork": "pressure.png"
+    },
+    {
+        "card_name": "Dagger Upgrade",
+        "description": "[ACTIVATED] Discard 1 'Dagger' Equipment then Add 1 Equipment from your Deck to your Hand of the same element as the card discarded.",
+        "type": "spell",
+        "artwork": "dagger_upgrade.png"
+    },
+    {
+        "card_name": "Love Potion of Calming Mind",
+        "description": "[ACTIVATED] Discard 1 Water Equipment then Heal 30 damage from a Champion.",
+        "type": "spell",
+        "artwork": "love_potion_of_calming_mind.png"
+    },
+    {
+        "card_name": "Love Potion of Fiery Heart",
+        "description": "[ACTIVATED] Discard 1 Fire Equipment then Deal 30 damage to a Champion.",
+        "type": "spell",
+        "artwork": "love_potion_of_fiery_heart.png"
+    },
+    {
+        "card_name": "Love Potion of Vibrant Soul",
+        "description": "[ACTIVATED] Discard 1 Air Equipment then Draw 3 cards and Discard 1 card.",
+        "type": "spell",
+        "artwork": "love_potion_of_vibrant_soul.png"
+    },
+    {
+        "card_name": "Love Potion of Steadfast Bone",
+        "description": "[ACTIVATED] Discard 1 Earth Equipment then Add 1 Earth Equipment from your Deck to your Hand and Discard 1 card.",
+        "type": "spell",
+        "artwork": "love_potion_of_steadfast_bone.png"
+    },
+    {
+        "card_name": "Shoddy Craftsmanship",
+        "description": "[ACTIVATED] If your opponent equipped 1 Equipment last turn: Destroy that Equipment.",
+        "type": "spell",
+        "artwork": "shoddy_craftsmanship.png"
+    },
+    {
+        "card_name": "Wild Shot",
+        "description": "[ACTIVATED] Discard 1 random card from your opponent’s Hand.",
+        "type": "spell",
+        "artwork": "wild_shot.png"
+    },
+    {
+        "card_name": "Dimension Recall",
+        "description": "[ACTIVATED] Discard 1 card then Shuffle 1 Equipment on the Field into the Deck.",
+        "type": "spell",
+        "artwork": "dimension_recall.png"
+    },
+    {
+        "card_name": "Elemental Blast",
+        "description": "[ACTIVATED] Discard any number of Equipment cards of the same element then Deal damage to a Champion equal to the number of Equipment discarded X 10.",
+        "type": "spell",
+        "artwork": "elemental_blast.png"
+    },
+    {
+        "card_name": "Verdant Codex",
+        "description": "[ACTIVATED] Draw 3 cards then Discard 2 cards.",
+        "type": "spell",
+        "artwork": "verdant_codex.png"
+    },
+    {
+        "card_name": "Tainted Elixir",
+        "description": "[ACTIVATED] Deal 10 damage to a Champion or if that Champion was healed during your opponents last turn: Deal 30 damage instead.",
+        "type": "spell",
+        "artwork": "tainted_elixir.png"
+    },
+    {
+        "card_name": "Defiance of Death",
+        "description": "[ACTIVATED] If an Equipment equipped to your Champion was destroyed during your opponents last turn: Add that Equipment from your Grave to your Hand.",
+        "type": "spell",
+        "artwork": "defiance_of_death.png"
+    },
+    {
         "card_name": "Copycat",
         "description": "[ACTIVATED] If your opponent activated a Spell last turn: Apply that Spell's activated effect.",
         "type": "spell",
