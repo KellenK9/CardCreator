@@ -650,7 +650,9 @@ class CardCreator:
 
         return rounded_image
 
-    def generate_art_with_mirrored_edges(self, artwork_path, full_art=False):
+    def generate_art_with_mirrored_edges(
+        self, artwork_path, champion=False, full_art=False
+    ):
         # Load original image
         if full_art:
             original = Image.open(
@@ -661,14 +663,18 @@ class CardCreator:
         w, h = original.size  # 825x825 expected
 
         # New canvas size
-        new_w = w + 35
-        new_h = h + 35
+        if champion:
+            new_w = w + 70
+            new_h = h + 70
+        else:
+            new_w = w + 35
+            new_h = h + 35
         canvas = Image.new("RGB", (new_w, new_h))
 
         # Compute placement
         x_offset = (new_w - w) // 2  # center horizontally
         y_offset = new_h - h  # stick to bottom
-        if full_art:
+        if champion or full_art:
             y_offset = (new_h - h) // 2  # center vertically
 
         # Paste the original
@@ -676,28 +682,34 @@ class CardCreator:
 
         # === MIRROR EDGES ===
         # Top strip
-        if full_art:
-            top_strip = original.crop((0, 0, w, 18))
-        else:
-            top_strip = original.crop((0, 0, w, 35))
+        top_strip = original.crop((0, 0, w, 35))
         top_mirror = ImageOps.flip(top_strip)
         canvas.paste(top_mirror, (x_offset, 0))
 
         # Left strip
-        left_strip = original.crop((0, 0, 18, h))
+        if champion:
+            left_strip = original.crop((0, 0, 35, h))
+        else:
+            left_strip = original.crop((0, 0, 18, h))
         left_mirror = ImageOps.mirror(left_strip)
         canvas.paste(left_mirror, (0, y_offset))
 
         # Right strip
-        right_strip = original.crop((w - 18, 0, w, h))
+        if champion:
+            right_strip = original.crop((w - 35, 0, w, h))
+        else:
+            right_strip = original.crop((w - 18, 0, w, h))
         right_mirror = ImageOps.mirror(right_strip)
-        canvas.paste(right_mirror, (new_w - 18, y_offset))
+        if champion:
+            canvas.paste(right_mirror, (new_w - 35, y_offset))
+        else:
+            canvas.paste(right_mirror, (new_w - 18, y_offset))
 
         # Bottom strip
-        if full_art:
-            bottom_strip = original.crop((0, h - 18, w, h))
+        if champion:
+            bottom_strip = original.crop((0, h - 35, w, h))
             bottom_mirror = ImageOps.flip(bottom_strip)
-            canvas.paste(bottom_mirror, (x_offset, new_h - 18))
+            canvas.paste(bottom_mirror, (x_offset, new_h - 35))
 
         # === PASTE ORIGINAL BACK ON TOP ===
         canvas.paste(original, (x_offset, y_offset))
@@ -774,7 +786,7 @@ for path in champion_json_paths:
         loaded_json = json.load(json_file)
     for card in loaded_json["cards"]:
         Creator.generate_art_with_mirrored_edges(
-            f"cropped_images/printable_versions/{card['artwork']}"
+            f"cropped_images/printable_versions/{card['artwork']}", True
         )
 for path in spell_json_paths:
     with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
@@ -800,7 +812,7 @@ for path in champion_json_paths:
         for full_art_path in full_arts:
             if full_art_path in card["artwork"]:
                 Creator.generate_art_with_mirrored_edges(
-                    f"full_arts/{full_art_path}_extended.png", True
+                    f"full_arts/{full_art_path}_extended.png", True, True
                 )
 
 # Create Digital Cards
