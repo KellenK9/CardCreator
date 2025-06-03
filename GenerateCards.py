@@ -867,7 +867,7 @@ for path in champion_json_paths:
     for card in loaded_json["cards"]:
         for full_art_path in full_arts:
             if full_art_path in card["artwork"]:
-                Creator.generate_champion_card(card, False, True, True).save(
+                Creator.generate_champion_card(card, False, True, False).save(
                     f"finished_cards/full_art/{card["card_name"]}_card.png",
                     "PNG",
                 )
@@ -880,7 +880,7 @@ for path in champion_json_paths:
     for card in loaded_json["cards"]:
         for full_art_path in full_arts:
             if full_art_path in card["artwork"]:
-                Creator.generate_champion_card(card, True, True, True).save(
+                Creator.generate_champion_card(card, True, True, False).save(
                     f"finished_cards/printable/full_art/{card["card_name"]}_card.png",
                     "PNG",
                 )
