@@ -673,9 +673,9 @@ class CardCreator:
         # === MIRROR EDGES ===
         # Top strip (35px)
         if full_art:
-            top_strip = original.crop((0, 0, w, 35))
-        else:
             top_strip = original.crop((0, 0, w, 18))
+        else:
+            top_strip = original.crop((0, 0, w, 35))
         top_mirror = ImageOps.flip(top_strip)
         canvas.paste(top_mirror, (x_offset, 0))
 
@@ -691,9 +691,9 @@ class CardCreator:
 
         # Bottom strip (35px)
         if full_art:
-            bottom_strip = original.crop((0, h - 35, w, h))
+            bottom_strip = original.crop((0, h - 18, w, h))
             bottom_mirror = ImageOps.flip(bottom_strip)
-            canvas.paste(bottom_mirror, (x_offset, new_h - 35))
+            canvas.paste(bottom_mirror, (x_offset, new_h - 18))
 
         # === PASTE ORIGINAL BACK ON TOP ===
         canvas.paste(original, (x_offset, y_offset))
