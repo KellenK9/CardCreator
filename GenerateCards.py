@@ -115,7 +115,9 @@ class CardCreator:
                 f"cropped_images/printable_versions/full_arts/{dict["artwork"].split(".")[0]}_extended.png"
             )
         else:
-            artwork = Image.open("cropped_images/printable_versions/" + dict["artwork"])
+            artwork = Image.open(
+                "cropped_images/printable_versions/mirrored_edges/" + dict["artwork"]
+            )
         artwork = artwork.crop(box=(0, 0, self.image_width, self.image_height))
         artwork = artwork.convert("RGBA")
 
@@ -315,7 +317,9 @@ class CardCreator:
         font_color_description = tuple(color_for_font_description)
 
         # Import artwork and crop
-        artwork = Image.open("cropped_images/printable_versions/" + dict["artwork"])
+        artwork = Image.open(
+            "cropped_images/printable_versions/mirrored_edges/" + dict["artwork"]
+        )
         artwork = artwork.crop(box=(0, 0, self.image_width, self.image_height))
         artwork = artwork.convert("RGBA")
 
@@ -679,15 +683,12 @@ class CardCreator:
         right_mirror = ImageOps.mirror(right_strip)
         canvas.paste(right_mirror, (new_w - 35, y_offset))
 
-        # === BLUR THE BACKGROUND ===
-        blurred_canvas = canvas.filter(ImageFilter.GaussianBlur(radius=10))
-
         # === PASTE ORIGINAL BACK ON TOP ===
-        blurred_canvas.paste(original, (x_offset, y_offset))
+        canvas.paste(original, (x_offset, y_offset))
 
         # Save result
-        blurred_canvas.save(
-            f"cropped_images/printable_versions/mirrored_edges/{artwork_path}"
+        canvas.save(
+            f"cropped_images/printable_versions/mirrored_edges/{artwork_path.split('/')[-1]}",
         )
 
 
