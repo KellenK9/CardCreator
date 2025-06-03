@@ -675,19 +675,19 @@ class CardCreator:
         if full_art:
             top_strip = original.crop((0, 0, w, 35))
         else:
-            top_strip = original.crop((0, 0, w, 35 / 2))
+            top_strip = original.crop((0, 0, w, 18))
         top_mirror = ImageOps.flip(top_strip)
         canvas.paste(top_mirror, (x_offset, 0))
 
         # Left strip (35px)
-        left_strip = original.crop((0, 0, 35 / 2, h))
+        left_strip = original.crop((0, 0, 18, h))
         left_mirror = ImageOps.mirror(left_strip)
         canvas.paste(left_mirror, (0, y_offset))
 
         # Right strip (35px)
-        right_strip = original.crop((w - (35 / 2), 0, w, h))
+        right_strip = original.crop((w - 18, 0, w, h))
         right_mirror = ImageOps.mirror(right_strip)
-        canvas.paste(right_mirror, (new_w - (35 / 2), y_offset))
+        canvas.paste(right_mirror, (new_w - 18, y_offset))
 
         # Bottom strip (35px)
         if full_art:
