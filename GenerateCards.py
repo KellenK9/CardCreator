@@ -1,6 +1,4 @@
-from PIL import Image
-from PIL import ImageFont
-from PIL import ImageDraw
+from PIL import Image, ImageFont, ImageDraw, ImageOps, ImageFilter
 import json
 from math import ceil, floor
 
@@ -649,6 +647,49 @@ class CardCreator:
 
         return rounded_image
 
+    def generate_art_with_mirrored_edges(self, artwork_path):
+        # Load original image
+        original = Image.open(artwork_path).convert("RGB")
+        w, h = original.size  # 825x825 expected
+
+        # New canvas size
+        new_w, new_h = 860, 860
+        canvas = Image.new("RGB", (new_w, new_h))
+
+        # Compute placement
+        x_offset = (new_w - w) // 2  # center horizontally
+        y_offset = new_h - h  # stick to bottom
+
+        # Paste the original at the bottom-center
+        canvas.paste(original, (x_offset, y_offset))
+
+        # === MIRROR EDGES ===
+        # Top strip (35px)
+        top_strip = original.crop((0, 0, w, 35))
+        top_mirror = ImageOps.flip(top_strip)
+        canvas.paste(top_mirror, (x_offset, 0))
+
+        # Left strip (35px)
+        left_strip = original.crop((0, 0, 35, h))
+        left_mirror = ImageOps.mirror(left_strip)
+        canvas.paste(left_mirror, (0, y_offset))
+
+        # Right strip (35px)
+        right_strip = original.crop((w - 35, 0, w, h))
+        right_mirror = ImageOps.mirror(right_strip)
+        canvas.paste(right_mirror, (new_w - 35, y_offset))
+
+        # === BLUR THE BACKGROUND ===
+        blurred_canvas = canvas.filter(ImageFilter.GaussianBlur(radius=10))
+
+        # === PASTE ORIGINAL BACK ON TOP ===
+        blurred_canvas.paste(original, (x_offset, y_offset))
+
+        # Save result
+        blurred_canvas.save(
+            f"cropped_images/printable_versions/mirrored_edges/{artwork_path}"
+        )
+
 
 # Set Variables for Creating Cards
 Creator = CardCreator()
@@ -715,6 +756,30 @@ for path in champion_json_paths:
                 Creator.create_print_sized_images(
                     card["card_name"], f"full_arts/{full_art_path}_extended.png", True
                 )
+
+# Create mirrored edge images of artwork
+
+for path in champion_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.generate_art_with_mirrored_edges(
+            f"cropped_images/printable_versions/{card['artwork']}"
+        )
+for path in spell_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.generate_art_with_mirrored_edges(
+            f"cropped_images/printable_versions/{card['artwork']}"
+        )
+for path in equipment_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        Creator.generate_art_with_mirrored_edges(
+            f"cropped_images/printable_versions/{card['artwork']}"
+        )
 
 # Create Digital Cards
 
