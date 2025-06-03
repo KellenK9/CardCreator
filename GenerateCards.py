@@ -651,43 +651,56 @@ class CardCreator:
 
         return rounded_image
 
-    def generate_art_with_mirrored_edges(self, artwork_path):
+    def generate_art_with_mirrored_edges(self, artwork_path, full_art=False):
         # Load original image
         original = Image.open(artwork_path).convert("RGB")
         w, h = original.size  # 825x825 expected
 
         # New canvas size
-        new_w, new_h = 860, 860
+        new_w = w + 35
+        new_h = h + 35
         canvas = Image.new("RGB", (new_w, new_h))
 
         # Compute placement
         x_offset = (new_w - w) // 2  # center horizontally
         y_offset = new_h - h  # stick to bottom
+        if full_art:
+            y_offset = (new_h - h) // 2  # center vertically
 
-        # Paste the original at the bottom-center
+        # Paste the original
         canvas.paste(original, (x_offset, y_offset))
 
         # === MIRROR EDGES ===
         # Top strip (35px)
-        top_strip = original.crop((0, 0, w, 35))
+        if full_art:
+            top_strip = original.crop((0, 0, w, 35))
+        else:
+            top_strip = original.crop((0, 0, w, 35 / 2))
         top_mirror = ImageOps.flip(top_strip)
         canvas.paste(top_mirror, (x_offset, 0))
 
         # Left strip (35px)
-        left_strip = original.crop((0, 0, 35, h))
+        left_strip = original.crop((0, 0, 35 / 2, h))
         left_mirror = ImageOps.mirror(left_strip)
         canvas.paste(left_mirror, (0, y_offset))
 
         # Right strip (35px)
-        right_strip = original.crop((w - 35, 0, w, h))
+        right_strip = original.crop((w - (35 / 2), 0, w, h))
         right_mirror = ImageOps.mirror(right_strip)
-        canvas.paste(right_mirror, (new_w - 35, y_offset))
+        canvas.paste(right_mirror, (new_w - (35 / 2), y_offset))
+
+        # Bottom strip (35px)
+        if full_art:
+            bottom_strip = original.crop((0, h - 35, w, h))
+            bottom_mirror = ImageOps.flip(bottom_strip)
+            canvas.paste(bottom_mirror, (x_offset, new_h - 35))
 
         # === PASTE ORIGINAL BACK ON TOP ===
         canvas.paste(original, (x_offset, y_offset))
+        resized_image = canvas.resize((w, h), Image.LANCZOS)
 
         # Save result
-        canvas.save(
+        resized_image.save(
             f"cropped_images/printable_versions/mirrored_edges/{artwork_path.split('/')[-1]}",
         )
 
