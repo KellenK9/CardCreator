@@ -453,7 +453,6 @@ class CardCreator:
             # Crop
             im = im.crop((left, top, right, bottom))
         else:
-            im = Image.open("cropped_images/" + artwork_path)
             im.thumbnail(size, Image.Resampling.LANCZOS)
         im.save(
             "cropped_images/printable_versions/" + artwork_path,
@@ -700,9 +699,14 @@ class CardCreator:
         resized_image = canvas.resize((w, h), Image.LANCZOS)
 
         # Save result
-        resized_image.save(
-            f"cropped_images/printable_versions/mirrored_edges/{artwork_path.split('/')[-1]}",
-        )
+        if full_art:
+            resized_image.save(
+                f"cropped_images/printable_versions/mirrored_edges/{artwork_path.split('/')[-1]}",
+            )
+        else:
+            resized_image.save(
+                f"cropped_images/printable_versions/mirrored_edges/{artwork_path.split('/')[-1]}",
+            )
 
 
 # Set Variables for Creating Cards
@@ -794,6 +798,18 @@ for path in equipment_json_paths:
         Creator.generate_art_with_mirrored_edges(
             f"cropped_images/printable_versions/{card['artwork']}"
         )
+
+# Create mirrored versions of Champion full arts artwork
+
+for path in champion_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        for full_art_path in full_arts:
+            if full_art_path in card["artwork"]:
+                Creator.generate_art_with_mirrored_edges(
+                    f"full_arts/{full_art_path}_extended.png", True
+                )
 
 # Create Digital Cards
 
