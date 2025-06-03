@@ -726,7 +726,9 @@ class CardCreator:
             )
 
 
-# Set Variables for Creating Cards
+######################################## MAIN ########################################
+
+## Set Variables for Creating Cards
 Creator = CardCreator()
 champion_json_paths = ["champions"]
 spell_json_paths = ["spells"]
@@ -749,6 +751,9 @@ list_of_frames = [
     "equipment_slots/empty_slot",
 ]
 full_arts = ["fire_golem", "earth_golem", "volcanic_slug"]
+
+## Create art
+
 # Create printable versions of art
 
 for path in champion_json_paths:
@@ -814,6 +819,8 @@ for path in champion_json_paths:
                 Creator.generate_art_with_mirrored_edges(
                     f"full_arts/{full_art_path}_extended.png", True, True
                 )
+
+## Create Cards
 
 # Create Digital Cards
 
@@ -896,6 +903,8 @@ for path in champion_json_paths:
                     f"finished_cards/printable/full_art/{card["card_name"]}_card.png",
                     "PNG",
                 )
+
+## Other Sizes; for video games
 
 # Create pixel art versions of artwork
 
