@@ -652,7 +652,12 @@ class CardCreator:
 
     def generate_art_with_mirrored_edges(self, artwork_path, full_art=False):
         # Load original image
-        original = Image.open(artwork_path).convert("RGB")
+        if full_art:
+            original = Image.open(
+                f"cropped_images/printable_versions/{artwork_path}"
+            ).convert("RGB")
+        else:
+            original = Image.open(artwork_path).convert("RGB")
         w, h = original.size  # 825x825 expected
 
         # New canvas size
