@@ -112,7 +112,7 @@ class CardCreator:
         # Import artwork and crop
         if full_art:
             artwork = Image.open(
-                f"cropped_images/printable_versions/full_arts/{dict["artwork"].split(".")[0]}_extended.png"
+                f"cropped_images/printable_versions/mirrored_edges/full_arts/{dict["artwork"].split(".")[0]}_extended.png"
             )
         else:
             artwork = Image.open(
@@ -706,7 +706,7 @@ class CardCreator:
         # Save result
         if full_art:
             resized_image.save(
-                f"cropped_images/printable_versions/mirrored_edges/{artwork_path.split('/')[-1]}",
+                f"cropped_images/printable_versions/mirrored_edges/full_arts/{artwork_path.split('/')[-1]}",
             )
         else:
             resized_image.save(
