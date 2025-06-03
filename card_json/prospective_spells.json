@@ -5,6 +5,12 @@
             "description": "[ACTIVATED] Deal 10 damage to a Champion for each different element of 'Dagger' Equipment on your Field or in your Gave.",
             "type": "spell",
             "artwork": ".png"
+        },
+        {
+            "card_name": "All In",
+            "description": "[ACTIVATED] Discard a Spell then your opponent may Discard a Spell with the same name. If they do they Draw 3 cards Else you Draw 3 cards.",
+            "type": "spell",
+            "artwork": ".png"
         }
     ]
 }
