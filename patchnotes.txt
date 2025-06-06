@@ -195,3 +195,7 @@ New Cards:
 Buffs:
     Poisoning the Well
 Notes: Spawn new Champions from Spells and Equipment
+
+v1.3.2
+New Cards:
+    Tengu's Fan

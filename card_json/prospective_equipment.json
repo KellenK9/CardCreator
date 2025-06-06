@@ -49,12 +49,6 @@
             "artwork": ".png"
         },
         {
-            "card_name": "Tornado",
-            "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is discarded: you can Equip it to an Air Slot you control.",
-            "type": "air",
-            "artwork": ".png"
-        },
-        {
             "card_name": "Blockade",
             "description": "[PASSIVE] Your opponent cannot activate Trigger Effects.",
             "type": "earth",

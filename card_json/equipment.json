@@ -371,6 +371,12 @@
         "description": "[ACTIVATED] Discard 2 Air Equipment then Place this card as a Champion with 50 health and 1 Air Slot.",
         "type": "air",
         "artwork": "wild_wind_spirit.png"
+    },
+    {
+        "card_name": "Tengu's Fan",
+        "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is discarded: you can Equip it to an Air Slot you control.",
+        "type": "air",
+        "artwork": "tengus_fan.png"
     }
 ]
 }
