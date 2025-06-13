@@ -53,6 +53,30 @@
             "description": "[PASSIVE] Your opponent cannot activate Trigger Effects.",
             "type": "earth",
             "artwork": ".png"
+        },
+        {
+            "card_name": "Zodiac Battle Axe",
+            "description": "[ACTIVATED] Return this card to the hand then Deal 30 damage to a Champion. [TRIGGER] When this card is equipped: Return 1 'Zodiac' card from your Field to Hand.",
+            "type": "earth",
+            "artwork": "zodiac_battle_axe.png"
+        },
+        {
+            "card_name": "Zodiac Shield",
+            "description": "[ACTIVATED] Destroy this card then Heal 20 damage from a Champion. [TRIGGER] When this card is equipped: you can Add 1 'Zodiac' card from Grave to Hand.",
+            "type": "water",
+            "artwork": "zodiac_shield.png"
+        },
+        {
+            "card_name": "Zodiac Longsword",
+            "description": "[ACTIVATED] Destroy this card then Deal 20 damage to a Champion. [TRIGGER] When this card is equipped: you can Add 1 'Zodiac' card from Deck to Hand.",
+            "type": "fire",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Zodiac Scales",
+            "description": "[ACTIVATED] Destroy this card then Draw 2 cards. [TRIGGER] When this card is equipped: you can Equip 1 'Zodiac' card to a slot.",
+            "type": "air",
+            "artwork": ".png"
         }
     ]
 }
