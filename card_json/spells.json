@@ -269,6 +269,12 @@
         "description": "[ACTIVATED] Discard 1 card then Place this card as a Champion with 30 Health.",
         "type": "spell",
         "artwork": "clay_golem.png"
+    },
+    {
+        "card_name": "Trend Hopper",
+        "description": "[ACTIVATED] If your opponent activated a Spell last turn: Add 1 or more copies of that Spell from Deck to Hand.",
+        "type": "spell",
+        "artwork": ".png"
     }
 ]
 }
