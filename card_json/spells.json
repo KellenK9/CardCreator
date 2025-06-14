@@ -274,7 +274,7 @@
         "card_name": "Trend Hopper",
         "description": "[ACTIVATED] If your opponent activated a Spell last turn: Add 1 or more copies of that Spell from Deck to Hand.",
         "type": "spell",
-        "artwork": ".png"
+        "artwork": "trend_hopper.png"
     }
 ]
 }
