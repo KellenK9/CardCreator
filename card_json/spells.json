@@ -275,6 +275,12 @@
         "description": "[ACTIVATED] If your opponent activated a Spell last turn: Add 1 or more copies of that Spell from Deck to Hand.",
         "type": "spell",
         "artwork": "trend_hopper.png"
+    },
+    {
+        "card_name": "Infiltration",
+        "description": "[ACTIVATED] If your opponent equipped an Equipment last turn: Discard an Equipment of the same element then Deal 20 damage to each enemy Champion.",
+        "type": "spell",
+        "artwork": "infiltration.png"
     }
 ]
 }
