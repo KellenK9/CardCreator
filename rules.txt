@@ -32,6 +32,11 @@ Discard - a form of sending cards from Hand to Grave
 Destroy - a form of sending Equipment from Field to Grave
 Either - choose 1 of the next listed effects to apply, each sepearted by the word or
 
+Best of 3 Matches:
+Games are played with 60-100 cards and 3 Champions while best of 3 matches may also include a 20 card side deck and 5 total Champions.
+At the start of each game players will choose and place 3 of their Champions face down. Games start with players flipping their Champions and drawing their hand.
+Before games 2 and 3 in a match, players may substitute cards in their main deck with cards from their side deck. The number of cards in each must remain consistent throughout the match.
+
 FAQ:
 - There is no hand size limit.
 - There is no turn limit.
