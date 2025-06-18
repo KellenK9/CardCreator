@@ -101,3 +101,5 @@ Mind Control:
     Example: Player 1 controls Fenrir and Player 2 takes control of it using Mind Control. If Fenrir is defeated while Player 2 controls it, Player 2 can activate Fenrir's effect while Player 1 cannot. Fenrir then returns to Player 1's Grave.
 Empty Gift:
   If Empty Gift is equipped to a Champion controlled by your opponent, your opponent can activate the effect of Empty Gift as the controller of the card, but you cannot.
+Intermezzo:
+  Spells activated my Intermezzo should be activated normally from hand and typical conditions for activating each spell apply.
