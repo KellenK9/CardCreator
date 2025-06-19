@@ -77,6 +77,12 @@
             "description": "[ACTIVATED] Destroy this card then Draw 2 cards. [TRIGGER] When this card is equipped: you can Equip 1 'Zodiac' card to a slot.",
             "type": "air",
             "artwork": ".png"
+        },
+        {
+            "card_name": "Self-Destruct Button",
+            "description": "[ACTIVATED] Destroy this card then Deal 50 damage to a Champion. [TRIGGER] When this card is equipped: Destroy 1 Equipment equipped to this Champion.",
+            "type": "fire",
+            "artwork": ".png"
         }
     ]
 }

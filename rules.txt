@@ -103,3 +103,8 @@ Empty Gift:
   If Empty Gift is equipped to a Champion controlled by your opponent, your opponent can activate the effect of Empty Gift as the controller of the card, but you cannot.
 Intermezzo:
   Spells activated my Intermezzo should be activated normally from hand and typical conditions for activating each spell apply.
+Twisted Compulsion:
+  Only applies to an Equipment's activated effect.
+    Example: Player 1 uses Twisted Compulsion on Player 2's Strawman. Player 2 can play out their turn as normal since Strawman has no activated effect for Player 2 to activate.
+  You cannot activate an opponents equipment unless specified by that equipment.
+    Example: Player 1 uses Twisted Compulsion on their own Grenade. Player 2 (and Player 1 on the next turn) can play out a normal turn since Player 2 cannot activate Player 1's Grenade.
