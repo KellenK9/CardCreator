@@ -83,6 +83,42 @@
             "description": "[ACTIVATED] Destroy this card then Deal 50 damage to a Champion. [TRIGGER] When this card is equipped: Destroy 1 Equipment equipped to this Champion.",
             "type": "fire",
             "artwork": ".png"
+        },
+        {
+            "card_name": "Staff of Ragnarok",
+            "description": "[ACTIVATED] Destroy 1 'Gemstone' card you control then Deal 30 damage to a Champion.",
+            "type": "earth",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Ruby Gemstone",
+            "description": "[TRIGGER] When this card is destroyed: Add 1 'Gemstone' card from Grave to Hand.",
+            "type": "fire",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Emerald Gemstone",
+            "description": "[TRIGGER] When this card is destroyed: Add 1 'Gemstone' card from Deck to Hand.",
+            "type": "earth",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Topaz Gemstone",
+            "description": "[TRIGGER] If this card would be destroyed: you can Destroy a 'Gemstone' card you control instead (excluding 'Topaz Gemstone') then Draw 1 card and Discard 1 card.",
+            "type": "air",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Sapphire Gemstone",
+            "description": "[TRIGGER] When this card is destroyed: Heal 10 damage from a Champion then Deal 10 damage to a Champion for each equipment destroyed this turn.",
+            "type": "water",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Merlin's Ghost",
+            "description": "[ACTIVATED] Destroy this card then Apply the effect of a Spell in either Grave.",
+            "type": "earth",
+            "artwork": ".png"
         }
     ]
 }

@@ -108,3 +108,7 @@ Twisted Compulsion:
     Example: Player 1 uses Twisted Compulsion on Player 2's Strawman. Player 2 can play out their turn as normal since Strawman has no activated effect for Player 2 to activate.
   You cannot activate an opponents equipment unless specified by that equipment.
     Example: Player 1 uses Twisted Compulsion on their own Grenade. Player 2 (and Player 1 on the next turn) can play out a normal turn since Player 2 cannot activate Player 1's Grenade.
+Water Beetle:
+  If two separate cards deal damage to Water Beetle in the same turn, Water Beetle reduces the damage dealt by both cards.
+  Cards that deal variable amounts of damage to a Champion deal that damage in one hit.
+    Example: Player 1 uses Tidal Wave to destroy their Sapphire Gemstone and Deal damage to Player 2's Water Beetle. Tidal Wave deals 30 (40-10) damage to Water Beetle and Sapphire Gemstone deals 10 (20-10).
