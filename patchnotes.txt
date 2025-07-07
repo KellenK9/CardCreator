@@ -205,3 +205,4 @@ New Cards:
 v1.3.3
 New Cards:
     Merlin's Ghost
+    Self-Destruct Button

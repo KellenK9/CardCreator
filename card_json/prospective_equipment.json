@@ -79,12 +79,6 @@
             "artwork": ".png"
         },
         {
-            "card_name": "Self-Destruct Button",
-            "description": "[ACTIVATED] Destroy this card then Deal 50 damage to a Champion. [TRIGGER] When this card is equipped: Destroy 1 Equipment equipped to this Champion.",
-            "type": "fire",
-            "artwork": ".png"
-        },
-        {
             "card_name": "Staff of Ragnarok",
             "description": "[ACTIVATED] Destroy 1 'Gemstone' card you control then Deal 30 damage to a Champion.",
             "type": "earth",

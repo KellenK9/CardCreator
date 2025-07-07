@@ -383,6 +383,12 @@
         "description": "[ACTIVATED] Destroy this card then Apply the effect of a Spell in either Grave.",
         "type": "earth",
         "artwork": "merlins_ghost.png"
+    },
+    {
+        "card_name": "Self-Destruct Button",
+        "description": "[ACTIVATED] Destroy this card then Deal 50 damage to a Champion. [TRIGGER] When this card is equipped: Destroy 1 Equipment equipped to this Champion.",
+        "type": "fire",
+        "artwork": "self_destruct_button.png"
     }
 ]
 }
