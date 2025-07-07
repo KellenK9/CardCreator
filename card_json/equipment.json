@@ -391,6 +391,18 @@
         "artwork": "self_destruct_button.png"
     },
     {
+        "card_name": "Ruby Gemstone",
+        "description": "[TRIGGER] When this card is destroyed: Add 1 'Gemstone' card from Grave to Hand.",
+        "type": "fire",
+        "artwork": "ruby_gemstone.png"
+    },
+    {
+        "card_name": "Sapphire Gemstone",
+        "description": "[TRIGGER] When this card is destroyed: Heal 10 damage from a Champion then Deal 10 damage to a Champion for each equipment destroyed this turn.",
+        "type": "water",
+        "artwork": "sapphire_gemstone.png"
+    },
+    {
         "card_name": "Emerald Gemstone",
         "description": "[TRIGGER] When this card is destroyed: Add 1 'Gemstone' card from Deck to Hand.",
         "type": "earth",
@@ -401,6 +413,12 @@
         "description": "[TRIGGER] If this card would be destroyed: you can Destroy a 'Gemstone' card you control instead (excluding 'Topaz Gemstone') then Draw 1 card and Discard 1 card.",
         "type": "air",
         "artwork": "topaz_gemstone.png"
+    },
+    {
+        "card_name": "Staff of Ragnarok",
+        "description": "[ACTIVATED] Destroy 1 'Gemstone' card you control then Deal 30 damage to a Champion.",
+        "type": "earth",
+        "artwork": "staff_of_ragnarok.png"
     }
 ]
 }

@@ -77,24 +77,6 @@
             "description": "[ACTIVATED] Destroy this card then Draw 2 cards. [TRIGGER] When this card is equipped: you can Equip 1 'Zodiac' card to a slot.",
             "type": "air",
             "artwork": ".png"
-        },
-        {
-            "card_name": "Staff of Ragnarok",
-            "description": "[ACTIVATED] Destroy 1 'Gemstone' card you control then Deal 30 damage to a Champion.",
-            "type": "earth",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Ruby Gemstone",
-            "description": "[TRIGGER] When this card is destroyed: Add 1 'Gemstone' card from Grave to Hand.",
-            "type": "fire",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Sapphire Gemstone",
-            "description": "[TRIGGER] When this card is destroyed: Heal 10 damage from a Champion then Deal 10 damage to a Champion for each equipment destroyed this turn.",
-            "type": "water",
-            "artwork": ".png"
         }
     ]
 }
