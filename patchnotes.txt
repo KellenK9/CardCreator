@@ -206,3 +206,8 @@ v1.3.3
 New Cards:
     Merlin's Ghost
     Self-Destruct Button
+    Emerald Gemstone
+    Topaz Gemstone
+    Ruby Gemstone
+    Sapphire Gemstone
+    Staff of Ragnarok
