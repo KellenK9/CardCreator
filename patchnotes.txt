@@ -201,3 +201,7 @@ New Cards:
     Tengu's Fan
     Trend Hopper
     Infiltration
+
+v1.3.3
+New Cards:
+    Merlin's Ghost

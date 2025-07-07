@@ -113,12 +113,6 @@
             "description": "[TRIGGER] When this card is destroyed: Heal 10 damage from a Champion then Deal 10 damage to a Champion for each equipment destroyed this turn.",
             "type": "water",
             "artwork": ".png"
-        },
-        {
-            "card_name": "Merlin's Ghost",
-            "description": "[ACTIVATED] Destroy this card then Apply the effect of a Spell in either Grave.",
-            "type": "earth",
-            "artwork": ".png"
         }
     ]
 }

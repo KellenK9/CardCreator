@@ -377,6 +377,12 @@
         "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is discarded: you can Equip it to an Air Slot you control.",
         "type": "air",
         "artwork": "tengus_fan.png"
+    },
+    {
+        "card_name": "Merlin's Ghost",
+        "description": "[ACTIVATED] Destroy this card then Apply the effect of a Spell in either Grave.",
+        "type": "earth",
+        "artwork": "merlins_ghost.png"
     }
 ]
 }
