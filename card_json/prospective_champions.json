@@ -17,6 +17,15 @@
         "slot2": "fire",
         "slot3": "none",
         "artwork": ".png"
+    },
+    {
+        "card_name": "Hela",
+        "health": "130",
+        "description": "[ACTIVATED] Destroy 1 Equipment equipped to Hela then Equip 1 'Staff of Ragnarok' from your Deck to Hela",
+        "slot1": "none",
+        "slot2": "earth",
+        "slot3": "none",
+        "artwork": ".png"
     }
 ]
 }
