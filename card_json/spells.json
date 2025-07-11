@@ -281,6 +281,12 @@
         "description": "[ACTIVATED] If your opponent equipped an Equipment last turn: Discard an Equipment of the same element then Deal 20 damage to each enemy Champion.",
         "type": "spell",
         "artwork": "infiltration.png"
+    },
+    {
+        "card_name": "Diamond Gemstone",
+        "description": "[ACTIVATED] Equip this card to a Slot as an Equipment of that Slot's element. [TRIGGER] When this card is destroyed: Deal 10 damage to a Champion or Draw a card.",
+        "type": "spell",
+        "artwork": "diamond_gemstone.png"
     }
 ]
 }

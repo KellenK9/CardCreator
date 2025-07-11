@@ -211,3 +211,4 @@ New Cards:
     Ruby Gemstone
     Sapphire Gemstone
     Staff of Ragnarok
+    Diamond Gemstone
