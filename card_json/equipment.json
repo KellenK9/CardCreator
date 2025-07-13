@@ -431,6 +431,12 @@
         "description": "[ACTIVATED] Add 1 'Quantum Kunai' from Grave to Hand then Destroy this card and Deal 20 damage to a Champion or 10 damage to each enemy Champion.",
         "type": "fire",
         "artwork": "quantum_kunai.png"
+    },
+    {
+        "card_name": "One in the Chamber",
+        "description": "[ACTIVATED] Deal 40 damage to a Champion then flip this card facedown.",
+        "type": "earth",
+        "artwork": "one_in_the_chamber.png"
     }
 ]
 }

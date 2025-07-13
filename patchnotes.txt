@@ -217,3 +217,4 @@ v1.4.1
 New Cards:
     Roulette
     Quantum Kunai
+    One in the Chamber
