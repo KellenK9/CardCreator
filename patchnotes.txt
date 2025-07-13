@@ -202,7 +202,7 @@ New Cards:
     Trend Hopper
     Infiltration
 
-v1.3.3
+v1.4.0
 New Cards:
     Merlin's Ghost
     Self-Destruct Button
@@ -212,3 +212,8 @@ New Cards:
     Sapphire Gemstone
     Staff of Ragnarok
     Diamond Gemstone
+
+v1.4.1
+New Cards:
+    Roulette
+    Quantum Kunai

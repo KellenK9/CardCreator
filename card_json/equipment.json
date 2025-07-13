@@ -425,6 +425,12 @@
         "description": "[ACTIVATED] Return this card to the hand then your opponent discards 1 random card from your hand. [TRIGGER] If this card is discarded by 'Roulette': Draw a card then Discard 1+ cards and Deal 20 damage to a Champion for each.",
         "type": "air",
         "artwork": "roulette.png"
+    },
+    {
+        "card_name": "Quantum Kunai",
+        "description": "[ACTIVATED] Add 1 'Quantum Kunai' from Grave to Hand then Destroy this card and Deal 20 damage to a Champion or 10 damage to each enemy Champion.",
+        "type": "fire",
+        "artwork": "quantum_kunai.png"
     }
 ]
 }
