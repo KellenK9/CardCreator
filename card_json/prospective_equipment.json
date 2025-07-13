@@ -77,6 +77,12 @@
             "description": "[ACTIVATED] Destroy this card then Draw 2 cards. [TRIGGER] When this card is equipped: you can Equip 1 'Zodiac' card to a slot.",
             "type": "air",
             "artwork": ".png"
+        },
+        {
+            "card_name": "",
+            "description": "[ACTIVATED] Deal 40 damage to a Champion then flip this card facedown.",
+            "type": "earth",
+            "artwork": ".png"
         }
     ]
 }
