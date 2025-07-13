@@ -37,12 +37,6 @@
             "artwork": ".png"
         },
         {
-            "card_name": "Ocean's Vengence",
-            "description": "[TRIGGER] When this Champion takes damage: you can Return this card to the hand and Deal 10 damage to each enemy Champion.",
-            "type": "water",
-            "artwork": ".png"
-        },
-        {
             "card_name": "Replacement Order",
             "description": "[ACTIVATED] Destroy this card then Equip an Earth Equipment from your Grave to this Champion.",
             "type": "earth",

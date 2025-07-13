@@ -437,6 +437,12 @@
         "description": "[ACTIVATED] Deal 40 damage to a Champion then flip this card facedown.",
         "type": "earth",
         "artwork": "one_in_the_chamber.png"
+    },
+    {
+        "card_name": "Ocean's Vengeance",
+        "description": "[TRIGGER] When this Champion takes damage: you can Return this card to the hand and Deal 10 damage to each enemy Champion.",
+        "type": "water",
+        "artwork": "oceans_vengeance.png"
     }
 ]
 }
