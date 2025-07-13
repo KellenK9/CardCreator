@@ -320,7 +320,7 @@
     },
     {
         "card_name": "Poppin' Pufferfish",
-        "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then either Heal 30 damage from this Champion or Deal 30 damage to a Champion.",
+        "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then Heal 30 damage from this Champion or Deal 30 damage to a Champion.",
         "type": "water",
         "artwork": "poppin'_pufferfish.png"
     },

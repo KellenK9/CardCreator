@@ -30,7 +30,6 @@ Cards can have 3 types of effects: Activated, Trigger, and Passive.
 Keywords:
 Discard - a form of sending cards from Hand to Grave
 Destroy - a form of sending Equipment from Field to Grave
-Either - choose 1 of the next listed effects to apply, each sepearted by the word or
 
 Best of 3 Matches:
 Games are played with 60-100 cards and 3 Champions while best of 3 matches may also include a 20 card side deck and 5 total Champions.
@@ -60,6 +59,10 @@ FAQ:
 - Facedown equipment cards are inferred to be equipment of the corresponding element to whichever slot they are equipped to, but lose other identifying factors such as their name.
   Example: A facedown Grenade equipped to a fire slot is considered a fire equipment and not an earth equipment. It also does not have the name Grenade and cannot activate its effect.
   Example: A face up Grenade equipped to a fire slot is considered an earth equipment.
+- Facedown cards flip face up when destroyed or moved to the Grave.
+- If a facedown card has a trigger that activates when it is destroyed, that trigger effect can still activate since the effect occurs when the equipment is face up in Grave.
+- Card effects with the word or apply 1 of 2+ effects and the options are separated from other parts of the card's effect by the word 'then'
+  Example: Poppin' Pufferfish when activated must destroy itself then can choose between healing or dealing damage thanks to the effects wording of: Destroy Then Heal or Deal.
 
 Specific Card Rulings:
 
