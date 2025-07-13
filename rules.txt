@@ -56,7 +56,10 @@ FAQ:
 - You start with 3 Champions but can have more at a time through cards such as Mind Control.
 - Spells, Equipment, and Champions will all go to the Player's Grave who owns the card, regardless of who had control of that card in another game location (field, hand)
 - Cards with effects that activate when they are or would be destroyed can only be activated by the player who controls that card in its destruction location, regardless of the card's original owner.
-
+- Facedown equipment cards take up a slot but their effects are not active. This includes activated, trigger, and passive effects.
+- Facedown equipment cards are inferred to be equipment of the corresponding element to whichever slot they are equipped to, but lose other identifying factors such as their name.
+  Example: A facedown Grenade equipped to a fire slot is considered a fire equipment and not an earth equipment. It also does not have the name Grenade and cannot activate its effect.
+  Example: A face up Grenade equipped to a fire slot is considered an earth equipment.
 
 Specific Card Rulings:
 
