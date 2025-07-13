@@ -30,6 +30,20 @@ Cards can have 3 types of effects: Activated, Trigger, and Passive.
 Keywords:
 Discard - a form of sending cards from Hand to Grave
 Destroy - a form of sending Equipment from Field to Grave
+Heal - 
+Deal - 
+When/if - 
+Then - 
+And - 
+Or - 
+Return - 
+Shuffle - 
+Draw - 
+Place - 
+Apply - 
+Take control - 
+Flip facedown - 
+Equip - 
 
 Best of 3 Matches:
 Games are played with 60-100 cards and 3 Champions while best of 3 matches may also include a 20 card side deck and 5 total Champions.
