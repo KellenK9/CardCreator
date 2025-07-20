@@ -29,12 +29,6 @@
             "description": "[ACTIVATED] Equip up to 3 Equipment from your Hand to Champions you control.",
             "type": "spell",
             "artwork": ".png"
-        },
-        {
-            "card_name": "",
-            "description": "[ACTIVATED] Equip the top card of your Deck Facedown to a Slot as an equipment of that slot's element.",
-            "type": "spell",
-            "artwork": ".png"
         }
     ]
 }

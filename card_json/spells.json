@@ -287,6 +287,12 @@
         "description": "[ACTIVATED] Equip this card to a Slot as an Equipment of that Slot's element. [TRIGGER] When this card is destroyed: Deal 10 damage to a Champion.",
         "type": "spell",
         "artwork": "diamond_gemstone.png"
+    },
+    {
+        "card_name": "Cobbled Club",
+        "description": "[ACTIVATED] Equip the top card of your Deck Facedown to a Slot as an equipment of that slot's element.",
+        "type": "spell",
+        "artwork": "cobbled_club.png"
     }
 ]
 }
