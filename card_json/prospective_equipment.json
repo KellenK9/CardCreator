@@ -71,6 +71,30 @@
             "description": "[ACTIVATED] Destroy this card then Draw 2 cards. [TRIGGER] When this card is equipped: you can Equip 1 'Zodiac' card to a slot.",
             "type": "air",
             "artwork": ".png"
+        },
+        {
+            "card_name": "Weather Gun Flood",
+            "description": "[ACTIVATED] Shuffle 1+ 'Weather Gun' cards from your Field or Grave into the Deck then Deal 20 damage to a Champion for each and Add 1 'Weather Gun' card from Deck to Hand.",
+            "type": "water",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Weather Gun Rain",
+            "description": "[ACTIVATED] Destroy this card and Discard a Spell or a 'Weather Gun' Equipment then Draw 3 cards. [TRIGGER] If this card is destroyed: Shuffle it into the Deck then Add 1 'Weather Gun' card from Deck to Hand.",
+            "type": "water",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Weather Gun Wave",
+            "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then if you destroyed 2 cards: Deal 40 damage to a Champion. [TRIGGER] If this card is destroyed: Shuffle it into the Deck then Add 1 'Weather Gun' card from Deck to Hand.",
+            "type": "water",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "Weather Gun Hail",
+            "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is destroyed: Shuffle it into the Deck then Add 1 'Weather Gun' card from Deck to Hand.",
+            "type": "water",
+            "artwork": ".png"
         }
     ]
 }
