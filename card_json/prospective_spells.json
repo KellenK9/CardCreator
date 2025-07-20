@@ -23,6 +23,18 @@
             "description": "[ACTIVATED] Choose an Equipment: your opponent must activate that Equipment next turn if able.",
             "type": "spell",
             "artwork": ".png"
+        },
+        {
+            "card_name": "Arms Race",
+            "description": "[ACTIVATED] Equip up to 3 Equipment from your Hand to Champions you control.",
+            "type": "spell",
+            "artwork": ".png"
+        },
+        {
+            "card_name": "",
+            "description": "[ACTIVATED] Equip the top card of your Deck Facedown to a Slot as an equipment of that slot's element.",
+            "type": "spell",
+            "artwork": ".png"
         }
     ]
 }
