@@ -136,3 +136,8 @@ Cobbled Club:
   A card equipped by Cobbled Club then destroyed can still activate it's trigger effect if it has a trigger when destroyed or sent to Grave.
     Example: A player equips a facedown Strawman with Cobbled Club then destroys it with Celestial Shower; Strawman can be activated to deal 10 damage since it is flipped face up when sent to Grave.
   A player who activates Cobbled Club may look at the card being equipped facedown and does not have to reveal it to the opponent.
+Mimic:
+  Loses each Equipment name when that equipment is unequipped from its Champion.
+  Counts as each individual Equipment name and their corresponding archetypes.
+  Still counts as being named Mimic.
+  
