@@ -1,142 +1,142 @@
 {
     "cards":[
-        {
-            "card_name": "Magic Shield",
-            "description": "[PASSIVE] This Champion takes 0 damage from Spells.",
-            "type": "water",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Fueled by Revenge",
-            "description": "[TRIGGER] When this Champion takes damage from an opponent's Equipment: Deal 30 damage to the Champion that was equipped with that Equipment.",
-            "type": "fire",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Ash of the Hearth",
-            "description": "[TRIGGER] When this card is equipped: Add 1 'Ash of the Hearth' from Grave to Hand. [TRIGGER] When this card is destroyed: you can Equip 1 'Fuel of the Hearth' to a Champion.",
-            "type": "fire",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Fuel of the Hearth",
-            "description": "[TRIGGER] When this card is equipped: Add 1 'Fuel of the Hearth' from Grave to Hand. [TRIGGER] When this card is destroyed: you can Equip 1 'Ash of the Hearth' to a Champion.",
-            "type": "fire",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Empty Gift",
-            "description": "[ACTIVATED] Destroy this card and Deal 30 damage to this Champion. [PASSIVE] May be equipped to any Slot, including your opponents.",
-            "type": "earth",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Sticky Gift",
-            "description": "[TRIGGER] When this card is destroyed: Deal 10 damage to this Champion. [PASSIVE] May be equipped to any Slot, including your opponents.",
-            "type": "air",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Replacement Order",
-            "description": "[ACTIVATED] Destroy this card then Equip an Earth Equipment from your Grave to this Champion.",
-            "type": "earth",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Blockade",
-            "description": "[PASSIVE] Your opponent cannot activate Trigger Effects.",
-            "type": "earth",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Zodiac Battle Axe",
-            "description": "[ACTIVATED] Return this card to the hand then Deal 30 damage to a Champion. [TRIGGER] When this card is equipped: Return 1 'Zodiac' card from your Field to Hand.",
-            "type": "earth",
-            "artwork": "zodiac_battle_axe.png"
-        },
-        {
-            "card_name": "Zodiac Shield",
-            "description": "[ACTIVATED] Destroy this card then Heal 20 damage from a Champion. [TRIGGER] When this card is equipped: you can Add 1 'Zodiac' card from Grave to Hand.",
-            "type": "water",
-            "artwork": "zodiac_shield.png"
-        },
-        {
-            "card_name": "Zodiac Longsword",
-            "description": "[ACTIVATED] Destroy this card then Deal 20 damage to a Champion. [TRIGGER] When this card is equipped: you can Add 1 'Zodiac' card from Deck to Hand.",
-            "type": "fire",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Zodiac Scales",
-            "description": "[ACTIVATED] Destroy this card then Draw 2 cards. [TRIGGER] When this card is equipped: you can Equip 1 'Zodiac' card to a slot.",
-            "type": "air",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Weather Gun Flood",
-            "description": "[ACTIVATED] Shuffle 1+ 'Weather Gun' cards from your Field or Grave into the Deck then Deal 20 damage to a Champion for each and Add 1 'Weather Gun' card from Deck to Hand.",
-            "type": "water",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Weather Gun Rain",
-            "description": "[ACTIVATED] Destroy this card and Discard a Spell or a 'Weather Gun' Equipment then Draw 3 cards. [TRIGGER] If this card is destroyed: Shuffle it into the Deck then Add 1 'Weather Gun' card from Deck to Hand.",
-            "type": "water",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Weather Gun Wave",
-            "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then if you destroyed 2 cards: Deal 40 damage to a Champion. [TRIGGER] If this card is destroyed: Shuffle it into the Deck then Add 1 'Weather Gun' card from Deck to Hand.",
-            "type": "water",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Weather Gun Hail",
-            "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is destroyed: Shuffle it into the Deck then Add 1 'Weather Gun' card from Deck to Hand.",
-            "type": "water",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Storm Cloud",
-            "description": "[ACTIVATED] Apply the following effects based on the number of attached 'Rain' cards. 1+: Deal 10 damage to a Champion. 3+: Heal 10 damage from this Champion.",
-            "type": "water",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Storm Cloud II",
-            "description": "[ACTIVATED] If this card has 3 or more attached 'Rain' cards: Deal 10 damage to each enemy Champion. [PASSIVE] Cannot be destroyed.",
-            "type": "water",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Nimbus Cloud",
-            "description": "[ACTIVATED] Apply the following effects based on the number of attached 'Rain' cards. 0-2: Add 1 'Rain' card from Grave to Hand. 3+ Deal 20 damage to a Champion.",
-            "type": "water",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Rainfall",
-            "description": "[TRIGGER] When this card is destroyed: Attach it to your Water Equipment then if 2 or more cards were destroyed this turn Deal 20 damage to a Champion.",
-            "type": "water",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Rain Forest",
-            "description": "[ACTIVATED] Equip a 'Cloud' Equipment from your Deck to this Slot and Attach this card to it.",
-            "type": "water",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Spite",
-            "description": "[TRIGGER] If this card is discarded: Destroy 1 'Spite' then Add this card to Hand. [TRIGGER] If this card is destroyed: Discard 2 cards then Equip this card to a Slot.",
-            "type": "fire",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Quickloader",
-            "description": "[ACTIVATED] Return this card to Hand then Deal 20 damage to a Champion. [TRIGGER] When this card is equipped: You may equip an Equipment to this Champion.",
-            "type": "earth",
-            "artwork": ".png"
-        }
-    ]
+    {
+        "card_name": "Magic Shield",
+        "description": "[PASSIVE] This Champion takes 0 damage from Spells.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Fueled by Revenge",
+        "description": "[TRIGGER] When this Champion takes damage from an opponent's Equipment: Deal 30 damage to the Champion that was equipped with that Equipment.",
+        "type": "fire",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Ash of the Hearth",
+        "description": "[TRIGGER] When this card is equipped: Add 1 'Ash of the Hearth' from Grave to Hand. [TRIGGER] When this card is destroyed: you can Equip 1 'Fuel of the Hearth' to a Champion.",
+        "type": "fire",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Fuel of the Hearth",
+        "description": "[TRIGGER] When this card is equipped: Add 1 'Fuel of the Hearth' from Grave to Hand. [TRIGGER] When this card is destroyed: you can Equip 1 'Ash of the Hearth' to a Champion.",
+        "type": "fire",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Empty Gift",
+        "description": "[ACTIVATED] Destroy this card and Deal 30 damage to this Champion. [PASSIVE] May be equipped to any Slot, including your opponents.",
+        "type": "earth",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Sticky Gift",
+        "description": "[TRIGGER] When this card is destroyed: Deal 10 damage to this Champion. [PASSIVE] May be equipped to any Slot, including your opponents.",
+        "type": "air",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Replacement Order",
+        "description": "[ACTIVATED] Destroy this card then Equip an Earth Equipment from your Grave to this Champion.",
+        "type": "earth",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Blockade",
+        "description": "[PASSIVE] Your opponent cannot activate Trigger Effects.",
+        "type": "earth",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Zodiac Battle Axe",
+        "description": "[ACTIVATED] Return this card to the hand then Deal 30 damage to a Champion. [TRIGGER] When this card is equipped: Return 1 'Zodiac' card from your Field to Hand.",
+        "type": "earth",
+        "artwork": "zodiac_battle_axe.png"
+    },
+    {
+        "card_name": "Zodiac Shield",
+        "description": "[ACTIVATED] Destroy this card then Heal 20 damage from a Champion. [TRIGGER] When this card is equipped: you can Add 1 'Zodiac' card from Grave to Hand.",
+        "type": "water",
+        "artwork": "zodiac_shield.png"
+    },
+    {
+        "card_name": "Zodiac Longsword",
+        "description": "[ACTIVATED] Destroy this card then Deal 20 damage to a Champion. [TRIGGER] When this card is equipped: you can Add 1 'Zodiac' card from Deck to Hand.",
+        "type": "fire",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Zodiac Scales",
+        "description": "[ACTIVATED] Destroy this card then Draw 2 cards. [TRIGGER] When this card is equipped: you can Equip 1 'Zodiac' card to a slot.",
+        "type": "air",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Weather Gun Flood",
+        "description": "[ACTIVATED] Shuffle 1+ 'Weather Gun' cards from your Field or Grave into the Deck then Deal 20 damage to a Champion for each and Add 1 'Weather Gun' card from Deck to Hand.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Weather Gun Rain",
+        "description": "[ACTIVATED] Destroy this card and Discard a Spell or a 'Weather Gun' Equipment then Draw 3 cards. [TRIGGER] If this card is destroyed: Shuffle it into the Deck then Add 1 'Weather Gun' card from Deck to Hand.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Weather Gun Wave",
+        "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then if you destroyed 2 cards: Deal 40 damage to a Champion. [TRIGGER] If this card is destroyed: Shuffle it into the Deck then Add 1 'Weather Gun' card from Deck to Hand.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Weather Gun Hail",
+        "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is destroyed: Shuffle it into the Deck then Add 1 'Weather Gun' card from Deck to Hand.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Storm Cloud",
+        "description": "[ACTIVATED] Apply the following effects based on the number of attached 'Rain' cards. 1+: Deal 10 damage to a Champion. 3+: Heal 10 damage from this Champion.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Storm Cloud II",
+        "description": "[ACTIVATED] If this card has 3 or more attached 'Rain' cards: Deal 10 damage to each enemy Champion. [PASSIVE] Cannot be destroyed.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Nimbus Cloud",
+        "description": "[ACTIVATED] Apply the following effects based on the number of attached 'Rain' cards. 0-2: Add 1 'Rain' card from Grave to Hand. 3+ Deal 20 damage to a Champion.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Rainfall",
+        "description": "[TRIGGER] When this card is destroyed: Attach it to your Water Equipment then if 2 or more cards were destroyed this turn Deal 20 damage to a Champion.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Rain Forest",
+        "description": "[ACTIVATED] Equip a 'Cloud' Equipment from your Deck to this Slot and Attach this card to it.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Spite",
+        "description": "[TRIGGER] If this card is discarded: Destroy 1 'Spite' then Add this card to Hand. [TRIGGER] If this card is destroyed: Discard 2 cards then Equip this card to a Slot.",
+        "type": "fire",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Quickloader",
+        "description": "[ACTIVATED] Return this card to Hand then Deal 20 damage to a Champion. [TRIGGER] When this card is equipped: You may equip an Equipment to this Champion.",
+        "type": "earth",
+        "artwork": ".png"
+    }
+]
 }

@@ -1,46 +1,46 @@
 {
     "cards":[
-        {
-            "card_name": "Dagger Toss",
-            "description": "[ACTIVATED] Deal 10 damage to a Champion for each different element of 'Dagger' Equipment on your Field or in your Gave.",
-            "type": "spell",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "All In",
-            "description": "[ACTIVATED] Discard a Spell then your opponent may Discard a Spell with the same name. If they do they Draw 3 cards Else you Draw 3 cards.",
-            "type": "spell",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Intermezzo",
-            "description": "[ACTIVATED] Deal 10 damage to a Champion then Activate a Spell.",
-            "type": "spell",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Twisted Compulsion",
-            "description": "[ACTIVATED] Choose an Equipment: your opponent must activate that Equipment next turn if able.",
-            "type": "spell",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Arms Race",
-            "description": "[ACTIVATED] Equip up to 3 Equipment from your Hand to Champions you control.",
-            "type": "spell",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Thimblerig",
-            "description": "[ACTIVATED] Declare 'Spell' or 'Equipment' then Send the top card of ytour Deck to the Grave and if you called it correctly: Deal 30 damage to a Champion.",
-            "type": "spell",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Mimic",
-            "description": "[Activated] Equip to a Slot as an Equipment of the corresponding element. [PASSIVE] Gains the name(s) of Equipment equipped to this Champion.",
-            "type": "spell",
-            "artwork": ".png"
-        }
-    ]
+    {
+        "card_name": "Dagger Toss",
+        "description": "[ACTIVATED] Deal 10 damage to a Champion for each different element of 'Dagger' Equipment on your Field or in your Gave.",
+        "type": "spell",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "All In",
+        "description": "[ACTIVATED] Discard a Spell then your opponent may Discard a Spell with the same name. If they do they Draw 3 cards Else you Draw 3 cards.",
+        "type": "spell",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Intermezzo",
+        "description": "[ACTIVATED] Deal 10 damage to a Champion then Activate a Spell.",
+        "type": "spell",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Twisted Compulsion",
+        "description": "[ACTIVATED] Choose an Equipment: your opponent must activate that Equipment next turn if able.",
+        "type": "spell",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Arms Race",
+        "description": "[ACTIVATED] Equip up to 3 Equipment from your Hand to Champions you control.",
+        "type": "spell",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Thimblerig",
+        "description": "[ACTIVATED] Declare 'Spell' or 'Equipment' then Send the top card of ytour Deck to the Grave and if you called it correctly: Deal 30 damage to a Champion.",
+        "type": "spell",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Mimic",
+        "description": "[Activated] Equip to a Slot as an Equipment of the corresponding element. [PASSIVE] Gains the name(s) of Equipment equipped to this Champion.",
+        "type": "spell",
+        "artwork": ".png"
+    }
+]
 }
