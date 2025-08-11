@@ -29,12 +29,6 @@
         "description": "[ACTIVATED] Equip up to 3 Equipment from your Hand to Champions you control.",
         "type": "spell",
         "artwork": ".png"
-    },
-    {
-        "card_name": "Mimic",
-        "description": "[Activated] Equip to a Slot as an Equipment of the corresponding element. [PASSIVE] Gains the name(s) of Equipment equipped to this Champion.",
-        "type": "spell",
-        "artwork": ".png"
     }
 ]
 }

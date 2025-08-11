@@ -305,6 +305,12 @@
         "description": "[ACTIVATED] Declare 'Spell' or 'Equipment' then Send the top card of your Deck to the Grave and if you called the sent card's type: Deal 30 damage to a Champion.",
         "type": "spell",
         "artwork": "thimblerig.png"
+    },
+    {
+        "card_name": "Mimic",
+        "description": "[Activated] Equip to a Slot as an Equipment of the corresponding element. [PASSIVE] Gains the name(s) of Equipment equipped to this Champion.",
+        "type": "spell",
+        "artwork": "mimic.png"
     }
 ]
 }
