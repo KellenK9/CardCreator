@@ -230,3 +230,4 @@ Nerfs:
 v1.4.3
 New Cards:
     Another Stoned Bird
+    Thimblerig
