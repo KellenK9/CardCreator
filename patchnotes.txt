@@ -226,3 +226,7 @@ New Cards:
     Thunderbird Crash
 Nerfs:
     Thunderbird
+
+v1.4.3
+New Cards:
+    Another Stoned Bird

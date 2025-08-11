@@ -293,6 +293,12 @@
         "description": "[ACTIVATED] Equip the top card of your Deck Facedown to a Slot as an equipment of that slot's element.",
         "type": "spell",
         "artwork": "cobbled_club.png"
+    },
+    {
+        "card_name": "Another Stoned Bird",
+        "description": "[TRIGGER] If this card is discarded while you have 1+ cards in hand: Return this card to the Hand then Discard 2 cards.",
+        "type": "spell",
+        "artwork": "another_stoned_bird.png"
     }
 ]
 }
