@@ -443,6 +443,12 @@
         "description": "[TRIGGER] When this Champion takes damage: you can Return this card to the hand and Deal 10 damage to each enemy Champion.",
         "type": "water",
         "artwork": "oceans_vengeance.png"
+    },
+    {
+        "card_name": "Thunderbird Crash",
+        "description": "[ACTIVATED] Deal 30 damage to this Champion and 40 damage to a Champion. [TRIGGER] When this Champion is defeated: Draw 2 cards.",
+        "type": "air",
+        "artwork": "thunderbird_crash.png"
     }
 ]
 }
