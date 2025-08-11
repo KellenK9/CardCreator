@@ -224,3 +224,5 @@ New Cards:
 v1.4.2:
 New Cards:
     Thunderbird Crash
+Nerf:
+    Thunderbird
