@@ -212,6 +212,7 @@ New Cards:
     Sapphire Gemstone
     Staff of Ragnarok
     Diamond Gemstone
+Notes: The Gemstone archetype is here!
 
 v1.4.1
 New Cards:
@@ -232,3 +233,4 @@ New Cards:
     Another Stoned Bird
     Thimblerig
     Mimic
+Notes: The (Second) Spell Update!

@@ -57,20 +57,40 @@ Stun:
     Doesn't actually stop the opponent from playing but punishes healing, mass drawing, and not equipping.
 
 Spell Heavy:
-    Wealth Tax + Security Checkpoint + Recurring Visions + Accelerating Particle + Centaur Battlehorn + Warlock's Foresight
+    Wealth Tax + Security Checkpoint + Recurring Visions + Accelerating Particle + Centaur Battlehorn + Warlock's Foresight + Mimic
     Keep a light field presence while forcing your opponent to do the same.
 
 Generic Discard Engine:
-    Knowledge Exchange + Verdant Codex + Decoy + Strawman + Tides of Reckoning + Useless Potion + Warlock's Foresight + Crunch Time
+    Knowledge Exchange + Verdant Codex + Decoy + Strawman + Tides of Reckoning + Useless Potion + Warlock's Foresight + Crunch Time + Another Stoned Bird + Infiltration
     Generic cards that can be ran in any deck to discard and be discarded.
 
 Air Discard Engine:
-    Hermes' Sandals + Rapid Winds + Explosive Piñata + Zeus' Thunderbolt + Wings of the Next Angel
+    Hermes' Sandals + Rapid Winds + Explosive Piñata + Zeus' Thunderbolt + Wings of the Next Angel + Tengu's Fan + Wild Wind Spirit + Roulette
     An air specific discard engine that provides plenty of opportunities to turn discarding into damage and draws.
 
 QP:
     Quarter Pillar of the Sky + Pirate's Booty + Angel Recall + Knowledge Exchange + Rapid Winds + Decoy + Useless Potion
     Ignore dealing damage and aim for the alternate win condition.
+
+Ragnarok:
+    Staff of Ragnarok + Diamond Gemstone + Emerald Gemstone + Ruby Gemstone + Topaz Gemstone + Sapphire Gemstone
+    Use the Staff of Ragnarok to destroy your Gemstones and gain various effects. Typically use 3 different elements while always including Earth.
+
+Generic Destruction Engine:
+    Celestial Shower + Just Toss It
+    Generic Cards (typically spells) that capitalize off destroying or being destroyed.
+
+Revival:
+    Blessing of the Phoenix + Thunderbird Crash + Thunderbird + Sovereign of the Southern Isles + Fenrir + Fenrir Reborn + Flameborn Fenrir + Mistborn Fenrir
+
+Water Joint Destruction
+    Tidal Wave + Sapphire Gemstone + Tides of Reckoning + Memory of the Tides + Droplet + Poppin' Pufferfish + Mama Pufferfish + Proteus
+
+Earth Bounce:
+    Chiron + One in the Chamber + Centaur Battlehorn
+
+Fire Destruction
+    Greedy Rage + Grenade + Magma Slug + Hestia + Vengeful Rage + Strawman + Crimson Cataclysm + Bloodrite + Relicshot Engine + Lit Fuse + Self-Destruct Button + Quantum Kunai + Ruby Gemstone + Totsuka-no-Tsurugi
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -101,3 +121,5 @@ Water Equipment
 Just sort them all when printed
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Verbiage 'you can' should be used when necessary in trigger effects but are not necessary in activated effects unless referencing a second optional part of an effect.
