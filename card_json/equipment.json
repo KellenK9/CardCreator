@@ -455,6 +455,12 @@
         "description": "[TRIGGER] If this card is discarded: Destroy 1 'Spite' then Add this card to Hand. [TRIGGER] If this card is destroyed: Discard 2 cards then Equip this card to a Slot.",
         "type": "fire",
         "artwork": "spite.png"
+    },
+    {
+        "card_name": "Quickfire Gauntlet",
+        "description": "[ACTIVATED] Return this card to Hand then Deal 20 damage to a Champion. [TRIGGER] When this card is equipped: You may equip an Equipment to this Champion.",
+        "type": "earth",
+        "artwork": "quickfire_gauntlet.png"
     }
 ]
 }
