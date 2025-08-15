@@ -35,6 +35,54 @@
             "description": "[ACTIVATED] Deal 10 damage to this Champion then Heal 20 damage from this Champion.",
             "type": "fire",
             "artwork": ".png"
-        }
+        },
+        {
+        "card_name": "Magic Shield",
+        "description": "[PASSIVE] This Champion takes 0 damage from Spells.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Fueled by Revenge",
+        "description": "[TRIGGER] When this Champion takes damage from an opponent's Equipment: Deal 30 damage to the Champion that was equipped with that Equipment.",
+        "type": "fire",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Ash of the Hearth",
+        "description": "[TRIGGER] When this card is equipped: Add 1 'Ash of the Hearth' from Grave to Hand. [TRIGGER] When this card is destroyed: you can Equip 1 'Fuel of the Hearth' to a Champion.",
+        "type": "fire",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Fuel of the Hearth",
+        "description": "[TRIGGER] When this card is equipped: Add 1 'Fuel of the Hearth' from Grave to Hand. [TRIGGER] When this card is destroyed: you can Equip 1 'Ash of the Hearth' to a Champion.",
+        "type": "fire",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Empty Gift",
+        "description": "[ACTIVATED] Destroy this card and Deal 30 damage to this Champion. [PASSIVE] May be equipped to any Slot, including your opponents.",
+        "type": "earth",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Sticky Gift",
+        "description": "[TRIGGER] When this card is destroyed: Deal 10 damage to this Champion. [PASSIVE] May be equipped to any Slot, including your opponents.",
+        "type": "air",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Replacement Order",
+        "description": "[ACTIVATED] Destroy this card then Equip an Earth Equipment from your Grave to this Champion.",
+        "type": "earth",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Blockade",
+        "description": "[PASSIVE] Your opponent cannot activate Trigger Effects.",
+        "type": "earth",
+        "artwork": ".png"
+    }
     ]
 }

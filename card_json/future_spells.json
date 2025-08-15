@@ -29,6 +29,12 @@
         "description": "[ACTIVATED] Add 'Eruption' from Deck to Hand.",
         "type": "spell",
         "artwork": ".png"
+    },
+    {
+        "card_name": "Dagger Toss",
+        "description": "[ACTIVATED] Deal 10 damage to a Champion for each different element of 'Dagger' Equipment on your Field or in your Gave.",
+        "type": "spell",
+        "artwork": ".png"
     }
 ]
 }
