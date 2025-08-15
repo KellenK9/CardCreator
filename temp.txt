@@ -89,11 +89,11 @@ Water Joint Destruction
     A suite of water cards that destroy all equipment equipped to a Champion.
 
 Earth Bounce:
-    Chiron + One in the Chamber + Centaur Battlehorn
+    Chiron + One in the Chamber + Centaur Battlehorn + Quickfire Gauntlet
     Bounce your own cards back to the hand.
 
 Fire Destruction
-    Greedy Rage + Grenade + Magma Slug + Hestia + Vengeful Rage + Strawman + Crimson Cataclysm + Bloodrite + Relicshot Engine + Lit Fuse + Self-Destruct Button + Quantum Kunai + Ruby Gemstone + Totsuka-no-Tsurugi
+    Greedy Rage + Grenade + Magma Slug + Hestia + Vengeful Rage + Strawman + Crimson Cataclysm + Bloodrite + Relicshot Engine + Lit Fuse + Self-Destruct Button + Quantum Kunai + Ruby Gemstone + Totsuka-no-Tsurugi + Spite
     Destroy your own equipment, for a profit.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
