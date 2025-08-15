@@ -449,6 +449,12 @@
         "description": "[ACTIVATED] Deal 30 damage to this Champion and 40 damage to a Champion. [TRIGGER] When this Champion is defeated: Draw 2 cards.",
         "type": "air",
         "artwork": "thunderbird_crash.png"
+    },
+    {
+        "card_name": "Spite",
+        "description": "[TRIGGER] If this card is discarded: Destroy 1 'Spite' then Add this card to Hand. [TRIGGER] If this card is destroyed: Discard 2 cards then Equip this card to a Slot.",
+        "type": "fire",
+        "artwork": "spite.png"
     }
 ]
 }

@@ -234,3 +234,7 @@ New Cards:
     Thimblerig
     Mimic
 Notes: The (Second) Spell Update!
+
+v1.4.4
+New Cards:
+    Spite
