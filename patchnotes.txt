@@ -233,6 +233,7 @@ New Cards:
     Another Stoned Bird
     Thimblerig
     Mimic
+    Twisted Compulsion
 Notes: The (Second) Spell Update!
 
 v1.4.4

@@ -19,12 +19,6 @@
         "artwork": ".png"
     },
     {
-        "card_name": "Twisted Compulsion",
-        "description": "[ACTIVATED] Choose an Equipment: your opponent must activate that Equipment next turn if able.",
-        "type": "spell",
-        "artwork": ".png"
-    },
-    {
         "card_name": "Arms Race",
         "description": "[ACTIVATED] Equip up to 3 Equipment from your Hand to Champions you control.",
         "type": "spell",
