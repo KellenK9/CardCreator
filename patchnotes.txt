@@ -234,6 +234,7 @@ New Cards:
     Thimblerig
     Mimic
     Twisted Compulsion
+    Intermezzo
 Notes: The (Second) Spell Update!
 
 v1.4.4

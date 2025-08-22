@@ -317,6 +317,12 @@
         "description": "[ACTIVATED] Choose an Equipment: your opponent must activate that Equipment next turn if able.",
         "type": "spell",
         "artwork": "twisted_compulsion.png"
+    },
+    {
+        "card_name": "Intermezzo",
+        "description": "[ACTIVATED] Deal 10 damage to a Champion then Activate a Spell.",
+        "type": "spell",
+        "artwork": "intermezzo.png"
     }
 ]
 }
