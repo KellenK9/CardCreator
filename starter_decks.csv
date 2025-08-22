@@ -1,59 +1,124 @@
 Card Name,Type,# in Fire Deck,# in Water Deck,# in Air Deck,# in Earth Deck
-Pot of Greed,Spell,4,4,4,4
-Knowledge Exchange,Spell,2,2,4,2
-Recurring Visions,Spell,3,3,3,3
-Decoy,Spell,0,0,4,0
-Useless Potion,Spell,0,0,4,0
-Pressure,Spell,1,1,1,1
-Dagger Upgrade,Spell,2,2,2,2
-Celestial Shower,Spell,4,4,4,4
-Shoddy Craftsmanship,Spell,2,4,0,4
-Spring Water,Spell,4,4,4,4
-Spreading Flame,Spell,4,0,0,4
-Fireball,Spell,4,4,0,4
-Love Potion of Fiery Heart,Spell,4,0,0,0
-Love Potion of Calming Mind,Spell,0,4,0,0
-Love Potion of Vibrant Soul,Spell,0,0,4,0
-Love Potion of Steadfast Bone,Spell,0,0,0,4
-Wild Shot,Spell,1,1,1,1
-Fire Dagger,Fire,4,0,0,0
-Water Dagger,Water,0,4,0,0
-Air Dagger,Air,0,0,4,0
-Earth Dagger,Earth,0,0,0,4
-The Graceful Host,Air,0,0,2,0
-Zeus' thunderbolt,Air,0,0,4,0
-Rapid Winds,Air,0,0,4,0
-Quarter Pillar of the Sky,Air,0,0,4,0
-Angel Recall,Air,0,0,4,0
-Wings of the Next Angel,Air,0,0,4,0
-Greedy Rage,Fire,4,0,0,0
-Gambit,Fire,4,0,0,0
-Fireball Summoning,Fire,2,0,0,0
-Vengeful Rage,Fire,4,0,0,0
-The Sacred Spring,Water,0,2,0,0
-Holy Water Balloon,Water,0,4,0,0
-Tidal Wave,Water,0,4,0,0
-Raging Sea of the West,Water,0,4,0,0
-Raging Sea of the East,Water,0,4,0,0
-Siren's Echo Mk. IV,Water,0,2,0,0
-Extra Padding,Earth,1,1,0,1
-Emerald Dagger,Earth,0,0,0,4
-Grenade,Earth,4,0,0,4
-Foolish Burial,Earth,0,0,0,2
-Catalyst Orb,Earth,0,0,0,4
-Dimension Recall,Spell,4,4,4,4
-Defiance of Death,Spell,1,1,1,1
-Elemental Blast,Spell,1,1,1,1
-Tainted Elixir,Spell,4,1,0,4
-Verdant Codex,Spell,4,4,4,4
-Crimson Cataclysm,Fire,4,0,0,0
-Strawman,Fire,4,0,0,0
-Memory of The Tides,Water,0,4,0,0
-Tides of Reckoning,Water,0,4,1,0
-Explosive Piñata,Air,0,0,4,0
-Grenad'o'pult,Earth,0,0,0,1
-Catalytic Converter,Earth,0,0,0,1
-Withering Thorns,Earth,0,0,0,4
-Vital Bloom,Earth,0,0,0,4
-Accelerating Particle,Fire,4,4,4,4
-Deck Totals,,84,81,80,84
+// Spells
+Fireball,spell,
+Spreading Flame,spell,
+Pirate's Booty,spell,
+Spring Water,spell,
+Knowledge Exchange,spell,
+Recurring Visions,spell,
+Decoy,spell,
+Celestial Shower,spell,
+Useless Potion,spell,
+Pressure,spell,
+Dagger Upgrade,spell,
+Love Potion of Calming Mind,spell,
+Love Potion of Fiery Heart,spell,
+Love Potion of Vibrant Soul,spell,
+Love Potion of Steadfast Bone,spell,
+Shoddy Craftsmanship,spell,
+Wild Shot,spell,
+Dimension Recall,spell,
+Elemental Blast,spell,
+Verdant Codex,spell,
+Tainted Elixir,spell,
+Defiance of Death,spell,
+Copycat,spell,
+Rewind,spell,
+The Missing Ingredient,spell,
+Armor Up,spell,
+Rank Your Friends,spell,
+Security Checkpoint,spell,
+Rebirth,spell,
+Wealth Tax,spell,
+Infection,spell,
+Puppy Mill,spell,
+Totsuka-no-Tsurugi,spell,
+Persnickety,spell,
+Crunch Time,spell,
+Blessing of the Phoenix,spell,
+Soulbound,spell,
+Meditation,spell,
+Fireball Barrage,spell,
+Warlock's Foresight,spell,
+Just Toss It,spell,
+Poisoning the Well,spell,
+Medusa's Head,spell,
+Mind Control,spell,
+Clay Golem,spell,
+Trend Hopper,spell,
+Infiltration,spell,
+Diamond Gemstone,spell,
+Cobbled Club,spell,
+Another Stoned Bird,spell,
+Thimblerig,spell,
+Mimic,spell,
+Twisted Compulsion,spell,
+Intermezzo,spell,
+Diamond Gemstone,spell,
+// Equipment
+Air Dagger,air,
+The Graceful Host,air,
+Zeus' Thunderbolt,air,
+Rapid Winds,air,
+Quarter Pillar of the Sky,air,
+Angel Recall,air,
+Wings of the Next Angel,air,
+Explosive Piñata,air,
+Areadbhar,air,
+Zeus' Cookbook,air,
+Wild Wind Spirit,air,
+Tengu's Fan,air,
+Roulette,air,
+Topaz Gemstone,air,
+Earth Dagger,earth,
+Emerald Dagger,earth,
+Extra Padding,earth,
+Grenade,earth,
+Shallow Grave,earth,
+Catalyst Orb,earth,
+Withering Thorns,earth,
+Vital Bloom,earth,
+Catalytic Converter,earth,
+Grenad'o'pult,earth,
+Foolish Burial,earth,
+Memory of the Tides,water,
+Centaur Battlehorn,earth,
+Spirit of Eurydice,earth,
+One in the Chamber,earth,
+Staff of Ragnarok,earth,
+Safety Padding,earth,
+Merlin's Ghost,earth,
+Emerald Gemstone,earth,
+Fire Dagger,fire,
+Gambit,fire,
+Greedy Rage,fire,
+Fireball Summoning,fire,
+Vengeful Rage,fire,
+Crimson Cataclysm,fire,
+Strawman,fire,
+Accelerating Particle,fire,
+Bloodrite,fire,
+Relicshot Engine,fire,
+Firestorm,fire,
+Frostfire Conduit,fire,
+Lit Fuse,fire,
+Self-Destruct Button,fire,
+Ruby Gemstone,fire,
+Quantum Kunai,fire,
+Water Dagger,water,
+The Sacred Spring,water,
+Tidal Wave,water,
+Holy Water Balloon,water,
+Raging Sea of the East,water,
+Raging Sea of the West,water,
+Siren's Echo Mk. IV,water,
+Droplet,water,
+Poppin' Pufferfish,water,
+Tui,water,
+Repun Kamuy,water,
+Atlantean Scroll,water,
+Tides of Reckoning,water,
+Washed Out to Sea,water,
+Ocean's Vengeance,water,
+Sapphire Gemstone,water,
+Deck Totals,,0,0,0,0
