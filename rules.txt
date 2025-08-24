@@ -142,3 +142,4 @@ Mimic:
   Still counts as being named Mimic.
 Transmutation:
   Moving damage off of a Champion does not count as healing.
+  Moving damage to a Champion does not count as dealing damage.
