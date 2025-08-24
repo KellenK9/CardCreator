@@ -235,6 +235,7 @@ New Cards:
     Mimic
     Twisted Compulsion
     Intermezzo
+    Transmutation
 Notes: The (Second) Spell Update!
 
 v1.4.4

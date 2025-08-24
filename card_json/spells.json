@@ -323,6 +323,12 @@
         "description": "[ACTIVATED] Deal 10 damage to a Champion then Activate a Spell.",
         "type": "spell",
         "artwork": "intermezzo.png"
+    },
+    {
+        "card_name": "Transmutation",
+        "description": "[ACTIVATED] Move 10 damage from one Champion to another.",
+        "type": "spell",
+        "artwork": "transmutation.png"
     }
 ]
 }

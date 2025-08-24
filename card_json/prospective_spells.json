@@ -11,12 +11,6 @@
         "description": "[ACTIVATED] Equip up to 3 Equipment from your Hand to Champions you control.",
         "type": "spell",
         "artwork": ".png"
-    },
-    {
-        "card_name": "Damage Transmission",
-        "description": "[ACTIVATED] Move 10 damage from one Champion to another.",
-        "type": "spell",
-        "artwork": ".png"
     }
 ]
 }

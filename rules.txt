@@ -140,4 +140,5 @@ Mimic:
   Loses each Equipment name when that equipment is unequipped from its Champion.
   Counts as each individual Equipment name and their corresponding archetypes.
   Still counts as being named Mimic.
-  
+Transmutation:
+  Moving damage off of a Champion does not count as healing.
