@@ -236,6 +236,7 @@ New Cards:
     Twisted Compulsion
     Intermezzo
     Transmutation
+    All In
 Notes: The (Second) Spell Update!
 
 v1.4.4
