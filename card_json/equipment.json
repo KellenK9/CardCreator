@@ -26,7 +26,7 @@
     },
     {
         "card_name": "Roots of Renewal",
-        "description": "[ACTIVATED] Add 1 Earth Equipment other than 'Roots of Renewal' from your Grave to your Hand.",
+        "description": "[ACTIVATED] Add 1 Earth Equipment other than 'Roots of Renewal' from Grave to Hand.",
         "type": "earth",
         "artwork": "roots_of_renewal.png"
     },
@@ -86,13 +86,13 @@
     },
     {
         "card_name": "Angel Recall",
-        "description": "[ACTIVATED] Shuffle 5 Air Equipment from your Grave into your Deck then Draw a card.",
+        "description": "[ACTIVATED] Shuffle 5 Air Equipment from your Grave into Deck then Draw a card.",
         "type": "air",
         "artwork": "angel_recall.png"
     },
     {
         "card_name": "Wings of the Next Angel",
-        "description": "[ACTIVATED] If you have 3 copies of ‘Wings of the Next Angel’ in your Grave: Deal 10 damage to each enemy Champion.",
+        "description": "[ACTIVATED] If you have 3 copies of ‘Wings of the Next Angel’ in Grave: Deal 10 damage to each enemy Champion.",
         "type": "air",
         "artwork": "wings_of_the_next_angel.png"
     },
@@ -128,13 +128,13 @@
     },
     {
         "card_name": "Raging Sea of the East",
-        "description": "[ACTIVATED] Deal 10 damage to each enemy Champion then Destroy this card and Add ‘Raging Sea of the West’ from your Grave to your Hand.",
+        "description": "[ACTIVATED] Deal 10 damage to each enemy Champion then Destroy this card and Add ‘Raging Sea of the West’ from Grave to Hand.",
         "type": "water",
         "artwork": "raging_sea_of_the_east.png"
     },
     {
         "card_name": "Raging Sea of the West",
-        "description": "[ACTIVATED] Heal 10 damage from each of your Champions then Destroy this card and Add ‘Raging Sea of the East’ from your Grave to your Hand.",
+        "description": "[ACTIVATED] Heal 10 damage from each of your Champions then Destroy this card and Add ‘Raging Sea of the East’ from Grave to Hand.",
         "type": "water",
         "artwork": "raging_sea_of_the_west.png"
     },
@@ -146,13 +146,13 @@
     },
     {
         "card_name": "Siren's Echo Mk. IV",
-        "description": "[ACTIVATED] Deal 20 damage to a Champion and Return this card to your Hand.",
+        "description": "[ACTIVATED] Deal 20 damage to a Champion and Return this card to Hand.",
         "type": "water",
         "artwork": "sirens_echo_mkIV.png"
     },
     {
         "card_name": "Crimson Cataclysm",
-        "description": "[ACTIVATED] Deal 20 damage to a Champion then Destroy this card. [TRIGGER] If this card is destroyed: Add 1 'Crimson Cataclysm' from your Deck to your Hand.",
+        "description": "[ACTIVATED] Deal 20 damage to a Champion then Destroy this card. [TRIGGER] If this card is destroyed: Add 1 'Crimson Cataclysm' from Deck to Hand.",
         "type": "fire",
         "artwork": "crimson_cataclysm.png"
     },
@@ -182,13 +182,13 @@
     },
     {
         "card_name": "Withering Thorns",
-        "description": "[ACTIVATED] Return 1 'Vital Bloom' from your Field to your Hand then Deal 10 damage to this Champion and 40 damage to a Champion.",
+        "description": "[ACTIVATED] Return 1 'Vital Bloom' from your Field to Hand then Deal 10 damage to this Champion and 40 damage to a Champion.",
         "type": "earth",
         "artwork": "withering_thorns.png"
     },
     {
         "card_name": "Vital Bloom",
-        "description": "[ACTIVATED] Return 1 'Withering Thorns' from your Field to your Hand then Heal 20 damage from this Champion.",
+        "description": "[ACTIVATED] Return 1 'Withering Thorns' from your Field to Hand then Heal 20 damage from this Champion.",
         "type": "earth",
         "artwork": "vital_bloom.png"
     },
@@ -230,13 +230,13 @@
     },
     {
         "card_name": "Firestorm",
-        "description": "[ACTIVATED] Shuffle 4 ‘Fireball’ from your Grave into your Deck then Deal 40 damage to a Champion.",
+        "description": "[ACTIVATED] Shuffle 4 ‘Fireball’ from your Grave into Deck then Deal 40 damage to a Champion.",
         "type": "fire",
         "artwork": "firestorm.png"
     },
     {
         "card_name": "Spirit of Eurydice",
-        "description": "[ACTIVATED] Send 1 ‘Spirit of Eurydice’ from your Deck to your Grave then Deal 20 damage to a Champion.",
+        "description": "[ACTIVATED] Send 1 ‘Spirit of Eurydice’ from Deck to Grave then Deal 20 damage to a Champion.",
         "type": "earth",
         "artwork": "spirit_of_eurydice.png"
     },
@@ -284,7 +284,7 @@
     },
     {
         "card_name": "Washed Out to Sea",
-        "description": "[ACTIVATED] Shuffle 1 'Washed Out to Sea' from your Grave into your Deck then Shuffle 1 Equipment from the Field into the Deck.",
+        "description": "[ACTIVATED] Shuffle 1 'Washed Out to Sea' from your Grave into Deck then Shuffle 1 Equipment from the Field into the Deck.",
         "type": "water",
         "artwork": "washed_out_to_sea.png"
     },
@@ -362,7 +362,7 @@
     },
     {
         "card_name": "Zeus' Cookbook",
-        "description": "[ACTIVATED] If your opponent activated a spell last turn: you can Add 1 or more copies of that spell from your Deck or Grave to Hand then Destroy this card.",
+        "description": "[ACTIVATED] If your opponent activated a spell last turn: you can Add 1 or more copies of that spell from Deck or Grave to Hand then Destroy this card.",
         "type": "air",
         "artwork": "zeus_cookbook.png"
     },

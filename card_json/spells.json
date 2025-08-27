@@ -32,7 +32,7 @@
     },
     {
         "card_name": "Recurring Visions",
-        "description": "[ACTIVATED] Add 1 Spell from your Grave to your Hand.",
+        "description": "[ACTIVATED] Add 1 Spell from your Grave to Hand.",
         "type": "spell",
         "artwork": "recurring_visions.png"
     },
@@ -50,7 +50,7 @@
     },
     {
         "card_name": "Useless Potion",
-        "description": "[ACTIVATED] Add 1 or more copies of 'Useless Potion' from your Deck to your Hand.",
+        "description": "[ACTIVATED] Add 1 or more copies of 'Useless Potion' from Deck to Hand.",
         "type": "spell",
         "artwork": "useless_potion.png"
     },
@@ -62,7 +62,7 @@
     },
     {
         "card_name": "Dagger Upgrade",
-        "description": "[ACTIVATED] Discard 1 'Dagger' Equipment then Add 1 Equipment from your Deck to your Hand of the same element as the card discarded.",
+        "description": "[ACTIVATED] Discard 1 'Dagger' Equipment then Add 1 Equipment from Deck to Hand of the same element as the card discarded.",
         "type": "spell",
         "artwork": "dagger_upgrade.png"
     },
@@ -86,7 +86,7 @@
     },
     {
         "card_name": "Love Potion of Steadfast Bone",
-        "description": "[ACTIVATED] Discard 1 Earth Equipment then Add 1 Earth Equipment from your Deck to your Hand and Discard 1 card.",
+        "description": "[ACTIVATED] Discard 1 Earth Equipment then Add 1 Earth Equipment from Deck to Hand and Discard 1 card.",
         "type": "spell",
         "artwork": "love_potion_of_steadfast_bone.png"
     },
@@ -128,7 +128,7 @@
     },
     {
         "card_name": "Defiance of Death",
-        "description": "[ACTIVATED] If an Equipment equipped to your Champion was destroyed during your opponents last turn: Add that Equipment from your Grave to your Hand.",
+        "description": "[ACTIVATED] If an Equipment equipped to your Champion was destroyed during your opponents last turn: Add that Equipment from Grave to Hand.",
         "type": "spell",
         "artwork": "defiance_of_death.png"
     },
@@ -152,7 +152,7 @@
     },
     {
         "card_name": "Armor Up",
-        "description": "[ACTIVATED] Equip 1 'Extra Padding' from your Deck to your Champion then Heal 10 damage from that Champion.",
+        "description": "[ACTIVATED] Equip 1 'Extra Padding' from Deck to your Champion then Heal 10 damage from that Champion.",
         "type": "spell",
         "artwork": "armor_up.png"
     },
@@ -200,7 +200,7 @@
     },
     {
         "card_name": "Persnickety",
-        "description": "[ACTIVATED] Shuffle any number of cards from your Hand into your Deck then Draw the same number of cards.",
+        "description": "[ACTIVATED] Shuffle any number of cards from your Hand into Deck then Draw the same number of cards.",
         "type": "spell",
         "artwork": "persnickety.png"
     },
