@@ -176,7 +176,7 @@
     },
     {
         "card_name": "Wealth Tax",
-        "description": "[ACTIVATED] Deal 10 damage to each Champion for each of their Equipment Slots",
+        "description": "[ACTIVATED] Deal 10 damage to each Champion for each of their Slots",
         "type": "spell",
         "artwork": "wealth_tax.png"
     },
