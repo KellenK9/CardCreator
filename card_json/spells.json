@@ -110,7 +110,7 @@
     },
     {
         "card_name": "Elemental Blast",
-        "description": "[ACTIVATED] Discard any number of Equipment cards of the same element then Deal damage to a Champion equal to the number of Equipment discarded X 10.",
+        "description": "[ACTIVATED] Discard any number of Equipment of the same element then Deal damage to a Champion equal to the number of Equipment discarded X 10.",
         "type": "spell",
         "artwork": "elemental_blast.png"
     },

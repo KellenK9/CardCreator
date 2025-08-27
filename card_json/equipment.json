@@ -50,7 +50,7 @@
     },
     {
         "card_name": "Greedy Rage",
-        "description": "[TRIGGER] When an Equipment card equipped to this Champion (excluding 'Greedy Rage') is sent to the Grave: Deal 10 damage to a Champion.",
+        "description": "[TRIGGER] When an Equipment equipped to this Champion (excluding 'Greedy Rage') is sent to the Grave: Deal 10 damage to a Champion.",
         "type": "fire",
         "artwork": "greedy_rage.png"
     },
