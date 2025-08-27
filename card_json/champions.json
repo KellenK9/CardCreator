@@ -147,7 +147,7 @@
     {
         "card_name": "Orpheus",
         "health": "130",
-        "description": "[ACTIVATED] Shuffle 1 Earth Equipment from your Grave into your Deck.",
+        "description": "[ACTIVATED] Shuffle 1 Earth Equipment from your Grave into Deck.",
         "slot1": "none",
         "slot2": "earth",
         "slot3": "none",
@@ -156,7 +156,7 @@
     {
         "card_name": "Ares",
         "health": "140",
-        "description": "[ACTIVATED] Add 1 or more 'Wild Shot' from your Deck to your Hand.",
+        "description": "[ACTIVATED] Add 1 or more 'Wild Shot' from Deck to Hand.",
         "slot1": "none",
         "slot2": "fire",
         "slot3": "none",
@@ -165,7 +165,7 @@
     {
         "card_name": "Circe",
         "health": "140",
-        "description": "[ACTIVATED] Shuffle 1 or more 'Useless Potion' from your Grave into your Deck then Draw 1 card.",
+        "description": "[ACTIVATED] Shuffle 1 or more 'Useless Potion' from your Grave into Deck then Draw 1 card.",
         "slot1": "none",
         "slot2": "air",
         "slot3": "none",
@@ -174,7 +174,7 @@
     {
         "card_name": "Scylla",
         "health": "140",
-        "description": "[ACTIVATED] Add 1 'Tainted Elixir' from your Grave to your Hand.",
+        "description": "[ACTIVATED] Add 1 'Tainted Elixir' from your Grave to Hand.",
         "slot1": "none",
         "slot2": "water",
         "slot3": "none",
@@ -183,7 +183,7 @@
     {
         "card_name": "Echo",
         "health": "140",
-        "description": "[ACTIVATED] Add 1 'Copycat' from your Deck or Grave to your Hand then Discard 1 card.",
+        "description": "[ACTIVATED] Add 1 'Copycat' from your Deck or Grave to Hand then Discard 1 card.",
         "slot1": "none",
         "slot2": "earth",
         "slot3": "none",
@@ -192,7 +192,7 @@
     {
         "card_name": "Chiron",
         "health": "80",
-        "description": "[ACTIVATED] Return all Equipment equipped to this Champion to the hand.",
+        "description": "[ACTIVATED] Return all Equipment equipped to this Champion to Hand.",
         "slot1": "earth",
         "slot2": "none",
         "slot3": "earth",
@@ -264,7 +264,7 @@
     {
         "card_name": "Athena",
         "health": "130",
-        "description": "[ACTIVATED] Your opponent draws 1 card then look at your opponents hand.",
+        "description": "[ACTIVATED] Your opponent draws 1 card then look at your opponents Hand.",
         "slot1": "none",
         "slot2": "air",
         "slot3": "none",

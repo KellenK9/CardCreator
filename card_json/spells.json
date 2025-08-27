@@ -254,7 +254,7 @@
     },
     {
         "card_name": "Medusa's Head",
-        "description": "[ACTIVATED] If your opponent activated an equipment effect last turn: Equip this card to an Earth Slot as an Earth Equipment and while this card is on the field that Equipment cannot be activated.",
+        "description": "[ACTIVATED] If your opponent activated an equipment effect last turn: Equip this card to an Earth Slot as an Earth Equipment and while this card is on the Field that Equipment cannot be activated.",
         "type": "spell",
         "artwork": "medusas_head.png"
     },
@@ -296,7 +296,7 @@
     },
     {
         "card_name": "Another Stoned Bird",
-        "description": "[TRIGGER] If this card is discarded while you have 1+ cards in hand: Return this card to the Hand then Discard 2 cards.",
+        "description": "[TRIGGER] If this card is discarded while you have 1+ cards in Hand: Return this card to the Hand then Discard 2 cards.",
         "type": "spell",
         "artwork": "another_stoned_bird.png"
     },
