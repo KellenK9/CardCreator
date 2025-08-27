@@ -374,7 +374,7 @@
     },
     {
         "card_name": "Tengu's Fan",
-        "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is discarded: you can Equip it to an Air Slot you control.",
+        "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion then Deal 10 damage to each enemy Champion. [TRIGGER] If this card is discarded: you can Equip it to an Air Slot.",
         "type": "air",
         "artwork": "tengus_fan.png"
     },
