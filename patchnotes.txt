@@ -243,3 +243,7 @@ v1.4.4
 New Cards:
     Spite
     Quickfire Gauntlet
+
+v1.4.5
+Renames:
+    Emerald Dagger -> Roots of Renewal

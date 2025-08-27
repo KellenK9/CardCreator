@@ -25,10 +25,10 @@
         "artwork": "earth_dagger.png"
     },
     {
-        "card_name": "Emerald Dagger",
-        "description": "[ACTIVATED] Add 1 Earth Equipment other than 'Emerald Dagger' from your Grave to your Hand.",
+        "card_name": "Roots of Renewal",
+        "description": "[ACTIVATED] Add 1 Earth Equipment other than 'Roots of Renewal' from your Grave to your Hand.",
         "type": "earth",
-        "artwork": "emerald_dagger.png"
+        "artwork": "roots_of_renewal.png"
     },
     {
         "card_name": "Extra Padding",
