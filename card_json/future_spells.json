@@ -35,12 +35,6 @@
         "description": "[ACTIVATED] Deal 10 damage to a Champion for each different element of 'Dagger' Equipment on your Field or in your Grave.",
         "type": "spell",
         "artwork": ".png"
-    },
-    {
-        "card_name": "Rainbow Butterfly Dagger",
-        "description": "[ACTIVATED] Equip this card to a Slot as an Equipment of the corresponding element. [TRIGGER] When a 'Dagger' Equipment equipped to this Champion is activated: Send 1 'Dagger' card from Deck to Grave then Deal 10 damage to a Champion.",
-        "type": "spell",
-        "artwork": ".png"
     }
 ]
 }

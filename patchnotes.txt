@@ -245,5 +245,7 @@ New Cards:
     Quickfire Gauntlet
 
 v1.4.5
+New Cards:
+    Rainbow Butterfly Dagger
 Renames:
     Emerald Dagger -> Roots of Renewal
