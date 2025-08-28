@@ -246,6 +246,7 @@ New Cards:
 
 v1.4.5
 New Cards:
+    Dagger Toss
     Rainbow Butterfly Dagger
 Renames:
     Emerald Dagger -> Roots of Renewal

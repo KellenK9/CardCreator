@@ -341,6 +341,12 @@
         "description": "[ACTIVATED] Equip this card to a Slot as an Equipment of the corresponding element. [TRIGGER] If a 'Dagger' Equipment is activated: Send a 'Dagger' card from Deck to Grave and Deal 10 damage to a Champion.",
         "type": "spell",
         "artwork": "rainbow_butterfly_dagger.png"
+    },
+    {
+        "card_name": "Dagger Toss",
+        "description": "[ACTIVATED] Deal 10 damage to a Champion for each different element of 'Dagger' Equipment on your Field or in your Grave.",
+        "type": "spell",
+        "artwork": "dagger_toss.png"
     }
 ]
 }
