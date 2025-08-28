@@ -77,6 +77,12 @@
         "description": "[ACTIVATED] Equip a 'Cloud' Equipment from your Deck to this Slot and Attach this card to it.",
         "type": "water",
         "artwork": ".png"
+    },
+    {
+        "card_name": "Storage Pouch",
+        "description": "[ACTIVATED] Return this card and all attached cards to Hand. [TRIGGER] When this card is equipped: Attach any number of cards from Hand to this card.",
+        "type": "air",
+        "artwork": ".png"
     }
 ]
 }

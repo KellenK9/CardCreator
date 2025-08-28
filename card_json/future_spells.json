@@ -37,7 +37,7 @@
         "artwork": ".png"
     },
     {
-        "card_name": "Twin Dagger",
+        "card_name": "Rainbow Butterfly Dagger",
         "description": "[ACTIVATED] Equip this card to a Slot as an Equipment of the corresponding element. [TRIGGER] When a 'Dagger' Equipment equipped to this Champion is activated: Send 1 'Dagger' card from Deck to Grave then Deal 10 damage to a Champion.",
         "type": "spell",
         "artwork": ".png"
