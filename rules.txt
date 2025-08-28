@@ -77,6 +77,7 @@ FAQ:
 - If a facedown card has a trigger that activates when it is destroyed, that trigger effect can still activate since the effect occurs when the equipment is face up in Grave.
 - Card effects with the word or apply 1 of 2+ effects and the options are separated from other parts of the card's effect by the word 'then'
   Example: Poppin' Pufferfish when activated must destroy itself then can choose between healing or dealing damage thanks to the effects wording of: Destroy Then Heal or Deal.
+- Activating a card's trigger effect does not count as that card being activated; it counts as that card being triggered.
 
 Specific Card Rulings:
 
@@ -143,3 +144,7 @@ Mimic:
 Transmutation:
   Moving damage off of a Champion does not count as healing.
   Moving damage to a Champion does not count as dealing damage.
+Rainbow Butterfly Dagger:
+  Cannot be triggered by another Rainbow Butterfly Dagger
+    Example: A player activates Rainbow Butterfly Dagger from hand while they control another copy of Rainbow Butterfly Dagger; the already equipped copy cannot activate its trigger effect because a 'Dagger' Spell activated its effect and not a 'Dagger' Equipment.
+    Example: A player controls 2 Rainbow Butterfly Daggers and activates and applies the effect of Fire Dagger which triggers and applies the effect of both Rainbow Butterfly Daggers. The Rainbow Butterfly Daggers cannot trigger again from each other because a 'Dagger' Equipment was Triggered, not Activated.
