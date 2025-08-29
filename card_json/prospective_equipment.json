@@ -83,12 +83,6 @@
         "description": "[ACTIVATED] Return this card and all attached cards to Hand. [TRIGGER] When this card is equipped: Attach any number of cards from Hand to this card.",
         "type": "air",
         "artwork": ".png"
-    },
-    {
-        "card_name": "Siren's Conch",
-        "description": "[ACTIVATED] Attach an Equipment on the Field to this card then Destroy all Equipment equipped to this Champion and Deal 10 deamage to this Champion.",
-        "type": "water",
-        "artwork": ".png"
     }
 ]
 }

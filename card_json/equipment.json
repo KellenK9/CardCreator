@@ -461,6 +461,12 @@
         "description": "[ACTIVATED] Return this card to Hand then Discard a card and Deal 20 damage to a Champion. [TRIGGER] When this card is equipped: You may equip an Equipment to this Champion.",
         "type": "earth",
         "artwork": "quickfire_gauntlet.png"
+    },
+    {
+        "card_name": "Siren's Conch",
+        "description": "[ACTIVATED] Attach an Equipment on the Field to this card then Destroy all Equipment equipped to this Champion and Deal 10 damage to this Champion.",
+        "type": "water",
+        "artwork": "sirens_conch.png"
     }
 ]
 }

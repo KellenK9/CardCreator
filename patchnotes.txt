@@ -243,6 +243,7 @@ v1.4.4
 New Cards:
     Spite
     Quickfire Gauntlet
+    Siren's Conch
 
 v1.4.5
 New Cards:
