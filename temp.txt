@@ -61,7 +61,7 @@ Spell Heavy:
     Keep a light field presence while forcing your opponent to do the same.
 
 Generic Discard Engine:
-    Knowledge Exchange + Verdant Codex + Decoy + Strawman + Tides of Reckoning + Useless Potion + Warlock's Foresight + Crunch Time + Another Stoned Bird + Infiltration
+    Knowledge Exchange + Verdant Codex + Decoy + Strawman + Tides of Reckoning + Useless Potion + Warlock's Foresight + Crunch Time + Another Stoned Bird + Infiltration + Human Shield
     Generic cards that can be ran in any deck to discard and be discarded.
 
 Air Discard Engine:
