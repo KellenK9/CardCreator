@@ -92,9 +92,13 @@ Earth Bounce:
     Chiron + One in the Chamber + Centaur Battlehorn + Quickfire Gauntlet
     Bounce your own cards back to the hand.
 
-Fire Destruction
+Fire Destruction:
     Greedy Rage + Grenade + Magma Slug + Hestia + Vengeful Rage + Strawman + Crimson Cataclysm + Bloodrite + Relicshot Engine + Lit Fuse + Self-Destruct Button + Quantum Kunai + Ruby Gemstone + Totsuka-no-Tsurugi + Spite
     Destroy your own equipment, for a profit.
+
+Daggers:
+    Fire Dagger + Water Dagger + Air Dagger + Earth Dagger + Dagger Upgrade + Dagger Toss + Rainbow Butterfly Dagger + Recurring Visions
+    Deal massive damagae. Weild dual daggers with the Rainbow Butterfly Dagger while stacking your Grave for Dagger Toss.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
