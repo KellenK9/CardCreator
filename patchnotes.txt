@@ -244,6 +244,7 @@ New Cards:
     Spite
     Quickfire Gauntlet
     Siren's Conch
+    Human Shield
 
 v1.4.5
 New Cards:

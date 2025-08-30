@@ -467,6 +467,12 @@
         "description": "[ACTIVATED] Attach an Equipment on the Field to this card then Destroy all Equipment equipped to this Champion and Deal 10 damage to this Champion.",
         "type": "water",
         "artwork": "sirens_conch.png"
+    },
+    {
+        "card_name": "Human Shield",
+        "description": "[TRIGGER] When this card is discarded: you can Equip an Equipment.",
+        "type": "earth",
+        "artwork": "human_shield.png"
     }
 ]
 }
