@@ -470,7 +470,7 @@
     },
     {
         "card_name": "Human Shield",
-        "description": "[TRIGGER] When this card is discarded: you can Equip an Equipment.",
+        "description": "[TRIGGER] When this card is sent to Grave: you can Equip an Equipment.",
         "type": "earth",
         "artwork": "human_shield.png"
     }
