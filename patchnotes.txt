@@ -257,4 +257,5 @@ v1.4.6
 New Cards:
     Human Shield
     Agido
+    Mummy Rush
 Notes: A grave update

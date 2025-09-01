@@ -83,12 +83,6 @@
         "description": "[ACTIVATED] Return this card and all attached cards to Hand. [TRIGGER] When this card is equipped: Attach any number of cards from Hand to this card.",
         "type": "air",
         "artwork": ".png"
-    },
-    {
-        "card_name": "Ghoul Rush",
-        "description": "[ACTIVATED] Deal 30 damage to a Champion and Shuffle this card into the Deck. [TRIGGER] When this card is sent from Deck to Grave: Equip it to a Slot.",
-        "type": "earth",
-        "artwork": ".png"
     }
 ]
 }
