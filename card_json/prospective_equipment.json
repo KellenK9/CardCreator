@@ -85,13 +85,7 @@
         "artwork": ".png"
     },
     {
-        "card_name": "Agido",
-        "description": "[TRIGGER] When this card is sent to Grave: Send the top 5 cards of each Deck to Grave.",
-        "type": "earth",
-        "artwork": ".png"
-    },
-    {
-        "card_name": "",
+        "card_name": "Ghoul Rush",
         "description": "[ACTIVATED] Deal 30 damage to a Champion and Shuffle this card into the Deck. [TRIGGER] When this card is sent from Deck to Grave: Equip it to a Slot.",
         "type": "earth",
         "artwork": ".png"

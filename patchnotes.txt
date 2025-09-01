@@ -244,7 +244,6 @@ New Cards:
     Spite
     Quickfire Gauntlet
     Siren's Conch
-    Human Shield
 
 v1.4.5
 New Cards:
@@ -253,3 +252,9 @@ New Cards:
 Renames:
     Emerald Dagger -> Roots of Renewal
 Notes: The Dagger Update!
+
+v1.4.6
+New Cards:
+    Human Shield
+    Agido
+Notes: A grave update

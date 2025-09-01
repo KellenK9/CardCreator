@@ -473,6 +473,12 @@
         "description": "[TRIGGER] When this card is sent to Grave: you can Equip an Equipment.",
         "type": "earth",
         "artwork": "human_shield.png"
+    },
+    {
+        "card_name": "Agido",
+        "description": "[TRIGGER] When this card is sent to Grave: Send the top 5 cards of each Deck to Grave.",
+        "type": "earth",
+        "artwork": "agido.png"
     }
 ]
 }
