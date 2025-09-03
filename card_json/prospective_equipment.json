@@ -49,36 +49,6 @@
         "artwork": ".png"
     },
     {
-        "card_name": "Storm Cloud",
-        "description": "[ACTIVATED] Apply the following effects based on the number of attached 'Rain' cards. 1+: Deal 10 damage to a Champion. 3+: Heal 10 damage from this Champion.",
-        "type": "water",
-        "artwork": ".png"
-    },
-    {
-        "card_name": "Storm Cloud II",
-        "description": "[ACTIVATED] If this card has 3 or more attached 'Rain' cards: Deal 10 damage to each enemy Champion. [PASSIVE] Cannot be destroyed.",
-        "type": "water",
-        "artwork": ".png"
-    },
-    {
-        "card_name": "Nimbus Cloud",
-        "description": "[ACTIVATED] Apply the following effects based on the number of attached 'Rain' cards. 0-2: Add 1 'Rain' card from Grave to Hand. 3+ Deal 20 damage to a Champion.",
-        "type": "water",
-        "artwork": ".png"
-    },
-    {
-        "card_name": "Rainfall",
-        "description": "[TRIGGER] When this card is destroyed: Attach it to your Water Equipment then if 2 or more cards were destroyed this turn Deal 20 damage to a Champion.",
-        "type": "water",
-        "artwork": ".png"
-    },
-    {
-        "card_name": "Rain Forest",
-        "description": "[ACTIVATED] Equip a 'Cloud' Equipment from your Deck to this Slot and Attach this card to it.",
-        "type": "water",
-        "artwork": ".png"
-    },
-    {
         "card_name": "Hermes' Satchel",
         "description": "[ACTIVATED] Return this card and all attached cards to Hand. [TRIGGER] When this card is equipped: Attach any number of cards from Hand to this card.",
         "type": "air",

@@ -1,42 +1,42 @@
 {
-    "cards":[
-        {
-            "card_name": "Compound Grenade",
-            "description": "[ACTIVATED] Destroy this card and Deal 20 damage to a Champion. [TRIGGER] If this card is sent to the Grave: you can Shuffle any number of 'Compound' cards from your Grave into your Deck then Deal 10 damage to a Champion for each card returned.",
-            "type": "earth",
-            "artwork": "compound_grenade.png"
-        },
-        {
-            "card_name": "Imported Grenade",
-            "description": "[ACTIVATED] Deal 10 damage to a Champion then Destroy this card and Equip 1 'Imported' Equipment other than 'Imported Grenade' from your Grave to a Champion you control.",
-            "type": "earth",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Energy Wave",
-            "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion and 1 Equipment on the Field. [PASSIVE] May be equipped to any Slot.",
-            "type": "water",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Set the Land Ablaze",
-            "description": "[ACTIVATED] Deal 10 damage to this Champion and each enemy Champion then Return this card to the Hand. [TRIGGER] If this card is discarded: Flip a coin. If Heads: Deal 10 damage to each enemy Champion.",
-            "type": "fire",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Eruption",
-            "description": "[ACTIVATED] Destroy this card and Deal 30 damage to a Champion. [TRIGGER] When this card is destroyed: Add 'Map of the Mantle' from Deck to Hand",
-            "type": "water",
-            "artwork": ".png"
-        },
-        {
-            "card_name": "Sacred Spring II",
-            "description": "[ACTIVATED] Deal 10 damage to this Champion then Heal 20 damage from this Champion.",
-            "type": "fire",
-            "artwork": ".png"
-        },
-        {
+"cards":[
+    {
+        "card_name": "Compound Grenade",
+        "description": "[ACTIVATED] Destroy this card and Deal 20 damage to a Champion. [TRIGGER] If this card is sent to the Grave: you can Shuffle any number of 'Compound' cards from your Grave into your Deck then Deal 10 damage to a Champion for each card returned.",
+        "type": "earth",
+        "artwork": "compound_grenade.png"
+    },
+    {
+        "card_name": "Imported Grenade",
+        "description": "[ACTIVATED] Deal 10 damage to a Champion then Destroy this card and Equip 1 'Imported' Equipment other than 'Imported Grenade' from your Grave to a Champion you control.",
+        "type": "earth",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Energy Wave",
+        "description": "[ACTIVATED] Destroy all Equipment equipped to this Champion and 1 Equipment on the Field. [PASSIVE] May be equipped to any Slot.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Set the Land Ablaze",
+        "description": "[ACTIVATED] Deal 10 damage to this Champion and each enemy Champion then Return this card to the Hand. [TRIGGER] If this card is discarded: Flip a coin. If Heads: Deal 10 damage to each enemy Champion.",
+        "type": "fire",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Eruption",
+        "description": "[ACTIVATED] Destroy this card and Deal 30 damage to a Champion. [TRIGGER] When this card is destroyed: Add 'Map of the Mantle' from Deck to Hand",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Sacred Spring II",
+        "description": "[ACTIVATED] Deal 10 damage to this Champion then Heal 20 damage from this Champion.",
+        "type": "fire",
+        "artwork": ".png"
+    },
+    {
         "card_name": "Magic Shield",
         "description": "[PASSIVE] This Champion takes 0 damage from Spells.",
         "type": "water",
@@ -83,6 +83,36 @@
         "description": "[PASSIVE] Your opponent cannot activate Trigger Effects.",
         "type": "earth",
         "artwork": ".png"
+    },
+    {
+        "card_name": "Storm Cloud",
+        "description": "[ACTIVATED] Apply the following effects based on the number of attached 'Rain' cards. 1+: Deal 10 damage to a Champion. 3+: Heal 10 damage from this Champion.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Storm Cloud II",
+        "description": "[ACTIVATED] If this card has 3 or more attached 'Rain' cards: Deal 10 damage to each enemy Champion. [PASSIVE] Cannot be destroyed.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Nimbus Cloud",
+        "description": "[ACTIVATED] Apply the following effects based on the number of attached 'Rain' cards. 0-2: Add 1 'Rain' card from Grave to Hand. 3+ Deal 20 damage to a Champion.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Rainfall",
+        "description": "[TRIGGER] When this card is destroyed: Attach it to your Water Equipment then if 2 or more cards were destroyed this turn Deal 20 damage to a Champion.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Rain Forest",
+        "description": "[ACTIVATED] Equip a 'Cloud' Equipment from your Deck to this Slot and Attach this card to it.",
+        "type": "water",
+        "artwork": ".png"
     }
-    ]
+]
 }
