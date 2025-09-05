@@ -44,6 +44,7 @@ Apply -
 Take control - 
 Flip facedown - 
 Equip - 
+Attach -
 
 Best of 3 Matches:
 Games are played with 60-100 cards and 3 Champions while best of 3 matches may also include a 20 card side deck and 5 total Champions.
@@ -143,7 +144,9 @@ Mimic:
   Still counts as being named Mimic.
 Transmutation:
   Moving damage off of a Champion does not count as healing.
+    Example: Transumtation moves damage off of a Champion equipped with Atlantean Scroll which does not trigger because the equipped Champion was not healed.
   Moving damage to a Champion does not count as dealing damage.
+    Example: Transmutation moves damage to a Water Beetle; that damage is not reduced by 10 because it was moved and not dealt.
 Rainbow Butterfly Dagger:
   Cannot be triggered by another Rainbow Butterfly Dagger
     Example: A player activates Rainbow Butterfly Dagger from hand while they control another copy of Rainbow Butterfly Dagger; the already equipped copy cannot activate its trigger effect because a 'Dagger' Spell activated its effect and not a 'Dagger' Equipment.

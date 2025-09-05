@@ -48,6 +48,10 @@ Windmill:
     Graceful Host + Curse of the Oracle + Angel Recall + Puppy Mill + Athena
     Air engine that allows you to mill out your opponents deck.
 
+Earth Mill
+    Agido + Human Shield + Mummy Rush + Shallow Grave + Meditation + Fireball Barrage + Persnickety + Warlock's Foresight
+    Earth engine that mills out your own deck.
+
 Earth Water Control:
     Cold Snap + Washed Out to Sea + Shoddy Craftsmanship + Celestial Shower + Dimension Recall
     Control the field with a variety of cards while punishing your opponent for their lack of field presence.
