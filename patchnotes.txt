@@ -259,3 +259,7 @@ New Cards:
     Agido
     Mummy Rush
 Notes: A grave update
+
+v1.4.7
+New Cards:
+    Phantom Exodus

@@ -65,12 +65,6 @@
         "description": "[PASSIVE] Any card sent to Grave is shuffled into the Deck instead.",
         "type": "water",
         "artwork": ".png"
-    },
-    {
-        "card_name": "False Start",
-        "description": "[ACTIVATED] Choose a Champion then Return all Equipment equipped to that Champion and this Champion to Hand then if you returned 4+ cards: Deal 20 damage to a Champion.",
-        "type": "earth",
-        "artwork": ".png"
     }
 ]
 }

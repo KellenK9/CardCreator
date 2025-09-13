@@ -485,6 +485,12 @@
         "description": "[ACTIVATED] Deal 30 damage to a Champion and Shuffle this card into the Deck. [TRIGGER] When this card is sent from Deck to Grave: Equip it to a Slot.",
         "type": "earth",
         "artwork": "mummy_rush.png"
+    },
+    {
+        "card_name": "Phantom Exodus",
+        "description": "[ACTIVATED] Choose a Champion then Return all Equipment equipped to that Champion and this Champion to Hand then if you returned 4+ cards: Deal 20 damage to a Champion.",
+        "type": "earth",
+        "artwork": "phantom_exodus.png"
     }
 ]
 }
