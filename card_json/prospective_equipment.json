@@ -53,6 +53,24 @@
         "description": "[ACTIVATED] Return this card and all attached cards to Hand. [TRIGGER] When this card is equipped: Attach any number of cards from Hand to this card.",
         "type": "air",
         "artwork": ".png"
+    },
+    {
+        "card_name": "Auto-Turret",
+        "description": "[TRIGGER] When this card is equipped: Draw a card then Attach any number of cards from Hand to this card. [TRIGGER] When your turn ends: Send 1 attached card to Grave then Deal 10 damage to a Champion.",
+        "type": "earth",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "Upstream Styx",
+        "description": "[PASSIVE] Any card sent to Grave is shuffled into the Deck instead.",
+        "type": "water",
+        "artwork": ".png"
+    },
+    {
+        "card_name": "False Start",
+        "description": "[ACTIVATED] Choose a Champion then Return all Equipment equipped to that Champion and this Champion to Hand then if you returned 4+ cards: Deal 20 damage to a Champion.",
+        "type": "earth",
+        "artwork": ".png"
     }
 ]
 }
