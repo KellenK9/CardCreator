@@ -254,7 +254,7 @@
     },
     {
         "card_name": "Medusa's Head",
-        "description": "[ACTIVATED] If your opponent activated an equipment effect last turn: Equip this card to an Earth Slot as an Earth Equipment and while this card is on the Field that Equipment cannot be activated.",
+        "description": "[ACTIVATED] If your opponent activated an Equipment effect last turn: Equip this card to an Earth Slot as an Earth Equipment and while this card is on the Field that Equipment cannot be activated.",
         "type": "spell",
         "artwork": "medusas_head.png"
     },
@@ -290,7 +290,7 @@
     },
     {
         "card_name": "Cobbled Club",
-        "description": "[ACTIVATED] Equip the top card of your Deck Facedown to a Slot as an equipment of that slot's element.",
+        "description": "[ACTIVATED] Equip the top card of your Deck Facedown to a Slot as an Equipment of that slot's element.",
         "type": "spell",
         "artwork": "cobbled_club.png"
     },

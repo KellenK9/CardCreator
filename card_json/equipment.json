@@ -398,7 +398,7 @@
     },
     {
         "card_name": "Sapphire Gemstone",
-        "description": "[TRIGGER] When this card is destroyed: Heal 10 damage from a Champion then Deal 10 damage to a Champion for each equipment destroyed this turn.",
+        "description": "[TRIGGER] When this card is destroyed: Heal 10 damage from a Champion then Deal 10 damage to a Champion for each Equipment destroyed this turn.",
         "type": "water",
         "artwork": "sapphire_gemstone.png"
     },

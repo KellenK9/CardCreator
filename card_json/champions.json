@@ -255,7 +255,7 @@
     {
         "card_name": "Hestia",
         "health": "80",
-        "description": "[ACTIVATED] Destroy all equipment equipped to this card then Draw a card and if you destroyed 2 cards: Deal 10 damage to each enemy Champion.",
+        "description": "[ACTIVATED] Destroy all Equipment equipped to this card then Draw a card and if you destroyed 2 cards: Deal 10 damage to each enemy Champion.",
         "slot1": "fire",
         "slot2": "none",
         "slot3": "fire",
