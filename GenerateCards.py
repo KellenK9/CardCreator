@@ -878,6 +878,36 @@ for path in equipment_json_paths:
             "PNG",
         )
 
+# Create Printable Cards Ready for Online Print
+
+for path in champion_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        # Creator.generate_champion_card(card, True).show()
+        Creator.generate_champion_card(card, True).save(
+            "finished_cards/printable/all_cards/" + card["card_name"] + "[face,1].png",
+            "PNG",
+        )
+for path in spell_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        # Creator.generate_equipment_or_spell_card(card, True).show()
+        Creator.generate_equipment_or_spell_card(card, True).save(
+            "finished_cards/printable/all_cards/" + card["card_name"] + "[face,8].png",
+            "PNG",
+        )
+for path in equipment_json_paths:
+    with open(f"card_json/{path}.json", "r", encoding="utf-8") as json_file:
+        loaded_json = json.load(json_file)
+    for card in loaded_json["cards"]:
+        # Creator.generate_equipment_or_spell_card(card, True).show()
+        Creator.generate_equipment_or_spell_card(card, True).save(
+            f"finished_cards/printable/all_cards/{card["card_name"]}[face,4].png",
+            "PNG",
+        )
+
 # Create Digital Full art Champions
 
 for path in champion_json_paths:
