@@ -886,7 +886,9 @@ for path in champion_json_paths:
     for card in loaded_json["cards"]:
         # Creator.generate_champion_card(card, True).show()
         Creator.generate_champion_card(card, True).save(
-            "finished_cards/printable/all_cards/" + card["card_name"] + "[face,1].png",
+            "finished_cards/printable/all_cards/"
+            + card["card_name"].strip(".")
+            + "[face,1].png",
             "PNG",
         )
 for path in spell_json_paths:
@@ -895,7 +897,9 @@ for path in spell_json_paths:
     for card in loaded_json["cards"]:
         # Creator.generate_equipment_or_spell_card(card, True).show()
         Creator.generate_equipment_or_spell_card(card, True).save(
-            "finished_cards/printable/all_cards/" + card["card_name"] + "[face,8].png",
+            "finished_cards/printable/all_cards/"
+            + card["card_name"].strip(".")
+            + "[face,8].png",
             "PNG",
         )
 for path in equipment_json_paths:
@@ -904,10 +908,10 @@ for path in equipment_json_paths:
     for card in loaded_json["cards"]:
         # Creator.generate_equipment_or_spell_card(card, True).show()
         Creator.generate_equipment_or_spell_card(card, True).save(
-            f"finished_cards/printable/all_cards/{card["card_name"]}[face,4].png",
+            f"finished_cards/printable/all_cards/{card["card_name"].strip('.')}[face,4].png",
             "PNG",
         )
-
+"""
 # Create Digital Full art Champions
 
 for path in champion_json_paths:
@@ -1014,3 +1018,4 @@ for path in equipment_json_paths:
             card["card_name"],
             f"finished_cards/{card["type"]}/{card["card_name"]}_card.png",
         )
+"""
