@@ -266,7 +266,7 @@
     },
     {
         "card_name": "Hermes' Sandals",
-        "description": "[ACTIVATED] When this Champion takes damage: Draw 1 card then Discard 1 card.",
+        "description": "[TRIGGER] When this Champion takes damage: Draw 1 card then Discard 1 card.",
         "type": "air",
         "artwork": "hermes_sandals.png"
     },
