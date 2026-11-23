@@ -79,6 +79,7 @@ FAQ:
 - Card effects with the word or apply 1 of 2+ effects and the options are separated from other parts of the card's effect by the word 'then'
   Example: Poppin' Pufferfish when activated must destroy itself then can choose between healing or dealing damage thanks to the effects wording of: Destroy Then Heal or Deal.
 - Activating a card's trigger effect does not count as that card being activated; it counts as that card being triggered.
+- A card stating to equip a card to a Champion follows the normal rules of equipping where the player can only equip equipment to their own Champion. This is contrary to cards stating equip to any Champion or equip to your opponents Champion.
 
 Specific Card Rulings:
 
